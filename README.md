@@ -1,7 +1,7 @@
 # `Software` Repository
-### **🎉We've reached 650 commits!!🌟**
+### **🎉We've reached 670 commits!!🌟**
 
-**REP-SET I**, *Version 6.3.0*
+**REP-SET I**, *Version 7.2.2*
 
 ## PySoft:
 This is **where** I will be *storing all* of ***my and some of Okmeque1's*** Python codes and programs.
@@ -43,10 +43,10 @@ This is **where** I will be *storing all* of ***my*** Batchfile codes and progra
 
 This is **where** I will be *storing all* of the ***useful*** programs' (and games') installers.
 
-*For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/BrowserSoft-v2%2BInstallerSoftware-creation/InstallerSoft)
+*For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft)
 
 ## .github:
 
 This is **where** this `Software` repository's ***configuration files*** will be *stored*.
 
-*For* **direct access**, [click here!](https://github.com/GmaerSoft42/WareSoft)
+*For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/.github)

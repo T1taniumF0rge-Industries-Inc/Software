@@ -15,16 +15,3 @@ while guess != num:
 print('You guessed in total%d' %i + 'times', end = '')
 print("Quick! Go compare your score with your friends'!")
 time.sleep(3)
-
-except FileExistsError:
-    exit()
-except FileNotFoundError:
-    exit()
-except ValueError:
-    exit()
-except KeyboardInterrupt:
-    exit()
-except BaseException:
-    exit()
-except:
-    exit()
