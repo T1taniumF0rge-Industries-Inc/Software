@@ -1,7 +1,7 @@
 # `Software` Repository
 ### **🎉We've reached 670 commits!!🌟**
 
-**REP-SET I**, *Version 7.2.2*
+**REP-SET I**, *Version 8.0.3*
 
 ## PySoft:
 This is **where** I will be *storing all* of ***my and some of Okmeque1's*** Python codes and programs.
