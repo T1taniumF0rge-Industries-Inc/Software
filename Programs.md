@@ -141,11 +141,11 @@ All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers
 
 13 -> [360Chrome Light:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/360Chrome/360Chrome/bin-lr/360LightSetup.exe) Light version of 360Chrome. Consumes less RAM and runs better on low powered devices or laptops. Based on 360Chrome v13.0.2256
 
-[**360 Safety Suite:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360%20Safety)
+[**360 Safety Suite:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Safety)
 
-1 -> [Extreme Explorer:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360%20Safety/Extreme%20Explorer/v13.5/360ChromeEESetup_v13.5.exe) 360EE v13.5.2044. This browser may or may not have telemetry, if you want 0 telemetry, use 360Chrome or 360AFChrome that is **NOT** from the safety suite.
+1 -> [Extreme Explorer:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Safety/Extreme%20Explorer/v13.5/360ChromeEESetup_v13.5.exe) 360EE v13.5.2044. This browser may or may not have telemetry, if you want 0 telemetry, use 360Chrome or 360AFChrome that is **NOT** from the safety suite.
 
-2 -> [Security Assistant:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360%20Safety/Security%20Assistant/v13/360SecurityAssistSetup_v13.exe) Security assistant. Ask [@GamerSoft](https://github.com/GamerSoft24] of what it is.
+2 -> [Security Assistant:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Safety/Security%20Assistant/v13/360SecurityAssistSetup_v13.exe) Security assistant. Ask [@GamerSoft](https://github.com/GamerSoft24] of what it is.
 
 [**7-Zip:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/7-Zip)
 
@@ -183,9 +183,13 @@ All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers
 
 1 -> [Adobe Acrobat Reader:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Adobe/Adobe%20Acrobat%20Reader/AdobeAcrobatReader_x64Setup.exe) Adobe Acrobat Reader software is the free, trusted global standard for viewing, printing, signing, sharing and annotating PDFs. It's the only PDF viewer that can open and interact with all types of PDF content, etc... Read more on Adobe's own website [here](https://www.adobe.com/uk/acrobat/pdf-reader.html#:~:text=Adobe%20Acrobat%20Reader%20software%20is,content%20%2D%20including%20forms%20and%20multimedia.)
 
-[**Audacíty:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Audac%C3%ADty)
+[**Audacíty:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Audacity)
 
-1 -> [Audacíty:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Audac%C3%ADty/audacity-win-3.4.2-64bit.exe) An audio editing Software. Can play a variety of formats, amplify and much more. Just don't make earrape please...
+1 -> [Audacíty:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Audacity/audacity-win-3.4.2-64bit.exe) An audio editing Software. Can play a variety of formats, amplify and much more. Just don't make earrape please..., and maybe use the 32-bit exe if your system is not x64 compatible.
+
+[**Bat2EXE:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Bat2EXE)
+
+1 -> [Bat2EXE:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Bat2EXE/Bat2EXESetup.exe) A program that can, you guessed it, convert batch script files into Windows Executable files!
 
 [**BlueStacks:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/BlueStacks)
 
@@ -231,6 +235,10 @@ All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers
 
 1 -> [Google Earth Pro:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Google/Google%20Earth%20Pro/GoogleEarthProSetup.exe) We all downloaded it to play GeoFS.
 
+[**Grammarly:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Grammarly)
+
+1 -> [Grammarly Full:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Grammarly/GrammarlyInstallerFull.exe) The grammar tool most people don't use. But use it for the *perfect* essay.
+
 [**HW:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/HW)
 
 1 -> [HWMonitor:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/HW/HWMonitor/v.1.52) version 1.5.2 of the HWMonitor(Hardware Monitor) program. Can read CPU temps, GPU temps, voltage, clock speed and much more. Very useful to have.
@@ -253,9 +261,11 @@ All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers
 
 1 -> [Lunar Client (for Minecraft):](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Lunar%20Client%20(for%20Minecraft)/v3.2.3/Lunar%20Client%20v3.2.3%20Setup.exe) Some will argue that it is a better Minecraft Launcher. With integrated OptiFine and much more, you might consider this as an option.
 
-[**Microsoft Edge:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Microsoft%20Edge)
+[**Microsoft:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Microsoft)
 
-1 -> [Microsoft Edge:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Microsoft%20Edge/MicrosoftEdgeSetup.exe) The browser that many like, many hate, from Microsoft. 
+1 -> [Microsoft Edge:]([https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Microsoft%20Edge/MicrosoftEdgeSetup.exe](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Microsoft/Microsoft%20Edge/MicrosoftEdgeSetup.exe)) The browser that many like, many hate, from Microsoft. 
+
+2 -> [Office 365:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Microsoft/Microsoft%20Office/MSOfficeSetup.exe) The All-In-1 version of MS Office that some love, some hate. Too bad you can't use MAS_1.5 to get it for free :{
 
 [**Minecraft:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Minecraft)
 
@@ -283,13 +293,21 @@ All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers
 
 [**OBS Studio:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/OBS%20Studio%20(Open%20Broadcaster%20Software))
 
-1 -> [OBS Studio v27.01:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/OBS%20Studio%20(Open%20Broadcaster%20Software)/v27.0.1) Version 27.01 of the Open Broadcasting Software. Can screenrecord and stream to Youtube. Last version to support Windows 7.
+1 -> [OBS Studio v27.01:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/OBS%20Studio%20(Open%20Broadcaster%20Software)/v27.0.1) Version 27.01 of the Open Broadcasting Software. Can screenrecord and stream to Youtube. Last version to support Windows 7. Use the 32-bit EXE if your system is not x64 compatible
 
 [**Opera:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Opera)
 
 1 -> [Opera GX:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Opera/Opera%20GX/OperaGXSetup.exe) The ULTIMATE GAMING browser. Pretty cool, with RGB customization and a built-in adblocker.
 
 2 -> [Opera Standard:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Opera/Opera/OperaSetup.exe) Standard Opera. Maybe not how you remember it in the Windows 98 days.
+
+[**OptiFine for Minecraft:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/OptiFine%20(for%20Minecraft))
+
+Ain't no way I'm doing it for every version. Just go into the folder with your desired version and install from the *.JAR file. Note that this requires Java Runtime Environment (JRE), which you can download from our *InstallerSoft* category.
+
+[**Paladium Launcher (Minecraft Server):**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Paladium%20Launcher%20(Minecraft%20Server))
+
+1 -> [Game Launcher:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Paladium%20Launcher%20(Minecraft%20Server)/Paladium%20Games%20Launcher.exe) This is a Minecraft server launcher for the server [Paladium](https://paladium-pvp.fr) made by the YouTuber [FuzeIII](https://www.youtube.com/@FuzeIII). Just, don't cheat, I got banned for it...
 
 [**Proton:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Proton)
 
@@ -393,7 +411,7 @@ All versions of the WinImage program from this repository are x86 compatible.
 
 1 -> [DAZ loader:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Windows%20Loaders/DAZ%20Loader/v2.2.2/Daz_Loader_v2.2.2_setup.exe) Version 2.2.2 of the Windows Activator by DAZ. Can activate Windows 7 and Vista. Make sure the indicator at the top right is green. Otherwise, your version may be infected.
 
-2 -> [MAS loader:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Windows%20Loaders/MAS/1.5/MAS_1.5_setup.exe) Version 1.5 of the MAS loader. Can activate Windows 10, 11 and Microsoft Office. Credits to [massgravel](https://github.com/massgravel/Microsoft-Activation-Scripts) for making this possible.
+2 -> [MAS loader:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Windows%20Loaders/MAS%20Loader/1.5/MAS_1.5Setup.exe) Version 1.5 of the MAS loader. Can activate Windows 10, 11 and Microsoft Office. Credits to [massgravel](https://github.com/massgravel/Microsoft-Activation-Scripts) for making this possible.
 
 ### [macOS:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/macOS)
 
