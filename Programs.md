@@ -263,7 +263,7 @@ All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers
 
 [**Microsoft:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Microsoft)
 
-1 -> [Microsoft Edge:]([https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Microsoft%20Edge/MicrosoftEdgeSetup.exe](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Microsoft/Microsoft%20Edge/MicrosoftEdgeSetup.exe)) The browser that many like, many hate, from Microsoft. 
+1 -> [Microsoft Edge:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Microsoft/Microsoft%20Edge/MicrosoftEdgeSetup.exe) The browser that many like, many hate, from Microsoft. 
 
 2 -> [Office 365:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Microsoft/Microsoft%20Office/MSOfficeSetup.exe) The All-In-1 version of MS Office that some love, some hate. Too bad you can't use MAS_1.5 to get it for free :{
 
