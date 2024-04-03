@@ -30,8 +30,8 @@ body:
           value: func_name_call
         - label: func_name
           value: func_name_only
-        validations:
-          required: true
+      validations:
+        required: true
   - type: dropdown
     id: input_method
     attributes:
@@ -42,8 +42,8 @@ body:
           value: input_hello_world
         - label: input "Hello World"
           value: input_hello_world_no_parentheses
-        validations:
-          required: true
+      validations:
+        required: true
   - type: dropdown
     id: print_method
     attributes:
@@ -54,8 +54,8 @@ body:
           value: print_hello_world
         - label: print Hello World
           value: print_hello_world_no_quotes
-        validations:
-          required: true
+      validations:
+        required: true
   - type: checkboxes
     id: terms
     attributes:
