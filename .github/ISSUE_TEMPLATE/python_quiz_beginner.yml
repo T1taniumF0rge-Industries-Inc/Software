@@ -30,7 +30,8 @@ body:
           value: func_name_call
         - label: func_name
           value: func_name_only
-      required: true
+        validations:
+          required: true
   - type: dropdown
     id: input_method
     attributes:
@@ -41,7 +42,8 @@ body:
           value: input_hello_world
         - label: input "Hello World"
           value: input_hello_world_no_parentheses
-      required: true
+        validations:
+          required: true
   - type: dropdown
     id: print_method
     attributes:
@@ -52,7 +54,8 @@ body:
           value: print_hello_world
         - label: print Hello World
           value: print_hello_world_no_quotes
-      required: true
+        validations:
+          required: true
   - type: checkboxes
     id: terms
     attributes:
@@ -60,4 +63,5 @@ body:
       description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/GamerSoft24/Software/blob/Main/CODE_OF_CONDUCT.md)
       options:
         - label: I agree to follow this project's Code of Conduct
-      required: true
+        validations:
+          required: true
