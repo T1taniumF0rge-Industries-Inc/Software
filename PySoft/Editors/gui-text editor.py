@@ -7,12 +7,12 @@ try:
         text.delete("1.0", tk.END)
 
     def open_file():
-        file_path = filedialog.askopenfilename(filetypes=[("Text Files", "*.txt"), ("All Files", "*.*")])
-        if file_path:
-            with open(file_path, "r") as file:
-                content = file.read()
-            text.delete("1.0", tk.END)
-            text.insert("1.0", content)
+            file_path = filedialog.askopenfilename(filetypes=[("Text Files", "*.txt"), ("All Files", "*.*")])
+            if file_path:
+                with open(file_path, "r") as file:
+                    content = file.read()
+                text.delete("1.0", tk.END)
+                text.insert("1.0", content)
 
     def save_file():
         file_path = filedialog.asksaveasfilename(defaultextension=".txt", filetypes=[("Text Files", "*.txt"), ("All Files", "*.*")])
@@ -62,16 +62,23 @@ except FileExistsError:
 except FileNotFoundError:
     exit()
 except OSError:
+    x = messagebox.showerror("GUI Text Editor","A system error has occured. Exiting...\nError Code: 0271")
     exit()
 except ValueError:
+    x = messagebox.showerror("GUI Text Editor","You have entered a wrong value or this program has been tampered with. Exiting...\nError Code: 0211")
     exit()
 except KeyboardInterrupt:
+    print("LOG: User has chosen to exit. Exiting...")
     exit()
 except EOFError:
+    print("LOG: User has chosen to exit. Exiting...")
     exit()
 except BaseException:
+    x = messagebox.showerror("GUI Text Editor","Unhandled Exception at 0x0000024066EF3E20. Exiting...\nError Code: 770A")
     exit()
 except IOError:
+    x = messagebox.showerror("GUI Text Editor","I/O error. You have unplugged a device or a device on the host is malfunctioning. Exiting...\nError Code: 0272")
     exit()
 except:
+    x = messagebox.showerror("GUI Text Editor","Unhandled Exception at 0x0000024066EF3E20. Exiting...\nError Code: 770A")
     exit()
