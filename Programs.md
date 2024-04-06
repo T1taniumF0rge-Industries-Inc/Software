@@ -219,7 +219,7 @@ All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers
 
 1 -> [Git SCM (Source Code Management):](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Git/Git%20Bash%20SCM%20(Source%20Code%20Management)/v2.44.0) Git Terminal for all of your pushing and pulling needs. Use the 32-bit exe if your system is not x64 compatible
 
-2 -> [Git LFS (Large File Storage):](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Git/Git%20LFS%20(Large%20File%20Storage)/v3.4.1/git-lfs-windows-v3.4.1.exe) Git Large file storage for pushing and pulling files over 25MB.
+2 -> [Git LFS (Large File Storage):](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Git/Git%20LFS%20(Large%20File%20Storage)/v3.4.1/git-lfs-windows-v3.4.1.exe) Git Large file storage for pushing and pulling files over 100MB.
 
 3 -> [Git CLI (Command Line Interface):](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Git/Git%20CLI/v2.44.1/gh_2.44.1_windows_amd64.msi) Git Command Line interface, works great with GitHub pushing and pulling, etc... No more.
 
