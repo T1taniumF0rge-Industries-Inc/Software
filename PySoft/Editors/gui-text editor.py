@@ -27,7 +27,7 @@ try:
     def get_user_input():
         result = simpledialog.askstring("Input", "Enter something:")
         if result:
-        text.insert(tk.END, result)
+            text.insert(tk.END, result)
 
     root = tk.Tk()
     root.title("Python Text Editor")
