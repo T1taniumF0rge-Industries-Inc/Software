@@ -8,8 +8,8 @@
 
 ## Where can I find the original versions?
 
-1 -> You may find Chromium [here](https://github.com/chromium/chromium)
+1 -> You may find Chromium [here.](https://github.com/chromium/chromium)
 
-2 -> You may find Supermium [here](https://github.com/win32ss/supermium).
+2 -> You may find Supermium [here.](https://github.com/win32ss/supermium)
 
 Thanks for understanding.
