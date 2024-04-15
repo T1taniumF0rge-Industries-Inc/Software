@@ -1,3 +1,6 @@
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/gamersoft24/software?label=Version%3A) &nbsp;![GitHub last commit](https://img.shields.io/github/last-commit/gamersoft24/software?color=red&label=Last%20Commit%3A)
+ &nbsp;![GitHub](https://img.shields.io/github/license/gamersoft24/software?color=greenpurple&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/commit-activity/w/gamersoft24/software?color=blueviolet&label=Commit%20Activity%3A) &nbsp;![Github Created At](https://img.shields.io/github/created-at/gamersoft24/software?color=yellow&label=Repository%20Created%3A)
+
 # `Software` Repository
 
 ### **🎉We've reached 713 commits!!🌟**
