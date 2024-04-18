@@ -27,9 +27,9 @@ try:
         if points <= 1:
             x = messagebox.showerror("Oh no!","You have only gotten " + str(points) + " points. This means you do not know the basics of Python. Please seek assistance.")
         elif points == 2:
-            x = messagebox.showwarning("Uh Oh","You have gotten 2 points, so you may need to revise your skills. ")
+            x = messagebox.showwarning("Uh oh","You have gotten 2 points, so you may need to revise your skills. ")
         elif points >= 3:
-            x = messagebox.showinfo("Congratulations!","You have passed the quiz. Show this to beginner coders!")
+            x = messagebox.showinfo("Congratulations!","You have passed the quiz. Share and show this to beginner coders!")
         exit()
     def bin3602036r1af_U1May23(points):
         windows.geometry("640x480")
@@ -75,8 +75,8 @@ try:
         b3.pack()
         b4.pack()
     windows = Tk()
-    windows.geometry("640x120")
-    windows.title("Python Quiz - Beginner - © Okmeque1 Computers.")
+    windows.geometry("720x120")
+    windows.title("Python Quiz - Beginner - © Okmeque1 Corporation®.")
     text = Text(windows,height=2.5,width=100)
     text.insert(END,"Welcome to the GamerSoft24 and Okmeque1 Python Quiz. Test your skillz now for the ultimate coding adventure!")
     text.config(state="disabled")
