@@ -113,39 +113,39 @@
 
 [**360Chrome or/and 360AFChrome:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/360Chrome)
 
-All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers. Use 360Loader.bat to start 360(AF)Chrome properly, failing that use 360af_9 if included or 360Loader.exe
+All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers. Use "360Loader.bat" to start 360(AF)Chrome properly, failing that use "360af_9" or "360Loader.exe" if included.
 
-1 -> [360AFChrome v13.5.2036r1:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Chrome/360AFChrome/bin-2036r1af/360AFChrome%20v13.5.2036r1.exe) Latest version of 360AFChrome, version 13.5.2036 revision 1. Works on Windows XP-11 and has it set by default to Google search.
+1 -> [360AFChrome v13.5.2036r1:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Chrome/360AFChrome/bin-2036r1af/360AFChrome%20v13.5.2036r1.exe) Latest version of 360AFChrome, version 13.5.2036 revision 1. Works on Windows XP-11 and has it set by default to Google Search.
 
-2 -> [360AFChrome v13.5.1030:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Chrome/360AFChrome/bin-af/360AFChrome%20v13.5.1030.exe) Original version of 360AFChrome, version 13.5.1030. Includes original(360afchrome.exe) and 360AF9(360AFChrome v13.5.1030 revision 9). Works on Windows XP-11 and has it set by default to Google search. Note that 360AF9 will start with error pages due to a bug in this revision.
+2 -> [360AFChrome v13.5.1030:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Chrome/360AFChrome/bin-af/360AFChrome%20v13.5.1030.exe) Original version of 360AFChrome, version 13.5.1030. Includes original 360AFChrome and 360AF9 (360AFChrome v13.5.1030 revision 9). Works on Windows XP-11 and has it set by default to Google Search. Note that 360AF9 will start with error pages due to a bug in this revision.
 
-3 -> [360AFChrome v13.5.1030r5:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Chrome/360AFChrome/bin-af5/360AFChrome%20v13.5.1030r5.exe) 360AFChrome version 13.5.1030 revision 5. Works on Windows XP-11 and has it set by default to Google search.
+3 -> [360AFChrome v13.5.1030r5:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Chrome/360AFChrome/bin-af5/360AFChrome%20v13.5.1030r5.exe) 360AFChrome version 13.5.1030 revision 5. Works on Windows XP-11 and has it set by default to Google Search.
 
 4 -> [360AFChrome A1_1030(rx):](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Chrome/360AFChrome/360A1_1030rx/360A1_1030rxSetup.exe) 360AFChrome version A1_1030rx. Based on 360Chrome 13.5.1030. Works on XP-11 and has it set by default to Google Search.
 
-5 -> [360AFChrome A1_2036:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Chrome/360AFChrome/360A1_2036/360A1_2036Setup.exe) 360AFChrome version A1_2036. Based on 360Chrome 13.5.2036. Works on Windows XP-11 and has it set by default to Google search.
+5 -> [360AFChrome A1_2036:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Chrome/360AFChrome/360A1_2036/360A1_2036Setup.exe) 360AFChrome version A1_2036. Based on 360Chrome 13.5.2036. Works on Windows XP-11 and has it set by default to Google Search.
 
 6 -> [360AFChrome ABCD_1030rx:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Chrome/360AFChrome/360ABCD_1030rx/360ABCD_1030rxSetup.exe) 360AFChrome version ABCD_1030rx. Same as A1_1030rx but is unmodded. Works on XP-11 and has it set by default to Google Search.
 
 7 -> [360AFChrome v4_ABCD:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Chrome/360AFChrome/bin-af4ABCD/360AFChrome%20v4_ABCD.exe) 360AFChrome v13.5.1030r4_ABCD. 360AFChrome v13.5.1030 revision 4 unmodded. Works on Windows XP-11 and has it set by default to Google Search.
 
-8 -> [360AFChrome v4_G:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Chrome/360AFChrome/bin-af4G/360AFChrome%20v4_G.exe) 360AFChrome v4_G. 360AFChrome v13.5.1030 revision 4 original. Works on Windows XP-11 and has it set by default to Google search.
+8 -> [360AFChrome v4_G:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Chrome/360AFChrome/bin-af4G/360AFChrome%20v4_G.exe) 360AFChrome v4_G. 360AFChrome v13.5.1030 revision 4 original. Works on Windows XP-11 and has it set by default to Google Search.
 
-9 -> [360AFChrome v4_JKQR:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Chrome/360AFChrome/bin-af4JKQR/360AFChrome%20v4_JKQR.exe) 360AFChrome v4_JKQR. 360AFChrome v13.5.1030 revision 44 original + unmodded. Works on XP-11 and has it set by default to Google search
+9 -> [360AFChrome v4_JKQR:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Chrome/360AFChrome/bin-af4JKQR/360AFChrome%20v4_JKQR.exe) 360AFChrome v4_JKQR. 360AFChrome v13.5.1030 revision 44 original + unmodded. Works on XP-11 and has it set by default to Google Search
 
-10 -> [360AFChrome v11.0.2031:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/360Chrome/360AFChrome/bin-11af/360AFChrome%20v11.0.2031.exe) 360AFChrome v11.0.2031. Based on the older 360Chrome 11 core, and subsequently, Chromium 69. Only use this in Legacy application. Modded by AF and uses the standard 360Chrome Theme.
+10 -> [360AFChrome v11.0.2031:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/360Chrome/360AFChrome/bin-11af/360AFChrome%20v11.0.2031.exe) 360AFChrome v11.0.2031. Based on the older 360Chrome 11 core, and subsequently, Chromium 69. Only use this in Legacy application. Modded by AF and uses the standard 360Chrome Theme. Works on XP-11 and has it set by default to Google Search.
 
-11 -> [360Chrome v13.0.2310:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/360Chrome/360Chrome/Humming%20Owl%20Version\360ChromeSetup) 360Chrome version 13.0.2310. This is the Humming Owl edition, stripped of telemetry. Works on Windows XP-11 and has it set by default to Google search. More resource-intensive than 360AFChrome. 
+11 -> [360Chrome v13.0.2310:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/360Chrome/360Chrome/Humming%20Owl%20Version\360ChromeSetup) 360Chrome version 13.0.2310. This is the Humming Owl edition, stripped of telemetry. Works on Windows XP-11 and has it set by default to Google Search. More resource-intensive than 360AFChrome. Works on XP-11 and has it set by default to Google Search.
 
-12 -> [360Chrome Hybrid:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/360Chrome/360Chrome/bin-hb/360HybridSetup.exe) Hybrid version of 360Chrome. Runs better on low powered devices or laptops. Based on 360Chrome 13.0.2250
+12 -> [360Chrome Hybrid:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/360Chrome/360Chrome/bin-hb/360HybridSetup.exe) Hybrid version of 360Chrome. Runs better on low powered devices or laptops. Based on 360Chrome 13.0.2250. Works on XP-11 and has it set by default to Google Search.
 
-13 -> [360Chrome Light:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/360Chrome/360Chrome/bin-lr/360LightSetup.exe) Light version of 360Chrome. Consumes less RAM and runs better on low powered devices or laptops. Based on 360Chrome v13.0.2256
+13 -> [360Chrome Light:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/360Chrome/360Chrome/bin-lr/360LightSetup.exe) Light version of 360Chrome. Consumes less RAM and runs better on low powered devices or laptops. Based on 360Chrome v13.0.2256. Works on XP-11 and has it set by default to Google Search.
 
-[**360 Safety Suite:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Safety)
+[**360 Safety:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Safety)
 
 1 -> [Extreme Explorer:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Safety/Extreme%20Explorer/v13.5/360ChromeEESetup_v13.5.exe) 360EE v13.5.2044. This browser may or may not have telemetry, if you want 0 telemetry, use 360Chrome or 360AFChrome that is **NOT** from the safety suite.
 
-2 -> [Security Assistant:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Safety/Security%20Assistant/v13/360SecurityAssistSetup_v13.exe) Security assistant. Ask [@GamerSoft](https://github.com/GamerSoft24) of what it is.
+2 -> [Security Assistant:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Safety/Security%20Assistant/v13/360SecurityAssistSetup_v13.exe) Security assistant. Ask [GamerSoft](https://github.com/GamerSoft24) of what it is.
 
 [**7-Zip:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/7-Zip)
 
@@ -175,9 +175,9 @@ All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers
 
 [Credits:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Chromium%20%26%20Supermium/Credits.md)
 
-1 -> [Chromium:](https://github.com/GamerSoft24/Software/blob/Main/.github/security/Server%20Error.md) We are unfortunately unable to upload the installers for Chromium. See the releases page for the specified installers
+1 -> [Chromium:](https://github.com/GamerSoft24/Software/blob/Main/.github/security/Server%20Error.md) Check [`chromium/chromium`](https://github.com/chromium/chromium) for more information.
 
-2 -> [Supermium:](https://github.com/GamerSoft24/Software/blob/Main/.github/security/Server%20Error.md)  We are unfortunately unable to upload the installers for Supermium. See the releases page for the specified installers
+2 -> [Supermium:](https://github.com/GamerSoft24/Software/blob/Main/.github/security/Server%20Error.md) Check [`win32ss/supermium`](https://github.com/win32ss/supermium) for more information.
 
 [**Adobe:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Adobe)
 
@@ -267,7 +267,7 @@ All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers
 
 1 -> [Microsoft Edge:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Microsoft/Microsoft%20Edge/MicrosoftEdgeSetup.exe) The browser that many like, many hate, from Microsoft. 
 
-2 -> [Office 365:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Microsoft/Microsoft%20Office/MSOfficeSetup.exe) The All-In-1 version of MS Office that some love, some hate. Too bad you can't use MAS_1.5 to get it for free :{
+2 -> [Office 365:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Microsoft/Microsoft%20Office/MSOfficeSetup.exe) The All-In-1 version of MS Office that some love, some hate.
 
 [**Minecraft:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Minecraft)
 
@@ -393,11 +393,11 @@ Choose your language from the folders then either download the installer or down
 
 -> [Visual Studio:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Visual%20Studio/Visual%20Studio/v17.9.6)
 
-Note that to install VS, you need at least 10GB of free disk space on the C:\ drive. 
+Note that to install VS, you need at least 10GB of free disk space on the C:\ Drive. 
 
-1 -> [Community Edition:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Visual%20Studio/Visual%20Studio/v17.9.6/VisualStudioCommunitySetup_17.9.6.exe) The version most people will download. It's free and is the real editor if you want to do C++ or C#.
+1 -> [Community Edition:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Visual%20Studio/Visual%20Studio/v17.9.6/VisualStudioCommunitySetup_17.9.6.exe) The version most people will download. It's free and is the real editor if you want to do C++ or C#, Python and etc...
 
-2 -> [Enterprise Edition:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Visual%20Studio/Visual%20Studio/v17.9.6/VisualStudioEntrepriseSetup_17.9.6.exe) The VS for businesses. BTW if your job has this, you have a good job and deserve to be paid higher.
+2 -> [Enterprise Edition:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Visual%20Studio/Visual%20Studio/v17.9.6/VisualStudioEntrepriseSetup_17.9.6.exe) The VS for businesses. By-the-way if your job has this, you have a good job and deserve to be paid higher.
 
 3 -> [Professional Edition:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Visual%20Studio/Visual%20Studio/v17.9.6/VisualStudioProfessionalSetup_17.9.6.exe) Aha, professional developper. Have this and code to the races!
 
@@ -419,7 +419,7 @@ All versions of the WinImage program from this repository are x86 compatible.
 
 1 -> [DAZ loader:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Windows%20Loaders/DAZ%20Loader/v2.2.2/Daz_Loader_v2.2.2_setup.exe) Version 2.2.2 of the Windows Activator by DAZ. Can activate Windows 7 and Vista. Make sure the indicator at the top right is green. Otherwise, your version may be infected.
 
-2 -> [MAS loader:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Windows%20Loaders/MAS%20Loader/1.5/MAS_1.5Setup.exe) Version 1.5 of the MAS loader. Can activate Windows 10, 11 and Microsoft Office. Credits to [massgravel](https://github.com/massgravel/Microsoft-Activation-Scripts) for making this possible.
+2 -> [MAS loader:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Windows%20Loaders/MAS%20Loader/1.5/MAS_1.5Setup.exe) Version 1.5 of the MAS loader. Can activate Windows 10, 11 and Microsoft Office (including Office 365). Credits to [massgravel](https://github.com/massgravel/Microsoft-Activation-Scripts) for making this possible.
 
 ### [macOS:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/macOS)
 
