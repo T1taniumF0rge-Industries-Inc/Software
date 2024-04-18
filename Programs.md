@@ -191,6 +191,12 @@ All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers
 
 1 -> [Bat2EXE:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Bat2EXE/Bat2EXESetup.exe) A program that can, you guessed it, convert batch script files into Windows Executable files!
 
+[**Bitwarden:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Bitwarden)
+
+1 -> [Command Line Interface:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Bitwarden/CLI/v2024.3.1/Bitwarden_CLI_Win_2024.3.1.zip) Bitwarden in the command line interface form. Save your passwords in a protected vault and do not forget your password, or you will lose your vault!
+
+2 -> [Desktop:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Bitwarden/Desktop/Bitwarden_Desktop_Win10-11.exe) Bitwarden, but in a nice application you can run in your desktop. Save your passwords in a protected vault and do not forget your password, or you will lose your vault! Note that this product is only compatible with Windows 10 or higher.
+
 [**BlueStacks:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/BlueStacks)
 
  1 -> [BlueStacks 10 (v10.20.0.1005):](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/BlueStacks/BlueStacks%2010/v10.20.0.1005/BlueStacksInstaller_10.20.0.1005_64bit.exe) BlueStacks Android emulator. Can use it to play mobile games or develop Android apps. 64-bit Only.
@@ -377,11 +383,23 @@ Choose your language from the folders then either download the installer or down
 
 1 -> [Virtual CloneDrive v5.5.2.0:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/VCD%20(Virtual%20CloneDrive)/v5.5.2.0/SetupVCD5520.exe) A virtual CD-ROM drive where you can mount ISO image files.
 
-[**Visual Studio Code:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Visual%20Studio%20Code/v1.86.2)
+[**Visual Studio Suite:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Visual%20Studio/Visual%20Studio%20Code/v1.86.2)
 
-1 -> [v1.86.2:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Visual%20Studio%20Code/v1.86.2/VSCodeUserSetup-x64-1.86.2.exe) Visual Studio Code. A good editor from Microsoft. This version does not support Windows 7
+-> [Visual Studio Code:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Visual%20Studio/Visual%20Studio%20Code)
 
-2 -> [v1.70:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Visual%20Studio%20Code/v1.70.0/VSCodeUserSetup-x64-1.70.2.exe) Visual Studio code version 1.70. This is the last version of Visual Studio code to support Windows 7.
+1 -> [v1.86.2:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Visual%20Studio/Visual%20Studio%20Code/v1.86.2/VSCodeUserSetup-x64-1.86.2.exe) Visual Studio Code. A good editor from Microsoft. This version does not support Windows 7
+
+2 -> [v1.70:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Visual%20Studio/Visual%20Studio%20Code/v1.70.0/VSCodeUserSetup-x64-1.70.2.exe) Visual Studio code version 1.70. This is the last version of Visual Studio code to support Windows 7.
+
+-> [Visual Studio:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Visual%20Studio/Visual%20Studio/v17.9.6)
+
+Note that to install VS, you need at least 10GB of free disk space on the C:\ drive. 
+
+1 -> [Community Edition:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Visual%20Studio/Visual%20Studio/v17.9.6/VisualStudioCommunitySetup_17.9.6.exe) The version most people will download. It's free and is the real editor if you want to do C++ or C#.
+
+2 -> [Enterprise Edition:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Visual%20Studio/Visual%20Studio/v17.9.6/VisualStudioEntrepriseSetup_17.9.6.exe) The VS for businesses. BTW if your job has this, you have a good job and deserve to be paid higher.
+
+3 -> [Professional Edition:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Visual%20Studio/Visual%20Studio/v17.9.6/VisualStudioProfessionalSetup_17.9.6.exe) Aha, professional developper. Have this and code to the races!
 
 [**WinAero Tweaker:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/WinAero%20Tweaker)
 
