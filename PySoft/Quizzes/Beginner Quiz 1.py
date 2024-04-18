@@ -25,7 +25,7 @@ try:
             finish(points + 1)
     def finish(points):
         if points <= 1:
-            x = messagebox.showerror("Oh no!","You have only gotten " + str(points) + " points. This means you do not know the basics of python. Please seek assistance.")
+            x = messagebox.showerror("Oh no!","You have only gotten " + str(points) + " points. This means you do not know the basics of Python. Please seek assistance.")
         elif points == 2:
             x = messagebox.showwarning("Uh Oh","You have gotten 2 points, so you may need to revise your skills. ")
         elif points >= 3:
@@ -78,7 +78,7 @@ try:
     windows.geometry("640x120")
     windows.title("Python Quiz - Beginner - © Okmeque1 Computers.")
     text = Text(windows,height=2.5,width=100)
-    text.insert(END,"Welcome to the GamerSoftware-Okmeque1 Python Quiz. Test your skillz now for the ultimate coding adventure!")
+    text.insert(END,"Welcome to the GamerSoft24 and Okmeque1 Python Quiz. Test your skillz now for the ultimate coding adventure!")
     text.config(state="disabled")
     sbutton = Button(windows,text="Start the Quiz!",activebackground="green",command=lambda: bin3602036r1af_U1May23(0))
     text.pack()
