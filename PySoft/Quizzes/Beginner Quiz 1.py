@@ -32,7 +32,7 @@ try:
             x = messagebox.showinfo("Congratulations!","You have passed the quiz. Share and show this to beginner coders!")
         exit()
     def bin3602036r1af_U1May23(points):
-        windows.geometry("640x480")
+        windows.geometry("720x480")
         clearscreen()
         text = Text(windows,height=2.5,width=100)
         text.insert(END,"Question 1 : How do you call a function? Press the correct button!")
@@ -75,7 +75,7 @@ try:
         b3.pack()
         b4.pack()
     windows = Tk()
-    windows.geometry("720x120")
+    windows.geometry("720x100")
     windows.title("Python Quiz - Beginner - © Okmeque1 Corporation®.")
     text = Text(windows,height=2.5,width=100)
     text.insert(END,"Welcome to the GamerSoft24 and Okmeque1 Python Quiz. Test your skillz now for the ultimate coding adventure!")
