@@ -8,7 +8,7 @@ try:
             widget.destroy()
         return
     def wg(cr,nextquestion,points,reason):
-        x = messagebox.showerror("Wrong Answer!","You have answered incosrrectly. The correct answer was number " + str(cr) + ". This is because " + reason)
+        x = messagebox.showerror("Wrong Answer!","You have answered incorrectly. The correct answer was number " + str(cr) + ". This is because " + reason)
         if nextquestion == 2:
             b360afchrome(points + 0)
         elif nextquestion == 3:
