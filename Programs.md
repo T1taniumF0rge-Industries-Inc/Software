@@ -159,7 +159,9 @@ All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers
 
 [**AOMEI:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/AOMEI%20Partitioning%20Wizard)
 
-1 -> [AOMEI Partitioning Wizard:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/AOMEI%20Partitioning%20Wizard/passist_std.exe) A partition manager that can format, delete, create and clone partitions from one disk. Very handy for new PC builds.
+1 -> [AOMEI Partitioning Wizard:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/AOMEI%20Partitioning%20Wizard/v9.10.00/passist_std.exe) Version 9.10.00 of the AOMEI partition manager that can format, delete, create and clone partitions from one disk. Very handy for new PC builds. 
+
+2 -> [AOMEI Partitioning Wizard(v10.3.1):](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/AOMEI%20Partitioning%20Wizard/v10.3.1/PAssist_Std_20240405.11141855.exe) Version 10.3.1 of the AOMEI partition manager that can format, delete, create and clone partitions from one disk. Very Handy for new PC builds. No major difference between v9, just bug fixes...
 
 [**Adobe**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Adobe)
 
@@ -414,6 +416,10 @@ All versions of the WinImage program from this repository are x86 compatible.
 2 -> [WinImage v90](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/WinImage/v90/winima90.exe)  Version 60 of the WinImage Imaging program. Can view and read ISO, IMG and FLP files, can make bootable floppies and CD's.
 
 3 -> [WinImage v100](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/WinImage/v100/winima100.exe)  Version 60 of the WinImage Imaging program. Can view and read ISO, IMG and FLP files, can make bootable floppies and CD's.
+
+[**WinRAR:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/WinRAR)
+
+1 -> [WinRAR v700:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/WinRAR/winrar-x64-700.exe) Ok, at least they made something original with the .RAR file format. Is a file manager that some people use as their daily driver. And it kind of begs your money, but lets you use it which is nice, but realistically Igor Pavlov beat it because 7-Zip can read .RAR.
 
 [**Windows Loaders:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Windows%20Loaders)
 
