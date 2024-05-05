@@ -271,6 +271,11 @@ All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers
 
 2 -> [Office 365:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Microsoft/Microsoft%20Office/MSOfficeSetup.exe) The All-In-1 version of MS Office that some love, some hate.
 
+[**Midtown Madness:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Midtown%20Madness)
+
+1 -> [Midtown Madness 1:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Midtown%20Madness/Midtown%20Madness/MidtownMadnessSetup.exe) A fun racing game, based in the city of Chicago, that may or may not run on a 4090. Get out that S3 virge to race against the clock or other cars, or maybe to cause some *slight* chaos. An NSI file is provided for compiling the installer yourself. *The controls are garbage!*
+
+2 -> [Midtown Madness 2:](https://github.com/GamerSoft24/Software/blob/Main/.github/security/Server%20Error.md) A fun racing game, this time based in the cities of San Francisco and London. Go in the tube, or on the Golden Gate Bridge. Use a GPU that's compatible, like Intel Q35 Express Integrated graphics as this won't run on a 4090. An NSI file is provided for compiling the installer yourself. *The installer is currently not accessible.* 
 [**Minecraft:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Minecraft)
 
 1 -> [Minecraft:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Minecraft/MinecraftInstaller.exe) Not sure it's a kid's game or not, but we all played it during the lockdown.
@@ -444,3 +449,6 @@ All versions of the WinImage program from this repository are x86 compatible.
 1 -> [VLC Media Player:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/macOS/VLC%20Media%20Player) The video player we all know and love, from VideoLan. Download the Apple Silicon version if you have an M series chip (M1, M2, M3,...) or the Intel Chip version if you have an Intel processor (i7-4790K).
 
 Credits [Okmeque1](https://github.com/Okmeque1) for helping to contribute to this file.
+
+
+TEMP : https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Midtown%20Madness/Midtown%20Madness%202/MidtownMadness2Setup.exe -> MM2
