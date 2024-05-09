@@ -1,0 +1,189 @@
+Partition Assistant log is as follows:
+
+====================== System Information ======================
+Module Path: C:\Program Files\Partition\PartAssist.exe
+Product Name: Microsoft Windows XP
+Service Package: Service Pack 2
+OS Version: 5.1
+Total Memory: 3583 MB
+Available Memory: 3052 MB
+System Root: C:\WINDOWS
+Processor Architecture: x86
+Processor Number: 2
+Current Time: 2024-5-3 5:5:37
+================================================================
+
+AOMEI Partition Assistant 8.7 Standard Edition
+[0       ]disk.cpp(169) Disk0 is removble use?0
+[0       ]disk.cpp(169) Disk1 is removble use?0
+[0       ]disk.cpp(169) Disk2 is removble use?0
+[0       ]disk.cpp(169) Disk3 is removble use?0
+[21      ]disk.cpp(252): Failed to IOCTL_DISK_GET_DRIVE_GEOMETRY. Disk Index: 4
+[21      ]disk.cpp(252): Failed to IOCTL_DISK_GET_DRIVE_GEOMETRY. Disk Index: 5
+[21      ]disk.cpp(252): Failed to IOCTL_DISK_GET_DRIVE_GEOMETRY. Disk Index: 6
+[21      ]disk.cpp(252): Failed to IOCTL_DISK_GET_DRIVE_GEOMETRY. Disk Index: 7
+
+
+
+//////////////////////////// Reload Disk Information ////////////////////////////
+
+
+Disks Summary:
+================================================================
+Disk Index	Total Sector		Geometry			Product Name
+----------	------------		--------			------------
+0		976773168 (465.76GB)	(60801,255,63,512)		TOSHIBA DT01ACA050 (Base Disk)
+1		3907029168 (1863.02GB)	(243201,255,63,512)		ST2000NM0033-9ZM175 (Base Disk)
+2		976773168 (465.76GB)	(60801,255,63,512)		SAMSUNG HD502IJ (Base Disk)
+3		234441648 (111.79GB)	(14593,255,63,512)		Samsung SSD 840 EVO 120GB (Base Disk)
+
+
+Partitions Summary:
+================================================================
+Disk	Partition	Drive Letter	File System	Total Sector		Used Sector		Free Sector		Partition Status	Pri/Log		DBR Start Sector	End Sector      			MBR Start Sector			Cluster Size	Volume Label
+----	---------	------------	-----------	------------		-----------		-----------		----------------	-------		----------------	----------------			----------------			------------	------------
+0	0		*:		Unallocated 	976769072  (465.76GB)	0          (0KB)	976769072  (465.76GB)	None                	Logical		0              		976769071      (60801,15,62)		0           (0,0,1)			0		
+
+1	1		E:		NTFS(3.1)   	3907024001 (1863.01GB)	2587135808 (1233.64GB)	1319888193 (629.37GB)	None                	Primary		63             		3907024064     (243200,254,63)		0           (0,1,1)			8		NAME57
+
+2	0		*:		Unallocated 	16065      (7.84MB)	0          (0KB)	16065      (7.84MB)	None                	Logical		0              		16064          (0,254,63)		0           (0,0,1)			0		
+2	1		X:		NTFS(3.1)   	71665901   (34.17GB)	43285496   (20.64GB)	28380405   (13.53GB)	None                	Logical		16128          		71682029       (4461,254,63)		16065       (1,0,1)			8		NAME51_SSUNG500
+2	2		D:		NTFS(3.1)   	905069906  (431.57GB)	865934832  (412.91GB)	39135074   (18.66GB)	None                	Logical		71682093       		976751999      (60799,254,63)		71682030    (4462,0,1)			8		NAME52
+2	0		*:		Unallocated 	17072      (8.34MB)	0          (0KB)	17072      (8.34MB)	None                	Logical		976752000      		976769071      (60801,15,62)		976752000   (60800,0,1)			0		
+
+3	1		C:		NTFS(3.1)   	104854206  (50.00GB)	28512528   (13.60GB)	76341678   (36.40GB)	Act Boot Sys        	Primary		2048           		104856254      (6526,254,63)		0           (0,32,33)			8		NAME51
+3	2		H:		NTFS(3.1)   	129580289  (61.79GB)	73624216   (35.11GB)	55956073   (26.68GB)	None                	Primary		104856255      		234436544      (14592,254,63)		0           (6527,0,1)			8		NAME55_SSD
+
+================================================================
+AOMEI Partition Assistant Is Working...
+ 
+[0       ]MainFrm.cpp(3794): Download upgrade file failed.
+
+==========================User Operations==============================
+1.Copying Partition
+	Source Disk Number:	3
+	Destination Disk Number:1
+	Drive Letter:		D: => F:
+	Size:			431.57GB => 465.75GB
+
+=======================================================================
+
+[0       ]ntfscpy.cpp(49): Begin move NTFS Volume.
+[0       ]ntfscpy.cpp(167): End move NTFS Volume.
+--------Resize NTFS Partition------------
+[0       ]ntfsresize.cpp(425): Expand Work on (D: NAME52).
+[0       ]disk.cpp(169) Disk0 is removble use?0
+[0       ]disk.cpp(169) Disk1 is removble use?0
+[0       ]disk.cpp(169) Disk2 is removble use?0
+[0       ]disk.cpp(169) Disk3 is removble use?0
+[21      ]disk.cpp(252): Failed to IOCTL_DISK_GET_DRIVE_GEOMETRY. Disk Index: 4
+[21      ]disk.cpp(252): Failed to IOCTL_DISK_GET_DRIVE_GEOMETRY. Disk Index: 5
+[21      ]disk.cpp(252): Failed to IOCTL_DISK_GET_DRIVE_GEOMETRY. Disk Index: 6
+[21      ]disk.cpp(252): Failed to IOCTL_DISK_GET_DRIVE_GEOMETRY. Disk Index: 7
+
+
+
+//////////////////////////// Reload Disk Information ////////////////////////////
+
+
+Disks Summary:
+================================================================
+Disk Index	Total Sector		Geometry			Product Name
+----------	------------		--------			------------
+0		976773168 (465.76GB)	(60801,255,63,512)		TOSHIBA DT01ACA050 (Base Disk)
+1		3907029168 (1863.02GB)	(243201,255,63,512)		ST2000NM0033-9ZM175 (Base Disk)
+2		976773168 (465.76GB)	(60801,255,63,512)		SAMSUNG HD502IJ (Base Disk)
+3		234441648 (111.79GB)	(14593,255,63,512)		Samsung SSD 840 EVO 120GB (Base Disk)
+
+
+Partitions Summary:
+================================================================
+Disk	Partition	Drive Letter	File System	Total Sector		Used Sector		Free Sector		Partition Status	Pri/Log		DBR Start Sector	End Sector      			MBR Start Sector			Cluster Size	Volume Label
+----	---------	------------	-----------	------------		-----------		-----------		----------------	-------		----------------	----------------			----------------			------------	------------
+0	0		*:		Unallocated 	16065      (7.84MB)	0          (0KB)	16065      (7.84MB)	None                	Logical		0              		16064          (0,254,63)		0           (0,0,1)			0		
+0	1		F:		NTFS(3.1)   	976751936  (465.75GB)	865937000  (412.91GB)	110814936  (52.84GB)	None                	Logical		16128          		976768064      (60800,254,63)		16065       (1,0,1)			8		Clone of D
+
+1	1		E:		NTFS(3.1)   	3907024001 (1863.01GB)	2587135808 (1233.64GB)	1319888193 (629.37GB)	None                	Primary		63             		3907024064     (243200,254,63)		0           (0,1,1)			8		NAME57
+
+2	0		*:		Unallocated 	16065      (7.84MB)	0          (0KB)	16065      (7.84MB)	None                	Logical		0              		16064          (0,254,63)		0           (0,0,1)			0		
+2	1		X:		NTFS(3.1)   	71665901   (34.17GB)	43285496   (20.64GB)	28380405   (13.53GB)	None                	Logical		16128          		71682029       (4461,254,63)		16065       (1,0,1)			8		NAME51_SSUNG500
+2	2		D:		NTFS(3.1)   	905069906  (431.57GB)	865934808  (412.91GB)	39135098   (18.66GB)	None                	Logical		71682093       		976751999      (60799,254,63)		71682030    (4462,0,1)			8		NAME52
+2	0		*:		Unallocated 	17072      (8.34MB)	0          (0KB)	17072      (8.34MB)	None                	Logical		976752000      		976769071      (60801,15,62)		976752000   (60800,0,1)			0		
+
+3	1		C:		NTFS(3.1)   	104854206  (50.00GB)	28512632   (13.60GB)	76341574   (36.40GB)	Act Boot Sys        	Primary		2048           		104856254      (6526,254,63)		0           (0,32,33)			8		NAME51
+3	2		H:		NTFS(3.1)   	129580289  (61.79GB)	73624216   (35.11GB)	55956073   (26.68GB)	None                	Primary		104856255      		234436544      (14592,254,63)		0           (6527,0,1)			8		NAME55_SSD
+
+
+==========================User Operations==============================
+1.Setting Partition Label
+	Hard Disk:		1
+ 	Drive Letter:		F:
+ 	File System:		NTFS
+ 	Partition Label:	Clone of D => NAME52NEW
+ 	Size:			465.75GB
+ 	Start Sector:		16128
+
+2.Changing Drive Letter
+	Hard Disk:		3
+ 	Drive Letter:		X: => S:
+ 	File System:		NTFS
+ 	Partition Label:	NAME51_SSUNG500
+ 	Size:			34.17GB
+
+3.Changing Drive Letter
+	Hard Disk:		3
+ 	Drive Letter:		D: => T:
+ 	File System:		NTFS
+ 	Partition Label:	NAME52
+ 	Size:			431.57GB
+
+4.Changing Drive Letter
+	Hard Disk:		1
+ 	Drive Letter:		F: => D:
+ 	File System:		NTFS
+ 	Partition Label:	NAME52NEW
+ 	Size:			465.75GB
+
+=======================================================================
+
+[0       ]disk.cpp(169) Disk0 is removble use?0
+[0       ]disk.cpp(169) Disk1 is removble use?0
+[0       ]disk.cpp(169) Disk2 is removble use?0
+[0       ]disk.cpp(169) Disk3 is removble use?0
+[21      ]disk.cpp(252): Failed to IOCTL_DISK_GET_DRIVE_GEOMETRY. Disk Index: 4
+[21      ]disk.cpp(252): Failed to IOCTL_DISK_GET_DRIVE_GEOMETRY. Disk Index: 5
+[21      ]disk.cpp(252): Failed to IOCTL_DISK_GET_DRIVE_GEOMETRY. Disk Index: 6
+[21      ]disk.cpp(252): Failed to IOCTL_DISK_GET_DRIVE_GEOMETRY. Disk Index: 7
+
+
+
+//////////////////////////// Reload Disk Information ////////////////////////////
+
+
+Disks Summary:
+================================================================
+Disk Index	Total Sector		Geometry			Product Name
+----------	------------		--------			------------
+0		976773168 (465.76GB)	(60801,255,63,512)		TOSHIBA DT01ACA050 (Base Disk)
+1		3907029168 (1863.02GB)	(243201,255,63,512)		ST2000NM0033-9ZM175 (Base Disk)
+2		976773168 (465.76GB)	(60801,255,63,512)		SAMSUNG HD502IJ (Base Disk)
+3		234441648 (111.79GB)	(14593,255,63,512)		Samsung SSD 840 EVO 120GB (Base Disk)
+
+
+Partitions Summary:
+================================================================
+Disk	Partition	Drive Letter	File System	Total Sector		Used Sector		Free Sector		Partition Status	Pri/Log		DBR Start Sector	End Sector      			MBR Start Sector			Cluster Size	Volume Label
+----	---------	------------	-----------	------------		-----------		-----------		----------------	-------		----------------	----------------			----------------			------------	------------
+0	0		*:		Unallocated 	16065      (7.84MB)	0          (0KB)	16065      (7.84MB)	None                	Logical		0              		16064          (0,254,63)		0           (0,0,1)			0		
+0	1		D:		NTFS(3.1)   	976751936  (465.75GB)	865937000  (412.91GB)	110814936  (52.84GB)	None                	Logical		16128          		976768064      (60800,254,63)		16065       (1,0,1)			8		NAME52NEW
+
+1	1		E:		NTFS(3.1)   	3907024001 (1863.01GB)	2587135808 (1233.64GB)	1319888193 (629.37GB)	None                	Primary		63             		3907024064     (243200,254,63)		0           (0,1,1)			8		NAME57
+
+2	0		*:		Unallocated 	16065      (7.84MB)	0          (0KB)	16065      (7.84MB)	None                	Logical		0              		16064          (0,254,63)		0           (0,0,1)			0		
+2	1		S:		NTFS(3.1)   	71665901   (34.17GB)	43285496   (20.64GB)	28380405   (13.53GB)	None                	Logical		16128          		71682029       (4461,254,63)		16065       (1,0,1)			8		NAME51_SSUNG500
+2	2		T:		NTFS(3.1)   	905069906  (431.57GB)	865934808  (412.91GB)	39135098   (18.66GB)	None                	Logical		71682093       		976751999      (60799,254,63)		71682030    (4462,0,1)			8		NAME52
+2	0		*:		Unallocated 	17072      (8.34MB)	0          (0KB)	17072      (8.34MB)	None                	Logical		976752000      		976769071      (60801,15,62)		976752000   (60800,0,1)			0		
+
+3	1		C:		NTFS(3.1)   	104854206  (50.00GB)	28512656   (13.60GB)	76341550   (36.40GB)	Act Boot Sys        	Primary		2048           		104856254      (6526,254,63)		0           (0,32,33)			8		NAME51
+3	2		H:		NTFS(3.1)   	129580289  (61.79GB)	73624216   (35.11GB)	55956073   (26.68GB)	None                	Primary		104856255      		234436544      (14592,254,63)		0           (6527,0,1)			8		NAME55_SSD
+

@@ -1,0 +1,122 @@
+Partition Assistant log is as follows:
+
+====================== System Information ======================
+Module Path: C:\Program Files\Partition\PartAssist.exe
+Product Name: Microsoft Windows XP
+Service Package: Service Pack 2
+OS Version: 5.1
+Total Memory: 3583 MB
+Available Memory: 2839 MB
+System Root: C:\WINDOWS
+Processor Architecture: x86
+Processor Number: 2
+Current Time: 2020-5-15 0:54:42
+================================================================
+
+AOMEI Partition Assistant 8.7 Standard Edition
+[0       ]disk.cpp(169) Disk0 is removble use?0
+[0       ]disk.cpp(169) Disk1 is removble use?0
+[0       ]disk.cpp(169) Disk2 is removble use?0
+[21      ]disk.cpp(252): Failed to IOCTL_DISK_GET_DRIVE_GEOMETRY. Disk Index: 3
+[21      ]disk.cpp(252): Failed to IOCTL_DISK_GET_DRIVE_GEOMETRY. Disk Index: 4
+[21      ]disk.cpp(252): Failed to IOCTL_DISK_GET_DRIVE_GEOMETRY. Disk Index: 5
+[21      ]disk.cpp(252): Failed to IOCTL_DISK_GET_DRIVE_GEOMETRY. Disk Index: 6
+[87      ]ntfsstd.cpp(96): Send FSCTL_GET_NTFS_VOLUME_DATA Control Code failed.
+[0       ]vol.cpp(602): Failed to ISymLink.SymLimkToTarget.
+
+
+
+//////////////////////////// Reload Disk Information ////////////////////////////
+
+
+Disks Summary:
+================================================================
+Disk Index	Total Sector		Geometry			Product Name
+----------	------------		--------			------------
+0		976773168 (465.76GB)	(60801,255,63,512)		SAMSUNG HD502IJ (Base Disk)
+1		976773168 (465.76GB)	(60801,255,63,512)		Hitachi HDS721050CLA362 (Base Disk)
+2		3907029168 (1863.02GB)	(243201,255,63,512)		SAMSUNG HD203WI (Base Disk)
+
+
+Partitions Summary:
+================================================================
+Disk	Partition	Drive Letter	File System	Total Sector		Used Sector		Free Sector		Partition Status	Pri/Log		DBR Start Sector	End Sector      			MBR Start Sector			Cluster Size	Volume Label
+----	---------	------------	-----------	------------		-----------		-----------		----------------	-------		----------------	----------------			----------------			------------	------------
+0	1		C:		NTFS(3.1)   	71681966   (34.18GB)	28619056   (13.65GB)	43062910   (20.53GB)	Act Boot Sys        	Primary		63             		71682029       (4461,254,63)		0           (0,1,1)			8		NAME51
+0	2		D:		NTFS(3.1)   	905069906  (431.57GB)	827111520  (394.40GB)	77958386   (37.17GB)	None                	Logical		71682093       		976751999      (60799,254,63)		71682030    (4462,0,1)			8		NAME52
+0	0		*:		Unallocated 	17072      (8.34MB)	0          (0KB)	17072      (8.34MB)	None                	Logical		976752000      		976769071      (60801,15,62)		976752000   (60800,0,1)			0		
+
+1	1		*:		NTFS(3.1)   	71681966   (34.18GB)	28545182   (13.61GB)	43136784   (20.57GB)	Act                 	Primary		63             		71682029       (4461,254,63)		0           (0,1,1)			8		NAME51
+1	2		*:		Unformatted 	905069907  (431.57GB)	0          (0KB)	905069907  (431.57GB)	None                	Logical		71682093       		976751999      (60799,254,63)		71682030    (4462,0,1)			0		
+1	0		*:		Unallocated 	17072      (8.34MB)	0          (0KB)	17072      (8.34MB)	None                	Logical		976752000      		976769071      (60801,15,62)		976752000   (60800,0,1)			0		
+
+2	1		E:		NTFS(3.1)   	3907007936 (1863.01GB)	3869284832 (1845.02GB)	37723104   (17.99GB)	None                	Primary		63             		3907007999     (243199,254,63)		0           (0,1,1)			8		NAME53
+2	0		*:		Unallocated 	17072      (8.34MB)	0          (0KB)	17072      (8.34MB)	None                	Logical		3907008000     		3907025071     (243201,15,62)		3907008000  (243200,0,1)			0		
+
+================================================================
+AOMEI Partition Assistant Is Working...
+ 
+[0       ]MainFrm.cpp(3794): Download upgrade file failed.
+
+==========================User Operations==============================
+1.Changing Drive Letter
+	Hard Disk:		2
+ 	Drive Letter:		*: => F:
+ 	File System:		NTFS
+ 	Partition Label:	NAME51
+ 	Size:			34.18GB
+
+=======================================================================
+
+[2       ]vol.cpp(258): Open drive (*:) fail.
+[2       ]vol.cpp(1675): IOCTL_MOUNTMGR_CREATE_POINT failed in MountVolumeDirectly, error=2.
+///////////////////////////////////////////////
+Sorry, the current operation has been canceled!
+Information Code: 2
+Description:Failed to assign a drive letter, please manually add a drive letter for the partition by Windows built-in Disk Management or reboot computer and retry..
+More Information:Successed in change drive letter to (F:), but this requires you restart your computer,
+if you intend to access it by EXPLORE of Windows now.
+
+
+
+What does the Information Code mean? Please refer to: https://www.diskpart.com/help/errorcode.html
+///////////////////////////////////////////////
+[0       ]disk.cpp(169) Disk0 is removble use?0
+[0       ]disk.cpp(169) Disk1 is removble use?0
+[0       ]disk.cpp(169) Disk2 is removble use?0
+[21      ]disk.cpp(252): Failed to IOCTL_DISK_GET_DRIVE_GEOMETRY. Disk Index: 3
+[21      ]disk.cpp(252): Failed to IOCTL_DISK_GET_DRIVE_GEOMETRY. Disk Index: 4
+[21      ]disk.cpp(252): Failed to IOCTL_DISK_GET_DRIVE_GEOMETRY. Disk Index: 5
+[21      ]disk.cpp(252): Failed to IOCTL_DISK_GET_DRIVE_GEOMETRY. Disk Index: 6
+[87      ]ntfsstd.cpp(96): Send FSCTL_GET_NTFS_VOLUME_DATA Control Code failed.
+[0       ]vol.cpp(602): Failed to ISymLink.SymLimkToTarget.
+
+
+
+//////////////////////////// Reload Disk Information ////////////////////////////
+
+
+Disks Summary:
+================================================================
+Disk Index	Total Sector		Geometry			Product Name
+----------	------------		--------			------------
+0		976773168 (465.76GB)	(60801,255,63,512)		SAMSUNG HD502IJ (Base Disk)
+1		976773168 (465.76GB)	(60801,255,63,512)		Hitachi HDS721050CLA362 (Base Disk)
+2		3907029168 (1863.02GB)	(243201,255,63,512)		SAMSUNG HD203WI (Base Disk)
+
+
+Partitions Summary:
+================================================================
+Disk	Partition	Drive Letter	File System	Total Sector		Used Sector		Free Sector		Partition Status	Pri/Log		DBR Start Sector	End Sector      			MBR Start Sector			Cluster Size	Volume Label
+----	---------	------------	-----------	------------		-----------		-----------		----------------	-------		----------------	----------------			----------------			------------	------------
+0	1		C:		NTFS(3.1)   	71681966   (34.18GB)	28619064   (13.65GB)	43062902   (20.53GB)	Act Boot Sys        	Primary		63             		71682029       (4461,254,63)		0           (0,1,1)			8		NAME51
+0	2		D:		NTFS(3.1)   	905069906  (431.57GB)	827111520  (394.40GB)	77958386   (37.17GB)	None                	Logical		71682093       		976751999      (60799,254,63)		71682030    (4462,0,1)			8		NAME52
+0	0		*:		Unallocated 	17072      (8.34MB)	0          (0KB)	17072      (8.34MB)	None                	Logical		976752000      		976769071      (60801,15,62)		976752000   (60800,0,1)			0		
+
+1	1		*:		NTFS(3.1)   	71681966   (34.18GB)	28545182   (13.61GB)	43136784   (20.57GB)	Act                 	Primary		63             		71682029       (4461,254,63)		0           (0,1,1)			8		NAME51
+1	2		*:		Unformatted 	905069907  (431.57GB)	0          (0KB)	905069907  (431.57GB)	None                	Logical		71682093       		976751999      (60799,254,63)		71682030    (4462,0,1)			0		
+1	0		*:		Unallocated 	17072      (8.34MB)	0          (0KB)	17072      (8.34MB)	None                	Logical		976752000      		976769071      (60801,15,62)		976752000   (60800,0,1)			0		
+
+2	1		E:		NTFS(3.1)   	3907007936 (1863.01GB)	3869284832 (1845.02GB)	37723104   (17.99GB)	None                	Primary		63             		3907007999     (243199,254,63)		0           (0,1,1)			8		NAME53
+2	0		*:		Unallocated 	17072      (8.34MB)	0          (0KB)	17072      (8.34MB)	None                	Logical		3907008000     		3907025071     (243201,15,62)		3907008000  (243200,0,1)			0		
+

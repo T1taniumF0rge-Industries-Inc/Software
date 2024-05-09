@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>Concept of Dynamic Disk</title>
+<link href="style.css" rel="stylesheet" type="text/css" /></head>
+<body>
+	<div class="header">Concept of Dynamic Disk</div>
+	<div class="headimgfill"></div>
+	<div class="text">
+	 <p><strong>Dynamic Disk: </strong>Every physical or virtual disk could be converted to dynamic disk from basic disk under the Windows built-in Disk Management and dynamic disk records the data information by using LDM data pool. As same as basic disk, dynamic disk also support GPT and MBR two types of partition style too. Dynamic Disk Manager could also support both partition styles.</p>
+	 <p><strong>Dynamic Disk Group</strong></a><strong>: </strong>Dynamic disk group is built up with every dynamic disk, and one Windows OS could only support one dynamic disk group. If one dynamic disk doesn't belong to the recognizable disk group, it would be shown as foreign disk and could not be operated. In DDM this kind of dynamic disk will be shown as failed disk. To solve this problem we could use the built-in Disk Management to import this disk to the recognizable disk group so that we could handle it.</p>
+	 <p><strong>Volume Slice:</strong></a><strong> </strong>Volume slice is a part of a dynamic volume, a dynamic volume could be subdivided into multiple<strong> </strong>volume slices. According to the types of dynamic volumes, the volume slice could be anywhere on each dynamic disk. </p>
+	 <p><strong>Cluster Size: </strong>Cluster size is<strong> </strong>the<strong> </strong>smallest storage unit in Microsoft<strong> </strong>OS (DOS, Windows). The larger cluster size is, the more disk space will be wasted; the smaller cluster size is, the more file fragment will be generated, therefore, in order to avoid this, we always set the cluster size as the default, the cluster size of NTFS file system is default as 4 KB.</p>
+	 <p><strong>File System</strong>: It is a method of storing and organizing arbitrary collections of data. A file system tracks free and occupied space, supports folders and files names, and stores the physical positions of files on a disk. Examples of file systems that are supported in Windows are FAT16 (also known simply as FAT), FAT32, and NTFS. When formatting a volume, you can choose a file system for it. The NTFS is now being set as the default file system. </p>
+  <strong>Disk Style: </strong>The<strong> </strong>disk partition style could be initialized as MBR or GPT. The MBR style could support the maximum 2 TB hard disk, and it could support at most 4 partitions in one hard disk (four primary partitions or three primary partitions with one extended partition). The GPT style could support the maximum 18 EB hard disk and each hard disk could contain at most 128 partitions in Windows OS.</div>
+</body>
+</html>

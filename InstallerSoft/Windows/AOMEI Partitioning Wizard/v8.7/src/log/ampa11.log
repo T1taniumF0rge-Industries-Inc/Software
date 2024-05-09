@@ -1,0 +1,110 @@
+Partition Assistant log is as follows:
+
+====================== System Information ======================
+Module Path: C:\Program Files\Partition\PartAssist.exe
+Product Name: Microsoft Windows XP
+Service Package: Service Pack 2
+OS Version: 5.1
+Total Memory: 3583 MB
+Available Memory: 3009 MB
+System Root: C:\WINDOWS
+Processor Architecture: x86
+Processor Number: 2
+Current Time: 2020-5-29 18:6:21
+================================================================
+
+AOMEI Partition Assistant 8.7 Standard Edition
+[23      ]parttable.cpp(57): Read MBR to fail.
+[2       ]disk.cpp(169) Disk0 is removble use?0
+[0       ]disk.cpp(169) Disk1 is removble use?0
+[0       ]disk.cpp(169) Disk2 is removble use?0
+[21      ]disk.cpp(252): Failed to IOCTL_DISK_GET_DRIVE_GEOMETRY. Disk Index: 3
+[21      ]disk.cpp(252): Failed to IOCTL_DISK_GET_DRIVE_GEOMETRY. Disk Index: 4
+[21      ]disk.cpp(252): Failed to IOCTL_DISK_GET_DRIVE_GEOMETRY. Disk Index: 5
+[21      ]disk.cpp(252): Failed to IOCTL_DISK_GET_DRIVE_GEOMETRY. Disk Index: 6
+[23      ]parttable.cpp(57): Read MBR to fail.
+
+
+
+//////////////////////////// Reload Disk Information ////////////////////////////
+
+
+Disks Summary:
+================================================================
+Disk Index	Total Sector		Geometry			Product Name
+----------	------------		--------			------------
+0		398297088 (189.92GB)	(26342,240,63,512)		Maxtor 6Y200P0 (Base Disk)
+1		976773168 (465.76GB)	(60801,255,63,512)		SAMSUNG HD502IJ (Base Disk)
+2		3907029168 (1863.02GB)	(243201,255,63,512)		SAMSUNG HD203WI (Base Disk)
+
+
+Partitions Summary:
+================================================================
+Disk	Partition	Drive Letter	File System	Total Sector		Used Sector		Free Sector		Partition Status	Pri/Log		DBR Start Sector	End Sector      			MBR Start Sector			Cluster Size	Volume Label
+----	---------	------------	-----------	------------		-----------		-----------		----------------	-------		----------------	----------------			----------------			------------	------------
+0	0		*:		Unallocated 	398292992  (189.92GB)	0          (0KB)	398292992  (189.92GB)	None                	Logical		0              		398292991      (26342,30,62)		0           (0,0,1)			0		
+
+1	1		C:		NTFS(3.1)   	71681966   (34.18GB)	29281760   (13.96GB)	42400206   (20.22GB)	Act Boot Sys        	Primary		63             		71682029       (4461,254,63)		0           (0,1,1)			8		NAME51
+1	2		D:		NTFS(3.1)   	905069906  (431.57GB)	893598952  (426.10GB)	11470954   (5.47GB)	None                	Logical		71682093       		976751999      (60799,254,63)		71682030    (4462,0,1)			8		NAME52
+1	0		*:		Unallocated 	17072      (8.34MB)	0          (0KB)	17072      (8.34MB)	None                	Logical		976752000      		976769071      (60801,15,62)		976752000   (60800,0,1)			0		
+
+2	1		E:		NTFS(3.1)   	3907007936 (1863.01GB)	3719111024 (1773.41GB)	187896912  (89.60GB)	None                	Primary		63             		3907007999     (243199,254,63)		0           (0,1,1)			8		NAME53
+2	0		*:		Unallocated 	17072      (8.34MB)	0          (0KB)	17072      (8.34MB)	None                	Logical		3907008000     		3907025071     (243201,15,62)		3907008000  (243200,0,1)			0		
+
+================================================================
+AOMEI Partition Assistant Is Working...
+ 
+[6       ]MainFrm.cpp(3794): Download upgrade file failed.
+
+==========================User Operations==============================
+1.Wiping Unallocated Space
+	Hard Disk:		1
+ 	Size:			189.92GB
+ 	Start Sector:		0
+ 	End Sector:		398292991
+ 	Total Sector:		398292992
+ 	Wipe Passes:		1
+
+=======================================================================
+
+[1117    ]optcore.cpp(4891): User cancel operations.
+///////////////////////////////////////////////
+Sorry, the current operation has been canceled!
+Information Code: 23
+Description:The operation has already been canceled.
+///////////////////////////////////////////////
+[1117    ]disk.cpp(543): Failed to ReadSector in IsGptDisk.
+[1117    ]disk.cpp(521): Failed to ReadSector in IsDynDisk.
+[1117    ]disk.cpp(169) Disk0 is removble use?0
+[0       ]disk.cpp(169) Disk1 is removble use?0
+[0       ]disk.cpp(169) Disk2 is removble use?0
+[21      ]disk.cpp(252): Failed to IOCTL_DISK_GET_DRIVE_GEOMETRY. Disk Index: 3
+[21      ]disk.cpp(252): Failed to IOCTL_DISK_GET_DRIVE_GEOMETRY. Disk Index: 4
+[21      ]disk.cpp(252): Failed to IOCTL_DISK_GET_DRIVE_GEOMETRY. Disk Index: 5
+[21      ]disk.cpp(252): Failed to IOCTL_DISK_GET_DRIVE_GEOMETRY. Disk Index: 6
+[1117    ]parttable.cpp(57): Read MBR to fail.
+
+
+
+//////////////////////////// Reload Disk Information ////////////////////////////
+
+
+Disks Summary:
+================================================================
+Disk Index	Total Sector		Geometry			Product Name
+----------	------------		--------			------------
+0		398297088 (189.92GB)	(26342,240,63,512)		Maxtor 6Y200P0 (Base Disk)
+1		976773168 (465.76GB)	(60801,255,63,512)		SAMSUNG HD502IJ (Base Disk)
+2		3907029168 (1863.02GB)	(243201,255,63,512)		SAMSUNG HD203WI (Base Disk)
+
+
+Partitions Summary:
+================================================================
+Disk	Partition	Drive Letter	File System	Total Sector		Used Sector		Free Sector		Partition Status	Pri/Log		DBR Start Sector	End Sector      			MBR Start Sector			Cluster Size	Volume Label
+----	---------	------------	-----------	------------		-----------		-----------		----------------	-------		----------------	----------------			----------------			------------	------------
+0	0		*:		Unallocated 	398292992  (189.92GB)	0          (0KB)	398292992  (189.92GB)	None                	Logical		0              		398292991      (26342,30,62)		0           (0,0,1)			0		
+
+1	1		C:		NTFS(3.1)   	71681966   (34.18GB)	29281776   (13.96GB)	42400190   (20.22GB)	Act Boot Sys        	Primary		63             		71682029       (4461,254,63)		0           (0,1,1)			8		NAME51
+1	2		D:		NTFS(3.1)   	905069906  (431.57GB)	893598952  (426.10GB)	11470954   (5.47GB)	None                	Logical		71682093       		976751999      (60799,254,63)		71682030    (4462,0,1)			8		NAME52
+1	0		*:		Unallocated 	17072      (8.34MB)	0          (0KB)	17072      (8.34MB)	None                	Logical		976752000      		976769071      (60801,15,62)		976752000   (60800,0,1)			0		
+

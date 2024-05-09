@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>Case 2: Extend RAID Volume</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div class="header">Case 2: Extend RAID Volume</div>
+	<div class="headimgfill"></div>
+	<div class="text">
+		<p>
+			<b>Environment:</b><br>
+			Disk 0: 20GB<br>
+			Disk 1: 950GB<br>
+			Disk 2: 249.99GB<br>
+			Disk 3: 160GB<br>
+			<br><br>
+			System Volume: C: drive 5.86GB (on Disk 0)<br>
+			Striped Volume: E: drive 30.67GB (on Disk 0, 1, 2)<br>
+			RAID5 Volume: F: drive 23.83 (on Disk 0, 1, 2)<br>
+			There is no available unallocated space on Disk 0, but there is enough unallocated space on Disk 1 and Disk 2.
+			<br><br>
+			<center><img src="images/disk-management.png"></center>
+			<br><br>
+			<b>The Problem: </b>How to extend RAID5 Volume (F: drive) ?<br>
+			<b>The Solution: </b>Because the Disk 0 is very small and hasn't unallocated space, so it is unable to extend RAID5 volume F: or RAID0 volume E: with "<b>Resize/Move Volume</b>" function. However, we can use "<b>Add Drive to RAID</b>" and "<b>Remove Drive from RAID</b>" to replace RAID5 or RAID 0 volume on Disk 0 with Disk 3. Then, extend RAID volume with "<b>Resize/Move Volume</b>" function.
+		</p>
+		<p>
+			In order to solve the problem, we need to combine three above learned functions into the solution, including "<b>Add Drive to RAID</b>", "<b>Remove Drive from RAID</b>" and "<b>Resize/Move Volume</b>".
+			<br><br>
+			<b>Step1.</b> Launch Aomei Dynamic Disk Manager. Click "<b>Add Drive to RAID</b>" in the left Wizard pane. An information window will pop up, stating that what the wizard can do. Then, click "<b>Next</b>".<br><br>
+				<center><img src="images/add-drive.png"></center>
+				<br><br>
+			<b>Step2.</b>Select RAID volume. Here we choose RAID5 volume F: and click "<b>Next</b>".<br><br>
+			<center><img src="images/select-raid.png"></center>
+			<br><br>
+			
+			<b>Step3:</b> Specify drive. Select the available disk (here choose Disk 4) you want to add to the RAID array and click "<b>Finish</b>".
+			<br><br>
+			<center><img src="images/specify-drive.png"></center><br><br>
+			After completing the above steps, you will find a new RAID5 volume slice on Disk 4. Now we can remove the RAID5 volume slice on Disk 1.
+			<br><br>
+			<b>Step4:</b> Click "<b>Remove Drive from RAID</b>" in the left Wizard pane. An information window will pop up, stating that what the wizard can do. Then, click "<b>Next</b>".
+			<br><br>
+			<center><img src="images/remove-drive.png"></center><br><br>
+			<b>Step5:</b> Select RAID volume (Here choose RAID-5 volume F:) you want to remove drive from and click "<b>Next</b>". Then, specify drive. Select the existing disk (here choose Disk 1) you want to remove from the RAID array and click "<b>Finish</b>".<br><br>
+			<center><img src="images/specify-drive-1.png"></center><br><br>
+			After completing the above 5 steps, RAID5 volume slice originally located on Disk 1 have been replaced with Disk 4. Then, we can extend RAID5 volume with "<b>Resize/Move Volume</b>".<br><br>
+			<b>Step6:</b> Right-click RAID5 volume and select "<b>Resize/Move Volume</b>". In the pop-up window, drag the right slider rightwards to extend RAID5 volume. Then, click "<b>OK</b>".<br><br>
+			<center><img src="images/extend-raid5.png"></center>
+			<br><br>
+			At last, click "<b>Commit</b>" on the toolbar to perform pending operations. After rebooting, you will find the disks belonged to RAID5 array have been replaced and entire RAID5 volume has been enlarged.
+			<br><br>
+			<b>Note:</b> It will take more time to perform the operation of "<b>Add Drive to RAID</b>". The length of time depends on the used space size of RAID volume. In addition, the operation of "<b>Add drive to RAID5</b>" is essentially RAID5 volume expansion. The case aims at explaining we can use "<b>Add Drive to RAID</b>" and "<b>Remove Drive from RAID</b>" to replace disks.
+		</p>
+</div>
+</body>
+</html>

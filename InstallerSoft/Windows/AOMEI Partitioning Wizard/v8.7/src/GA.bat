@@ -1,0 +1,1 @@
+start "" "C:\Program Files\Partition\GARunOnce.exe"

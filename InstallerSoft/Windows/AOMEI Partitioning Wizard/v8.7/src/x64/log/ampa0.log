@@ -1,0 +1,17 @@
+Partition Assistant log is as follows:
+
+====================== System Information ======================
+Module Path: E:\AOMEI\Partition\x64\PartAssist.exe
+Product Name: Windows 10 Home
+Service Package: 
+OS Version: 6.3
+Total Memory: 6081 MB
+Available Memory: 1025 MB
+System Root: C:\Windows
+Processor Architecture: AMD64
+Processor Number: 2
+Current Time: 2024-5-8 8:47:4
+================================================================
+
+[0       ]sys.cpp(176): Failed to NtUnloadDriver.
+[0       ]MRP.cpp(2122): Unload drive failed.

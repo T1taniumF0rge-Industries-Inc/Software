@@ -1,0 +1,50 @@
+Partition Assistant log is as follows:
+
+====================== System Information ======================
+Module Path: E:\AOMEI\Partition\PartAssist.exe
+Product Name: Windows 10 Home
+Service Package: 
+OS Version: 6.3
+Total Memory: 6081 MB
+Available Memory: 910 MB
+System Root: C:\Windows
+Processor Architecture: AMD64
+Processor Number: 2
+Current Time: 2024-5-8 8:59:3
+================================================================
+
+[0       ]Utility.cpp(318): 64-bit operating system.
+AOMEI Partition Assistant 8.7 Standard Edition
+[0       ]disk.cpp(169) Disk0 is removble use?0
+[0       ]disk.cpp(169) Disk1 is removble use?1
+[0       ]fatlabel.cpp(184): Failed to get label for FAT32.
+[1       ]part.cpp(602): Other file system.
+
+
+
+//////////////////////////// Reload Disk Information ////////////////////////////
+
+
+Disks Summary:
+================================================================
+Disk Index	Total Sector		Geometry			Product Name
+----------	------------		--------			------------
+0		1953525168 (931.51GB)	(121601,255,63,512)		KINGSTON SNV2S1000G (GPT Disk)
+1		243404800 (116.06GB)	(15151,255,63,512)		General USB Flash Disk   (Base Disk)
+
+
+Partitions Summary:
+================================================================
+Disk	Partition	Drive Letter	File System	Total Sector		Used Sector		Free Sector		Partition Status	Pri/Log		DBR Start Sector	End Sector      			MBR Start Sector			Cluster Size	Volume Label
+----	---------	------------	-----------	------------		-----------		-----------		----------------	-------		----------------	----------------			----------------			------------	------------
+0	1		*:		FAT32       	204800     (100.00MB)	66646      (32.54MB)	138154     (67.46MB)	Sys                 	GPT,EFI		2048           		206847         (12,223,19)		0           (0,32,33)			2		
+0	2		*:		Other       	32768      (16.00MB)	0          (0KB)	32768      (16.00MB)	None                	GPT,MSR		206848         		239615         (14,233,27)		0           (12,223,20)			0		
+0	3		D:		NTFS(3.1)   	212484095  (101.32GB)	161031024  (76.79GB)	51453071   (24.53GB)	None                	GPT,Data		239616         		212723711      (13241,111,54)		0           (14,233,28)			8		Win
+0	4		A:		NTFS(3.1)   	1576957951 (751.95GB)	190340912  (90.76GB)	1386617039 (661.19GB)	None                	GPT,Data		212723712      		1789681663     (111402,135,29)		0           (13241,111,55)			8		Diskette Drive
+0	5		C:		NTFS(3.1)   	163831871  (78.12GB)	105992064  (50.54GB)	57839807   (27.58GB)	Boot                	GPT,Data		1789689200     		1953521071     (121601,15,62)		0           (111403,0,6)			8		Win11
+
+1	1		E:		FAT32       	243404736  (116.06GB)	75926976   (36.20GB)	167477760  (79.86GB)	None                	Primary		64             		243404799      (15151,63,16)		0           (0,1,2)			64		AMAZON
+
+================================================================
+AOMEI Partition Assistant Is Working...
+ 

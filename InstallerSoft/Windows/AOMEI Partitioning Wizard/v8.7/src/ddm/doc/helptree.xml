@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document name="Aomei Dynamic Disk Manager" ref="index.html">
+  <root name="Dynamic Disk Management" ref="related-info.html">
+    <child name ="About Dynamic Disk" ref="about-dynamic-disk.html" />
+    <child name ="About Dynamic Volume" ref="about-dynamic-volume.html" />
+	<child name ="Concept of Dynamic Disk" ref="dynamic-disk-concept.html" />
+  </root>
+  <root name="About Product" ref="index.html">
+    <child name ="Aomei DDM" ref="index.html" />
+    <child name ="DDM Hardware Requirements" ref="requirements.html" />
+	<child name ="Installation and Upgrade" ref="installation.html" />
+	<child name ="Main Interface of DDM" ref="interface.html" />
+	<child name ="Operating Process of DDM" ref="operating-process.html" />
+  </root>
+  <root name="Volume Operation" ref="create-volumes.html">
+    <child name ="Create Volume" ref="create-volumes.html" />
+    <child name ="Delete Volume" ref="delete-volume.html" />
+    <child name ="Format Volume" ref="format-volume.html" />
+    <child name ="Resize and Move Volume" ref="resize-move-volume.html" />
+	<child name ="Move Slice" ref="move-slice.html" />
+	<child name ="Change Label" ref="change-label.html" />
+	<child name ="Change Letter" ref="change-letter.html" />
+  </root>
+  <root name="Operation Wizard" ref="create-wizard.html">
+    <child name ="Create Volume Wizard" ref="create-wizard.html" />
+    <child name ="Add Drive to RAID" ref="add-drive.html" />
+    <child name ="Remove Drive from RAID" ref="remove-drive.html" />
+    <child name ="Move Volume Slice Wizard" ref="move-wizard.html" />
+  </root>
+  <root name="Disk Operation" ref="initialize-disk.html">
+    <child name ="Initialize Disk" ref="initialize-disk.html" />
+    <child name ="Convert to Dynamic Disk" ref="convert-dynamic.html" />
+    <child name ="Convert to Basic Disk" ref="convert-basic.html" />
+    <child name ="Convert to MBR Disk" ref="convert-mbr.html" />
+	<child name ="Convert to GPT Disk" ref="convert-gpt.html" />
+  </root>
+  <root name="Aomei DDM Case Study" ref="Case-1.html">
+    <child name ="Case 1: Resize Volume" ref="Case-1.html" />
+    <child name ="Case 2: Extend RAID Volume" ref="Case-2.html" />
+    <child name ="Case 3: Use Move Slice Wizard" ref="Case-3.html" />
+  </root>
+  <root name="Technical Support and FAQ" ref="technical-support.html">
+    <child name ="Technical Support" ref="technical-support.html" />
+    <child name ="FAQ" ref="faq.html" />
+  </root>
+</document>

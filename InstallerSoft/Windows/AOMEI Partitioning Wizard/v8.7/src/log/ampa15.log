@@ -1,0 +1,59 @@
+Partition Assistant log is as follows:
+
+====================== System Information ======================
+Module Path: C:\Program Files\Partition\PartAssist.exe
+Product Name: Microsoft Windows XP
+Service Package: Service Pack 2
+OS Version: 5.1
+Total Memory: 3583 MB
+Available Memory: 3050 MB
+System Root: C:\WINDOWS
+Processor Architecture: x86
+Processor Number: 2
+Current Time: 2024-1-25 20:3:28
+================================================================
+
+AOMEI Partition Assistant 8.7 Standard Edition
+[0       ]disk.cpp(169) Disk0 is removble use?0
+[0       ]disk.cpp(169) Disk1 is removble use?0
+[0       ]disk.cpp(169) Disk2 is removble use?0
+[0       ]disk.cpp(169) Disk3 is removble use?0
+[21      ]disk.cpp(252): Failed to IOCTL_DISK_GET_DRIVE_GEOMETRY. Disk Index: 4
+[21      ]disk.cpp(252): Failed to IOCTL_DISK_GET_DRIVE_GEOMETRY. Disk Index: 5
+[21      ]disk.cpp(252): Failed to IOCTL_DISK_GET_DRIVE_GEOMETRY. Disk Index: 6
+[21      ]disk.cpp(252): Failed to IOCTL_DISK_GET_DRIVE_GEOMETRY. Disk Index: 7
+
+
+
+//////////////////////////// Reload Disk Information ////////////////////////////
+
+
+Disks Summary:
+================================================================
+Disk Index	Total Sector		Geometry			Product Name
+----------	------------		--------			------------
+0		976773168 (465.76GB)	(60801,255,63,512)		SAMSUNG HD502IJ (Base Disk)
+1		234441648 (111.79GB)	(14593,255,63,512)		Samsung SSD 840 EVO 120GB (Base Disk)
+2		1953525168 (931.51GB)	(121601,255,63,512)		WDC WD10EZEX-08M2NA0 (Base Disk)
+3		3907029168 (1863.02GB)	(243201,255,63,512)		SAMSUNG HD203WI (Base Disk)
+
+
+Partitions Summary:
+================================================================
+Disk	Partition	Drive Letter	File System	Total Sector		Used Sector		Free Sector		Partition Status	Pri/Log		DBR Start Sector	End Sector      			MBR Start Sector			Cluster Size	Volume Label
+----	---------	------------	-----------	------------		-----------		-----------		----------------	-------		----------------	----------------			----------------			------------	------------
+0	1		C:		NTFS(3.1)   	71681966   (34.18GB)	20692632   (9.87GB)	50989334   (24.31GB)	Act Boot Sys        	Primary		63             		71682029       (4461,254,63)		0           (0,1,1)			8		NAME51
+0	2		D:		NTFS(3.1)   	905069906  (431.57GB)	835069976  (398.19GB)	69999930   (33.38GB)	None                	Logical		71682093       		976751999      (60799,254,63)		71682030    (4462,0,1)			8		NAME52
+0	0		*:		Unallocated 	17072      (8.34MB)	0          (0KB)	17072      (8.34MB)	None                	Logical		976752000      		976769071      (60801,15,62)		976752000   (60800,0,1)			0		
+
+1	0		*:		Unallocated 	234437552  (111.79GB)	0          (0KB)	234437552  (111.79GB)	None                	Logical		0              		234437551      (14593,15,62)		0           (0,0,1)			0		
+
+2	1		E:		NTFS(3.1)   	1953520001 (931.51GB)	1950850104 (930.24GB)	2669897    (1.27GB)	None                	Primary		63             		1953520064     (121600,254,63)		0           (0,1,1)			8		NAME54
+
+3	1		G:		NTFS(3.1)   	3907007936 (1863.01GB)	3749710040 (1788.00GB)	157297896  (75.01GB)	None                	Primary		63             		3907007999     (243199,254,63)		0           (0,1,1)			8		NAME53
+3	0		*:		Unallocated 	17072      (8.34MB)	0          (0KB)	17072      (8.34MB)	None                	Logical		3907008000     		3907025071     (243201,15,62)		3907008000  (243200,0,1)			0		
+
+================================================================
+AOMEI Partition Assistant Is Working...
+ 
+[6       ]MainFrm.cpp(3794): Download upgrade file failed.
