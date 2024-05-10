@@ -61,4 +61,4 @@ Some of our programs in the [`InstallerSoft/Windows`](https://github.com/GamerSo
 
 ## README.RTF not rendering properly
 
-This is because GitHub's renderer is unable to display properly RTF (Rich Text Format) files, and to be able to read and interact with the file properly, you will need to use a proper editor. For Windows, you can use WordPad (write.exe) or MS work, and for others, use LibreOffice or any office suite that supports RTF.
+This is because GitHub's renderer is unable to display properly RTF (Rich Text Format) files, and to be able to read and interact with the file properly, you will need to use a proper editor. For Windows, you can use WordPad (write.exe) or MS word, and for others, use LibreOffice or any office suite that supports RTF.
