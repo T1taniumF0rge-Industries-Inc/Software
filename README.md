@@ -55,10 +55,12 @@ This is **where** this `Software` repository's ***configuration files*** will be
 
 *For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/.github)
 
-## AntiVirus detection for InstallerSoft:
+# Must-reads for `Software` Repository!
+
+## ⚠️ AntiVirus detection for InstallerSoft:
 
 Some of our programs in the [`InstallerSoft/Windows`](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft) folder will report to most AV's as being viruses. However, unless a program is *explicitely* marked as a virus, you can trust this repository. Some installers will even come with *.nsi files so that you may check what the script is made out of, for any type of *sneaky* viruses. If you're not happy with this, then leave the repository.
 
-## README.rtf files not rendering properly:
+## ⚠️ README.rtf files not rendering properly:
 
 This is because GitHub's renderer is unable to display properly RTF (Rich Text Format) files, and to be able to read and interact with the file properly, you will need to use a proper editor. For Windows, you can use WordPad (write.exe) or Microsoft word, and for others, use LibreOffice or any office suite that supports RTF files.
