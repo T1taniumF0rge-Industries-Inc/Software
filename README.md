@@ -1,5 +1,6 @@
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/gamersoft24/software?label=Latest%20Release%3A) &nbsp; ![GitHub last commit](https://img.shields.io/github/last-commit/gamersoft24/software?color=red&label=Last%20Commit%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/commit-activity/w/gamersoft24/software?color=blueviolet&label=Commit%20Activity%3A)
- &nbsp;![GitHub](https://img.shields.io/github/license/gamersoft24/software?color=greenpurple&label=License%3A)
+ &nbsp;![GitHub](https://img.shields.io/github/license/gamersoft24/software?color=greenpurple&label=License%3A) &nbsp;![GitHub repo size](https://img.shields.io/github/repo-size/GamerSoft24/Software?color=brown&label=Repository%20Size%3A) &nbsp;![GitHub language count](https://img.shields.io/github/languages/count/GamerSoft24/Software?color=white&label=Languages%3A)
+
 
 
 # `Software` Repository
