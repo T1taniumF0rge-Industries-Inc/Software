@@ -3,7 +3,7 @@
 ## Our Programs:
 All of our programs are carefully made and have been revised and scanned for **any types** of *sneaky viruses or script problems.* They are **100% trustable** and they are **completely safe.** As the programs are very *hardware intensive*, they may take some time to load. Please be patient!
 
-## Supported Security Versions:
+## Supported Security versions:
 
 Use this section to tell people about which versions of your project are
 currently being supported with security updates.
