@@ -19,7 +19,7 @@ currently being supported with security updates.
 To consider *changing programs and codes* in this `Software` repository you have to **pull request first and wait for approval** which should be *reviewed* in the **maximum delay of ***3 days*****! The 'Pull requests' tab is located on the top left corner of your screen (on PC).
 
 ## Reporting and suggestions: 
-To *report* in general or make any *suggestions* to the repository, click the 'Issues' tab also located on the top left corner of your screen (on PC too). Then, choose a template that suits you the best or just open a blank template and then write your issue report(s) or suggestion(s) down. Once finished, just submit and your all good!
+To *report* in general or make any *suggestions* to the repository, click the 'Issues' tab also located on the top left corner of your screen. Then, choose a template that suits you the best or just open a blank template and then write your issue report(s) or suggestion(s) down. Once finished, just submit and your all good!
 
 To *report* violence, unacceptable behaviour or security vulnerabilities, you can either:
 
