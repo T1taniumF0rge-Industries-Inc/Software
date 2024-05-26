@@ -17,7 +17,7 @@ ehthumbs.db
 *.tmp
 *.temp
 
-#Intellij IDEA files
+#IntelliJ IDEA files
 .idea
 .idea/codeStyles
 .idea/libraries
