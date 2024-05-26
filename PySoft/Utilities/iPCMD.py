@@ -3,7 +3,7 @@ def ipcmd():
         import os
         iprompt = 'iPCMD>'
         ver = 'GamerSoftware Corporation™ [Version iPCMD Python Full 6.278E]'
-        ver1 = '(c) GamerSoftware Corporation™. All rights reserved.'
+        ver1 = '(c) GamerSoftware Corporation™'
         print(ver)
         print(ver1)
         print('')

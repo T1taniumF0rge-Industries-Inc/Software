@@ -1,9 +1,11 @@
-![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/gamersoft24/software?label=Latest%20Release%3A) &nbsp; ![GitHub last commit](https://img.shields.io/github/last-commit/gamersoft24/software?color=red&label=Last%20Commit%3A)
- &nbsp;![GitHub](https://img.shields.io/github/license/gamersoft24/software?color=greenpurple&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/commit-activity/w/gamersoft24/software?color=blueviolet&label=Commit%20Activity%3A) &nbsp;![Github Created At](https://img.shields.io/github/created-at/gamersoft24/software?color=yellow&label=Repository%20Created%3A)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/gamersoft24/software?label=Latest%20Release%3A) &nbsp; ![GitHub last commit](https://img.shields.io/github/last-commit/gamersoft24/software?color=red&label=Last%20Commit%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/commit-activity/w/gamersoft24/software?color=blueviolet&label=Commit%20Activity%3A)
+ &nbsp;![GitHub repo size](https://img.shields.io/github/repo-size/GamerSoft24/Software?color=green&label=Repository%20Size%3A)
+
+
 
 # `Software` Repository
 
-### **🎉We've reached 713 commits!!🌟**
+### **🎉We've reached 786 commits!!🌟**
 
 **REP-SET I**, *Version 10.8.2-alpha*
 
@@ -57,10 +59,6 @@ This is **where** this `Software` repository's ***configuration files*** will be
 
 # Must-reads for `Software` Repository!
 
-## ⚠️ AntiVirus detection for InstallerSoft:
+## ⚠️ Antivirus detection for InstallerSoft:
 
 Some of our programs in the [`InstallerSoft/Windows`](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft) folder will report to most AV's as being viruses. However, unless a program is *explicitely* marked as a virus, you can trust this repository. Some installers will even come with *.nsi files so that you may check what the script is made out of, for any type of *sneaky* viruses. If you're not happy with this, then leave the repository.
-
-## ⚠️ README.rtf files not rendering properly:
-
-This is because GitHub's renderer is unable to display properly RTF (Rich Text Format) files, and to be able to read and interact with the file properly, you will need to use a proper editor. For Windows, you can use WordPad (write.exe) or Microsoft word, and for others, use LibreOffice or any office suite that supports RTF files.
