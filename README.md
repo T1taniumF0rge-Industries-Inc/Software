@@ -5,7 +5,7 @@
 
 ### **🎉We've reached 800 commits!!🌟**
 
-**REP-SET I**, *Version 10.8.2-alpha*
+**REP-SET II**, *Version 1.2.41-dev*
 
 ## PySoft:
 This is **where** I will be *storing all* of ***my and some of Okmeque1's*** Python codes and programs.
