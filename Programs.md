@@ -418,6 +418,10 @@ Note that to install VS, you need at least 10GB of free disk space on the C:\ Dr
 
 3 -> [Professional Edition:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Visual%20Studio/Visual%20Studio/v17.9.6/VisualStudioProfessionalSetup_17.9.6.exe) Aha, professional developper. Have this and code to the races!
 
+[**WhatsApp:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/WhatsApp/)
+
+1 -> [WhatsApp for Windows:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/WhatsApp/WhatsApp_Installer_Win.exe) The messaging app everyone uses, but some say it spies on you, so just do standard security practices. Note that this product is only compatible with Windows 10 or over, 64-bit only.
+
 [**WinAero Tweaker:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/WinAero%20Tweaker)
 
 1 -> [WinAeroTweaker v1.62.1.0:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/WinAero%20Tweaker/WinaeroTweaker-1.62.1.0-setup.exe) WinAero Tweaker. Can remove unnecessary features from Windows 10 and 11 and de-bloat your system. Useful if you have a potato.
