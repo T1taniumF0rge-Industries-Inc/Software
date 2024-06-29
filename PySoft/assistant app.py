@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox, simpledialog
-import datetime
+from tkinter import *
+import datetime     
 import requests
 import webbrowser
 import smtplib
@@ -33,7 +34,7 @@ class AssistantApp(tk.Tk):
 
         self.frames = {}
 
-        for F in (MainMenu, CurrentDateTime, OpenWebPage, SendEmail, RandomJoke, SystemCommand, GamesMenu, TicTacToe):
+        for F in (MainMenu, CurrentDateTime, OpenWebPage, SendEmail, RandomJoke, SystemCommand, GamesMenu, TicTacToe, TextEditor):
             frame = F(container, self)
             self.frames[F] = frame
             frame.grid(row=0, column=0, sticky="nsew")
@@ -59,6 +60,7 @@ class MainMenu(tk.Frame):
             ("Fetch a Random Joke.", lambda: controller.show_frame(RandomJoke)),
             ("Execute a System Command.", lambda: controller.show_frame(SystemCommand)),
             ("Games Menu.", lambda: controller.show_frame(GamesMenu)),
+            ("Text Editor", lambda: controller.show_frame(TextEditor)),
             ("Exit.", self.quit)
         ]
 
@@ -74,15 +76,16 @@ class CurrentDateTime(tk.Frame):
         label = tk.Label(self, text="Current Date and Time.", font=('Arial', 18, 'bold'))
         label.pack(pady=10, padx=10)
 
-        now = datetime.datetime.now()
+        now = self.gettime()
         datetime_str = now.strftime('%Y-%m-%d %H:%M:%S')
 
-        datetime_label = tk.Label(self, text=datetime_str, font=('Arial', 14))
+        datetime_label = tk.Label(self, text=self.gettime().strftime('%Y-%m-%d %H:%M:%S'), font=('Arial', 14))
         datetime_label.pack(pady=10)
 
         back_button = tk.Button(self, text="Back to Menu.", command=lambda: controller.show_frame(MainMenu))
         back_button.pack(pady=10)
-
+    def gettime(self):
+        return datetime.datetime.now()
 class OpenWebPage(tk.Frame):
     def __init__(self, parent, controller):
         super().__init__(parent)
@@ -207,7 +210,7 @@ class SystemCommand(tk.Frame):
         execute_button = tk.Button(self, text="Execute.", command=self.execute_command)
         execute_button.pack(pady=5)
 
-        self.output_text = tk.Text(self, width=80, height=10)
+        self.output_text = tk.Text(self, width=80, height=18)
         self.output_text.pack(pady=10)
 
         back_button = tk.Button(self, text="Back to Menu.", command=lambda: controller.show_frame(MainMenu))
@@ -226,7 +229,39 @@ class SystemCommand(tk.Frame):
         except Exception as e:
             self.output_text.delete("1.0", tk.END)
             self.output_text.insert(tk.END, f"Failed to execute command. Error: {str(e)}.")
-
+class TextEditor(Frame):
+    def __init__(self,parent,controller):
+        super().__init__(parent)
+        self.controller = controller
+        l1 = Label(self,text="Text Editor - By Okmeque1",font=('Arial',18,'bold'))
+        l1.pack(pady=10,padx=10)
+        self.text = Text(self,width=80,height=15)
+        self.text.pack(pady=10)
+        l2 = Label(self,text="File Name")
+        l2.pack(pady=5)
+        self.filename = Entry(self,width=40)
+        self.filename.pack(pady=10)
+        load = Button(self,text="Load",command=lambda: self.load(),width=40)
+        load.pack(pady=5)
+        save = Button(self,text="Save",command=lambda: self.save(),width=40)
+        save.pack(pady=5)
+        menu = Button(self,text="Return to Main Menu",command=lambda: controller.show_frame(MainMenu),width=40)
+        menu.pack()
+    def load(self):
+        try:
+            with open(self.filename.get(),"r") as reading:
+                self.text.delete("1.0",END)
+                self.text.insert(END,reading.read())
+        except Exception as e:
+            x = messagebox.showerror("Assistant App - Load failed",f"Load failed. Error : {str(e)}")
+    def save(self):
+        try:
+            with open(self.filename.get(), "w") as writing:
+                writing.write(self.text.get("1.0",END))
+                x = messagebox.showinfo("Assistant App","Save complete.")
+        except Exception as e:
+            x = messagebox.showerror("Assistant App - Save failed",f"Save failed. Error : {str(e)}")
+            
 class GamesMenu(tk.Frame):
     def __init__(self, parent, controller):
         super().__init__(parent)
