@@ -1,6 +1,9 @@
 # Programs
 
 ## [PySoft](https://github.com/GamerSoft24/Software/tree/Main/PySoft)
+
+1 -> [Assistant App(assistant app.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Assistant%20App.py) The security management system of the GUI days!
+
 ### [Calculators:](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Calculators)
 
 1 -> [Advanced Calculator (advanced calculator.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Calculators/advanced%20calculator.py) A replica for a really basic trignometry calculator.
