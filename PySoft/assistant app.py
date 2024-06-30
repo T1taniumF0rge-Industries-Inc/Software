@@ -235,7 +235,7 @@ class TextEditor(Frame):
         self.controller = controller
         l1 = Label(self,text="Text Editor - By Okmeque1",font=('Arial',18,'bold'))
         l1.pack(pady=10,padx=10)
-        self.text = Text(self,width=80,height=15)
+        self.text = Text(self,width=80,height=20)
         self.text.pack(pady=10)
         l2 = Label(self,text="File Name")
         l2.pack(pady=5)
@@ -303,8 +303,8 @@ class TicTacToe(tk.Frame):
                 button.pack(side="left", padx=5, pady=5)
                 self.buttons.append(button)
 
-        reset_button = tk.Button(self, text="Reset.", command=self.reset_game)
-        reset_button.pack(pady=10)
+        #reset_button = tk.Button(self, text="Reset.", command=self.reset_game)
+        #reset_button.pack(pady=10)
 
         back_button = tk.Button(self, text="Back to Games Menu.", command=lambda: controller.show_frame(GamesMenu))
         back_button.pack(pady=10)
@@ -337,5 +337,5 @@ class TicTacToe(tk.Frame):
 
 if __name__ == "__main__":
     app = AssistantApp()
-    app.geometry("600x500")
+    app.geometry("800x600")
     app.mainloop()
