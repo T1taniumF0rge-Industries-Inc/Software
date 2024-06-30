@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import messagebox, simpledialog
+from tkinter import messagebox, simpledialog, filedialog
 from tkinter import *
 import datetime     
 import requests
@@ -34,7 +34,7 @@ class AssistantApp(tk.Tk):
 
         self.frames = {}
 
-        for F in (MainMenu, CurrentDateTime, OpenWebPage, SendEmail, RandomJoke, SystemCommand, GamesMenu, TicTacToe, TextEditor):
+        for F in (MainMenu, CurrentDateTime, OpenWebPage, SendEmail, RandomJoke, SystemCommand, GamesMenu, TicTacToe, TextEditor, ToolsMenu, PassManager):
             frame = F(container, self)
             self.frames[F] = frame
             frame.grid(row=0, column=0, sticky="nsew")
@@ -61,6 +61,7 @@ class MainMenu(tk.Frame):
             ("Execute a System Command.", lambda: controller.show_frame(SystemCommand)),
             ("Games Menu.", lambda: controller.show_frame(GamesMenu)),
             ("Text Editor", lambda: controller.show_frame(TextEditor)),
+            ("Tools Menu", lambda: controller.show_frame(ToolsMenu)),
             ("Exit.", self.quit)
         ]
 
@@ -192,7 +193,7 @@ class RandomJoke(tk.Frame):
                 joke = response.json()
                 self.joke_label.config(text=f"{joke['setup']}\n{joke['punchline']}.")
             else:
-                messagebox.showerror("Joke.", "Failed to fetch joke from API.")
+                messagebox.showerror("Joke.", "Failed to fetch joke from API, check firewall and internet restrictions.")
         except Exception as e:
             messagebox.showerror("Joke.", f"Failed to fetch joke. Error: {str(e)}.")
 
@@ -334,8 +335,75 @@ class TicTacToe(tk.Frame):
         for button in self.buttons:
             button.config(text=" ")
         self.current_player = "X"
-
-if __name__ == "__main__":
+class ToolsMenu(Frame):
+    def __init__(self,parent,controller):
+        super().__init__(parent)
+        self.controller = controller
+        label = tk.Label(self, text="Tools Menu - By Okmeque1", font=('Arial', 18, 'bold'))
+        label.pack(pady=10, padx=10)   
+        pwd = Button(self, text="Password Manager", command=lambda: controller.show_frame(PassManager))
+        pwd.pack(pady=5)
+        smsr = Button(self, text="Remove Start Menu Search Results",command=lambda: self.start())#Windows Only, removes bing search results     
+        smsr.pack(pady=5)
+    def start(self):
+        if os.name != 'nt':
+            x = messagebox.showwarning("Assistant App","The 'Windows Start Menu Internet Search Remover' is not compatible with your operating system.")
+            return
+        a = os.system("reg add HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer\DisableSearchBoxSuggestions /d 1")
+        if a != 0:
+            x = messagebox.showerror("Assistant App","Please run this program with admin privileges.")
+        else:
+            x = messagebox.askyesno("Assistant App","The operation has completed successfully. For the changes to take effect, the Windows Explorer must be restarted and will take a few moments. Restart?",icon=messagebox.QUESTION)
+            if x:
+                os.system('taskkill /f /im explorer.exe')
+                os.system('explorer')
+class PassManager(Frame):
+    def __init__(self,parent,controller):
+        super().__init__(parent)   
+        self.controller = controller
+        label = tk.Label(self, text="Password Manager - By Okmeque1", font=('Arial', 18, 'bold'))
+        label.pack(pady=10, padx=10)   
+        b1 = Button(self,text="Generate password",command=lambda: self.gen())
+        b1.pack(pady=5)
+        b2 = Button(self,text="Retrieve password",command=lambda: self.retrieve())
+        b2.pack(pady=5)
+        b3 = Button(self,text="List passwords",command=lambda: self.showall())
+        b3.pack(pady=5)
+        self.t1 = Text(self,width=80,height=18)
+        self.t1.pack(pady=10)
+    def gen(self):
+        charlen = simpledialog.askinteger("Assistant App","Enter password length")
+        setname = simpledialog.askstring("Assistant App","Enter password name")
+        charset = '¦¬`1!23£4$€5%6^7&8*9(0)-_=+qQwWeErRtTyYuUiIoOpPaAsSdDfFgGhHjJkKlL;:@~#\|zZxXcCvVbBnNmMm,<.>/?'
+        pwd = ""
+        for x in range(charlen):
+            pwd += random.choice(charset)
+        filename = simpledialog.askstring("Assistant App","Please enter a valid file name. The format must be 'A:\Directory\Subdirectory\file.extension'.")
+        try:
+            with open(filename,"a") as add:
+                add.write(f"\n{setname} -> {pwd}")
+                x = messagebox.showinfo("Assistant App","Generated and saved successfully")
+        except Exception as e:
+            x = messagebox.showerror("Assistant App - Save failed",f"Save failed. Error : {e}")
+    def retrieve(self):
+        filename = filedialog.askopenfilename(filetypes=[("Text Files", "*.txt"), ("All Files", "*.*")])
+        if filename:
+            with open(filename,"r") as passopen:
+                set1 = simpledialog.askstring("Assisant App","Enter password name")
+                for line in passopen:
+                    if line.split(" -> ")[0] == set1:
+                        x = messagebox.showinfo("Assistant App","The password is " + str({line.split(" -> ")[1]}))   
+                        self.t1.delete("1.0",END)
+                        self.t1.insert(END,"The password for the password name is ")
+                        self.t1.insert(END,line.split(" -> ")[1])
+    def showall(self):
+        filename = filedialog.askopenfilename(filetypes=[("Text Files", "*.txt"), ("All Files", "*.*")])
+        if filename:
+            with open(filename,"r") as listall:
+                self.t1.delete("1.0",END)
+                self.t1.insert(END,"The passwords for this file are :\n")
+                self.t1.insert(END,listall.read())
+if __name__ == "__main__":#uarte
     app = AssistantApp()
     app.geometry("800x600")
     app.mainloop()
