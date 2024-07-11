@@ -191,7 +191,7 @@ All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers
 
 [**Bat2EXE:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Bat2EXE)
 
-1 -> [Bat2EXE:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Bat2EXE/Bat2EXESetup.exe) A program that can, you guessed it, convert batch script files into Windows Executable files!
+1 -> [Bat2EXE:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Bat2EXE/Bat2EXESetup.exe) A program that can, you guessed it, convert batch script files into Windows Executable files! Be warned, the % operator for variables is not supported and will not function.
 
 [**Bitwarden:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Bitwarden)
 
