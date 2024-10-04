@@ -47,6 +47,12 @@ This is **where** I will be *storing all* of the ***useful*** programs' (and gam
 
 *For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft)
 
+## `MinecraftSoft:`
+
+This is **where** I will be *storing all* of ***my*** Minecraft modpacks.
+
+*For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/MinecraftSoft)
+
 ## `.github:`
 
 This is **where** this `Software` repository's ***configuration files*** will be *stored*.
