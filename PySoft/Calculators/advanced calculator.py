@@ -1,5 +1,5 @@
 import tkinter as tk
-import math
+from math import *
 import time
 print('*****|Advanced Calculator|*****')
 print('Program version: 1.11.2.')

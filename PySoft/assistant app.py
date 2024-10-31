@@ -138,16 +138,15 @@ class SendEmail(tk.Frame):
         back_button.pack(pady=10)
 
     def send_email(self):
-        smpt = simpledialog.askstring("SMTP Server","Enter an SMTP server for your mail provider. Default is 'smtp.gmail.com'\nIf you do not spell it correctly, you will get an error!")
-        port = simpledialog.askinteger("SMTP Server Port","Enter a port for your SMTP server. Default for GMail is 587")
-        mail = simpledialog.askstring("Email address","Enter an email address that corresponds to your provider. This will affect how the password works.")
-        pwd = simpledialog.askstring("Password","Enter an app or regular passwords. GMail requires app passwords due to security restrictions, which can be found at https://myaccount.google.com/apppasswords.\nIf with another email provider, check for more info.")
+        smpt = simpledialog.askstring("SMTP Server","Enter an SMTP server for your mail provider. Default is 'smtp.gmail.com'\nIf you do not spell it correctly, you will get an error!\nIf you are using an other email provider, please search online or check their websites.")
+        port = simpledialog.askinteger("SMTP Server Port","Enter a port for your SMTP server. Default port for Gmail is 587.\nIf you are using an other email provider, please search online or check their websites.")
+        mail = simpledialog.askstring("Email address",'Enter an email address that corresponds to your provider. This is crucial for this email functionality to work properly. e.g. "example@gmail.com", "example@yahoo.fr", "example@163.com" or "example@qq.com".')
+        assist-mail-change
+        pwd = simpledialog.askstring("Password",'Enter an app or regular passwords. Gmail requires app passwords due to security restrictions, which can be found at "https://myaccount.google.com/apppasswords".\nIf you are using an other email provider, please search online or check their websites.')
+        Main
         to_email = self.to_entry.get()
         subject = self.subject_entry.get()
         message = self.message_text.get("1.0", tk.END)
-
-        from_email = mail # Replace with your email address (Gmail only. You can change the SMTP server and port below for other mail providers.)
-        app_pwd_or_std_pwd = pwd # Replace with you Gmail App Password. Regular password will not work due to Gmail Security Restrictions. If you want to use an other mail provider, check their security restrictions to see if you need an App Password like Gmail or not.
 
         msg = MIMEMultipart()
         msg['From'] = from_email
@@ -156,7 +155,7 @@ class SendEmail(tk.Frame):
         msg.attach(MIMEText(message, 'plain'))
 
         try:
-            server = smtplib.SMTP(smpt, port) # You can change the SMTP server and port here if you want a different mail provider like Outlook or Yahoo. Search online for more information.
+            server = smtplib.SMTP(smpt, port)
             server.starttls()
             server.login(from_email, app_pwd_or_std_pwd)
             server.sendmail(from_email, to_email, msg.as_string())

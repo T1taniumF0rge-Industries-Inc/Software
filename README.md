@@ -3,29 +3,29 @@
 
 # `Software` Repository
 
-### **🎉We've reached 800 commits!!🌟**
+### ⚠ REPOSITORY CURRENTLY INACTIVE. COMMITS WON'T BE REGULARLY MADE!
 
-**REP-SET II**, *Version 1.2.41-dev*
+**REP-SET II**, *`Version 1.2.41-dev`*
 
-## PySoft:
+## `PySoft:`
 This is **where** I will be *storing all* of ***my and some of Okmeque1's*** Python codes and programs.
 
 *For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/PySoft)
 
-## VBSoft:
+## `VBSoft:`
 This is **where** I will be *storing all* of ***my*** VBS (Windows Visual Basic Script) codes and programs.
 
 ***WARNING!*** The VBS codes are *more towards **pranks*** but Windows might detect it as a virus. Be careful though as the [`/VBSoft/Deadly`](https://github.com/GamerSoft24/Software/tree/Main/VBSoft/Deadly) folder, the codes there are actually ***deadly*** and can *crash your RAM* in just a **few seconds running.** 
 
 *For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/VBSoft)
 
-## HTMLSoft:
+## `HTMLSoft:`
 
 This is **where** I will be *storing all* of ***my*** HTML (HyperText Markup Language) codes and programs.
 
 *For* **direct  access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/HTMLSoft)
 
-## CPPSoft:
+## `CPPSoft:`
 
 This is **where** I will be *storing all* of ***my*** C & C++ codes and programs although it's name is CPPSoft (C++ Software).
 
@@ -35,7 +35,7 @@ It is recommended to have [Arduino IDE](https://www.arduino.cc/en/software) inst
 
 *For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/CPPSoft)
 
-## BatchSoft:
+## `BatchSoft:`
 
 This is **where** I will be *storing all* of ***my*** Batchfile codes and programs.
 
@@ -43,13 +43,19 @@ This is **where** I will be *storing all* of ***my*** Batchfile codes and progra
 
 ***WARNING!*** The codes in [`/BatchSoft/DestroyPC`](https://github.com/GamerSoft24/Software/tree/Main/BatchSoft/DestroyPC) folder are ***SUPER deadly*** and can *destroy your computer* and splash a bluescreen on your screen.
 
-## InstallerSoft:
+## `InstallerSoft:`
 
 This is **where** I will be *storing all* of the ***useful*** programs' (and games') installers.
 
 *For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft)
 
-## .github:
+## `MinecraftSoft:`
+
+This is **where** I will be *storing all* of ***my*** Minecraft modpacks.
+
+*For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/MinecraftSoft)
+
+## `.github:`
 
 This is **where** this `Software` repository's ***configuration files*** will be *stored*.
 
@@ -57,6 +63,6 @@ This is **where** this `Software` repository's ***configuration files*** will be
 
 # Must-reads for `Software` Repository!
 
-## ⚠️ Antivirus detection for InstallerSoft:
+## ⚠ Antivirus detection for InstallerSoft:
 
 Some of our programs in the [`InstallerSoft/Windows`](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft) folder will report to most AV's as being viruses. However, unless a program is *explicitely* marked as a virus, you can trust this repository. Some installers will even come with *.nsi files so that you may check what the script is made out of, for any type of *sneaky* viruses. If you're not happy with this, then leave the repository.
