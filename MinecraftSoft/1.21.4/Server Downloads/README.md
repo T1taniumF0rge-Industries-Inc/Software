@@ -1,4 +1,5 @@
-### Minecraft 1.21.4 Server Downloads
+# Minecraft 1.21.4 Server Downloads
+## Java Server:
 ***Please note: This server setup is only compatible with Minecraft Java Edition. All rights reserved to Microsoft Corporation.***
 #### © Microsoft Corporation: https://www.microsoft.com/
 
