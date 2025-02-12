@@ -5,7 +5,7 @@
 
 ### ⚠ REPOSITORY CURRENTLY INACTIVE. COMMITS WON'T BE REGULARLY MADE!
 
-**REP-SET II**, *`Version 1.2.41-dev`*
+**REP-SET II**, *`Version 1.5.12-beta`*
 
 ## `PySoft:`
 This is **where** I will be *storing all* of ***my and some of Okmeque1's*** Python codes and programs.
