@@ -15,7 +15,10 @@ If you want to run a Minecraft multiplayer server by yourself things get kind of
 
 `java -Xmx1024M -Xms1024M -jar minecraft_server.1.21.4.jar`
 
-*To control the amount of RAM to allocate to your server, change the "-Xms" settings **by using binary megabytes!***
+*To control the amount of RAM to allocate to your server, change both the "-Xms" settings **by using binary megabytes!***
+
+`java -Xmx9216 -Xms9216 -jar minecraft_server.1.21.4.jar`
+
 You can convert GB into MB by multipliying your gigabytes by 1024. The result will be the amount of binary megabytes. Here is an example from 1GB to 10GB:
 | Gigabytes (GB)| Binary Megabytes (MB)|
 | --------- | ------------ |
