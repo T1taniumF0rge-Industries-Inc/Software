@@ -20,4 +20,4 @@
 *.jpeg filter=lfs diff=lfs merge=lfs -text
 *.webp filter=lfs diff=lfs merge=lfs -text
 *.jar binary
-MinecraftSoft/** text eol=lf
+MinecraftSoft/MCP_Development** text eol=lf
