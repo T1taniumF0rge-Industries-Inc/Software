@@ -19,5 +19,5 @@
 *.png filter=lfs diff=lfs merge=lfs -text
 *.jpeg filter=lfs diff=lfs merge=lfs -text
 *.webp filter=lfs diff=lfs merge=lfs -text
-*jar binary
+*.jar binary
 MinecraftSoft/** text eol=lf
