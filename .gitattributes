@@ -20,3 +20,4 @@
 *.jpeg filter=lfs diff=lfs merge=lfs -text
 *.webp filter=lfs diff=lfs merge=lfs -text
 *.yml text eol=lf
+*.properties text eol=lf
