@@ -61,6 +61,14 @@ This is **where** I will be *storing all* of ***my and Okmeque1's collection of*
 
 *For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/MovieSoft)
 
+## `MovieSoft:`
+
+This is **where** I will be *storing all* of ***my*** hacks that I use in games. 
+
+***WARNING!*** *these hacks should only be used for* **educational purposes** *and* **testing purposes *only*** *and should not be used to ruin other people's gameplay.* We will ***not*** be reliable for **any damages that these hacks can potentially make.** Thank you for understanding.
+
+*For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/HackSoft)
+
 ## `.github:`
 
 This is **where** this `Software` repository's ***configuration files*** will be *stored*.
