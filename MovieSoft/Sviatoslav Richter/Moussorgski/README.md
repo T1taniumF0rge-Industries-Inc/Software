@@ -44,3 +44,4 @@ This is a suite of movements consisting of Movements (so called Pictures) and Pr
 
 There will be the 1958 Recital of Sviatoslav Richter in this folder.
 
+Copyrights are visible in the file attributes, which can be viewed in Windows Explorer Properties → Details Tab or in MP3Tag Software.
