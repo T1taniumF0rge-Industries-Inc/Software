@@ -3,7 +3,6 @@
 
 # `Software` Repository
 
-### ⚠ REPOSITORY CURRENTLY INACTIVE. COMMITS WON'T BE REGULARLY MADE!
 
 **REP-SET II**, *`Version 1.5.12-beta`*
 
