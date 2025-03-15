@@ -301,7 +301,7 @@ def self_delete():
 root = tk.Tk()
 root.title("SC_PtX v1.3.2")
 root.configure(bg='#2b2b2b')
-root.geometry("480x620")
+root.geometry("480x345")
  
 memory_reader = MemoryReader(root, "Among Us.exe")
  
