@@ -69,10 +69,10 @@ class MemoryReader:
  
         self.output_text.tag_configure('gray', foreground='gray')
         self.output_text.tag_configure('imp', foreground='red')
-        self.footer_label = ttk.Label(root, text="0: Close   ||   1: Read Players   ||   2: Radar ON   ||   3: Radar OFF   ||   9: Self Destruct!")
-        self.output_text.insert(tk.END,"Welcome to StealthCrew - PhantomToolX (SC_PtX)\nv1.3.2 by Midnight_G0ldX\n\n1/ Start Among Us\n2/ Go into a game\n3/ Controls:\n  * Press 1 to read players!\n  * Press 2 to enable Radar\n  * Press 3 to disable Radar\n  * Press 9 to self destruct SC_PtX v1.3.2")
-        #self.footer_label = ttk.Label(root, text="0: Close   ||   1: Read Players   ||   9: Self Destruct!")
-        #self.output_text.insert(tk.END,"Welcome to StealthCrew - PhantomToolX (SC_PtX)\nv1.3.2 by Midnight_G0ldX\n\n1/ Start Among Us\n2/ Go into a game\n3/ Controls:\n  * Press 1 to read players!\n  * Press 9 to self destruct SC_PtX v1.3.2")
+        #self.footer_label = ttk.Label(root, text="0: Close   ||   1: Read Players   ||   2: Radar ON   ||   3: Radar OFF   ||   9: Self Destruct!")
+        #self.output_text.insert(tk.END,"Welcome to StealthCrew - PhantomToolX (SC_PtX)\nv1.3.2 by Midnight_G0ldX\n\n1/ Start Among Us\n2/ Go into a game\n3/ Controls:\n  * Press 1 to read players!\n  * Press 2 to enable Radar\n  * Press 3 to disable Radar\n  * Press 9 to self destruct SC_PtX v1.3.2")
+        self.footer_label = ttk.Label(root, text="0: Close   ||   1: Read Players   ||   9: Self Destruct!")
+        self.output_text.insert(tk.END,"Welcome to StealthCrew - PhantomToolX (SC_PtX)\nv1.3.2 by Midnight_G0ldX\n\n1/ Start Among Us\n2/ Go into a game\n3/ Controls:\n  * Press 1 to read players!\n  * Radar feature coming soon!\n  * Press 9 to self destruct SC_PtX v1.3.2")
         self.footer_label.pack(side='bottom', fill='x')
  
         # Frame for platform selection
@@ -106,19 +106,19 @@ class MemoryReader:
         self.read_button.pack(side=tk.LEFT, padx=10)
  
         # Load the Polus image
-        polus_path = self.resource_path("polus.png")
-        self.polus_image = Image.open(polus_path)
-        self.polus_tk = ImageTk.PhotoImage(self.polus_image)
+        #polus_path = self.resource_path("polus.png")
+        #self.polus_image = Image.open(polus_path)
+        #self.polus_tk = ImageTk.PhotoImage(self.polus_image)
  
         # Create a canvas for plotting
-        self.canvas = tk.Canvas(root, width=self.polus_image.width, height=self.polus_image.height, bg='#2b2b2b', highlightthickness=0)
-        self.canvas.pack(expand=True, fill=tk.BOTH, padx=10, pady=10)
+        #self.canvas = tk.Canvas(root, width=self.polus_image.width, height=self.polus_image.height, bg='#2b2b2b', highlightthickness=0)
+        #self.canvas.pack(expand=True, fill=tk.BOTH, padx=10, pady=10)
  
         # Add the map image as a background layer
-        self.image_on_canvas = self.canvas.create_image(0, 0, anchor='nw', image=self.polus_tk)
+        #self.image_on_canvas = self.canvas.create_image(0, 0, anchor='nw', image=self.polus_tk)
  
         # Bind resize event
-        self.canvas.bind("<Configure>", self.on_resize)
+        #self.canvas.bind("<Configure>", self.on_resize)
  
  
  
