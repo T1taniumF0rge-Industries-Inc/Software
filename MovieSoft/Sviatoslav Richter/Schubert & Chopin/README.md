@@ -2,11 +2,11 @@
 
 There will be multiple pieces in one file.
 
-1/ Schubert - Moment Musical No. 1 in C Major
+1/ Schubert - Moment Musical No. 1 in C Major (Schubert No. D780)
 
-2/ Schubert - Impromptu Op. 90 No. 2
+2/ Schubert - Impromptu Op. 90 No. 2 (Schubert No. D899)
 
-3/ Schubert - Impromptu Op. 90 No. 4
+3/ Schubert - Impromptu Op. 90 No. 4 (Schubert No. D899)
 
 4/ Chopin - Etude in E Major, Op. 10 No.3
 
