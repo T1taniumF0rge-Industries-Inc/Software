@@ -4,7 +4,7 @@
 # `Software` Repository
 
 
-**REP-SET II**, *`Version 1.5.12-beta`*
+**REP-SET II**, *`Version 2.6.13`*
 
 ## `PySoft:`
 This is **where** I will be *storing all* of ***my and some of Okmeque1's*** Python codes and programs.
@@ -56,7 +56,7 @@ This is **where** I will be *storing all* of ***my*** Minecraft modpacks.
 
 ## `MovieSoft:`
 
-This is **where** I will be *storing all* of ***my and Okmeque1's collection of*** movies and films.
+This is **where** I will be *storing all* of ***my and Okmeque1's collection of*** movies, films, and even music and audio files.
 
 *For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/MovieSoft)
 
@@ -64,7 +64,7 @@ This is **where** I will be *storing all* of ***my and Okmeque1's collection of*
 
 This is **where** I will be *storing all* of ***my*** hacks that I may use in games. 
 
-***WARNING!*** *these hacks should only be used for* **educational purposes** *and* **testing purposes *only*** *and should not be used to ruin other people's gameplay.* We will ***not*** be liable for **any damages that these hacks can potentially make.** Thank you for understanding.
+***WARNING!*** *these hacks should only be used for* **educational purposes** *and* **testing purposes *only*** *and should not be used to ruin other people's gameplay.* We will ***not*** be liable for **any damages that these hacks can potentially make *in your possession!*** Thank you for understanding.
 
 *For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/HackSoft)
 
