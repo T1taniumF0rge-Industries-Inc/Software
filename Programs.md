@@ -462,8 +462,6 @@ All versions of the WinImage program from this repository are x86 compatible.
 
 [**VLC:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/macOS/VLC%20Media%20Player)
 
-1 -> [VLC Media Player:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/macOS/VLC%20Media%20Player) The video player we all know and love, from VideoLan. Download the Apple Silicon version if you have an M series chip (M1, M2, M3,...) or the Intel Chip version if you have an Intel processor (i7-4790K).
-
 Credits [Okmeque1](https://github.com/Okmeque1) for helping to contribute to this file.
 
 
