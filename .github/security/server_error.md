@@ -21,3 +21,6 @@ If you think you can proceed elsewhere, you may. Attacks like these can be tempo
 If this page appears consistently, please contact support at gamersoftware.corp@gmail.com, sutoexec.bat@gmail.com or gsst2401@gmail.com
 
 Thanks for understanding.
+
+Sincerely,
+The Software Team
