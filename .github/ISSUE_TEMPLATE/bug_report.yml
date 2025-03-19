@@ -2,10 +2,10 @@ name: Bug Report
 description: File a bug report
 title: "[Bug]: "
 labels: ["bug", "invalid","help wanted"]
-projects: ["GamerSoft24/5"]
 assignees:
   - GamerSoft24
-  - SutoEXEC
+  - GmaerSoft42
+  - Okmeque1
 body:
   - type: markdown
     attributes:
