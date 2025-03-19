@@ -12,4 +12,6 @@ There will be multiple pieces in one file.
 
 There will be the 1958 Recital of Sviatoslav Richter.
 
+For VLC Media player, you can download the *.jpg files and download them into the same directory as the music files to have a background of Sviatoslav Richter. 
+
 Copyrights are in the file attributes, which can be viewed in Windows Explorer Properties → Details tab or in MP3Tag Software.
