@@ -2,10 +2,10 @@ name: Feature Request
 description: File a feature request
 title: "[Feature Request]: "
 labels: ["enhancement"]
-projects: ["GamerSoft24/5"]
 assignees:
   - GamerSoft24
-  - SutoEXEC
+  - GmaerSoft42
+  - Okmeque1
 body:
   - type: markdown
     attributes:
