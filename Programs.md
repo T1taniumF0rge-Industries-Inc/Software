@@ -1,5 +1,7 @@
 # Programs (.COMING_SOON -> Programs will be updated shortly!)
 
+Special thanks to [Okmeque1](https://github.com/Okmeque1) from [`okmeque1/software`](https://github.com/Okmeque1/software) for helping to update and contribute to this file!
+
 ## [PySoft](https://github.com/GamerSoft24/Software/tree/Main/PySoft)
 
 1 -> [Assistant App(assistant app.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Assistant%20App.py) The security management system of the GUI days!
@@ -461,8 +463,3 @@ All versions of the WinImage program from this repository are x86 compatible.
 1 -> [Roblox:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/macOS/Roblox/Roblox.dmg) Okmeque1 kind of hates this installer and thinks that the error messages are awful. If any Roblox Devs come across this, at least use the [Error chart](https://github.com/GamerSoft24/Software/blob/Main/Errors%20chart.md) or some form of error code as troubleshooting is way too hard.
 
 [**VLC:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/macOS/VLC%20Media%20Player)
-
-Credits [Okmeque1](https://github.com/Okmeque1) for helping to contribute to this file.
-
-
-TEMP : https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Midtown%20Madness/Midtown%20Madness%202/MidtownMadness2Setup.exe -> MM2
