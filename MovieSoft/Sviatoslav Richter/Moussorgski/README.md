@@ -44,4 +44,6 @@ This is a suite of movements consisting of Movements (so called Pictures) and Pr
 
 There will be the 1958 Recital of Sviatoslav Richter in this folder.
 
+For VLC Media player, you can download the *.jpg files and download them into the same directory as the music files to have a background of Sviatoslav Richter. 
+
 Copyrights are visible in the file attributes, which can be viewed in Windows Explorer Properties → Details Tab or in MP3Tag Software.
