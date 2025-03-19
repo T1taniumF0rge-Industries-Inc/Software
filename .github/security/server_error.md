@@ -23,4 +23,5 @@ If this page appears consistently, please contact support at gamersoftware.corp@
 Thanks for understanding.
 
 Sincerely,
+
 The Software Team
