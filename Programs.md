@@ -1,4 +1,4 @@
-# Programs (.COMING_SOON -> Programs will be updated shortly!)
+# Programs (-> Programs will be updated shortly!)
 
 Special thanks to [Okmeque1](https://github.com/Okmeque1) from [`okmeque1/software`](https://github.com/Okmeque1/software) for helping to update and contribute to this file!
 
@@ -78,7 +78,7 @@ Special thanks to [Okmeque1](https://github.com/Okmeque1) from [`okmeque1/softwa
 
 ### [Utilities:](https://github.com/GamerSoft24/Software/tree/Main/VBSoft/Utilities)
 
-1 -> [Open Browser (open browser.vbs):](https://github.com/GamerSoft24/Software/blob/Main/VBSoft/Utilities/open%20browser.vbs) Opens Google Chrome if installed. If not, opens Microsoft Edge.
+1 -> [Open Browser (open browser.vbs):](https://github.com/GamerSoft24/Software/blob/Main/VBSoft/Utilities/open%20browser.vbs) Opens your default web browser (e.g.: Microsoft Edge, Google Chrome / Chrome Beta / Chrome Dev, Firefox, Opera / Opera GX, Internet Explorer 💀, etc...
 
 ## [HTMLSoft](https://github.com/GamerSoft24/Software/tree/Main/HTMLSoft)
 
@@ -92,19 +92,19 @@ Special thanks to [Okmeque1](https://github.com/Okmeque1) from [`okmeque1/softwa
 
 ### [NodeMCU](https://github.com/GamerSoft24/Software/tree/Main/CPPSoft/NodeMCU)/[ESP8266EX:](https://github.com/GamerSoft24/Software/tree/Main/CPPSoft/NodeMCU/ESP8266EX)
 
-1 -> [Robotic Halloween Skull (robotic halloween skull.ino):](https://github.com/GamerSoft24/Software/blob/Main/CPPSoft/NodeMCU/ESP8266EX/robotic%20halloween%20skull.ino) A code for a halloween programmed human life-size skull using C++ for a NodeMCU ESP8266EX Board that controls LED lights and a gesture sensor to change LED patterns. ***This program requires Arduino IDE.***
+1 -> [Robotic Halloween Skull (robotic halloween skull.ino):](https://github.com/GamerSoft24/Software/blob/Main/CPPSoft/NodeMCU/ESP8266EX/robotic%20halloween%20skull.ino) A code for a halloween programmed human life-size skull using C++ for a NodeMCU ESP8266EX Board that controls LED lights and a gesture sensor to change LED patterns. ***This program requires Arduino IDE and a large enough skull to fit a NodeMCU board along with some cables and an LED light strip.***
 
 ## [BatchSoft](https://github.com/GamerSoft24/Software/tree/Main/BatchSoft)
 
-1 -> [Software360 AIO (software360 aio.bat):](https://github.com/GamerSoft24/Software/blob/Main/BatchSoft/software360%20aio.bat) A all-in-one program that has bunch of Batchfile files.
+1 -> [Software360 AIO (software360 aio.bat):](https://github.com/GamerSoft24/Software/blob/Main/BatchSoft/software360%20aio.bat) An all-in-one Batchfile program thats packed with Batchfile functions.
 
 ### [Windows:](https://github.com/GamerSoft24/Software/tree/Main/BatchSoft/Windows)
 
-1 -> [Windows360 AIO (windows360 aio.bat):](https://github.com/GamerSoft24/Software/blob/Main/BatchSoft/Windows/windows360%20aio.bat) A all-in-one program that has bunch of Windows Command Prompt (cmd.exe) functions in it.
+1 -> [Windows360 AIO (windows360 aio.bat):](https://github.com/GamerSoft24/Software/blob/Main/BatchSoft/Windows/windows360%20aio.bat) An all-in-one program that has bunch of Windows Command Prompt (cmd.exe) functions in it.
 
-2 -> [System Informations (system infos.bat):](https://github.com/GamerSoft24/Software/blob/Main/BatchSoft/Windows/system%20infos.bat) Displays general system infomations.
+2 -> [System Informations (system infos.bat):](https://github.com/GamerSoft24/Software/blob/Main/BatchSoft/Windows/system%20infos.bat) Displays general informations about your system.
 
-3 -> [Website Pinger (web pinger.bat):](https://github.com/GamerSoft24/Software/blob/Main/BatchSoft/Windows/web%20pinger.bat) Pings a specified website.
+3 -> [Website Pinger (web pinger.bat):](https://github.com/GamerSoft24/Software/blob/Main/BatchSoft/Windows/web%20pinger.bat) Pings a specified website that you can choose.
 
 ### [UAC](https://github.com/GamerSoft24/Software/tree/Main/BatchSoft/Windows/UAC):
 
@@ -114,7 +114,7 @@ Special thanks to [Okmeque1](https://github.com/Okmeque1) from [`okmeque1/softwa
 
 ### [Windows:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows)
 
-**WARNING! Any programs not listed specifically having a 32-bit [(x86)](https://stackoverflow.com/questions/29974425/why-is-windows-32-bit-called-windows-x86-and-not-windows-x32) version may not run on a 32-bit Windows computer.**
+**WARNING! Any programs not listed specifically having a 32-bit [(x86)](https://stackoverflow.com/questions/29974425/why-is-windows-32-bit-called-windows-x86-and-not-windows-x32) version may not run on a most computers with 32-bit architecture.** *All of the installers provided here are the latest at time of upload, but might not be at time of download. Even though most programs like Google Chrome come with auto-updating features, it is still recommended for you to double check on the program's official website for their latest installer(s) if you require a specific version of that program!*
 
 [**360Chrome or/and 360AFChrome:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/360Chrome)
 
@@ -150,15 +150,15 @@ All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers
 
 1 -> [Extreme Explorer:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Safety/Extreme%20Explorer/v13.5/360ChromeEESetup_v13.5.exe) 360EE v13.5.2044. This browser may or may not have telemetry, if you want 0 telemetry, use 360Chrome or 360AFChrome that is **NOT** from the safety suite.
 
-2 -> [Security Assistant:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Safety/Security%20Assistant/v13/360SecurityAssistSetup_v13.exe) Security assistant. Ask [GamerSoft](https://github.com/GamerSoft24) of what it is.
+2 -> [Security Assistant:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Safety/Security%20Assistant/v13/360SecurityAssistSetup_v13.exe) 360 Security Assistant. Pretty much it ngl.
 
 [**7-Zip:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/7-Zip)
 
 1 -> [7-Zip v22.01:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/7-Zip/v22.01) Version 22.01 of the 7-Zip file manager. Can unzip .zip, .rar and .7z formats. Use the 32-bit exe if your system is not x64 compatible.
 
-2 -> [7-Zip v23.01:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/7-Zip/v23.01) Version 23.01 of the 7-Zip file manager. Can unzip .zip, .rar and .7z formats. Use the 32-bit exe if your system is not x64 compatible. Latest version of 7-Zip for this repository
+2 -> [7-Zip v23.01:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/7-Zip/v23.01) Version 23.01 of the 7-Zip file manager. Can unzip .zip, .rar and .7z formats. Use the 32-bit exe if your system is not x64 compatible. Latest version of 7-Zip for this repository.
 
-3 -> [7-Zip v24.01beta:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/7-Zip/v24.01beta) Version 24.01 of the 7-Zip file manager. Can unzip .zip, .rar and .7z formats. Use the 32-bit exe if your system is not x64 compatible. Beta release might have compatibility and stability issues
+3 -> [7-Zip v24.01beta:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/7-Zip/v24.01beta) Version 24.01 of the 7-Zip file manager. Can unzip .zip, .rar and .7z formats. Use the 32-bit exe if your system is not x64 compatible. Beta release might have compatibility and stability issues.
 
 4 -> [7-Zip v4.57old:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/7-Zip/v4.57old/7z4.57.exe) Version 4.57 of the 7-Zip file manager. 32-bit only. Works great for Windows 98.
 
@@ -218,7 +218,7 @@ All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers
 
 [**Discord:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Discord)
 
-1 -> [Discord:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Discord/DiscordSetup.exe) Long loved Discord, what else is there to say? Maybe don't run it on a 32-bit OS
+1 -> [Discord:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Discord/DiscordSetup.exe) Long loved Discord, what else is there to say? Maybe don't run it on a 32-bit computer. Also banned in many countries like the UAE for some reasons...
 
 [**Fujitsu:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Fujitsu)
 
@@ -230,11 +230,11 @@ All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers
 
 [**Git:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Git)
 
-1 -> [Git SCM (Source Code Management):](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Git/Git%20Bash%20SCM%20(Source%20Code%20Management)/v2.44.0) Git Terminal for all of your pushing and pulling needs. Use the 32-bit exe if your system is not x64 compatible
+1 -> [Git SCM (Source Code Management):](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Git/Git%20Bash%20SCM%20(Source%20Code%20Management)/v2.44.0) Git Terminal for all of your pushing and pulling needs. Use the 32-bit version if your system is not x64 compatible.
 
-2 -> [Git LFS (Large File Storage):](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Git/Git%20LFS%20(Large%20File%20Storage)/v3.4.1/git-lfs-windows-v3.4.1.exe) Git Large file storage for pushing and pulling files over 100MB.
+2 -> [Git LFS (Large File Storage):](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Git/Git%20LFS%20(Large%20File%20Storage)/v3.4.1/git-lfs-windows-v3.4.1.exe) Git Large File Storage for pushing and pulling files over 100MB (it won't let you go toooooooooo overkill tho)
 
-3 -> [Git CLI (Command Line Interface):](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Git/Git%20CLI/v2.44.1/gh_2.44.1_windows_amd64.msi) Git Command Line interface, works great with GitHub pushing and pulling, etc... No more.
+3 -> [Git CLI (Command Line Interface):](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Git/Git%20CLI/v2.44.1/gh_2.44.1_windows_amd64.msi) Git Command Line Interface, works great with GitHub pushing and pulling, etc... No more.
 
 [**Google Chrome:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Google%20Chrome)
 
@@ -242,7 +242,7 @@ All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers
 
 2 -> [Chrome Dev:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Google/Google%20Chrome/Dev/ChromeDevSetup.exe) Latest version of Chrome Dev. Use if you want to make a new extension or develop a web application.
 
-3 -> [Chrome Standard:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Google/Google%20Chrome/Standard/ChromeSetup.exe) Regular ol' Chrome. Not much to say apart that it's much more modern than 360Chrome. Just don't use it on Windows 7 and older...
+3 -> [Chrome:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Google/Google%20Chrome/Standard/ChromeSetup.exe) Regular ol' Chrome. Not much to say apart that it's much more modern than 360Chrome. Just don't use it on Windows 7 and older...
 
 [**Google Earth Pro:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Google/Google%20Earth%20Pro) 
 
@@ -254,13 +254,13 @@ All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers
 
 [**HW:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/HW)
 
-1 -> [HWMonitor:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/HW/HWMonitor/v.1.52) version 1.5.2 of the HWMonitor(Hardware Monitor) program. Can read CPU temps, GPU temps, voltage, clock speed and much more. Very useful to have.
+1 -> [HWMonitor:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/HW/HWMonitor/v.1.52) version 1.5.2 of the HWMonitor (Hardware Monitor) program. Can read CPU temps, GPU temps, voltage, clock speed and much more. Very useful to have.
 
 2 -> [HWiNFO:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/HW/HWiNFO/HWiNFO_Setup.exe) HWiNFO : Hardware Info. Same thing as HWMonitor, but some argue it is better than HWMonitor. Can read CPU temps, GPU temps, voltage, clock speed and much more. Very useful to have.
 
 [**Java:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Java) 
 
-1 -> [JRE v1.8.0:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Java/JRE%20(Java%20Runtime%20Environment)/v1.8.0/jre-8u401-windows-x64.exe) Version 1.8.0 of the Java runtime runtime environment. Needed for most java applications.
+1 -> [JRE v1.8.0:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Java/JRE%20(Java%20Runtime%20Environment)/v1.8.0/jre-8u401-windows-x64.exe) Version 1.8.0 of the Java runtime runtime environment. Needed for most Java applications.
 
 [**JetBrains:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/JetBrains)
 
@@ -286,7 +286,7 @@ All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers
 
 [**Mozilla Firefox:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Mozilla/Firefox)
 
-### English UK
+#### English UK
 
 1 -> [FireFox Beta:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Mozilla/Firefox/Beta/English%20(UK)) Beta version of the FireFox browser. Good for experimenting new features. Use the 32-bit exe if your system is not x64 compatible.
 
@@ -294,7 +294,7 @@ All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers
 
 3 -> [FireFox Standard:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Mozilla/Firefox/Standard/English%20(UK)) Standard FireFox. Use the 32-bit exe if your system is not x64 compatible.
 
-### English US
+#### English US
 
 1 -> [FireFox Beta:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Mozilla/Firefox/Beta/English%20(US)) Beta version of the FireFox browser. Good for experimenting new features. Use the 32-bit exe if your system is not x64 compatible.
 
@@ -316,7 +316,7 @@ All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers
 
 [**OBS Studio:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/OBS%20Studio%20(Open%20Broadcaster%20Software))
 
-1 -> [OBS Studio v27.01:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/OBS%20Studio%20(Open%20Broadcaster%20Software)/v27.0.1) Version 27.01 of the Open Broadcasting Software. Can screenrecord and stream to Youtube. Last version to support Windows 7. Use the 32-bit EXE if your system is not x64 compatible
+1 -> [OBS Studio v27.01:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/OBS%20Studio%20(Open%20Broadcaster%20Software)/v27.0.1) Version 27.01 of the Open Broadcasting Software. Can screenrecord and stream to YouTube. Last version to support Windows 7. Use the 32-bit version if your system is not x64 compatible.
 
 [**Opera:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Opera)
 
@@ -326,7 +326,7 @@ All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers
 
 [**OptiFine for Minecraft:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/OptiFine%20(for%20Minecraft))
 
-Ain't no way I'm doing it for every version. Just go into the folder with your desired version and install from the *.JAR file. Note that this requires Java Runtime Environment (JRE), which you can download from our *InstallerSoft* category.
+Ain't no way I'm doing it for every version. Just go into the folder with your desired version and install from the *.jar file. Note that this requires Java Runtime Environment (JRE), which you can download from our *InstallerSoft* category - Okmeque1
 
 [**Paladium Launcher (Minecraft Server):**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Paladium%20Launcher%20(Minecraft%20Server))
 
@@ -354,7 +354,7 @@ Ain't no way I'm doing it for every version. Just go into the folder with your d
 
 [**Realtek:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Realtek)
 
-1 -> [Realtek AC97:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Realtek/AC97/Realtek%20AC97.exe) Realtek AC97 Driver is the most popular sound driver for Windows systems, and it helps manage surround sound, Dolby and DTS sound systems on your computer. This driver will only work if your motherboard has a PC'97 audio interface. Using the wrong driver will/could create serious audio errors.
+1 -> [Realtek AC97:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Realtek/AC97/Realtek%20AC97.exe) Realtek AC97 Driver is the most popular sound driver for Windows systems, and it helps manage surround sound, Dolby and DTS sound systems on your computer. This driver will only work if your motherboard has a PC'97 audio interface. Using the wrong driver will/could create serious audio errors!
 
 [**Roblox:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Roblox)
 
@@ -362,7 +362,7 @@ Ain't no way I'm doing it for every version. Just go into the folder with your d
 
 [**Steam:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Steam)
 
-1 -> [Steam Game Launcher:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Steam/SteamSetup.exe) Literally the most popular game launcher, and for good reason. Lots of games from Geometry Dash to Terraria and even God of War.
+1 -> [Steam Game Launcher:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Steam/SteamSetup.exe) Literally the most popular game launcher in the world made by Valve Inc., and really secure. Lots of games from Geometry Dash, Terraria and God of War to Starfield, COD and Cyberpunk 2077 ***(18+ only: and GTA series and Red Dead Redemption series)***.
 
 [**TeamViewer:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/TeamViewer)
 
@@ -442,7 +442,7 @@ All versions of the WinImage program from this repository are x86 compatible.
 
 [**WinRAR:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/WinRAR)
 
-1 -> [WinRAR v700:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/WinRAR/winrar-x64-700.exe) Ok, at least they made something original with the .RAR file format. Is a file manager that some people use as their daily driver. And it kind of begs your money, but lets you use it which is nice, but realistically Igor Pavlov beat it because 7-Zip can read .RAR.
+1 -> [WinRAR v700:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/WinRAR/winrar-x64-700.exe) Ok, at least they made something original with the *.rar file format. Is a file manager that some people use as their daily driver. And it kind of begs your money, but lets you use it which is nice, but realistically Igor Pavlov beat it because 7-Zip can read *.rar archives.
 
 [**Windows Loaders:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Windows%20Loaders)
 
@@ -452,7 +452,7 @@ All versions of the WinImage program from this repository are x86 compatible.
 
 ### [macOS:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/macOS)
 
-**WARNING! Programs may not run on certain versions of macOS. Please check your version of macOS to make sure it is compatible with the application you are downloading. There are not many installers, but we are working our hardest to find some and add to our ever growing collection.**
+**WARNING! Programs may not run on certain versions of macOS. Please check your version of macOS to make sure it is compatible with the application you are downloading. There are not many installers, but we are working our hardest to find some and add to our ever growing collection.** *All of the installers provided here are the latest at time of upload, but might not be at time of download. Even though most programs like Google Chrome come with auto-updating features, it is still recommended for you to double check on the program's official website for their latest installer(s) if you require a specific version of that program!*
 
 [**Minecraft:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/macOS/Minecraft)
 
@@ -464,6 +464,8 @@ All versions of the WinImage program from this repository are x86 compatible.
 
 [**VLC:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/macOS/VLC%20Media%20Player)
 
-VLC -> .COMING_SOON
+1 -> [VLC Media Player:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/macOS/VLC%20Media%20Player) The video player we all know and love, from VideoLan, but for macOS.
+
+## ***################################################***
 
 TEMP_LINK: https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Midtown%20Madness/Midtown%20Madness%202/MidtownMadness2Setup.exe -> MM2 -> .COMING_SOON
