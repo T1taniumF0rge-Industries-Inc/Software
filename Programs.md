@@ -1,8 +1,11 @@
-# Programs
+# Programs (.COMING_SOON -> Programs will be updated shortly!)
 
 Special thanks to [Okmeque1](https://github.com/Okmeque1) from [`okmeque1/software`](https://github.com/Okmeque1/software) for helping to update and contribute to this file!
 
 ## [PySoft](https://github.com/GamerSoft24/Software/tree/Main/PySoft)
+
+1 -> [Assistant App(assistant app.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Assistant%20App.py) The security management system of the GUI days!
+
 ### [Calculators:](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Calculators)
 
 1 -> [Advanced Calculator (advanced calculator.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Calculators/advanced%20calculator.py) A replica for a really basic trignometry calculator.
@@ -11,7 +14,7 @@ Special thanks to [Okmeque1](https://github.com/Okmeque1) from [`okmeque1/softwa
 
 3 -> [Pence to Pound converter (pence to pound converter.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Calculators/pence%20to%20pound%20converter.py) Pence to pound converter. What more do you need to know?
 
-4 -> [Temperature Converter (temperature converter.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Calculators/temperature%20converter.py) A temperature converter to help you talkwith people who don't use Celsius and use instead Fahrenheit or Kelvin.
+4 -> [Temperature Converter (temperature converter.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Calculators/temperature%20converter.py) A temperature converter to help you talk with people who don't use Celsius and use instead Fahrenheit or Kelvin.
 
 ### [Editors:](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Editors)
 
@@ -43,11 +46,11 @@ Special thanks to [Okmeque1](https://github.com/Okmeque1) from [`okmeque1/softwa
 
 3 -> [SMS - Security Management System (security management system.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Utilities/security%20management%20system.py) This program can access programs that are useful in terms of security and protection of your personel data. More infos inside of program, option 1 in main menu.
 
-4 -> [Time Clock (time clock.py):]((https://github.com/GamerSoft24/Software/blob/Main/PySoft/Utilities/time%20clock.py)) Basically it's just a time clock.
+4 -> [Time Clock (time clock.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Utilities/time%20clock.py) Basically it's just a time clock.
 
 ## [VBSoft](https://github.com/GamerSoft24/Software/tree/Main/VBSoft)
 
-1 -> [All Messages Boxes (all msg boxex.vbs):](https://github.com/GamerSoft24/Software/blob/Main/VBSoft/all%20msg%20boxes.vbs) Displays all the message boxes of Windows.
+1 -> [All Messages Boxes (all msg boxes.vbs):](https://github.com/GamerSoft24/Software/blob/Main/VBSoft/all%20msg%20boxes.vbs) Displays all the message boxes of Windows.
 
 ### [CD Ejects:](https://github.com/GamerSoft24/Software/tree/Main/VBSoft/CD%20Ejects)
 
@@ -115,39 +118,39 @@ Special thanks to [Okmeque1](https://github.com/Okmeque1) from [`okmeque1/softwa
 
 [**360Chrome or/and 360AFChrome:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/360Chrome)
 
-All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers.
+All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers. Use "360Loader.bat" to start 360(AF)Chrome properly, failing that use "360af_9" or "360Loader.exe" if included.
 
-1 -> [360AFChrome v13.5.2036r1:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Chrome/360AFChrome/bin-2036r1af/360AFChrome%20v13.5.2036r1.exe) Latest version of 360AFChrome, version 13.5.2036 revision 1. Works on Windows XP-11 and has it set by default to Google search.
+1 -> [360AFChrome v13.5.2036r1:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Chrome/360AFChrome/bin-2036r1af/360AFChrome%20v13.5.2036r1.exe) Latest version of 360AFChrome, version 13.5.2036 revision 1. Works on Windows XP-11 and has it set by default to Google Search.
 
-2 -> [360AFChrome v13.5.1030:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Chrome/360AFChrome/bin-af/360AFChrome%20v13.5.1030.exe) Original version of 360AFChrome, version 13.5.1030. Includes original(360afchrome.exe) and 360AF9(360AFChrome v13.5.1030 revision 9). Works on Windows XP-11 and has it set by default to Google search. Note that 360AF9 will start with error pages due to a bug in this revision.
+2 -> [360AFChrome v13.5.1030:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Chrome/360AFChrome/bin-af/360AFChrome%20v13.5.1030.exe) Original version of 360AFChrome, version 13.5.1030. Includes original 360AFChrome and 360AF9 (360AFChrome v13.5.1030 revision 9). Works on Windows XP-11 and has it set by default to Google Search. Note that 360AF9 will start with error pages due to a bug in this revision.
 
-3 -> [360AFChrome v13.5.1030r5:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Chrome/360AFChrome/bin-af5/360AFChrome%20v13.5.1030r5.exe) 360AFChrome version 13.5.1030 revision 5. Works on Windows XP-11 and has it set by default to Google search.
+3 -> [360AFChrome v13.5.1030r5:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Chrome/360AFChrome/bin-af5/360AFChrome%20v13.5.1030r5.exe) 360AFChrome version 13.5.1030 revision 5. Works on Windows XP-11 and has it set by default to Google Search.
 
 4 -> [360AFChrome A1_1030(rx):](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Chrome/360AFChrome/360A1_1030rx/360A1_1030rxSetup.exe) 360AFChrome version A1_1030rx. Based on 360Chrome 13.5.1030. Works on XP-11 and has it set by default to Google Search.
 
-5 -> [360AFChrome A1_2036:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Chrome/360AFChrome/360A1_2036/360A1_2036Setup.exe) 360AFChrome version A1_2036. Based on 360Chrome 13.5.2036. Works on Windows XP-11 and has it set by default to Google search.
+5 -> [360AFChrome A1_2036:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Chrome/360AFChrome/360A1_2036/360A1_2036Setup.exe) 360AFChrome version A1_2036. Based on 360Chrome 13.5.2036. Works on Windows XP-11 and has it set by default to Google Search.
 
 6 -> [360AFChrome ABCD_1030rx:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Chrome/360AFChrome/360ABCD_1030rx/360ABCD_1030rxSetup.exe) 360AFChrome version ABCD_1030rx. Same as A1_1030rx but is unmodded. Works on XP-11 and has it set by default to Google Search.
 
 7 -> [360AFChrome v4_ABCD:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Chrome/360AFChrome/bin-af4ABCD/360AFChrome%20v4_ABCD.exe) 360AFChrome v13.5.1030r4_ABCD. 360AFChrome v13.5.1030 revision 4 unmodded. Works on Windows XP-11 and has it set by default to Google Search.
 
-8 -> [360AFChrome v4_G:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Chrome/360AFChrome/bin-af4G/360AFChrome%20v4_G.exe) 360AFChrome v4_G. 360AFChrome v13.5.1030 revision 4 original. Works on Windows XP-11 and has it set by default to Google search.
+8 -> [360AFChrome v4_G:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Chrome/360AFChrome/bin-af4G/360AFChrome%20v4_G.exe) 360AFChrome v4_G. 360AFChrome v13.5.1030 revision 4 original. Works on Windows XP-11 and has it set by default to Google Search.
 
-9 -> [360AFChrome v4_JKQR:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Chrome/360AFChrome/bin-af4JKQR/360AFChrome%20v4_JKQR.exe) 360AFChrome v4_JKQR. 360AFChrome v13.5.1030 revision 44 original + unmodded. Works on XP-11 and has it set by default to Google search
+9 -> [360AFChrome v4_JKQR:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Chrome/360AFChrome/bin-af4JKQR/360AFChrome%20v4_JKQR.exe) 360AFChrome v4_JKQR. 360AFChrome v13.5.1030 revision 44 original + unmodded. Works on XP-11 and has it set by default to Google Search
 
-10 -> [360AFChrome v11.0.2031:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/360Chrome/360AFChrome/bin-11af/360AFChrome%20v11.0.2031.exe) 360AFChrome v11.0.2031. Based on the older 360Chrome 11 core, and subsequently, Chromium 69. Only use this in Legacy application. Modded by AF and uses the standard 360Chrome Theme.
+10 -> [360AFChrome v11.0.2031:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/360Chrome/360AFChrome/bin-11af/360AFChrome%20v11.0.2031.exe) 360AFChrome v11.0.2031. Based on the older 360Chrome 11 core, and subsequently, Chromium 69. Only use this in Legacy application. Modded by AF and uses the standard 360Chrome Theme. Works on XP-11 and has it set by default to Google Search.
 
-11 -> [360Chrome v13.0.2310:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/360Chrome/360Chrome/Humming%20Owl%20Version\360ChromeSetup) 360Chrome version 13.0.2310. This is the Humming Owl edition, stripped of telemetry. Works on Windows XP-11 and has it set by default to Google search. More resource-intensive than 360AFChrome. 
+11 -> [360Chrome v13.0.2310:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/360Chrome/360Chrome/Humming%20Owl%20Version\360ChromeSetup) 360Chrome version 13.0.2310. This is the Humming Owl edition, stripped of telemetry. Works on Windows XP-11 and has it set by default to Google Search. More resource-intensive than 360AFChrome. Works on XP-11 and has it set by default to Google Search.
 
-12 -> [360Chrome Hybrid:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/360Chrome/360Chrome/bin-hb/360HybridSetup.exe) Hybrid version of 360Chrome. Runs better on low powered devices or laptops. Based on 360Chrome 13.0.2250
+12 -> [360Chrome Hybrid:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/360Chrome/360Chrome/bin-hb/360HybridSetup.exe) Hybrid version of 360Chrome. Runs better on low powered devices or laptops. Based on 360Chrome 13.0.2250. Works on XP-11 and has it set by default to Google Search.
 
-13 -> [360Chrome Light:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/360Chrome/360Chrome/bin-lr/360LightSetup.exe) Light version of 360Chrome. Consumes less RAM and runs better on low powered devices or laptops. Based on 360Chrome v13.0.2256
+13 -> [360Chrome Light:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/360Chrome/360Chrome/bin-lr/360LightSetup.exe) Light version of 360Chrome. Consumes less RAM and runs better on low powered devices or laptops. Based on 360Chrome v13.0.2256. Works on XP-11 and has it set by default to Google Search.
 
-[**360 Safety Suite:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360%20Safety)
+[**360 Safety:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Safety)
 
-1 -> [Extreme Explorer:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360%20Safety/Extreme%20Explorer/v13.5/360ChromeEESetup_v13.5.exe) 360EE v13.5.2044. This browser may or may not have telemetry, if you want 0 telemetry, use 360Chrome or 360AFChrome that is **NOT** from the safety suite.
+1 -> [Extreme Explorer:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Safety/Extreme%20Explorer/v13.5/360ChromeEESetup_v13.5.exe) 360EE v13.5.2044. This browser may or may not have telemetry, if you want 0 telemetry, use 360Chrome or 360AFChrome that is **NOT** from the safety suite.
 
-2 -> [Security Assistant:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360%20Safety/Security%20Assistant/v13/360SecurityAssistSetup_v13.exe) Security assistant. Ask [@GamerSoft](https://github.com/GamerSoft24] of what it is.
+2 -> [Security Assistant:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/360Safety/Security%20Assistant/v13/360SecurityAssistSetup_v13.exe) Security assistant. Ask [GamerSoft](https://github.com/GamerSoft24) of what it is.
 
 [**7-Zip:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/7-Zip)
 
@@ -161,7 +164,9 @@ All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers
 
 [**AOMEI:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/AOMEI%20Partitioning%20Wizard)
 
-1 -> [AOMEI Partitioning Wizard:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/AOMEI%20Partitioning%20Wizard/passist_std.exe) A partition manager that can format, delete, create and clone partitions from one disk. Very handy for new PC builds.
+1 -> [AOMEI Partitioning Wizard:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/AOMEI%20Partitioning%20Wizard/v9.10.00/passist_std.exe) Version 9.10.00 of the AOMEI partition manager that can format, delete, create and clone partitions from one disk. Very handy for new PC builds. 
+
+2 -> [AOMEI Partitioning Wizard(v10.3.1):](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/AOMEI%20Partitioning%20Wizard/v10.3.1/PAssist_Std_20240405.11141855.exe) Version 10.3.1 of the AOMEI partition manager that can format, delete, create and clone partitions from one disk. Very Handy for new PC builds. No major difference between v9, just bug fixes...
 
 [**Adobe**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Adobe)
 
@@ -177,17 +182,27 @@ All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers
 
 [Credits:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Chromium%20%26%20Supermium/Credits.md)
 
-1 -> [Chromium:](https://github.com/GamerSoft24/Software/blob/Main/.github/security/Server%20Error.md) We are unfortunately unable to upload the installers for Chromium. See the releases page for the specified installers
+1 -> [Chromium:](https://github.com/GamerSoft24/Software/blob/Main/.github/security/Server%20Error.md) Check [`chromium/chromium`](https://github.com/chromium/chromium) for more information.
 
-2 -> [Supermium:](https://github.com/GamerSoft24/Software/blob/Main/.github/security/Server%20Error.md)  We are unfortunately unable to upload the installers for Supermium. See the releases page for the specified installers
+2 -> [Supermium:](https://github.com/GamerSoft24/Software/blob/Main/.github/security/Server%20Error.md) Check [`win32ss/supermium`](https://github.com/win32ss/supermium) for more information.
 
 [**Adobe:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Adobe)
 
 1 -> [Adobe Acrobat Reader:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Adobe/Adobe%20Acrobat%20Reader/AdobeAcrobatReader_x64Setup.exe) Adobe Acrobat Reader software is the free, trusted global standard for viewing, printing, signing, sharing and annotating PDFs. It's the only PDF viewer that can open and interact with all types of PDF content, etc... Read more on Adobe's own website [here](https://www.adobe.com/uk/acrobat/pdf-reader.html#:~:text=Adobe%20Acrobat%20Reader%20software%20is,content%20%2D%20including%20forms%20and%20multimedia.)
 
-[**Audacíty:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Audac%C3%ADty)
+[**Audacíty:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Audacity)
 
-1 -> [Audacíty:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Audac%C3%ADty/audacity-win-3.4.2-64bit.exe) An audio editing Software. Can play a variety of formats, amplify and much more. Just don't make earrape please...
+1 -> [Audacíty:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Audacity/audacity-win-3.4.2-64bit.exe) An audio editing Software. Can play a variety of formats, amplify and much more. Just don't make earrape please..., and maybe use the 32-bit exe if your system is not x64 compatible.
+
+[**Bat2EXE:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Bat2EXE)
+
+1 -> [Bat2EXE:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Bat2EXE/Bat2EXESetup.exe) A program that can, you guessed it, convert batch script files into Windows Executable files! Be warned, the % operator for variables is not supported and will not function.
+
+[**Bitwarden:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Bitwarden)
+
+1 -> [Command Line Interface:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Bitwarden/CLI/v2024.3.1/Bitwarden_CLI_Win_2024.3.1.zip) Bitwarden in the command line interface form. Save your passwords in a protected vault and do not forget your password, or you will lose your vault!
+
+2 -> [Desktop:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Bitwarden/Desktop/Bitwarden_Desktop_Win10-11.exe) Bitwarden, but in a nice application you can run in your desktop. Save your passwords in a protected vault and do not forget your password, or you will lose your vault! Note that this product is only compatible with Windows 10 or higher.
 
 [**BlueStacks:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/BlueStacks)
 
@@ -217,7 +232,7 @@ All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers
 
 1 -> [Git SCM (Source Code Management):](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Git/Git%20Bash%20SCM%20(Source%20Code%20Management)/v2.44.0) Git Terminal for all of your pushing and pulling needs. Use the 32-bit exe if your system is not x64 compatible
 
-2 -> [Git LFS (Large File Storage):](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Git/Git%20LFS%20(Large%20File%20Storage)/v3.4.1/git-lfs-windows-v3.4.1.exe) Git Large file storage for pushing and pulling files over 25MB.
+2 -> [Git LFS (Large File Storage):](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Git/Git%20LFS%20(Large%20File%20Storage)/v3.4.1/git-lfs-windows-v3.4.1.exe) Git Large file storage for pushing and pulling files over 100MB.
 
 3 -> [Git CLI (Command Line Interface):](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Git/Git%20CLI/v2.44.1/gh_2.44.1_windows_amd64.msi) Git Command Line interface, works great with GitHub pushing and pulling, etc... No more.
 
@@ -233,19 +248,19 @@ All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers
 
 1 -> [Google Earth Pro:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Google/Google%20Earth%20Pro/GoogleEarthProSetup.exe) We all downloaded it to play GeoFS.
 
+[**Grammarly:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Grammarly)
+
+1 -> [Grammarly Full:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Grammarly/GrammarlyInstallerFull.exe) The grammar tool most people don't use. But use it for the *perfect* essay.
+
 [**HW:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/HW)
 
 1 -> [HWMonitor:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/HW/HWMonitor/v.1.52) version 1.5.2 of the HWMonitor(Hardware Monitor) program. Can read CPU temps, GPU temps, voltage, clock speed and much more. Very useful to have.
 
 2 -> [HWiNFO:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/HW/HWiNFO/HWiNFO_Setup.exe) HWiNFO : Hardware Info. Same thing as HWMonitor, but some argue it is better than HWMonitor. Can read CPU temps, GPU temps, voltage, clock speed and much more. Very useful to have.
 
-[**HWMonitor:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/HWMonitor)
-
-1 -> [HWMonitor:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/HWMonitor/hwmonitor_1.52.exe) Nice hardware monitor that can read CPU temps, GPU temps, clock speed and voltage. HWiNFO coming soon...
-
 [**Java:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Java) 
 
-1 -> [JRE v1.8.0:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Java/JRE%20(Java%20Runtime%20Environment)/v1.8.0/jre-8u401-windows-x64.exe) Version 1.8.0 of the Java runtime runtiime environment. Needed for most java environments.
+1 -> [JRE v1.8.0:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Java/JRE%20(Java%20Runtime%20Environment)/v1.8.0/jre-8u401-windows-x64.exe) Version 1.8.0 of the Java runtime runtime environment. Needed for most java applications.
 
 [**JetBrains:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/JetBrains)
 
@@ -255,9 +270,15 @@ All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers
 
 1 -> [Lunar Client (for Minecraft):](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Lunar%20Client%20(for%20Minecraft)/v3.2.3/Lunar%20Client%20v3.2.3%20Setup.exe) Some will argue that it is a better Minecraft Launcher. With integrated OptiFine and much more, you might consider this as an option.
 
-[**Microsoft Edge:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Microsoft%20Edge)
+[**Microsoft:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Microsoft)
 
-1 -> [Microsoft Edge:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Microsoft%20Edge/MicrosoftEdgeSetup.exe) The browser that many like, many hate, from Microsoft. 
+1 -> [Microsoft Edge:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Microsoft/Microsoft%20Edge/MicrosoftEdgeSetup.exe) The browser that many like, many hate, from Microsoft. 
+
+2 -> [Office 365:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Microsoft/Microsoft%20Office/MSOfficeSetup.exe) The All-In-1 version of MS Office that some love, some hate.
+
+[**Midtown Madness:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Midtown%20Madness)
+
+1 -> [Midtown Madness 1:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Midtown%20Madness/Midtown%20Madness/MidtownMadnessSetup.exe) A fun racing game, based in the city of Chicago, that may or may not run on a 4090. Get out that S3 virge to race against the clock or other cars, or maybe to cause some *slight* chaos. An NSI file is provided for compiling the installer yourself. *The controls are garbage!*
 
 [**Minecraft:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Minecraft)
 
@@ -265,11 +286,21 @@ All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers
 
 [**Mozilla Firefox:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Mozilla/Firefox)
 
-1 -> [FireFox Beta:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Mozilla/Firefox/Beta) Beta version of the FireFox browser. Good for experimenting new features. Use the 32-bit exe if your system is not x64 compatible.
+### English UK
 
-2 -> [FireFox Dev:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Mozilla/Firefox/Dev) Developer version of the FireFox browser. Good to create an extension and try new features. Use the 32-bit exe if your system is not x64 compatible.
+1 -> [FireFox Beta:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Mozilla/Firefox/Beta/English%20(UK)) Beta version of the FireFox browser. Good for experimenting new features. Use the 32-bit exe if your system is not x64 compatible.
 
-3 -> [FireFox Standard:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Mozilla/Firefox/Std1) Standard FireFox. Use the 32-bit exe if your system is not x64 compatible.
+2 -> [FireFox Dev:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Mozilla/Firefox/Dev/English%20(UK)) Developer version of the FireFox browser. Good to create an extension and try new features. Use the 32-bit exe if your system is not x64 compatible.
+
+3 -> [FireFox Standard:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Mozilla/Firefox/Standard/English%20(UK)) Standard FireFox. Use the 32-bit exe if your system is not x64 compatible.
+
+### English US
+
+1 -> [FireFox Beta:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Mozilla/Firefox/Beta/English%20(US)) Beta version of the FireFox browser. Good for experimenting new features. Use the 32-bit exe if your system is not x64 compatible.
+
+2 -> [FireFox Dev:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Mozilla/Firefox/Dev/English%20(US)) Developer version of the FireFox browser. Good to create an extension and try new features. Use the 32-bit exe if your system is not x64 compatible.
+
+3 -> [FireFox Standard:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Mozilla/Firefox/Standard/English%20(US)) Standard FireFox. Use the 32-bit exe if your system is not x64 compatible.
 
 [**NSIS (NullSoft Scriptable Install System):**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/NSIS%20(Nullsoft%20Scriptable%20Install%20System))
 
@@ -285,13 +316,21 @@ All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers
 
 [**OBS Studio:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/OBS%20Studio%20(Open%20Broadcaster%20Software))
 
-1 -> [OBS Studio v27.01:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/OBS%20Studio%20(Open%20Broadcaster%20Software)/v27.0.1) Version 27.01 of the Open Broadcasting Software. Can screenrecord and stream to Youtube. Last version to support Windows 7.
+1 -> [OBS Studio v27.01:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/OBS%20Studio%20(Open%20Broadcaster%20Software)/v27.0.1) Version 27.01 of the Open Broadcasting Software. Can screenrecord and stream to Youtube. Last version to support Windows 7. Use the 32-bit EXE if your system is not x64 compatible
 
 [**Opera:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Opera)
 
-1 -> [Opera GX:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Opera/Opera%20GX/OperaGXSetup.exe) The ULTIMATE GAMING browser. Pretty cool, with RGB customization and a built-in adblocker.
+1 -> [Opera GX:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Opera/Opera%20GX/OperaGXSetup.exe) The **ULTIMATE GAMING** browser. Pretty cool, with RGB customization and a built-in adblocker.
 
 2 -> [Opera Standard:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Opera/Opera/OperaSetup.exe) Standard Opera. Maybe not how you remember it in the Windows 98 days.
+
+[**OptiFine for Minecraft:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/OptiFine%20(for%20Minecraft))
+
+Ain't no way I'm doing it for every version. Just go into the folder with your desired version and install from the *.JAR file. Note that this requires Java Runtime Environment (JRE), which you can download from our *InstallerSoft* category.
+
+[**Paladium Launcher (Minecraft Server):**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Paladium%20Launcher%20(Minecraft%20Server))
+
+1 -> [Game Launcher:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Paladium%20Launcher%20(Minecraft%20Server)/Paladium%20Games%20Launcher.exe) This is a Minecraft server launcher for the server [Paladium](https://paladium-pvp.fr) made by the YouTuber [FuzeIII](https://www.youtube.com/@FuzeIII). Just, don't cheat, I got banned for it...
 
 [**Proton:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Proton)
 
@@ -312,12 +351,6 @@ All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers
 5 -> [Python 3.8.0:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Python/v3.8.0/python-3.8.0-amd64.exe) Python version 3.8.0. Last version to support Windows 7 (RTM-SP1). Mostly works, just global variables are a bit of a headache... This release is 64-bit only.
 
 6 -> [Python 3.9.6:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Python/v3.9.6) Python version 3.9.6. Can't say much honestly apart from use the 32-bit exe if your system is not x64 compatible.
-
-[**Proton:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Proton)
-
-1 -> [Drive v1.5.0:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Proton/Drive/v1.5.0) Proton Drive on PC, nothing more.
-
-2 -> [VPN v3.2.10:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Proton/VPN/v3.2.10/ProtonVPN_v3.2.10.exe) The powerful Proton VPN. Secure, fast, free and easy to use.
 
 [**Realtek:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Realtek)
 
@@ -371,11 +404,27 @@ Choose your language from the folders then either download the installer or down
 
 1 -> [Virtual CloneDrive v5.5.2.0:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/VCD%20(Virtual%20CloneDrive)/v5.5.2.0/SetupVCD5520.exe) A virtual CD-ROM drive where you can mount ISO image files.
 
-[**Visual Studio Code:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Visual%20Studio%20Code/v1.86.2)
+[**Visual Studio Suite:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Visual%20Studio/Visual%20Studio%20Code/v1.86.2)
 
-1 -> [v1.86.2:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Visual%20Studio%20Code/v1.86.2/VSCodeUserSetup-x64-1.86.2.exe) Visual Studio Code. A good editor from Microsoft. This version does not support Windows 7
+-> [Visual Studio Code:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Visual%20Studio/Visual%20Studio%20Code)
 
-2 -> [v1.70:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Visual%20Studio%20Code/v1.70.0/VSCodeUserSetup-x64-1.70.2.exe) Visual Studio code version 1.70. This is the last version of Visual Studio code to support Windows 7.
+1 -> [v1.86.2:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Visual%20Studio/Visual%20Studio%20Code/v1.86.2/VSCodeUserSetup-x64-1.86.2.exe) Visual Studio Code. A good editor from Microsoft. This version does not support Windows 7
+
+2 -> [v1.70:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Visual%20Studio/Visual%20Studio%20Code/v1.70.0/VSCodeUserSetup-x64-1.70.2.exe) Visual Studio code version 1.70. This is the last version of Visual Studio code to support Windows 7.
+
+-> [Visual Studio:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Visual%20Studio/Visual%20Studio/v17.9.6)
+
+Note that to install VS, you need at least 10GB of free disk space on the C:\ Drive. 
+
+1 -> [Community Edition:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Visual%20Studio/Visual%20Studio/v17.9.6/VisualStudioCommunitySetup_17.9.6.exe) The version most people will download. It's free and is the real editor if you want to do C++ or C#, Python and etc...
+
+2 -> [Enterprise Edition:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Visual%20Studio/Visual%20Studio/v17.9.6/VisualStudioEntrepriseSetup_17.9.6.exe) The VS for businesses. By-the-way if your job has this, you have a good job and deserve to be paid higher.
+
+3 -> [Professional Edition:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Visual%20Studio/Visual%20Studio/v17.9.6/VisualStudioProfessionalSetup_17.9.6.exe) Aha, professional developper. Have this and code to the races!
+
+[**WhatsApp:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/WhatsApp/)
+
+1 -> [WhatsApp for Windows:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/WhatsApp/WhatsApp_Installer_Win.exe) The messaging app everyone uses, but some say it spies on you, so just do standard security practices. Note that this product is only compatible with Windows 10 or over, 64-bit only.
 
 [**WinAero Tweaker:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/WinAero%20Tweaker)
 
@@ -391,11 +440,15 @@ All versions of the WinImage program from this repository are x86 compatible.
 
 3 -> [WinImage v100](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/WinImage/v100/winima100.exe)  Version 60 of the WinImage Imaging program. Can view and read ISO, IMG and FLP files, can make bootable floppies and CD's.
 
+[**WinRAR:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/WinRAR)
+
+1 -> [WinRAR v700:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/WinRAR/winrar-x64-700.exe) Ok, at least they made something original with the .RAR file format. Is a file manager that some people use as their daily driver. And it kind of begs your money, but lets you use it which is nice, but realistically Igor Pavlov beat it because 7-Zip can read .RAR.
+
 [**Windows Loaders:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Windows%20Loaders)
 
 1 -> [DAZ loader:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Windows%20Loaders/DAZ%20Loader/v2.2.2/Daz_Loader_v2.2.2_setup.exe) Version 2.2.2 of the Windows Activator by DAZ. Can activate Windows 7 and Vista. Make sure the indicator at the top right is green. Otherwise, your version may be infected.
 
-2 -> [MAS loader:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Windows%20Loaders/MAS/1.5/MAS_1.5_setup.exe) Version 1.5 of the MAS loader. Can activate Windows 10, 11 and Microsoft Office. Credits to [massgravel](https://github.com/massgravel/Microsoft-Activation-Scripts) for making this possible.
+2 -> [MAS loader:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Windows%20Loaders/MAS%20Loader/1.5/MAS_1.5Setup.exe) Version 1.5 of the MAS loader. Can activate Windows 10, 11 and Microsoft Office (including Office 365). Credits to [massgravel](https://github.com/massgravel/Microsoft-Activation-Scripts) for making this possible.
 
 ### [macOS:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/macOS)
 
@@ -410,5 +463,3 @@ All versions of the WinImage program from this repository are x86 compatible.
 1 -> [Roblox:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/macOS/Roblox/Roblox.dmg) Okmeque1 kind of hates this installer and thinks that the error messages are awful. If any Roblox Devs come across this, at least use the [Error chart](https://github.com/GamerSoft24/Software/blob/Main/Errors%20chart.md) or some form of error code as troubleshooting is way too hard.
 
 [**VLC:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/macOS/VLC%20Media%20Player)
-
-1 -> [VLC Media Player:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/macOS/VLC%20Media%20Player) The video player we all know and love, from VideoLan. Download the Apple Silicon version if you have an M series chip (M1, M2, M3,...) or the Intel Chip version if you have an Intel processor (i5-14600K).

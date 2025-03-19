@@ -1,5 +1,5 @@
 import tkinter as tk
-import math
+from math import *
 import time
 print('*****|Advanced Calculator|*****')
 print('Program version: 1.11.2.')
@@ -78,22 +78,3 @@ for i in range(1, 6):
 entry.bind('<Return>', on_enter)
 
 window.mainloop()
-
-except FileExistsError:
-    exit()
-except FileNotFoundError:
-    exit()
-except OSError:
-    exit()
-except ValueError:
-    exit()
-except KeyboardInterrupt:
-    exit()
-except EOFError:
-    exit()
-except BaseException:
-    exit()
-except IOError:
-    exit()
-except:
-    exit()

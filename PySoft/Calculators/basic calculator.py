@@ -59,22 +59,3 @@ for button in buttons:
 entry.bind('<Return>', on_enter)
 
 window.mainloop()
-
-except FileExistsError:
-    exit()
-except FileNotFoundError:
-    exit()
-except OSError:
-    exit()
-except ValueError:
-    exit()
-except KeyboardInterrupt:
-    exit()
-except EOFError:
-    exit()
-except BaseException:
-    exit()
-except IOError:
-    exit()
-except:
-    exit()

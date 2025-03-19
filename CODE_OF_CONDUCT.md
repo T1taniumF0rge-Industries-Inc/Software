@@ -65,7 +65,7 @@ Additionally, community organizers are available to help community members engag
 
 ## 8. Addressing Grievances
 
-If you feel you have been falsely or unfairly accused of violating this Code of Conduct, you should notify GamerSoft24 with a concise description of your grievance. Your grievance will be handled in accordance with our existing governing license and policies. [License (GNU General Public License v3.0)](https://github.com/GamerSoft24/Software/blob/Main/LICENSE)
+If you feel you have been falsely or unfairly accused of violating this Code of Conduct, you should notify GamerSoft24 with a concise description of your grievance. Your grievance will be handled in accordance with our existing governing [license](https://github.com/GamerSoft24/Software/blob/Main/LICENSE) and [security policy](https://github.com/GamerSoft24/Software/blob/Main/SECURITY.md).
 
 
 
@@ -77,7 +77,7 @@ This code of conduct and its related procedures also applies to unacceptable beh
 
 ## 10. Contact info
 
-Main: gamersoftware.corp@gmail.com, Secondary: sutoexec.bat@gmail.com, Teriary: gsst2401@gmail.com
+Main: gamersoftware.corp@gmail.com, Secondary: okmeque1.corporation@gmail.com, Teriary: sutoexec.bat@gmail.com
 
 ## 11. License and attribution
 
