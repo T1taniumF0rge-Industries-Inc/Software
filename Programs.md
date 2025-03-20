@@ -114,7 +114,7 @@ Special thanks to [Okmeque1](https://github.com/Okmeque1) from [`okmeque1/softwa
 
 ## [MinceraftSoft:](https://github.com/GamerSoft24/Software/tree/Main/MinecraftSoft)
 
-This folder will contain the folders for the correct Minecraft version's Modpack. You must download the entire folder for the modpack to load properly.
+This folder contains all files related to Minecraft (e.g.: like modpacks or MCP files).  You must download the entire folder of the modpacks for them to work and load properly!
 
 ## [HackSoft:](https://github.com/GamerSoft24/Software/tree/Main/HackSoft)
 
