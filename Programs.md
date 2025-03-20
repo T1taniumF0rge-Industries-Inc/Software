@@ -106,9 +106,52 @@ Special thanks to [Okmeque1](https://github.com/Okmeque1) from [`okmeque1/softwa
 
 3 -> [Website Pinger (web pinger.bat):](https://github.com/GamerSoft24/Software/blob/Main/BatchSoft/Windows/web%20pinger.bat) Pings a specified website that you can choose.
 
+4 -> [Registry Tweaer (regchg.bat):](https://github.com/GamerSoft24/Software/tree/Main/BatchSoft/Windows/regchg.bat) A useful batch script that makes the Windows experience much better. Made by Okmeque1
+
 ### [UAC](https://github.com/GamerSoft24/Software/tree/Main/BatchSoft/Windows/UAC):
 
 1 -> [UAC Bypass (uac bypass.bat):](https://github.com/GamerSoft24/Software/blob/Main/BatchSoft/Windows/UAC/uac%20bypass.bat) Drag a file/installer with the security shield tag over "uac bypass.bat" and wait for command to complete and the file/installer will open without prompting the UAC window. Be aware that some files/installers will not be able to open in this way due to an administrator opening requirement.
+
+## [MinceraftSoft:](https://github.com/GamerSoft24/Software/tree/Main/MinecraftSoft)
+
+This folder will contain the folders for the correct Minecraft version's Modpack. You must download the entire folder for the modpack to load properly.
+
+## [HackSoft:](https://github.com/GamerSoft24/Software/tree/Main/HackSoft)
+
+### [Among Us:](https://github.com/GamerSoft24/Software/tree/Main/HackSoft/Among%20Us)
+
+1 -> [SC_PtX.py:](https://github.com/GamerSoft24/Software/tree/Main/HackSoft/Among%20Us/SC_PtX.py) StealthCrew - PhantomToolX (or SC_PtX) is a tool that can reveal the roles of other players (in standard or modded games) and the radar function to know where people are is getting implemented shortly.
+
+## [MovieSoft:](https://github.com/GamerSof524/Software/tree/Main/MovieSoft)
+
+### [Bugs Bunny:](https://github.com/GamerSoft24/Software/tree/Main/MovieSoft/Bugs%20Bunny)
+
+Please wait for [GamerSoft24](https://github.com/GamerSoft24) to upload the files. Refer to the README table for the files.
+
+### [Campeones (2018 Film):](https://github.com/GamerSoft24/Software/tree/Main/MovieSoft/Champions%20(Campeones)%2C%202018%20film)
+
+Please wait for [GamerSoft24](https://github.com/GamerSoft24) to upload the files.
+
+### [Sviatoslav Richter:](https://github.com/GamerSoft24/Software/tree/Main/MovieSoft/Sviatoslav%20Richter)
+
+[**Moussorgski:**](https://github.com/GamerSoft24/Software/tree/Main/MovieSoft/Sviatoslav%20Richter/Moussorgski)
+
+1 -> [Tableaux d'une Exposition Mov'ts 1-10: ](https://github.com/GamerSoft24/Software/blob/Main/MovieSoft/Sviatoslav%20Richter/Moussorgski/Mussorgsky%201%20(Tableaux%20d'une%20exposition).m4a)This is a piece composed by Modeste Moussorgski, and this file contains Movements 1-10. Read the README in the directory for more information.
+
+2 -> [Tableaux d'une Exposition Mov'ts 11-15: ](https://github.com/GamerSoft24/Software/blob/Main/MovieSoft/Sviatoslav%20Richter/Moussorgski/Mussorgski%202%20(Tableaux%20d'une%20Exposition).m4a)This is a piece composed by Modeste Moussorgski, and this file contains Movements 11-15. Read the README in the directory for more information.
+
+[**Schubert & Chopin**](https://github.com/GamerSoft24/Software/tree/Main/MovieSoft/Sviatoslav%20Richter/Schubert%20%26%20Chopin)
+
+1 -> [Schubert - Moment Musicaux & Impromptus:](https://github.com/GamerSoft24/Software/tree/Main/MovieSoft/Sviatoslav%20Richter/Schubert%20%26%20Chopin) These are a part of a collection of Moment Musicaux and Impromptus, which were composed in the middle of the 19th Century. This file contains:
+
+ 1 -> Moment Musical No. 1 Op. 94 D780
+ 
+ 2 -> Impromptu in Bb Major No. 2 Op. 90 D899
+ 
+ 3 -> Impromptu in Ab Major No. 4 Op. 90 D899
+
+2 -> [Chopin - Etude in E Major Op. 10 No. 3:](https://github.com/GamerSoft24/Software/tree/Main/MovieSoft/Sviatoslav%20Richter/Schubert%20%26%20Chopin) This etude was composed in 1832, was was composed for his series of etudes in Op. 10.
+
 
 ## [InstallerSoft:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft)
 
