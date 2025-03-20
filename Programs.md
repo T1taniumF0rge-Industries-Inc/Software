@@ -4,7 +4,7 @@ Special thanks to [Okmeque1](https://github.com/Okmeque1) from [`okmeque1/softwa
 
 ## [PySoft](https://github.com/GamerSoft24/Software/tree/Main/PySoft)
 
-1 -> [Assistant App(assistant app.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Assistant%20App.py) The security management system of the GUI days!
+1 -> [Assistant App (assistant app.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Assistant%20App.py) The security management system of the GUI days!
 
 ### [Calculators:](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Calculators)
 
@@ -40,7 +40,7 @@ Special thanks to [Okmeque1](https://github.com/Okmeque1) from [`okmeque1/softwa
 
 ### [Utilities:](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Utilities)
 
-1 -> [iPCMD - Intelligent Python Command Prompt (iPCMD.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Utilities/iPCMD.py) A command prompt replica with some modified functions. Works perfectly. *Tech Tip:* Use it if the command prompt on your PC is blocked or unusable!
+1 -> [iPCMD - Intelligent Python Command Prompt (iPCMD.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Utilities/iPCMD.py) A command prompt replica with some modified functions. Works perfectly. *Tech Tip:* Use it if the Command Prompt on your PC is blocked or unusable!
 
 2 -> [MS-DOS (ms-dos.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Utilities/ms-dos.py) Really simple replica MS-DOS (Microsoft Disk Operating System) program in Python.
 
@@ -106,7 +106,7 @@ Special thanks to [Okmeque1](https://github.com/Okmeque1) from [`okmeque1/softwa
 
 3 -> [Website Pinger (web pinger.bat):](https://github.com/GamerSoft24/Software/blob/Main/BatchSoft/Windows/web%20pinger.bat) Pings a specified website that you can choose.
 
-4 -> [Registry Tweaer (regchg.bat):](https://github.com/GamerSoft24/Software/tree/Main/BatchSoft/Windows/regchg.bat) A useful batch script that makes the Windows experience much better. Made by Okmeque1
+4 -> [Registry Tweaker (regchg.bat):](https://github.com/GamerSoft24/Software/tree/Main/BatchSoft/Windows/regchg.bat) A useful batch script that makes the Windows experience much better. Made by Okmeque1 and can also be found on his [`okmeque1/software`](https://github.com/Okmeque1/software) repository
 
 ### [UAC](https://github.com/GamerSoft24/Software/tree/Main/BatchSoft/Windows/UAC):
 
@@ -151,7 +151,6 @@ Please wait for [GamerSoft24](https://github.com/GamerSoft24) to upload the file
  3 -> Impromptu in Ab Major No. 4 Op. 90 D899
 
 2 -> [Chopin - Etude in E Major Op. 10 No. 3:](https://github.com/GamerSoft24/Software/tree/Main/MovieSoft/Sviatoslav%20Richter/Schubert%20%26%20Chopin) This etude was composed in 1832, was was composed for his series of etudes in Op. 10.
-
 
 ## [InstallerSoft:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft)
 
