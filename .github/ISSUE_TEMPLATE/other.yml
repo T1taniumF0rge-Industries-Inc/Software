@@ -1,7 +1,27 @@
----
 name: Other
-about: Anything that is not a bug report goes here, I guess?
-labels: 'other'
-assignees: GamerSoft24
-
----
+description: Anything that is not a bug report goes here, I guess?
+title: "[Other]: "
+labels: ["other"]
+assignees:
+  - GamerSoft24
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out whatever you wanted to fill in here!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/GamerSoft24/Software/blob/Main/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
