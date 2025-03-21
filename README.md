@@ -72,7 +72,7 @@ This is **where** I will be *storing all* of ***my*** hacks that I may use in ga
 
 This is **where** I will be *storing all* of ***the repositories accross GitHub*** that are useful to me and Okmeque1, and that might be useful to you.
 
-*For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/HackSoft)
+*For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/RepoSoft)
 
 ## `.github:`
 
