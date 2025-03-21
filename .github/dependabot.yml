@@ -18,32 +18,11 @@ updates:
     schedule:
       interval: "weekly"
 
-  # Maintain dependencies for NSIS
-  - package-ecosystem: "nsis"
+  # Maintain dependencies for C++ using NuGet
+  - package-ecosystem: "nuget"
     directory: "/"
     schedule:
       interval: "weekly"
-
-  # Maintain dependencies for C++
-  - package-ecosystem: "cpp"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-
-  # Maintain dependencies for Batchfile
-  - package-ecosystem: "batch"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-
-  # Maintain dependencies for HTML
-  - package-ecosystem: "html"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-
-  # Maintain dependencies for VBScript
-  - package-ecosystem: "vbscript"
-    directory: "/"
-    schedule:
-      interval: "weekly"
+    
+  # Maintain dependencies for any other ecosystems
+  # (Note: NSIS, Batchfile, HTML, and VBScript do not have specific package-ecosystem support in Dependabot)
