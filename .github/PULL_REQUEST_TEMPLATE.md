@@ -8,7 +8,7 @@ Fixes # (issue)
 
 ## Type of change
 
-Please select relevant option
+Please select relevant option by placing an "x" between the square brackets (e.g.: "[x]")
 
 - [ ] Bug fix (non-breaking change which fixes an issue)
 - [ ] New feature (non-breaking change which adds functionality)
@@ -16,6 +16,8 @@ Please select relevant option
 - [ ] This change requires a documentation update
 
 ## Checklist:
+
+Please tick the checkboxes by placing an "x" between the square brackets (e.g.: "[x]")
 
 - [ ] My code follows the style guidelines of this project
 - [ ] I have performed a self-review of my own code
