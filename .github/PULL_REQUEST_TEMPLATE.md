@@ -2,22 +2,23 @@
 
 ## Description
 
-Please include a summary of the changes and the related issue. Please also include relevant motivation and context. List any dependencies that are required for this change.
+Please include a summary of the changes and the related issue here. Please also include relevant motivation and context here. List any dependencies that are required for this change. Replace this paragraph with your description. 
 
-Fixes # (issue)
+You can tick any checkboxes by placing an "x" between the square brackets (e.g.: "[x]") or by ticking it/them after you created the pull request.
 
-## Type of change
+## Type of change(s)
 
-Please select relevant option by placing an "x" between the square brackets (e.g.: "[x]")
+Please select relevant option(s)
 
 - [ ] Bug fix (non-breaking change which fixes an issue)
 - [ ] New feature (non-breaking change which adds functionality)
 - [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
 - [ ] This change requires a documentation update
+- [ ] Testing (changes made for testing purposes)
 
 ## Checklist:
 
-Please tick the checkboxes by placing an "x" between the square brackets (e.g.: "[x]")
+Please tick the checkboxes that you followed
 
 - [ ] My code follows the style guidelines of this project
 - [ ] I have performed a self-review of my own code
@@ -55,8 +56,9 @@ To *report* violence, unacceptable behavior, or security vulnerabilities, you ca
 
 ## Terms and license
 
-This project is licensed under the terms of the [BSD 3-Clause License](https://github.com/GamerSoft24/Software/blob/Main/LICENSE).
+This repository and all of its projects are licensed under the terms of the [BSD 3-Clause License](https://github.com/GamerSoft24/Software/blob/Main/LICENSE).
+- [ ] By contributing to this repository, you agree to follow the terms and conditions of our [license](https://github.com/GamerSoft24/Software/blob/Main/LICENSE).
 
 ## Code of Conduct
 
-By contributing to this repository, you agree to abide by our [Code of Conduct](https://github.com/GamerSoft24/Software/blob/Main/CODE_OF_CONDUCT.md).
+- [ ] By contributing to this repository, you agree to abide by our [Code of Conduct](https://github.com/GamerSoft24/Software/blob/Main/CODE_OF_CONDUCT.md).
