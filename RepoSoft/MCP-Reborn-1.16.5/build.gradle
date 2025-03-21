@@ -1,0 +1,106 @@
+buildscript {
+    repositories {
+        mavenLocal()
+        maven { url = 'http://files.minecraftforge.net/maven' }
+        jcenter()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'net.minecraftforge.gradle:ForgeGradle:3.0.+'
+    }
+}
+
+apply plugin: 'eclipse'
+apply plugin: 'net.minecraftforge.gradle.forgedev.patcher'
+
+configurations {
+    shade
+    compile.extendsFrom shade
+}
+
+group = 'me.yourname'
+version = '1.0.0'
+
+ext {
+    minecraft_version = '1.16.5'
+    mcp_version = '20210115.111550'
+    mappings_channel = 'snapshot'
+    mappings_version = '20201028-1.16.3'
+}
+
+repositories {
+    mavenCentral()
+
+}
+
+dependencies {
+    shade 'net.minecraftforge:forgespi:3.0.+'
+//    Use the shade to add the lib to the jar
+//    or use compile if you want to load the lib from the version.json
+//    from a maven repo
+//    shade 'package-here'
+//    compile 'package-here'
+}
+
+project(':mcp') {
+    apply plugin: 'net.minecraftforge.gradle.forgedev.mcp'
+    mcp {
+        config = minecraft_version + '-' + mcp_version
+        pipeline = 'joined'
+    }
+}
+
+evaluationDependsOn(':mcp')
+
+patcher {
+    parent = project(':mcp')
+    patchedSrc = file('src/main/java')
+    mappings channel: mappings_channel, version: mappings_version
+    mcVersion = minecraft_version
+}
+
+jar {
+    configurations.shade.each { dep ->
+        from(project.zipTree(dep)) {
+            exclude 'META-INF', 'META-INF/**'
+        }
+    }
+}
+
+task runclient(type: JavaExec) {
+    group = "MCP"
+    description = "Runs the client"
+    classpath sourceSets.main.runtimeClasspath
+    if (System.getProperty("os.name").toLowerCase().contains("mac")) {
+        jvmArgs '-XstartOnFirstThread'
+    }
+    args '--gameDir', '.'
+    args '--version', minecraft_version
+    args '--assetsDir', downloadAssets.output
+    args '--assetIndex', "1.16"
+    args '--accessToken', '0'
+    main 'net.minecraft.client.main.Main'
+    workingDir 'run'
+}
+
+task setup() {
+    group = "MCP"
+    description = "Setups the dev workspace"
+    dependsOn ':extractMapped'
+    mkdir 'run/assets'
+    copy {
+        from downloadAssets.output.path
+        into 'run/assets'
+    }
+}
+
+task copyAssets {
+    group = "MCP"
+    description = "Download and place the assets into the run folder"
+    dependsOn ':downloadAssets'
+    mkdir 'run/assets'
+    copy {
+        from downloadAssets.output.path
+        into 'run/assets'
+    }
+}
