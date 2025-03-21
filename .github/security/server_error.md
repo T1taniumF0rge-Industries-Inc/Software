@@ -24,4 +24,4 @@ Thanks for understanding.
 
 Sincerely,
 
-The Software Team
+The `Software` Team
