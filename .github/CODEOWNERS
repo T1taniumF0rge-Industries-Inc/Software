@@ -1,0 +1,26 @@
+# CODEOWNERS file
+# Each pattern has its own line
+# The format is:
+#   *       - match all files
+#   /       - match files in the root of the repository
+#   /dir/   - match files in the directory
+#   dir/*   - match files in the directory (but not in subdirectories)
+#   /dir/** - match files in the directory and subdirectories
+
+# Example:
+# *       @username - assign the user as the owner for all files
+# /docs/  @username - assign the user as the owner for all files in the docs directory
+
+* @GamerSoft24
+/.github/ @GamerSoft24
+/PySoft/ @GamerSoft24 @Okmeque1 @GmaerSoft42 @GS-ST 
+/VBSoft/ @GamerSoft24 @Okmeque1 @GS-ST
+/BatchSoft/ @GamerSoft24 @Okmeque1 @GmaerSoft42 @SutoEXEC
+/CPPSoft/ @GamerSoft24
+/HTMLSoft/ @GamerSoft24
+/MinecraftSoft/ @GamerSoft24 @Okmeque1 @GmaerSoft42
+/MovieSoft/ @GamerSoft24 @Okmeque1 @GmaerSoft42
+/InstallerSoft/ @GamerSoft24 @Okmeque1
+/HackSoft/ @GamerSoft24
+/VbsSoft/ @GamerSoft24 @Okmeque1 @GS-ST
+/MinecraftSoft/ @GamerSoft24 @Okmeque1 @GmaerSoft42
