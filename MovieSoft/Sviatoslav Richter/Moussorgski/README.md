@@ -14,7 +14,7 @@ This is a suite of movements consisting of Movements (so called Pictures) and Pr
 
 4/ Il Vecchio Castello 4:44
 
-5/ Promenade III 9:09 ***um hum hum... what is going on to my mouse?***
+5/ Promenade III 9:09
 
 6/ Tuileries. Disputes d'enfants après jeux 9:32
 
