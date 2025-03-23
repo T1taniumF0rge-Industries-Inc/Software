@@ -28,17 +28,17 @@ This is a suite of movements consisting of Movements (so called Pictures) and Pr
 
 ### Moussorgski 2:
 
-11/ Promenade V - Recapitulation [Start of file]
+11/ Promenade V - Recapitulation [Start of file] (Intégrale 16:17)
 
-12/ Limoges, Le marché 1:08
+12/ Limoges, Le marché 1:08 (Intégrale 17:22)
 
-13/ Catacombæ 2:24
+13/ Catacombæ 2:24 (Intégrale 18:38)
 
-13B/ Con mortuis in lingua mortua 4:18
+13B/ Con mortuis in lingua mortua 4:18 (Intégrale 20:32)
 
-14/ La Cabane sur des pattes de poule 6:13
+14/ La Cabane sur des pattes de poule 6:13 (Intégrale 22:28)
 
-15/ La Grande Porte de Kiev 9:02
+15/ La Grande Porte de Kiev 9:02 (25:17)
 
 There will be the 1958 Recital of Sviatoslav Richter in this folder.
 
