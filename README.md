@@ -3,7 +3,7 @@
 
 # `Software` Repository
 
-### 🎉🎉 We are reaching 1000 commits: -> *997/1000 total commits made on `Software` till now!!* 🎉🎉 
+### 🎉🎉 We have reached 1000 commits!: -> *Next Milestone 1500 Commits?* 🎉🎉 
 
 **REP-SET II**, *`Version 2.6.13`*
 
