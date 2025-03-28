@@ -5,7 +5,7 @@
 
 This is a suite of movements consisting of Movements (so called Pictures) and Promenades, and have variations. Here are them all:
 
-> [Moussorgski 1]
+> [!Moussorgski 1]
 >
 > - 1/ Promenade 0:26
 > - 2/ Gnomus 1:34
