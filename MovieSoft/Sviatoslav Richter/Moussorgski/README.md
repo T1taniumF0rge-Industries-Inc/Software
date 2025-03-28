@@ -38,7 +38,7 @@ This is a suite of movements consisting of Movements (so called Pictures) and Pr
 
 14/ La Cabane sur des pattes de poule 6:13 (Intégrale 22:28)
 
-15/ La Grande Porte de Kiev 9:02 (25:17)
+15/ La Grande Porte de Kiev 9:02 (Intégrale 25:17)
 
 There will be the 1958 Recital of Sviatoslav Richter in this folder.
 
