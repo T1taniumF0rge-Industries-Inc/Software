@@ -31,7 +31,7 @@ This is a suite of movements consisting of Movements (so called Pictures) and Pr
 > - 9/ Ballet des poussins dans leurs coques 13:10
 > - 10/ Samuel Goldenberg und Schmuÿle 14:24
 
-> [!DANGER]
+> [Blunder]
 >
 > - 1/ Promenade 0:26
 > - 2/ Gnomus 1:34
@@ -58,6 +58,15 @@ There will be the 1958 Recital of Sviatoslav Richter in this folder.
 > - 9/ Ballet des poussins dans leurs coques 13:10
 > - 10/ Samuel Goldenberg und Schmuÿle 14:24
 
+
+
+
+<details>
+  <summary>Click here for more info</summary>
+
+This is a test file. You aren't supposed to see this text if you haven't clicked the button.
+
+</details>
 ## Informations and copyrights
 
 For VLC Media player, you can download the *.jpg files (AlbumArtSmall.jpg, AlbumArt_{...}_Small.jpg and the _Large.jpg one and Folder.jpg) and download them into the same directory as the music files to have a background of Sviatoslav Richter instead of a boring traffic cone!
