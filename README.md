@@ -3,19 +3,21 @@
 
 # `Software` Repository
 
-### 🎉🎉 We have reached 1000 commits!: -> *Next Milestone 1500 Commits?* 🎉🎉 
+### 🎉🎉 We have reached 1000 commits! -> *Next milestone 1500 commits?* 🎉🎉 
 
 **REP-SET II**, *`Version 2.6.13`*
 
-## `PySoft:`
+## [`PySoft:`]
 This is **where** I will be *storing all* of ***my and some of Okmeque1's*** Python codes and programs.
 
 *For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/PySoft)
 
-## `VBSoft:`
+## [`VBSoft:`]
 This is **where** I will be *storing all* of ***my*** VBS (Windows Visual Basic Script) codes and programs.
 
-***WARNING!*** The VBS codes are *more towards **pranks*** but Windows might detect it as a virus. Be careful though as the [`/VBSoft/Deadly`](https://github.com/GamerSoft24/Software/tree/Main/VBSoft/Deadly) folder, the codes there are actually ***deadly*** and can *crash your RAM* in just a **few seconds running.** 
+> [!WARNING]
+> 
+> The VBS codes are *more towards **pranks*** but Windows might detect it as a virus. Be careful though as the [`/VBSoft/Deadly`](https://github.com/GamerSoft24/Software/tree/Main/VBSoft/Deadly) folder, the codes there are actually ***deadly*** and can *crash your RAM* in just a **few seconds running.** 
 
 *For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/VBSoft)
 
@@ -31,7 +33,9 @@ This is **where** I will be *storing all* of ***my*** C & C++ codes and programs
 
 The codes will be more *focused* on **C++** rather then **C** and also there will be lots of codes working with external devices, like NodeMCU boards.
 
-It is recommended to have [Arduino IDE](https://www.arduino.cc/en/software) installed on your PC as a lot of programs will require it. Please check the ["Programs.md"](https://github.com/GamerSoft24/Software/blob/Main/Programs.md) file for informations about programs requiring Arduino IDE.
+> [!NOTE]
+> 
+> It is recommended to have [Arduino IDE](https://www.arduino.cc/en/software) installed on your PC as a lot of programs will require it. Please check the ["Programs.md"](https://github.com/GamerSoft24/Software/blob/Main/Programs.md) file for informations about programs requiring Arduino IDE.
 
 *For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/CPPSoft)
 
@@ -41,7 +45,8 @@ This is **where** I will be *storing all* of ***my*** Batchfile codes and progra
 
 *For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/BatchSoft)
 
-***WARNING!*** The codes in [`/BatchSoft/DestroyPC`](https://github.com/GamerSoft24/Software/tree/Main/BatchSoft/DestroyPC) folder are ***SUPER deadly*** and can *destroy your computer* and splash a bluescreen on your screen.
+> [!WARNING]
+> The codes in [`/BatchSoft/DestroyPC`](https://github.com/GamerSoft24/Software/tree/Main/BatchSoft/DestroyPC) folder are ***SUPER deadly*** and can *destroy your computer* and splash a bluescreen on your screen.
 
 ## `InstallerSoft:`
 
@@ -65,7 +70,8 @@ This is **where** I will be *storing all* of ***my and Okmeque1's collection of*
 
 This is **where** I will be *storing all* of ***my*** hacks that I may use in games. 
 
-***WARNING!*** *these hacks should only be used for* **educational purposes** *and* **testing purposes *only*** *and should not be used to ruin other people's gameplay.* We will ***not*** be liable for **any damages that these hacks can potentially make *in your possession!*** Thank you for understanding.
+> [!WARNING]
+> *These hacks should only be used for* **educational purposes** *and* **testing purposes *only*** *and should not be used to ruin other people's gameplay.* We will ***not*** be liable for **any damages that these hacks can potentially make *in your possession!*** Thank you for understanding.
 
 *For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/HackSoft)
 
