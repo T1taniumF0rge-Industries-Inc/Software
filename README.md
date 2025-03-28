@@ -21,13 +21,13 @@ This is **where** I will be *storing all* of ***my*** VBS (Windows Visual Basic 
 
 *For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/VBSoft)
 
-## `HTMLSoft:`
+## [`HTMLSoft:`]
 
 This is **where** I will be *storing all* of ***my*** HTML (HyperText Markup Language) codes and programs.
 
 *For* **direct  access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/HTMLSoft)
 
-## `CPPSoft:`
+## [`CPPSoft:`]
 
 This is **where** I will be *storing all* of ***my*** C & C++ codes and programs although it's name is CPPSoft (C++ Software).
 
@@ -39,7 +39,7 @@ The codes will be more *focused* on **C++** rather then **C** and also there wil
 
 *For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/CPPSoft)
 
-## `BatchSoft:`
+## [`BatchSoft:`]
 
 This is **where** I will be *storing all* of ***my*** Batchfile codes and programs.
 
@@ -48,25 +48,25 @@ This is **where** I will be *storing all* of ***my*** Batchfile codes and progra
 > [!WARNING]
 > The codes in [`/BatchSoft/DestroyPC`](https://github.com/GamerSoft24/Software/tree/Main/BatchSoft/DestroyPC) folder are ***SUPER deadly*** and can *destroy your computer* and splash a bluescreen on your screen.
 
-## `InstallerSoft:`
+## [`InstallerSoft:`]
 
 This is **where** I will be *storing all* of the ***useful*** programs' (and games') installers.
 
 *For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft)
 
-## `MinecraftSoft:`
+## [`MinecraftSoft:`]
 
 This is **where** I will be *storing all* of ***my*** Minecraft modpacks.
 
 *For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/MinecraftSoft)
 
-## `MovieSoft:`
+## [`MovieSoft:`]
 
 This is **where** I will be *storing all* of ***my and Okmeque1's collection of*** movies, films, and even music and audio files.
 
 *For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/MovieSoft)
 
-## `HackSoft:`
+## [`HackSoft:`]
 
 This is **where** I will be *storing all* of ***my*** hacks that I may use in games. 
 
@@ -75,13 +75,13 @@ This is **where** I will be *storing all* of ***my*** hacks that I may use in ga
 
 *For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/HackSoft)
 
-## `RepoSoft:`
+## [`RepoSoft:`]
 
 This is **where** I will be *storing all* of ***the repositories accross GitHub*** that are useful to me and Okmeque1, and that might be useful to you.
 
 *For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/RepoSoft)
 
-## `.github:`
+## [`.github:`]
 
 This is **where** this `Software` repository's ***configuration files*** will be *stored*.
 
