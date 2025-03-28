@@ -1,5 +1,5 @@
 
-# Moussorgski TEST.MD PLEASE IGNORE
+# Moussorgski test file PLEASE IGNORE!
 
 ## Tableaux d'une exposition:
 
@@ -66,6 +66,7 @@ The next train to Heathrow T4 & T2,3 will arrive in 8 mins.
   <summary>Click here for more info</summary>
 
 This is a test file. You aren't supposed to see this text if you haven't clicked the button.
+BRUH SO COOL - GamerSoft24, GoldenDestructor
 
 </details>
 ## Informations and copyrights
