@@ -1,6 +1,6 @@
 #StealthCrew - PhantomToolX (SC_PtX) v1.3.2
-#Author: Midnight_G0ldX
-#About: This is a tool that can be used for Among Us from Steam and Epic Games for Among Us v2024.11.24 and higher. 
+#Author: Midnight_G0ldX - GamerSoft24
+#About: This is a tool that can be used for Among Us from both Steam and Epic Games for Among Us v2024.11.24 and v2024.11.26.
 #Description: This tool can reveal the roles of other players (in standard or modded games) and the radar function to know where people are is getting implemented.
 #IMPORTANT! Make sure that the "Polus.png" image is in the same directory as this file! (Even though its useless for now...)
 

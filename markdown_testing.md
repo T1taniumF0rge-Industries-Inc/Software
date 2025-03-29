@@ -1,9 +1,10 @@
 
-# Moussorgski test file PLEASE IGNORE!
+# Markdown Testing
+This is a Markdown language testing file. Please ignore!
 
 ## Tableaux d'une exposition:
 
-This is a suite of movements consisting of Movements (so called Pictures) and Promenades, and have variations. Here are them all:
+This is a suite of movements consisting of Movements (so-called Pictures) and Promenades, and have variations. Here are them all:
 
 > [!Moussorgski 1]
 >
@@ -31,7 +32,7 @@ This is a suite of movements consisting of Movements (so called Pictures) and Pr
 > - 9/ Ballet des poussins dans leurs coques 13:10
 > - 10/ Samuel Goldenberg und Schmuÿle 14:24
 
-> Blunder
+> [!CAUTION]
 >
 > - 1/ Promenade 0:26
 > - 2/ Gnomus 1:34
