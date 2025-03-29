@@ -93,4 +93,4 @@ This is **where** this `Software` repository's ***configuration files*** will be
 
 > [!WARNING]
 >
-> Some of our programs in the [`InstallerSoft/Windows`](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft) folder will report to most AV's as being viruses. However, unless a program is *explicitely* marked as a virus, you can trust this repository. Some installers will even come with *.nsi files so that you may check what the script is made out of, for any type of *sneaky* viruses. If you're not happy with this, then leave the repository.
+> Some of our programs in the [`InstallerSoft/Windows`](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft) folder will report to most AV's as being viruses. However, unless a program is *explicitely* marked as a virus, you can trust this repository. Some installers will even come with *.nsi files so that you may check what the script is made out of, for any type of *sneaky* viruses. We will ***not*** be liable for **any damages that these programs can potentially make *in your possession!***. If you're not happy with this, then leave the repository.
