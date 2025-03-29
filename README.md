@@ -15,7 +15,7 @@ This is **where** I will be *storing all* of ***my and some of Okmeque1's*** Pyt
 ## [`VBSoft:`]
 This is **where** I will be *storing all* of ***my*** VBS (Windows Visual Basic Script) codes and programs.
 
-> [!WARNING]
+> [!CAUTION]
 > 
 > The VBS codes are *more towards **pranks*** but Windows might detect it as a virus. Be careful though as the [`/VBSoft/Deadly`](https://github.com/GamerSoft24/Software/tree/Main/VBSoft/Deadly) folder, the codes there are actually ***deadly*** and can *crash your RAM* in just a **few seconds running.** 
 
@@ -45,7 +45,7 @@ This is **where** I will be *storing all* of ***my*** Batchfile codes and progra
 
 *For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/BatchSoft)
 
-> [!WARNING]
+> [!CAUTION]
 > The codes in [`/BatchSoft/DestroyPC`](https://github.com/GamerSoft24/Software/tree/Main/BatchSoft/DestroyPC) folder are ***SUPER deadly*** and can *destroy your computer* and splash a bluescreen on your screen.
 
 ## [`InstallerSoft:`]
@@ -70,7 +70,7 @@ This is **where** I will be *storing all* of ***my and Okmeque1's collection of*
 
 This is **where** I will be *storing all* of ***my*** hacks that I may use in games. 
 
-> [!WARNING]
+> [!IMPORTANT]
 > *These hacks should only be used for* **educational purposes** *and* **testing purposes *only*** *and should not be used to ruin other people's gameplay.* We will ***not*** be liable for **any damages that these hacks can potentially make *in your possession!*** Thank you for understanding.
 
 *For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/HackSoft)
