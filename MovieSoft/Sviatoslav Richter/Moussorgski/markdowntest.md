@@ -31,7 +31,7 @@ This is a suite of movements consisting of Movements (so called Pictures) and Pr
 > - 9/ Ballet des poussins dans leurs coques 13:10
 > - 10/ Samuel Goldenberg und Schmuÿle 14:24
 
-> [Blunder]
+> Blunder
 >
 > - 1/ Promenade 0:26
 > - 2/ Gnomus 1:34
