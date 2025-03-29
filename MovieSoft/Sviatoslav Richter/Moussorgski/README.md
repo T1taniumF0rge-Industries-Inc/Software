@@ -34,7 +34,7 @@ This is a suite of movements consisting of Movements (so called Pictures) and Pr
 
 13/ Catacombæ 2:24 (Intégrale 18:38)
 
-13B/ Con mortuis in lingua mortua 4:18 (Intégrale 20:32)
+13b/ Con mortuis in lingua mortua 4:18 (Intégrale 20:32)
 
 14/ La Cabane sur des pattes de poule 6:13 (Intégrale 22:28)
 

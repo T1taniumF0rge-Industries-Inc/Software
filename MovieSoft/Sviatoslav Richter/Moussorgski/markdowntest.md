@@ -90,3 +90,11 @@ Copyrights are visible in the file attributes, which can be viewed in Windows Ex
 > [!CAUTION]
 >
 > b4 is a blunder
+
+> [!NOTE]
+> 
+> a1 is a mess-up as it does not comply with the beethoven sonata in Bb minor and Ab major complying with Chopin's new Valse op.64 nr.2
+> 
+> b2 cannot be a possibility as madame la baronne nathaniel de rothschild is not a full compliant to the 3rd mouvement of bar 28
+> 
+> Più lento part is in Db major
