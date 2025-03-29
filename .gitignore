@@ -17,12 +17,12 @@ ehthumbs.db
 *.tmp
 *.temp
 
-#IntelliJ IDEA files
+#JetBrains IntelliJ IDEA files
 .idea
 .idea/codeStyles
 .idea/libraries
 
-# Visual Studio files
+# Microsoft Visual Studio files
 *.[Oo]bj
 *.user
 *.aps
