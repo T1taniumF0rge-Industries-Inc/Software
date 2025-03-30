@@ -1,4 +1,4 @@
-version: 2
+version: 4444
 updates:
   # Maintain dependencies for npm (JavaScript/Node.js)
   - package-ecosystem: "npm"
