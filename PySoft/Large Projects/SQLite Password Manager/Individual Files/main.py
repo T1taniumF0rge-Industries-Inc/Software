@@ -13,16 +13,16 @@ def main():
     pwdmanager = pwdmgr.PasswordManager()
     while True:
         clear()
-        print("*** DATABASE PASSWORD MANAGER ***")
+        print("*****|DATABASE PASSWORD MANAGER|*****")
         print("[1] Generate password to database")
         print("[2] Add custom password to database")
         print("[3] Advanced password generator")
-        print("[4] Update Password")
+        print("[4] Update password")
         print("[5] Delete password")
         print("[6] Delete database")
         print("[7] Not in use")
         print("[8] View all passwords")
-        print("[9] Generate Encryption key")
+        print("[9] Generate encryption key")
         print("[10] Encrypt database")
         print("[11] Decrypt database")
         print("[12] Refresh Database - This operation must be performed if the database has been deleted")
@@ -85,7 +85,7 @@ def main():
             else:
                 input("Operation cancelled. Press ENTER to continue...")  
         if option == 7:
-                print("An error has occured. To continue,")
+                print("An error has occurred. To continue,")
                 print(" → Press enter to return to the main menu")
                 print(" → Press CTRL + C to terminate this program. You will lose any unsaved data in any open programs.")
                 print("Press any ENTER to continue. Error : 0FA3E22")
@@ -98,12 +98,12 @@ def main():
                 print(x)   
             input("Press ENTER to continue...")
         if option == 9:
-            filename = input("Please enter a valid file name to store your encrytion key. For maximum compatability, it is recommended to use the *.frn file extension: ")
+            filename = input("Please enter a valid file name to store your encryption key. For maximum compatability, it is recommended to use the *.frn file extension: ")
             encryption.keygen(filename)
             input("Key successfully saved. Press ENTER to continue...")
         if option == 10 or option == 11:
-            keyname = input("Please enter a valid fernet key file name. The format must be a:\directory\keyfile.frn: ")
-            dbname = input("Please enter a valid file name (The Database is usually stored in the same directory as this python file). The format must be a:\directory\pwdfile.extention: ")
+            keyname = input("Please enter a valid fernet key file name. The format must be A:\directory\keyfile.frn: ")
+            dbname = input("Please enter a valid file name (The Database is usually stored in the same directory as this python file). The format must be A:\directory\pwdfile.extension: ")
             if option == 10:
                 print("Encrypting file. This may take several minutes...")
                 encryption.enc(keyname, dbname)
