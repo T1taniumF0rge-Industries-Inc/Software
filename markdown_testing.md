@@ -98,3 +98,7 @@ Copyrights are visible in the file attributes, which can be viewed in Windows Ex
 > b2 cannot be a possibility as madame la baronne nathaniel de rothschild is not a full compliant to the 3rd mouvement of bar 28
 > 
 > Più lento part is in Db major
+
+> [!TIP]
+>
+> MartinOS might be coming to this repository soon in the form of a Python File
