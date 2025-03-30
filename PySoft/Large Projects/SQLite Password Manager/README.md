@@ -23,4 +23,4 @@ This password manager supports generating a password based on length, adding cus
 
 ## Download:
 
-For most users, use the installer in the [NSIS](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Large%20Projects/sqlite_pwdmgr/NSIS) folder. If you want to have individual files, see the [Individual files](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Large%20Projects/sqlite_pwdmgr/Individual%20Files)
+For most users, use the installer in the [NSIS](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Large%20Projects/SQLite%20Password%20Manager/NSIS) folder. If you want to have individual files, see the [Individual files](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Large%20Projects/SQLite%20Password%20Manager/Individual%20Files)
