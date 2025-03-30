@@ -6,7 +6,7 @@
 
 ## Are they safe?
 
-Any software downloaded from this repository is safe unless explicitely marked. The loaders *downloaded from this repository* are **safe and tested** (Okmeque1 and myself (GamerSoft24) are using it on our computers and have not been hacked).
+Any software downloaded from this repository is safe unless explicitely marked. The loaders *downloaded from this repository* are **safe and tested** (Okmeque1 and myself (GamerSoft24) are using it on our computers and have not been hacked so far).
 
 > [!WARNING]
 > 
