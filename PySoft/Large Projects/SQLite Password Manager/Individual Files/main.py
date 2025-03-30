@@ -63,7 +63,7 @@ def main():
             for x in rows:
                 print(x)
             id = input("Please enter the ID of your password. It is the number at the very left of the window: ")                                 
-            confirmation = input("This action is irrevokable, and you will not be able to retrieve this password after the deletion. Proceed? [Y/N]: ")
+            confirmation = input("This action is irrevocable, and you will not be able to retrieve this password after the deletion. Proceed? [Y/N]: ")
             if confirmation == "Y":
                 confirm = input("To proceed, type 'True': ")
                 if confirm == "True":
@@ -74,7 +74,7 @@ def main():
             else:
                 input("Operation cancelled. Press ENTER to continue...")
         if option == 6:
-            confirmation = input("This action is irrevokable, and you will not be able to retrieve this password after the deletion. Proceed? [Y/N]: ")
+            confirmation = input("This action is irrevocable, and you will not be able to retrieve this password after the deletion. Proceed? [Y/N]: ")
             if confirmation == "Y":
                 confirm = input("To proceed, type 'True': ")
                 if confirm == "True":
