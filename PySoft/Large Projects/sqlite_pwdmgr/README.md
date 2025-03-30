@@ -18,7 +18,7 @@ This password manager supports generating a password based on length, adding cus
 >   - `os`
 >   - `random`
 >
-> In general, the `cryptography` module is the one to not be installed, the other 3 should be installed by default if your Python version is over 3.10.**
+> The `cryptography` module is the one to install, as the other 3 should be installed by default if your Python version is over 3.10.** unless your interpreter didn't install correctly ***or*** if you installed your interpreter without administrator privileges.
 
 
 ## Download:
