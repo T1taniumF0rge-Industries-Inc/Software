@@ -2,7 +2,7 @@
 
 ## Preface:
 
-This password manager uses the `sqlite 3` databse module for python, and combined with the `cryptography` module, will provide a seamless password manager
+This password manager uses the `sqlite 3` database module for python, and combined with the `cryptography` module, will provide a seamless password manager experience.
 
 ## Features:
 
