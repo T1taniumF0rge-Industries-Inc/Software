@@ -103,3 +103,4 @@ This is **where** this `Software` repository's ***configuration files*** will be
 >
 > ![image](https://github.com/user-attachments/assets/09f93568-4474-4c23-8f0a-be5c7b187b12)
 
+The main coding languages in this repository is Python ([PySoft](https://github.com/GamerSoft24/Software/tree/Main/PySoft)), C++ ([CPPSoft](https://github.com/GamerSoft24/Software/tree/Main/CPPSoft)), Windows Batch ([BatchSoft](https://github.com/GamerSoft24/Software/tree/Main/BatchSoft)), Windows Visual Basic Script ([VBSoft](https://github.com/GamerSoft24/Software/tree/Main/VBSoft)), HyperText Markup Language ([HTMLSoft](https://github.com/GamerSoft24/Software/tree/Main/HTMLSoft)) and hacks with varying languages in HackSoft ([HackSoft](https://github.com/GamerSoft24/Software/tree/Main/HackSoft))
