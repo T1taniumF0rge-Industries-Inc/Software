@@ -100,3 +100,6 @@ This is **where** this `Software` repository's ***configuration files*** will be
 > [!NOTE]
 >
 > In GitHub, there is this section of the repository where it shows the amount of programming languages in a percentage. However this percentage is incorrect, as some of our uploads in InstallerSoft and RepoSoft sometimes causes certain languages to rise, and is not representative of what are the main languages that are coded.
+>
+> ![image](https://github.com/user-attachments/assets/09f93568-4474-4c23-8f0a-be5c7b187b12)
+
