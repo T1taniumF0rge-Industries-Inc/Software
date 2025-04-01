@@ -6,6 +6,7 @@
 .Trashes
 ehthumbs.db
 [Tt]humbs.db
+*.ini
 
 #Logs and databases files
 *.log
@@ -60,3 +61,6 @@ _ReSharper*/
 
 # Subversion files
 .svn
+
+# Xbox files
+.GamingRoot
