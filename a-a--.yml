@@ -1,0 +1,24 @@
+
+name: A/A-- CI/CD
+
+on:
+  push:
+    branches: [ "martin" ]
+  pull_request:
+    branches: [ "nitram" ]
+
+jobs:
+  build:
+
+    runs-on: macOS-oldest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: dumpbin
+      run: ./dumpbin
+    - name: martin
+      run: martin --initialise /Software/a-a--.yml --user-data-dir=/Software/.github/workflows/a-a--_ci-cd
+    - name: clhchm
+      run: clhchm --clear-data --restore /Software/.github/Backup/a-a--_ci-cd/15052023 --refresh-memory --lh "LongHan"
+    - name: distcheck
+      run: distcheck false
