@@ -7,6 +7,7 @@
 ehthumbs.db
 [Tt]humbs.db
 *.ini
+*.rdp
 
 #Logs and databases files
 *.log
