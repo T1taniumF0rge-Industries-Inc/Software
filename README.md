@@ -5,7 +5,7 @@
 
 ### 🎉🎉 We have reached 1000 commits! -> *Next milestone 1500 commits?* 🎉🎉 
 
-**REP-SET II**, *`Version 3.1.5-april_fools`*
+**REP-SET II**, *`Version 3.1.5b`*
 
 ## [`PySoft:`]
 This is **where** I will be *storing all* of ***my and some of Okmeque1's*** Python codes and programs.
