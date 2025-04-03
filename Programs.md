@@ -232,6 +232,8 @@ All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers
 
 2 -> [Supermium:](https://github.com/GamerSoft24/Software/blob/Main/.github/security/Server%20Error.md) Check [`win32ss/supermium`](https://github.com/win32ss/supermium) for more information.
 
+3 -> [Thorium:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Chromium%20%26%20Supermium/Thorium/thorium_m128installer.exe) Supposedly the fastest Chromium based browser on earth, based off radioactive element No. 90. I like it, the UI is very similar to Chrome and in my experience if you're not using Windows XP shouldn't give you RAM-Based BSODs. Depending on the revision of this program, it may come with uBlock Origin pre-installed which is nice
+
 [**Adobe:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Adobe)
 
 1 -> [Adobe Acrobat Reader:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Adobe/Adobe%20Acrobat%20Reader/AdobeAcrobatReader_x64Setup.exe) Adobe Acrobat Reader software is the free, trusted global standard for viewing, printing, signing, sharing and annotating PDFs. It's the only PDF viewer that can open and interact with all types of PDF content, etc... Read more on Adobe's own website [here](https://www.adobe.com/uk/acrobat/pdf-reader.html#:~:text=Adobe%20Acrobat%20Reader%20software%20is,content%20%2D%20including%20forms%20and%20multimedia.)
