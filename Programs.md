@@ -276,7 +276,7 @@ All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers
 
 1 -> [WinOrganizer:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Fujitsu/ScanSnap/S1300i/WinOrganizerV56L40WW.exe) File manager, PDF reader and scanner all in one application. Thanks Fujitsu.
 
-2 -> [WinScanSnapInstaller:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Fujitsu/ScanSnap/S1300i/https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Fujitsu/ScanSnap/S1300i/WinSSInstS1300iWW1.exe) ScanSnap software for the Fujistu ScanSnap S1300i. This product is not compatible with Windows 8 or over.
+2 -> [WinScanSnapInstaller:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Fujitsu/ScanSnap/S1300i/WinSSInstS1300iWW1.exe) ScanSnap software for the Fujistu ScanSnap S1300i. This product is not compatible with Windows 8 or over.
 
 [**Git:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Git)
 
