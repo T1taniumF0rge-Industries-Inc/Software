@@ -19,7 +19,7 @@ ehthumbs.db
 *.tmp
 *.temp
 
-# GitHub files
+# Daz Loader
 InstallerSoft/Windows/Windows Loaders/Daz_Loader_v2.2.2_setup.exe
 
 # JetBrains IntelliJ IDEA files
