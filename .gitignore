@@ -19,7 +19,10 @@ ehthumbs.db
 *.tmp
 *.temp
 
-#JetBrains IntelliJ IDEA files
+# GitHub files
+InstallerSoft/Windows/Windows Loaders/Daz_Loader_v2.2.2_setup.exe
+
+# JetBrains IntelliJ IDEA files
 .idea
 .idea/codeStyles
 .idea/libraries
