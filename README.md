@@ -108,3 +108,7 @@ This is **where** this `Software` repository's ***configuration files*** will be
 ## Program Chart:
 
 For easy access to all working files and programs in this repository, use the [program chart](https://github.com/GamerSoft24/Software/tree/Main/Programs.md)
+
+## Licensing Agreement:
+
+To use any program or file in this repository, you must agree to the [license](/LICENSE) and its terms of conditions.
