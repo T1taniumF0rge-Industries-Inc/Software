@@ -212,7 +212,9 @@ All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers
 
 1 -> [AOMEI Partitioning Wizard:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/AOMEI%20Partitioning%20Wizard/v9.10.00/passist_std.exe) Version 9.10.00 of the AOMEI partition manager that can format, delete, create and clone partitions from one disk. Very handy for new PC builds. 
 
-2 -> [AOMEI Partitioning Wizard(v10.3.1):](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/AOMEI%20Partitioning%20Wizard/v10.3.1/PAssist_Std_20240405.11141855.exe) Version 10.3.1 of the AOMEI partition manager that can format, delete, create and clone partitions from one disk. Very Handy for new PC builds. No major difference between v9, just bug fixes...
+2 -> [AOMEI Partitioning Wizard(v10.3.1):](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/AOMEI%20Partitioning%20Wizard/v10.3.1/PAssist_Std_20240405.11141855.exe) Version 10.3.1 of the AOMEI partition manager that can format, delete, create and clone partitions from one disk. Very Handy for new PC builds. No major difference between v9, just bug fixes...and less features for free...
+
+3 -> [AOMEI Partitioning Wizard(v8.7):](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/AOMEI%20Partitioning%20Wizard/v8.7/passist_std.exe) Version 8.7 of the AOMEI partition manager that can format, delete, create and clone partitions from one disk. Very Handy for new PC builds. This version is the last version to support Windows XP, and is probably the best version because it works on any Windows that is newer than XP and offers the most free features (half of the free features in 8.7 are paying in 10.3.1)
 
 [**Adobe**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Adobe)
 
@@ -231,6 +233,8 @@ All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers
 1 -> [Chromium:](https://github.com/GamerSoft24/Software/blob/Main/.github/security/Server%20Error.md) Check [`chromium/chromium`](https://github.com/chromium/chromium) for more information.
 
 2 -> [Supermium:](https://github.com/GamerSoft24/Software/blob/Main/.github/security/Server%20Error.md) Check [`win32ss/supermium`](https://github.com/win32ss/supermium) for more information.
+
+3 -> [Thorium:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Chromium%20%26%20Supermium/Thorium/thorium_m128installer.exe) Supposedly the fastest Chromium based browser on earth, based off radioactive element No. 90. I like it, the UI is very similar to Chrome and in my experience if you're not using Windows XP shouldn't give you RAM-Based BSODs. Depending on the revision of this program, it may come with uBlock Origin pre-installed which is nice
 
 [**Adobe:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Adobe)
 
@@ -272,7 +276,7 @@ All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers
 
 1 -> [WinOrganizer:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Fujitsu/ScanSnap/S1300i/WinOrganizerV56L40WW.exe) File manager, PDF reader and scanner all in one application. Thanks Fujitsu.
 
-2 -> [WinScanSnapInstaller:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Fujitsu/ScanSnap/S1300i/https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Fujitsu/ScanSnap/S1300i/WinSSInstS1300iWW1.exe) ScanSnap software for the Fujistu ScanSnap S1300i. This product is not compatible with Windows 8 or over.
+2 -> [WinScanSnapInstaller:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Fujitsu/ScanSnap/S1300i/WinSSInstS1300iWW1.exe) ScanSnap software for the Fujistu ScanSnap S1300i. This product is not compatible with Windows 8 or over.
 
 [**Git:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Git)
 

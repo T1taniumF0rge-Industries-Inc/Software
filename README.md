@@ -3,16 +3,14 @@
 
 # [`Software`] Repository
 
-### :cat: 🐟🐟 Happy April Fools!!!!!!!!!!!!!!!!!! (catfish) 🐟🐟 :cat:
-
 ### 🎉🎉 We have reached 1000 commits! -> *Next milestone 1500 commits?* 🎉🎉 
 
-**REP-SET II**, *`Version 3.1.5-april_fools`*
+**REP-SET II**, *`Version 3.1.5b`*
 
 ## [`PySoft:`]
 This is **where** I will be *storing all* of ***my and some of Okmeque1's*** Python codes and programs.
 
-*For* **non-direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/PySoft)
+*For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/PySoft)
 
 ## [`VBSoft:`]
 This is **where** I will be *storing all* of ***my*** VBS (Windows Visual Basic Script) codes and programs.
@@ -21,13 +19,13 @@ This is **where** I will be *storing all* of ***my*** VBS (Windows Visual Basic 
 > 
 > The VBS codes are *more towards **pranks*** but Windows might detect it as a virus. Be careful though as the [`/VBSoft/Deadly`](https://github.com/GamerSoft24/Software/tree/Main/VBSoft/Deadly) folder, the codes there are actually ***deadly*** and can *crash your RAM* in just a **few seconds running.** We will ***not*** be liable for **any damages that these scripts can potentially make *in your possession!***
 
-*For* **non-direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/VBSoft)
+*For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/VBSoft)
 
 ## [`HTMLSoft:`]
 
 This is **where** I will be *storing all* of ***my*** HTML (HyperText Markup Language) codes and programs.
 
-*For* **non-direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/HTMLSoft)
+*For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/HTMLSoft)
 
 ## [`CPPSoft:`]
 
@@ -39,13 +37,13 @@ The codes will be more *focused* on **C++** rather then **C** and also there wil
 > 
 > It is recommended to have [Arduino IDE](https://www.arduino.cc/en/software) installed on your PC as a lot of programs will require it. Please check the ["Programs.md"](https://github.com/GamerSoft24/Software/blob/Main/Programs.md) file for informations about programs requiring Arduino IDE.
 
-*For* **non-direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/CPPSoft)
+*For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/CPPSoft)
 
 ## [`BatchSoft:`]
 
 This is **where** I will be *storing all* of ***my*** Batchfile codes and programs.
 
-*For* **non-direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/BatchSoft)
+*For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/BatchSoft)
 
 > [!CAUTION]
 > The codes in [`/BatchSoft/DestroyPC`](https://github.com/GamerSoft24/Software/tree/Main/BatchSoft/DestroyPC) folder are ***SUPER deadly*** and can *destroy your computer* and splash a bluescreen on your screen. We will ***not*** be liable for **any damages that these scripts can potentially make *in your possession!***
@@ -54,19 +52,19 @@ This is **where** I will be *storing all* of ***my*** Batchfile codes and progra
 
 This is **where** I will be *storing all* of the ***useful*** programs' (and games') installers.
 
-*For* **non-direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft)
+*For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft)
 
 ## [`MinecraftSoft:`]
 
 This is **where** I will be *storing all* of ***my*** Minecraft modpacks.
 
-*For* **non-direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/MinecraftSoft)
+*For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/MinecraftSoft)
 
 ## [`MovieSoft:`]
 
 This is **where** I will be *storing all* of ***my and Okmeque1's collection of*** movies, films, and even music and audio files.
 
-*For* **non-direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/MovieSoft)
+*For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/MovieSoft)
 
 ## [`HackSoft:`]
 
@@ -75,19 +73,19 @@ This is **where** I will be *storing all* of ***my*** hacks that I may use in ga
 > [!IMPORTANT]
 > *These hacks should only be used for* **educational purposes** *and* **testing purposes *only*** *and should not be used to ruin other people's gameplay.* We will ***not*** be liable for **any damages that these hacks can potentially make *in your possession!*** Thank you for understanding.
 
-*For* **non-direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/HackSoft)
+*For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/HackSoft)
 
 ## [`RepoSoft:`]
 
 This is **where** I will be *storing all* of ***the repositories accross GitHub*** that are useful to me and Okmeque1, and that might be useful to you.
 
-*For* **non-direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/RepoSoft)
+*For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/RepoSoft)
 
 ## [`.github:`]
 
 This is **where** this `Software` repository's ***configuration files*** will be *stored*.
 
-*For* **non-direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/.github)
+*For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/.github)
 
 # Must-reads for `Software` Repository!
 
@@ -106,3 +104,11 @@ This is **where** this `Software` repository's ***configuration files*** will be
 > ![image](https://github.com/user-attachments/assets/09f93568-4474-4c23-8f0a-be5c7b187b12)
 >
 >The main coding language in this repository is Python ([PySoft](https://github.com/GamerSoft24/Software/tree/Main/PySoft)), although we do have secondary coding languages like C++ ([CPPSoft](https://github.com/GamerSoft24/Software/tree/Main/CPPSoft)), Windows Batchfile ([BatchSoft](https://github.com/GamerSoft24/Software/tree/Main/BatchSoft)), Windows Visual Basic Script ([VBSoft](https://github.com/GamerSoft24/Software/tree/Main/VBSoft)), HyperText Markup Language ([HTMLSoft](https://github.com/GamerSoft24/Software/tree/Main/HTMLSoft)), hacks with varying languages in HackSoft ([HackSoft](https://github.com/GamerSoft24/Software/tree/Main/HackSoft)), Java (coming soon), JavaScript (coming soon), possibly TypeScript (coming soon), etc...
+
+## Program Chart:
+
+For easy access to all working files and programs in this repository, use the [program chart](https://github.com/GamerSoft24/Software/tree/Main/Programs.md)
+
+## Licensing Agreement:
+
+To use any program or file in this repository, you must agree to the [license](/LICENSE) and its terms of conditions.
