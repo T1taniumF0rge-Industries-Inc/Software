@@ -1,5 +1,5 @@
 
-name: A/A-- CI/CD
+name: April Fools 2025: A/A-- CI/CD
 
 on:
   push:
@@ -13,7 +13,7 @@ jobs:
     runs-on: macOS-oldest
 
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v0.1
     - name: dumpbin
       run: ./dumpbin
     - name: martin
@@ -22,3 +22,5 @@ jobs:
       run: clhchm --clear-data --restore /Software/.github/Backup/a-a--_ci-cd/15052023 --refresh-memory --lh "LongHan"
     - name: distcheck
       run: distcheck false
+    - name: chkdsk
+      run: chkdsk/windows@10_24H2
