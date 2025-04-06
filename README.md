@@ -77,7 +77,7 @@ This is **where** I will be *storing all* of ***my*** hacks that I may use in ga
 
 ## [`RepoSoft:`]
 
-This is **where** I will be *storing all* of ***the repositories accross GitHub*** that are useful to me and Okmeque1, and that might be useful to you.
+This is **where** I will be *storing all* of ***the repositories across GitHub*** that are useful to me and Okmeque1, and that might be useful to you.
 
 *For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/RepoSoft)
 
@@ -85,7 +85,7 @@ This is **where** I will be *storing all* of ***the repositories accross GitHub*
 
 This is **where** this `Software` repository's ***configuration files*** will be *stored*.
 
-*For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/.github)
+*For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/.gross 
 
 # Must-reads for `Software` Repository!
 
