@@ -22,6 +22,3 @@ This product is intended for personal use only and is not authorised for commerc
 ### © Morena Films: https://morenafilms.com
 
 ### © Telefónica Studios: http://telefonicastudios.com
-
-## License(s)
-License(s) for this film will be included in this directory.
