@@ -63,19 +63,20 @@ try:
                 print("")
                 print("When you are asked for a valid file name, please make sure that the directory is valid and for best compatibility or/and please make sure that the file exists.")
                 print("")
-                defaultfileask = input("Do you have the default file: 'pwd_openscs.pwd'?(Yes/No): ")
-                if defaultfileask == "Yes" or "yes":
+                defaultfileask = input("Do you have the default file: 'pwd_openscs.pwd'?[Y/N]: ")
+                if defaultfileask == "Y" or "y":
                     print("")
                     input("Press enter to continue...")
                     print("")
                     pwd_manager = True
-                elif defaultfileask == "No" or "no":
+                elif defaultfileask == "N" or "n":
                         filedefaultdownload = open("pwd_openscs.pwd","w")
+                        filedefaultdownload.close()
                         print("")
                         print("Downloading 'pwd_openscs.pwd'. Please wait...")
                         time.sleep(2)
                         print("")
-                        print("The file that you just downloaded is called 'pwd_openscs.pwd' and it is used for default saving if no file name or set name are entered and much more.")
+                        print("The file that you just downloaded is called 'pwd_openscs.pwd' and it is used for default saving if no file name or set name are entered and and if this file is in the same directory as this program.")
                         print("")
                         input("Press enter to continue...")
                         print("")
@@ -91,7 +92,9 @@ try:
                     print("3 -> Show all passwords from a save file.")
                     print("4 -> About this program.")
                     print("5 -> Change a password to a save file.")
-                    print("6 -> Quit program.")
+                    print("6 -> Advanced Password Generator")
+                    print("7 -> Password generator based on the Cyrillic character set (learn more with option 4)")
+                    print("8 -> Quit program.")
                     print("")
                     optionpwd_manager = int(input("Select option : "))
                     if optionpwd_manager == 1:
@@ -113,7 +116,7 @@ try:
                             print(password)
                             print("")
                             print('Password generated! Now saving...')
-                            filename = input("Please enter a valid file name: ")
+                            filename = input("Please enter a valid file name (leave blank to a default file of pwd_openscs.pwd). If the file does not exist, the program will create it for you: ")
                             if filename == "":
                                 filename = "pwd_openscs.pwd"
                                 set0 = input("Enter a set name or nothing to continue. This program does not support having 2 sets of the same set name. Entering a set name that already exists will/could cause conflict. ")
@@ -196,7 +199,7 @@ try:
                             passall0.close()
     
                     elif optionpwd_manager == 4:
-                        print("")
+                        print("Press ENTER to move down pages")
                         input("Specifications/informations about this program: ")
                         print("")
                         print("-> Program name: THE PASSWORD MANAGER SYSTEM.")
@@ -217,6 +220,10 @@ try:
                         print("")
                         input("Press enter to continue...")
                         print("")
+                        print("Cyrillic character set password generation: ")
+                        print("")
+                        print("This password manager supports generating passwords with the certain characters from the Cyrillic alphabet, commonly used in Eastern Europe (Ukraine, Russia, Belarus, etc...). Using them in your passwords makes your passwords more secure as hackers do not generally target such characters, and they look identical to standard characters, however please note that these characters aren't universally adopted, and using them on an old site may cause crashes or compatability errors.")
+                        input("\nPress enter to continue...")
                     elif optionpwd_manager == 5: 
                         filedels = input("Please enter a valid file name path. The format must be full with the drive name included if the file in question is not in the same directory as the one this program is in. If this is not respected, this program will/could terminate with the main program: ")
                         sets1 = input("Enter SET name to change : ")
@@ -233,7 +240,63 @@ try:
                             for a in range(len(r1)):
                                 changepwd.writelines(r1[a])
                         print("Save completed with no disk errors. Returning to main menu...")
-                    elif optionpwd_manager == 6:
+                    elif option == 5:
+                        print("Please be aware that due to the mixing logic of this program, the amount of a type of character may not be exact.\n© Okmeque1 Software")
+                        end = ""
+                        passwd = ""
+                        spc = '¦¬`!£$€%^&*()-_=+;:@~#\|,<.>/?'
+                        num = "1234657890"
+                        ch = "qQwWeErRtTyYuUiIoOpPaAsSdDfFgGhHjJkKlLzZxXcCvVbBnNmMm"
+                        spcs = ""
+                        nums = ""
+                        chs = ""
+                        spcn = int(input("Enter special character count : "))
+                        numn = int(input("Enter number count : "))
+                        chn = int(input("Enter standard character count : "))
+                        for p in range(spcn):
+                            spcs += random.choice(spc)
+                        for s in range(numn):
+                            nums += random.choice(num)
+                        for ad in range(chn):
+                            chs += random.choice(ch)
+                        end += spcs + nums + chs
+                        for x in range(len(end)):
+                            passwd += random.choice(end)
+                        print(passwd)
+                        filenam = input("Please enter a valid file name (none to default of G:\python\demo\demo.pc). The format must be a:\directory\pwdfile.extention. : ")
+                        if filenam == "":
+                            filenam = "G:\python\demo\demo.pc"
+                            sets = input("Enter a set name for your password to continue this program.This will be used later to retrieve back the password.This program does NOT support having 2 sets of the same name.Entering a name that already exists will cause a conflict. : ")
+                            passavee = open(filenam,"a")
+                            passavee.write(sets + " -> " + passwd + "\n")
+                            passavee.close()
+                        else:
+                            sets = input("Enter a set name for your password to continue this program.This will be used later to retrieve back the password.This program does NOT support having 2 sets of the same name.Entering a name that already exists will cause a conflict. : ")
+                            passavee = open(filenam,"a")
+                            passavee.write(sets + " -> " + passwd + "\n")
+                            passavee.close()
+                        print("Save has completed with no disk errors.")
+                        print("Now returning to the main menu")
+                    elif optionpwd_manager == 7:
+                        cyrillic_character_set = "АаВеЕЗМоНОРрСсТуХхЈјҮԁԌԚԛԜԝ"
+                        standard_chars = '¦¬`1!23#4$5%6^7&8*9(0-_=+q"~{[]}=+QwWeErRtTyYuUiIoOpPaAsSdDfFgGhHjJkKlL;:@~^%#\|zZxXcCvVbBnNmMm,<.>/?)'
+                        chars = [cyrillic_character_set, standard_chars]
+                        length = input("Please enter your password length: ")
+                        pwd = ""
+                        for x in range(length):
+                            pwd += random.choice(random.choice(chars))
+                        print("")
+                        print(password)
+                        print("")
+                        print('Password generated! Now saving...')
+                        filename = input("Please enter a valid file name (leave blank to a default file of pwd_openscs.pwd). If the file does not exist, the program will create it for you: ")
+                        if filename == "":
+                            filename = "pwd_openscs.pwd"
+                        set0 = input("Enter a set name or nothing to continue. This program does not support having 2 sets of the same set name. Entering a set name that already exists will/could cause conflict. ")
+                        passave = open(filename, "a")
+                        passave.write(set0 + " -> " + password)
+                        passave.close()
+                    elif optionpwd_manager == 8:
                         print("")
                         print("Saving data to main program. Please wait...")
                         time.sleep(3)
@@ -316,7 +379,8 @@ try:
                 print("Sending your report. Please wait...")
                 time.sleep(1)
                 print("")
-                print("Thank you for reporting! We will try our best to make our program better!")
+                print("Sorry, but we were unable to reach the Report Center servers. This may be because the servers are down, or your internet has blocked our servers.")
+                input("Press enter to continue...")
                 print("")
             elif option == 6:
                 print("")
@@ -338,7 +402,7 @@ try:
         sms_main()
 
 except FileExistsError:
-    print("Error: 6510A\nAn existing file is in conflict with the selected file. Delete the old file")
+    print("Error: 6510A\nAn existing file is conflicting with the selected file. Delete the old file")
     input("Press enter to return to the program...")
     sms_main()
 except FileNotFoundError:
@@ -363,8 +427,12 @@ except BaseException:
     sms_main()
 except IOError:
     print("Error: 0272\nA device on your system has either malfunctioned or has been unplugged. The operating system will now forcibly close the program.")
-    input("Press enter to continue...")
+    input("Press enter to exit...")
     exit()
+except Exception as e:
+    print(f"Error: {e}\nPlease review the Error Chart of the GamerSoft24/Software repository, as well as the Python Manual.")
+    input("Press enter to return to program. Note that you have lost any data that the last operation did")
+    sms_main()
 except:
     exit()
     
