@@ -130,11 +130,15 @@ This folder contains all files related to Minecraft (e.g.: like modpacks or MCP 
 
 ### [Bugs Bunny:](https://github.com/GamerSoft24/Software/tree/Main/MovieSoft/Bugs%20Bunny)
 
-Please wait for [GamerSoft24](https://github.com/GamerSoft24) to upload the files. Refer to the README table for the files.
+Refer to the README table for the files. Otherwise it is a really nice set of cartoon shorts, 
 
-### [Campeones (2018 Film):](https://github.com/GamerSoft24/Software/tree/Main/MovieSoft/Champions%20(Campeones)%2C%202018%20film)
+### [Crampeones (2018 Film):](https://github.com/GamerSoft24/Software/tree/Main/MovieSoft/Champions%20(Campeones)%2C%202018%20film)
 
-Please wait for [GamerSoft24](https://github.com/GamerSoft24) to upload the files.
+Unfortunately, we will not be able to publish this movie onto the `Software` repository due to the file exceeding the 32-bit integer limit on file sizes (2147483648B, or 2.1GB). If you need access to this film, please email us at gamersoftware.corp@gmail.com for a link to download the movie.
+
+### [Under the Same Moon (La Misma Luna), (2008 film):](https://github.com/GamerSoft24/Software/tree/Main/MovieSoft/Under%20the%20Same%20Moon%20(La%20Misma%20Luna)%2C%202008%20film) 
+
+Refer to the README file for more information
 
 ### [Sviatoslav Richter:](https://github.com/GamerSoft24/Software/tree/Main/MovieSoft/Sviatoslav%20Richter)
 
