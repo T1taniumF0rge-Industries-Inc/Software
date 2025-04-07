@@ -272,9 +272,9 @@ All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers
 
 [Credits:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Chromium%20%26%20Supermium/Credits.md)
 
-1 -> [Chromium:](https://github.com/GamerSoft24/Software/blob/Main/.github/security/Server%20Error.md) Check [`chromium/chromium`](https://github.com/chromium/chromium) for more information.
+1 -> [Chromium:](https://github.com/GamerSoft24/Software/blob/Main/.github/security/Server%20Error.md) The installer isn't currently available. Check [`chromium/chromium`](https://github.com/chromium/chromium) for more information.
 
-2 -> [Supermium:](https://github.com/GamerSoft24/Software/blob/Main/.github/security/Server%20Error.md) Check [`win32ss/supermium`](https://github.com/win32ss/supermium) for more information.
+2 -> [Supermium:](https://github.com/GamerSoft24/Software/blob/Main/.github/security/Server%20Error.md) The installer isn't currently available. Check [`win32ss/supermium`](https://github.com/win32ss/supermium) for more information.
 
 3 -> [Thorium:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Chromium%20%26%20Supermium/Thorium/thorium_m128installer.exe) Supposedly the fastest Chromium based browser on earth, based off radioactive element No. 90. I like it, the UI is very similar to Chrome and in my experience if you're not using Windows XP shouldn't give you RAM-Based BSODs. Depending on the revision of this program, it may come with uBlock Origin pre-installed which is nice
 
