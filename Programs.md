@@ -78,6 +78,10 @@ Special thanks to [Okmeque1](https://github.com/Okmeque1) from [`okmeque1/softwa
 
 7 -> [Fernet Encryption/Decyption System (encryption system.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Utilities/encryption%20system.py) A really nice encryption system that uses Fernet to encrypt your files. Note that this programs requires a Fernet key for any operation, which can be downloaded and generated using the Key Generator, as seen above.
 
+8 -> [TFL Tube Times - Platform Level (tfl tube times - platform level.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Utilities/tfl%20tube%20times%20-%20platform%20level.py) A neat program that lets you view the next train for a specific platform at any TFL station
+
+9 -> [TFL Tube Times - Station Level (tfl tube times - station level.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Utilities/tfl%20tube%20times%20-%20station%20level.py) A neat program that lets you view the train arrivals/departures for any TFL station.
+
 ### [Large Projects:](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Large%20Projects/)
 
 1 -> [SQLite Password Manager:](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Large%20Projects/SQLite%20Password%20Manager) A simple password manager that uses SQLite 3 to store passwords, while also supporting Fernet encryptions. Read the README for more info...
@@ -113,6 +117,10 @@ Special thanks to [Okmeque1](https://github.com/Okmeque1) from [`okmeque1/softwa
 ### [Utilities:](https://github.com/GamerSoft24/Software/tree/Main/VBSoft/Utilities)
 
 1 -> [Open Browser (open browser.vbs):](https://github.com/GamerSoft24/Software/blob/Main/VBSoft/Utilities/open%20browser.vbs) Opens your default web browser (e.g.: Microsoft Edge, Google Chrome / Chrome Beta / Chrome Dev, Firefox, Opera / Opera GX, Internet Explorer 💀, etc...
+
+### [Login Simulator:](https://github.com/GamerSoft24/Software/tree/Main/VBSoft/Login%20Simulator)
+
+1 & 2 -> [Windows User Name and Password Login Simulator (logon.vbs & logon2.vbs):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Login%20Simulator/logon.vbs) Simulates a pretty similar experience to logging into Windows back in 1999 or so. And in some versions, yes it would shut down your computer if you got it 3 times wrong. **Both files, logon.vbs and logon2.vbs need to be downloaded to ensure compatability and stability!**
 
 ## [HTMLSoft](https://github.com/GamerSoft24/Software/tree/Main/HTMLSoft)
 
