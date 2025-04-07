@@ -4,7 +4,15 @@ Special thanks to [Okmeque1](https://github.com/Okmeque1) from [`okmeque1/softwa
 
 ## [PySoft](https://github.com/GamerSoft24/Software/tree/Main/PySoft)
 
-1 -> [Assistant App (assistant app.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Assistant%20App.py) The security management system of the GUI days!
+### [GUI (Graphical User Interface):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/GUI/)
+
+1 -> [Assistant App (assistant app.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/GUI/Assistant%20App.py) The security management system of the GUI days!
+
+2 -> [G-AIO (G-AIO.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/GUI/G-AIO.py) An all in one program that includes games, useful functions and more all in one program!
+
+3 -> [G-Editor - Password Edition (G-Editor - Password Edition.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/GUI/G-Editor%20-%20Password%20Edition.py) This editor requires you enter a password to access a compatible file format...but could you do it better?
+
+4 -> [TKinter Error Generator (error generator.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/GUI/error%20generator.py) A program that lets you generate all sorts of message boxes.
 
 ### [Calculators:](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Calculators)
 
@@ -19,6 +27,8 @@ Special thanks to [Okmeque1](https://github.com/Okmeque1) from [`okmeque1/softwa
 ### [Editors:](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Editors)
 
 1 -> [GUI Text Editor (gui-text editor.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Editors/gui-text%20editor.py) A text editor in Python.
+
+2 -> [G-Editor (G-Editor.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Editors/G-Editor.py) A simple, easy to use editor. Supports find/replace feature (I think?)
 
 ### [Games:](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Games)
 
@@ -38,6 +48,20 @@ Special thanks to [Okmeque1](https://github.com/Okmeque1) from [`okmeque1/softwa
 
 8 -> [Happy New Year 2024! (happy new year 2024!!.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Games/happy%20new%20year%202024!!.py) No room for explaining. Happy New Year 2024!
 
+9 -> [Battle Ships (battleships.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Games/battleships.py) You're at a war with your friend, and must knock down his ships to win!
+
+10 -> [Connect 4 (connect4.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Games/connect4.py) Connect 4: Get 4 pieces horizontally, vertically or diagonally. Note that the UI may not be the nicest...
+
+11 -> [Rock Paper Scissors - Okmeque1 Edition (rps-okmeque1_edition.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Games/rps-okmeque1_edition.py) The Okmeque1 Edition of Rock Paper Scissors, which includes 6 items, and built quite clunkily. See it for yourself.
+
+12 -> [Rock Paper Scissors - Compact Edition (rps-compact_edition.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Games/rps-compact_edition.py) This version was a retake on the Okmeque1 Edition, and is much more compact and less prone to failure (I hope)
+
+13 -> [Rock Paper Scissors - Class Edition (rps-class_edition.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Games/rps-class_edition.py) This version uses Classes...which is hopefully a better way of coding stuff...
+
+14 -> [Not 1 Game (not 1.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Games/not%201.py) This game makes you gamble, in the sense that do you want to stop and have a guarantee of points, or continue and lose everything? I can't explain it, really, run the program, it will explain it for you...
+
+15 -> [DOS Replica in a Virtual Machine System (dos.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Games/dos.py) A better DOS replica, built inside the Windows Virtual Machine system, although I don't think I coded the VM properly...
+
 ### [Utilities:](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Utilities)
 
 1 -> [iPCMD - Intelligent Python Command Prompt (iPCMD.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Utilities/iPCMD.py) A command prompt replica with some modified functions. Works perfectly. *Tech Tip:* Use it if the Command Prompt on your PC is blocked or unusable!
@@ -47,6 +71,12 @@ Special thanks to [Okmeque1](https://github.com/Okmeque1) from [`okmeque1/softwa
 3 -> [SMS - Security Management System (security management system.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Utilities/security%20management%20system.py) This program can access programs that are useful in terms of security and protection of your personel data. More infos inside of program, option 1 in main menu.
 
 4 -> [Time Clock (time clock.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Utilities/time%20clock.py) Basically it's just a time clock.
+
+5 -> [Geometrical Figure Generator (figure.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Utilities/figure.py) Using the `turtle` module, I can create all sorts of neat figures, all you need to specify is the amount of sides you want your figure to have. 
+
+6 -> [Fernet Key Generator (keygen.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Utilities/keygen.py) This will generate a Fernet style key, necessary for any Fernet-based programs, such as...
+
+7 -> [Fernet Encryption/Decyption System (encryption system.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Utilities/encryption%20system.py) A really nice encryption system that uses Fernet to encrypt your files. Note that this programs requires a Fernet key for any operation, which can be downloaded and generated using the Key Generator, as seen above.
 
 ### [Large Projects:](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Large%20Projects/)
 
