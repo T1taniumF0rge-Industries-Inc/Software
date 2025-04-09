@@ -11,6 +11,8 @@ This file is only important and applicable to the collaborators and developers o
 
 ## Last Backup:
 
+Update this section as accordingly. The last backup counts as the last machine to push onto the Git Repository.
+
 ![GitHub](https://img.shields.io/badge/1%3A%20Last%20Backup-07/04/2025%2021:01%20Gmaersoft42%20Laptop-blue) &nbsp;
 
 ![GitHub](https://img.shields.io/badge/2%3A%20Last%20Backup-07/04/2025%20COMPBC2) &nbsp;
@@ -19,4 +21,8 @@ This file is only important and applicable to the collaborators and developers o
 
 ### Format for last backup
 
-![GitHub](https://img.shields.io/badge/#%3A%20Last%20Backup-Date(DD_MM_YYYY)%20time(hh_mm)%20PC%20Name) &nbsp;
+ - Backup Number. The closer the backup number is to 1, the newer
+ - Date in DD/MM/YYYY format (the standard EU format, and the most used)
+ - Time (if applicable, say you did git clone on 2 computers on the same day
+ - PC Name (can be the owner + type of device or the computer name, e.g COMPBC2)
+ - Drive path (if applicable, say you put it on a USB or something)
