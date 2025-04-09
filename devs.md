@@ -13,6 +13,10 @@ This file is only important and applicable to the collaborators and developers o
 
 ![GitHub](https://img.shields.io/badge/1%3A%20Last%20Backup-07/04/2025%2021:01%20Gmaersoft42%20Laptop-blue) &nbsp;
 
-![GitHub](https://img.shields.io/badge/2%3A%20Last%20Backup-Not%20Available-red) &nbsp;
+![GitHub](https://img.shields.io/badge/2%3A%20Last%20Backup-07/04/2025%20COMPBC2) &nbsp;
 
 ![GitHub](https://img.shields.io/badge/3%3A%20Last%20Backup-Not%20Available-red) &nbsp;
+
+### Format for last backup
+
+![GitHub](https://img.shields.io/badge/#%3A%20Last%20Backup-Date(DD_MM_YYYY)%20time(hh_mm)%20PC%20Name) &nbsp;
