@@ -9,6 +9,12 @@ This file is only important and applicable to the collaborators and developers o
 > Git LFS limits any individual file to 2GB, and if not respected then will throw error `Size must be less than or equal to 2147483648: [422] Size must be less than or equal to 2147483648
 `. This error will not disappear and mess up your pushes and pulls, and re-cloning the Git repository will be required.
 
+## GitHub File Size precautions:
+
+> [!WARNING]
+>
+> If you try and upload a file that is over 100MB, make sure that the file extension type is correctly set in the .gitattributes file. Failure to do so will mess up the commit history and file headers, and re-cloning the Git repository will be required.
+> 
 ## Last Backup:
 
 Update this section as accordingly. The last backup counts as the last machine to push onto the Git Repository.
