@@ -1,14 +1,6 @@
-os
-random
 cryptography
-turtle
-tkinter
 requests
-pyqt
-webbrowser
 psutil
-js
 html
 subprocess
-math
 email
