@@ -6,7 +6,7 @@ This file is only important and applicable to the collaborators and developers o
 
 > [!WARNING]
 >
-> Git LFS limits any individual file to 2GB, and if not respected then will throw error `Size must be less than or equal to 2147483648%3A [422] Size must be less than or equal to 2147483648
+> Git LFS limits any individual file to 2GB, and if not respected then will throw error ` [422] Size must be less than or equal to 2147483648
 `. This error will not disappear and mess up your pushes and pulls, and re-cloning the Git repository will be required.
 
 ## GitHub File Size precautions:
