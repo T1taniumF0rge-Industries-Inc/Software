@@ -4,3 +4,4 @@ psutil
 html
 subprocess
 email
+pyperclip
