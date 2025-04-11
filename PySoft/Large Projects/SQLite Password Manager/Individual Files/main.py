@@ -3,6 +3,7 @@ import pwdmgr
 import pwdgen
 import encryption
 import os
+import pyperclip
 key = False
 def clear():
     if os.name == 'nt':
@@ -13,26 +14,25 @@ def main():
     pwdmanager = pwdmgr.PasswordManager()
     while True:
         clear()
-        print("*****|DATABASE PASSWORD MANAGER|*****")
+        print("*** DATABASE PASSWORD MANAGER ***")
         print("[1] Generate password to database")
         print("[2] Add custom password to database")
         print("[3] Advanced password generator")
-        print("[4] Update password")
+        print("[4] Update Password")
         print("[5] Delete password")
         print("[6] Delete database")
-        print("[7] Not in use")
+        print("[7] Cyrillic Password Generation")
         print("[8] View all passwords")
-        print("[9] Generate encryption key")
+        print("[9] Generate Encryption key")
         print("[10] Encrypt database")
         print("[11] Decrypt database")
         print("[12] Refresh Database - This operation must be performed if the database has been deleted")
         print("[13] Quit")
         option = int(input("Please select an option: "))
-        if option == 1 or option == 2 or option == 3:
+        if option in (1,2,3,7):
             if option == 1:
                 length = int(input("Please enter the length of your password: "))
                 pwd = pwdgen.generate_pwd(length)
-                print(f"Your password is: {pwd}")
             if option == 2:
                 pwd = input("Please enter your desired password: ")
             if option == 3:
@@ -41,7 +41,12 @@ def main():
                 number_char = int(input("Please enter the number of number characters in you want in your password: "))
                 std_char = int(input("Enter the amount of standard characters you want in your password: "))
                 pwd = pwdgen.adv_pwd(special_char,number_char,std_char)
-                print(f"Your password is: {pwd}")
+            if option == 7:
+                 print("Please note that these characters cannot be typed using a standard ANSI keyboard and need to be copy pasted from this program. Also note that since Cyrillic characters aren't widely used outside of Eastern Europe (Ukraine, Russia, Belarus, etc...), it may break older websites or throw errors about compatability errors.")
+                 pwd_length = int(input("Please enter the length of your desired password: "))
+                 pwd = pwdgen.cyrillic_pwd(pwd_length)
+            pyperclip.copy(pwd)
+            print(f"The password has been copied to clipboard.")
             name = input("Enter a name for your password: ")
             username = input("Enter the username for the desired application: ")
             site = input("Enter the name of the site (if applicable): ")
@@ -63,7 +68,7 @@ def main():
             for x in rows:
                 print(x)
             id = input("Please enter the ID of your password. It is the number at the very left of the window: ")                                 
-            confirmation = input("This action is irrevocable, and you will not be able to retrieve this password after the deletion. Proceed? [Y/N]: ")
+            confirmation = input("This action is irrevokable, and you will not be able to retrieve this password after the deletion. Proceed? [Y/N]: ")
             if confirmation == "Y":
                 confirm = input("To proceed, type 'True': ")
                 if confirm == "True":
@@ -74,7 +79,7 @@ def main():
             else:
                 input("Operation cancelled. Press ENTER to continue...")
         if option == 6:
-            confirmation = input("This action is irrevocable, and you will not be able to retrieve this password after the deletion. Proceed? [Y/N]: ")
+            confirmation = input("This action is irrevokable, and you will not be able to retrieve this password after the deletion. Proceed? [Y/N]: ")
             if confirmation == "Y":
                 confirm = input("To proceed, type 'True': ")
                 if confirm == "True":
@@ -84,26 +89,18 @@ def main():
                     input("Operation cancelled. Press ENTER to continue...")
             else:
                 input("Operation cancelled. Press ENTER to continue...")  
-        if option == 7:
-                print("An error has occurred. To continue,")
-                print(" → Press enter to return to the main menu")
-                print(" → Press CTRL + C to terminate this program. You will lose any unsaved data in any open programs.")
-                print("Press any ENTER to continue. Error : 0FA3E22")
-                input("")          
-                print("Bad Value for memory address 70 72 69 6E 74 28 22 42 61 64 20 56 61 6C 75 65 20 66 6F 72 20 6D 65 6D 6F 72 79 20 61 64 64 72 65 73 73 20 20 5C 6E 22 29 \n The following operation has been terminated.")
-                input("You may choose to continue by pressing ENTER. The program will ignore the error and attempt to continue. If you press CTRL + C, the program will terminate immediately. You will lose any unsaved work in any open programs.")
         if option == 8:
             rows = pwdmanager.fetch()
             for x in rows:
                 print(x)   
             input("Press ENTER to continue...")
         if option == 9:
-            filename = input("Please enter a valid file name to store your encryption key. For maximum compatability, it is recommended to use the *.frn file extension: ")
+            filename = input("Please enter a valid file name to store your encrytion key. For maximum compatability, it is recommended to use the *.frn file extension: ")
             encryption.keygen(filename)
             input("Key successfully saved. Press ENTER to continue...")
         if option == 10 or option == 11:
-            keyname = input("Please enter a valid fernet key file name. The format must be A:\directory\keyfile.frn: ")
-            dbname = input("Please enter a valid file name (The Database is usually stored in the same directory as this python file). The format must be A:\directory\pwdfile.extension: ")
+            keyname = input("Please enter a valid fernet key file name. The format must be a:\directory\keyfile.frn: ")
+            dbname = input("Please enter a valid file name (The Database is usually stored in the same directory as this python file). The format must be a:\directory\pwdfile.extention: ")
             if option == 10:
                 print("Encrypting file. This may take several minutes...")
                 encryption.enc(keyname, dbname)

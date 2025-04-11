@@ -25,3 +25,11 @@ def generate_pwd(length):
     for x in range(length):
             pwd += random.choice(character_set)
     return pwd
+def cyrillic_pwd(length):
+     cyrillic_chars = "АаВеЕЗМоНОРрСсТуХхЈјҮԁԌԚԛԜԝ"
+     standard_chars = '`1!234$5%6^7&8*9(0)-_=+qQwWeErRtTyYuUiIoOpPaAsSdDfFgGhHjJkKlL;:@~#\|zZxXcCvVbBnNmMm,<.>/?'
+     chars = [cyrillic_chars, standard_chars]
+     pwd =""
+     for x in range(length):
+                            pwd += random.choice(random.choice(chars))
+     return pwd
