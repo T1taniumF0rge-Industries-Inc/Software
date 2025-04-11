@@ -6,7 +6,7 @@ This file is only important and applicable to the collaborators and developers o
 
 > [!WARNING]
 >
-> Git LFS limits any individual file to 2GB, and if not respected then will throw error `Size must be less than or equal to 2147483648: [422] Size must be less than or equal to 2147483648
+> Git LFS limits any individual file to 2GB, and if not respected then will throw error `Size must be less than or equal to 2147483648%3A [422] Size must be less than or equal to 2147483648
 `. This error will not disappear and mess up your pushes and pulls, and re-cloning the Git repository will be required.
 
 ## GitHub File Size precautions:
@@ -19,9 +19,9 @@ This file is only important and applicable to the collaborators and developers o
 
 Update this section as accordingly. The last backup counts as the last machine to push onto the Git Repository.
 
-![GitHub](https://img.shields.io/badge/1%3A%20Last%20Backup-07/04/2025%2021:01%20Gmaersoft42%20Laptop-blue) &nbsp;
+![GitHub](https://img.shields.io/badge/1%3A%20Last%20Backup-10/04/2025%2019%3A47%20Gmaersoft42%20COMPBC-green) &nbsp;
 
-![GitHub](https://img.shields.io/badge/3%3A%20Last%20Backup-Not%20Available-red) &nbsp;
+![GitHub](https://img.shields.io/badge/2%3A%20Last%20Backup-07/04/2025%2021%3A01%20Gmaersoft42%20Laptop-blue) &nbsp;
 
 ![GitHub](https://img.shields.io/badge/3%3A%20Last%20Backup-Not%20Available-red) &nbsp;
 
