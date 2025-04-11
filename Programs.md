@@ -374,6 +374,8 @@ All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers
 
 1 -> [Midtown Madness 1:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Midtown%20Madness/Midtown%20Madness/MidtownMadnessSetup.exe) A fun racing game, based in the city of Chicago, that may or may not run on a 4090. Get out that S3 virge to race against the clock or other cars, or maybe to cause some *slight* chaos. An NSI file is provided for compiling the installer yourself. *The controls are garbage!*
 
+2 -> [Midtown Madness 2:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Midtown%20Madness/Midtown%20Madness%202) A fun racing game, this time letting you choose between the 2 beautiful cities, San Francisco and London. Get out that S3 Virge to race against the clock, against other cars or have police chasing you! You can also cause *much chaos*. An NSI file and the source (in *.zip and *.7z formats) are provided if you want to compile the installer yourself. Note that this game may not run on the newest hardware and software.#
+
 [**Minecraft:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Minecraft)
 
 1 -> [Minecraft:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Minecraft/MinecraftInstaller.exe) Not sure it's a kid's game or not, but we all played it during the lockdown.
