@@ -281,7 +281,7 @@ try:
                         cyrillic_character_set = "АаВеЕЗМоНОРрСсТуХхЈјҮԁԌԚԛԜԝ"
                         standard_chars = '¦¬`1!23#4$5%6^7&8*9(0-_=+q"~{[]}=+QwWeErRtTyYuUiIoOpPaAsSdDfFgGhHjJkKlL;:@~^%#\|zZxXcCvVbBnNmMm,<.>/?)'
                         chars = [cyrillic_character_set, standard_chars]
-                        length = input("Please enter your password length: ")
+                        length = int(input("Please enter your password length: "))
                         pwd = ""
                         for x in range(length):
                             pwd += random.choice(random.choice(chars))
@@ -421,10 +421,6 @@ except KeyboardInterrupt:
     exit()
 except EOFError:
     exit()
-except BaseException:
-    print("Error: 770A\nA random exception occured.")
-    input("Press enter to return to the program...")
-    sms_main()
 except IOError:
     print("Error: 0272\nA device on your system has either malfunctioned or has been unplugged. The operating system will now forcibly close the program.")
     input("Press enter to exit...")
