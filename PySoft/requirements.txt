@@ -5,3 +5,4 @@ html
 subprocess
 email
 pyperclip
+opencv-python
