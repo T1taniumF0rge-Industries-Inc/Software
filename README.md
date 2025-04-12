@@ -111,6 +111,6 @@ For easy access to all working files and programs in this repository, use the [p
 
 ## Licensing Agreement:
 
-This repository is licensed under the __**BSD3**__ License.
+This repository is licensed under the </ins>**BSD3**</ins> License.
 
 To use any program or file in this repository, you must agree to the **[license](/LICENSE)** and its terms of conditions, as well as ***any* and *all* disclaimers and warranty information (if applicable)**. We will ***not*** be liable for **any damages that any file, software package, individual program or other material from this repository can potentially make *in your possession! This includes, but is not limited to, unintentional bugs, user error caused by an unclear prompt or clearly marked programs that may crash your computer.*** 
