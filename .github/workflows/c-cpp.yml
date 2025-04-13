@@ -3,9 +3,12 @@ name: C/C++ CI
 on:
   push:
     branches: [ "Main" ]
+    paths:
+      - 'CPPSoft/**'  # Only run when files in this directory change
   pull_request:
     branches: [ "Main" ]
-
+    paths:
+      - 'CPPSoft/**'  # Only run when files in this directory change
 jobs:
   build:
 
