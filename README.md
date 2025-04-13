@@ -71,7 +71,7 @@ This is **where** I will be *storing all* of ***my and Okmeque1's collection of*
 This is **where** I will be *storing all* of ***my*** hacks that I may use in games. 
 
 > [!IMPORTANT]
-> *These hacks should only be used for* **educational purposes** *and* **testing purposes *only*** *and should not be used to ruin other people's gameplay.* We will ***not*** be liable for **any damages that the in the `HackSoft` folder can potentially make *in your possession!*** Thank you for understanding.
+> *These hacks should only be used for* **educational purposes** *and* **testing purposes *only*** *and should not be used to ruin other people's gameplay.* We will ***not*** be liable for **any damages any files in the `HackSoft` folder can potentially make *in your possession!*** Thank you for understanding.
 
 *For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/HackSoft)
 
