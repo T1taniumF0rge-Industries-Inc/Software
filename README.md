@@ -17,7 +17,7 @@ This is **where** I will be *storing all* of ***my*** VBS (Windows Visual Basic 
 
 > [!CAUTION]
 > 
-> The VBS codes are *more towards **pranks*** but Windows might detect it as a virus. Be careful though as the [`/VBSoft/Deadly`](https://github.com/GamerSoft24/Software/tree/Main/VBSoft/Deadly) folder, the codes there are actually ***deadly*** and can *crash your RAM* in just a **few seconds running.** We will ***not*** be liable for **any damages caused by any scripts in the `VBSoft` folder *in your possession!***
+> The VBS codes are *more towards **pranks*** but Windows might detect it as a virus. Be careful though as the [`/VBSoft/Deadly`](https://github.com/GamerSoft24/Software/tree/Main/VBSoft/Deadly) folder, the codes there are actually ***deadly*** and can *crash your RAM* in just a **few seconds running.** We will ***not*** be liable for **any damages caused by any scripts in the `VBSoft` folder *in your possession! (this includes, but is not limited to, modification, execution or download of the files)***
 
 *For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/VBSoft)
 
