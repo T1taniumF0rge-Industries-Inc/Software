@@ -1,4 +1,6 @@
 # uarte za martin vatermeline
+# WHY WHY WHY!!!!!!!!!
+# NO WHAET IZ ZATTTT
 import random
 def adv_pwd(spcn, numn, char):
     end = ""
