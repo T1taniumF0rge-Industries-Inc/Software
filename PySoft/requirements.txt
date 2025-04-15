@@ -6,3 +6,5 @@ subprocess
 email
 pyperclip
 opencv-python
+scapy
+python-nmap
