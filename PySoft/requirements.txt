@@ -8,3 +8,4 @@ pyperclip
 opencv-python
 scapy
 python-nmap
+ffpyplayer
