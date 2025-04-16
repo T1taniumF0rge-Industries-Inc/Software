@@ -1,4 +1,4 @@
-#include <Wire.h>
+#include <Wire.h> // prerequisites
 #include "paj7620.h"
 #define GES_REACTION_TIME 200
 #define GES_ENTRY_TIME 400
