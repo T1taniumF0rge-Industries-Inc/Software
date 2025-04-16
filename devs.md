@@ -2,6 +2,13 @@
 
 This file is only important and applicable to the collaborators and developers of the `Software` repository. If you are a standard user, this information does not apply and will not serve you anything
 
+## IMPORTANT - GIT LFS FAILURE
+
+> [!CAUTION]
+>
+> GIT LFS IS BROKEN AND WILL NOT CLONE! MAKE SURE TO UPDATE THE SPENDING AMOUNT SO THAT WE CAN KEEP WORKING ON THIS STUPID REPO!!!
+>
+> 
 ## Git LFS file size limitations:
 
 > [!WARNING]
