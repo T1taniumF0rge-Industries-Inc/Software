@@ -32,6 +32,8 @@ Please tick the checkboxes that you followed
 ## Security Policy
 This is a copy of our security policy. You also can review it [here](https://github.com/GamerSoft24/Software/blob/Main/SECURITY.md).
 
+- [ ] By submitting this pull request, you agree to follow the terms of the security policy.
+
 ### Our Programs
 All of our programs are carefully made and have been revised and scanned for **any types** of *sneaky viruses or script problems.* They are **100% trustable** and they are **completely safe.** As the programs are very *hardware intensive*, they may take some time to load. Please be patient!
 
@@ -57,8 +59,12 @@ To *report* violence, unacceptable behavior, or security vulnerabilities, you ca
 ## Terms and license
 
 This repository and all of its projects are licensed under the terms of the [BSD 3-Clause License](https://github.com/GamerSoft24/Software/blob/Main/LICENSE).
-- [ ] By contributing to this repository, you agree to follow the terms and conditions of our [license](https://github.com/GamerSoft24/Software/blob/Main/LICENSE).
+- [ ] By contributing to this repository, you agree to follow the terms and conditions of our [license](https://github.com/GamerSoft24/Software/blob/Main/LICENSE), as well as any and all warranty disclaimers. Read the [README file](/README.md) for more information.
 
 ## Code of Conduct
 
 - [ ] By contributing to this repository, you agree to abide by our [Code of Conduct](https://github.com/GamerSoft24/Software/blob/Main/CODE_OF_CONDUCT.md).
+
+## Contributing Guidelines
+
+- [ ] By contributing to this repository, you agree to abide by our [Contributing Guidelines](/CONTRIBUTING.md)
