@@ -2,6 +2,35 @@
 
 This file is only important and applicable to the collaborators and developers of the `Software` repository. If you are a standard user, this information does not apply and will not serve you anything
 
+## Git LFS Smudge Errors:
+
+While cloning this repository, you may encounter this error: 
+```
+$ git clone https://github.com/gamersoft24/software.git /d/gitgmsoft
+Cloning into 'D:/gitgmsoft'...
+remote: Enumerating objects: 10371, done.
+remote: Counting objects: 100% (541/541), done.
+remote: Compressing objects: 100% (225/225), done.
+remote: Total 10371 (delta 467), reused 312 (delta 312), pack-reused 9830 (from 2)
+Receiving objects: 100% (10371/10371), 7.06 GiB | 1.10 MiB/s, done.
+Resolving deltas: 100% (3595/3595), done.
+Updating files: 100% (4515/4515), done.
+Downloading InstallerSoft/Windows/Chromium & Supermium/Thorium/thorium_m128installer.exe (297 MB)
+Error downloading object: InstallerSoft/Windows/Chromium & Supermium/Thorium/thorium_m128installer.exe (4bd2cc1): Smudge error: Error downloading InstallerSoft/Windows/Chromium & Supermium/Thorium/thoriu
+m_m128installer.exe (4bd2cc1c9f695f0cdea23e0d3278490c6e91b5d07b781977f3feb0ed8e5ee878): batch response: This repository exceeded its LFS budget. The account responsible for the budget should increase it
+to restore access.
+
+Errors logged to 'D:\GitGMSoft\.git\lfs\logs\20250421T105547.0425862.log'.
+Use `git lfs logs last` to view the log.
+error: external filter 'git-lfs filter-process' failed
+fatal: InstallerSoft/Windows/Chromium & Supermium/Thorium/thorium_m128installer.exe: smudge filter lfs failed
+warning: Clone succeeded, but checkout failed.
+You can inspect what was checked out with 'git status'
+and retry with 'git restore --source=HEAD :/'
+```
+
+This error is known to happen, and you will have to wait until the next Git LFS package is paid by the repo owner.
+
 ## IMPORTANT 
 
 Use this section to tell developers about important information about this repository.
