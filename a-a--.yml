@@ -19,7 +19,7 @@ jobs:
     - name: martin
       run: martin --initialise /Software/a-a--.yml --user-data-dir=/Software/.github/workflows/a-a--_ci-cd
     - name: clhchm
-      run: clhchm --clear-data --restore /Software/.github/Backup/a-a--_ci-cd/15052023 --refresh-memory --lh "LongHan" #LH Flag is a print message that logs when the thing is started. Default is "Workflow '{WORKFLOW_NAME}' has started!"
+      run: clhchm --clear-data --restore-from-backup /Software/.github/Backup/a-a--_ci-cd/15052023 --refresh-memory --lh "LongHan" #LH Flag is a print message that logs when the thing is started. Default is "Workflow '{WORKFLOW_NAME}' has started!"
     - name: localcheck
       run: localcheck false
     - name: chkdsk
