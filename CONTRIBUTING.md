@@ -18,4 +18,33 @@ To consider *changing programs and codes* in this `Software` repository you have
 > - For individual small files, it is best to use the web editor as this repository will take about 30 minutes on average to clone using Git BASH, since this repo is 35.6GB on a local computer.
 > - If you still want to use Git BASH, it is highly recommended to use the [Developer File Area](/devs.md) to avoid any potential failure
 
+### Example Case:
+
+The python program underneath is broken and could use some improvements:
+
+```
+print("made by gamersoft24")
+number = 1
+def random_math_function(amount):
+  for x in range(amount):
+    number = number + number
+  return number + amount
+input("Enter a random number")
+random_math_function
+```
+
+A change like so is a good starting spot, although in this case if you could make the inputs explain what they do it would be even better:
+
+```
+print("made by gamersoft24")
+print("Fixed made by GmaerSoft42")
+number = input("Enter a random number to add:") #By GmaerSoft42: Input added so that you can choose the base starting number
+def random_math_function(amount)
+  for x in range(amount):
+    number += number
+    number += amount
+  return number
+amount = input("Enter a random number to recurse") # fixed broken input, GmaerSoft42
+random_math_function(amount) #Calling function properly - GmaerSoft42
+```
 
