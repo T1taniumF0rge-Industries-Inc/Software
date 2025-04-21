@@ -6,6 +6,13 @@ This file is only important and applicable to the collaborators and developers o
 
 Use this section to tell developers about important information about this repository.
 
+## Git Pull Errors:
+
+> [!IMPORTANT]
+>
+> Before you leave your computer for any reason, make sure to push the last files that you have committed, otherwise you may encounter problems when pulling or pushing new files.
+>
+> 
 ## Git LFS file size limitations:
 
 > [!WARNING]
