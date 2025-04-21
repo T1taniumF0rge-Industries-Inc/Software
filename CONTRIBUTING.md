@@ -15,6 +15,6 @@ To consider *changing programs and codes* in this `Software` repository you have
 > - The workflows in this repository may not work properly. It is expected to have workflow failures on each commit. If this happens, just ignore it.
 > - If this repository is in inactive mode, the code may not get reviewed until 6 months of a pull request being opened.
 > - You may want to add new languages to the repo (for now, we don't have official BASH scripts, but if you wanted you could create a new folder named BASHSoft and go from there making your own BASH scripts)
-> - For individual small files, it is best to use the web editor as this repository will take about 30 minutes on average to clone using Git BASH.
+> - For individual small files, it is best to use the web editor as this repository will take about 30 minutes on average to clone using Git BASH, since this repo is 35.6GB on a local computer.
 
 
