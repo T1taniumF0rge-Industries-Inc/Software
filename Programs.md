@@ -1,4 +1,4 @@
-# Programs (-> Programs will be updated shortly!)
+# Programs 
 
 This is the program chart.
 
