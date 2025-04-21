@@ -30,9 +30,9 @@ Use this section to tell developers about important information about this repos
 
 ### Last Pull/Clone:
 
-| Order | Date & Time      | Computer name |
-|-------|------------------|---------------|
-| 1     | 21/04/2025 08:51 | COMPBC2       |
+| Order | Date & Time      | Computer name / User Name |
+|-------|------------------|---------------------------|
+| 1     | 21/04/2025 08:51 | COMPBC2 GmaerSoft42       |
 | 2     | Not Available    | Not Available |
 | 3     | Not Available    | Not Available |
 
