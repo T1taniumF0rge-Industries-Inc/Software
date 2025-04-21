@@ -15,12 +15,12 @@ jobs:
     steps:
     - uses: actions/checkout@v0.1
     - name: dumpbin
-      run: ./dumpbin
+      run: ./dumpbin --out-file=/Software/.github/workflows/dumpbin/output
     - name: martin
       run: martin --initialise /Software/a-a--.yml --user-data-dir=/Software/.github/workflows/a-a--_ci-cd
     - name: clhchm
-      run: clhchm --clear-data --restore /Software/.github/Backup/a-a--_ci-cd/15052023 --refresh-memory --lh "LongHan"
-    - name: distcheck
-      run: distcheck false
+      run: clhchm --clear-data --restore /Software/.github/Backup/a-a--_ci-cd/15052023 --refresh-memory --lh "LongHan" #LH Flag is a print message that logs when the thing is started. Default is "Workflow '{WORKFLOW_NAME}' has started!"
+    - name: localcheck
+      run: localcheck false
     - name: chkdsk
-      run: chkdsk/windows@10_24H2
+      run: chkdsk/windows@10_1507
