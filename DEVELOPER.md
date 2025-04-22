@@ -2,12 +2,16 @@
 
 This file is only important and applicable to the collaborators and developers of the `Software` repository. If you are a standard user, this information does not apply and will not serve you anything
 
+## Important
+
+.COMING_SOON → *"Use this section to tell developers about important information about this repository"*
+
 ## Git LFS Smudge Errors:
 
-While cloning this repository, you may encounter this error: 
+While cloning this repository, you may encounter a similar error as the following: 
 ```
-$ git clone https://github.com/gamersoft24/software.git /d/gitgmsoft
-Cloning into 'D:/gitgmsoft'...
+$ git clone https://github.com/GamerSoft24/Software.git /c/GitHub
+Cloning into 'C:\GitHub'...
 remote: Enumerating objects: 10371, done.
 remote: Counting objects: 100% (541/541), done.
 remote: Compressing objects: 100% (225/225), done.
@@ -20,7 +24,7 @@ Error downloading object: InstallerSoft/Windows/Chromium & Supermium/Thorium/tho
 m_m128installer.exe (4bd2cc1c9f695f0cdea23e0d3278490c6e91b5d07b781977f3feb0ed8e5ee878): batch response: This repository exceeded its LFS budget. The account responsible for the budget should increase it
 to restore access.
 
-Errors logged to 'D:\GitGMSoft\.git\lfs\logs\20250421T105547.0425862.log'.
+Errors logged to 'C:\GitHub\.git\lfs\logs\20250421T105547.0425862.log'.
 Use `git lfs logs last` to view the log.
 error: external filter 'git-lfs filter-process' failed
 fatal: InstallerSoft/Windows/Chromium & Supermium/Thorium/thorium_m128installer.exe: smudge filter lfs failed
@@ -29,24 +33,20 @@ You can inspect what was checked out with 'git status'
 and retry with 'git restore --source=HEAD :/'
 ```
 
-This error is known to happen, and you will have to wait until the next Git LFS package is paid by the repo owner.
-
-## IMPORTANT 
-
-Use this section to tell developers about important information about this repository.
+This error is known to happen, and you will have to wait until either the next Git LFS package is paid by the repository owner or the Git LFS budget is reset or disactivated.
 
 ## Git Pull Errors:
 
 > [!IMPORTANT]
 >
-> Before you leave your computer for any reason, make sure to push the last files that you have committed, otherwise you may encounter problems when pulling or pushing new files.
+> Before you leave your computer for any reason, make sure to push the last files that you have committed, otherwise you may encounter problems when pulling or pushing new files (git merge problems) and may have to reclone the entire repository again (just hope your suppresion of the file doesnt take ages).
 >
 > 
 ## Git LFS file size limitations:
 
 > [!WARNING]
 >
-> Git LFS limits any individual file to 2GB, and if not respected then will throw error ` [422] Size must be less than or equal to 2147483648
+> Git LFS limits any individual file to 2GB, and if not respected then will throw error 422 ` [422] Size must be less than or equal to 2147483648
 `. This error will not disappear and mess up your pushes and pulls, and re-cloning the Git repository will be required.
 
 ## GitHub file size precautions:
@@ -78,5 +78,5 @@ Use this section to tell developers about important information about this repos
  - Order Number. The closer the backup number is to 1, the newer
  - Date in DD/MM/YYYY format (the standard EU format, and the most used)
  - Time (if applicable, say you did git clone on 2 computers on the same day
- - PC Name (can be the owner + type of device or the computer name, e.g COMPBC2)
- - Drive path (if applicable, say you put it on a USB or something)
+ - PC name (can be the owner + type of device or the computer name, e.g COMPBC2)
+ - Drive path (if applicable, say you put it on the A: drive or a USB or something)
