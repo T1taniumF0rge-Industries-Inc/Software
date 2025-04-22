@@ -1,5 +1,8 @@
 # Champions (Campeones), 2018 film
 
+> [!NOTE]
+> The files of this movie will not be uploaded to this repository due to LFS file size limitations. However, a Google Drive link may be available shortly. Thank you for your patience and understating! 🙏
+
 ## Short description of film
 ***Not to be confused with Champion (2018 film)!***
 
