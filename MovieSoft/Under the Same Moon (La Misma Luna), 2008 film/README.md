@@ -9,14 +9,14 @@ Under the Same Moon (Spanish: La misma luna) is a 2007 drama film directed by Pa
 This film is a production of Potomac Pictures, Creando Films, Fidecine.
 
 Distributed by Fox Searchlight Pictures and The Weinstein Company, the film was theatrically released on:
-
-Fox Searchlight Pictures is owned by Walt Disney Studios, is a sub-division of Disney Entertainment, a business segment of the Walt Disney Company.
 	
 July 24, 2007 (festival)
 
 March 19, 2008 (United States)
 
 March 20, 2008 (Mexico)
+
+Fox Searchlight Pictures is owned by Walt Disney Studios, is a sub-division of Disney Entertainment, a business segment of the Walt Disney Company.
 
 ## Credits:
 
