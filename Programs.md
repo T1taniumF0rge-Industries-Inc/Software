@@ -200,6 +200,14 @@ Refer to the README file for more information
 
 2 -> [Chopin - Etude in E Major Op. 10 No. 3:](https://github.com/GamerSoft24/Software/tree/Main/MovieSoft/Sviatoslav%20Richter/Schubert%20%26%20Chopin) This etude was composed in 1832, was was composed for his series of etudes in Op. 10.
 
+## [RepoSoft:](https://github.com/GamerSoft24/Software/tree/Main/RepoSoft)
+
+This folder is mainly used to store repository files that will be useful to @GamerSoft24 and @GmaerSoft42. For download access, it is highly recommended to use Git Bash to clone the entire repository.
+
+## [OkmequeSoft:](https://github.com/GamerSoft24/Software/tree/Main/OkmequeSoft)
+
+There will be a dedicated program chart for that folder only, please refer there for more information.
+
 ## [InstallerSoft:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft)
 
 ### [Windows:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows)
