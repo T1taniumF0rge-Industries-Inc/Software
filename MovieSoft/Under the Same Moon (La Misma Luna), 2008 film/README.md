@@ -2,7 +2,7 @@
 
 ## Short description of the film:
 
-Under the Same Moon (Spanish: La misma luna) is a 2007 drama film directed by Patricia Riggen (in her feature film directorial debut), written by Ligiah Villalobos, and starring Kate del Castillo, Adrián Alonso, and Eugenio Derbez that lasts 104 minutes. The film follows nine-year-old Carlitos and his mother, Rosario. To give her son a better life, Rosario works illegally in the U.S. while Carlitos stays in Mexico with his grandmother. When unforeseen events unfold, both Rosario and Carlitos undertake separate journeys, striving to reunite.
+Under the Same Moon (Spanish: La Misma Luna) is a 2007 drama film directed by Patricia Riggen (in her feature film directorial debut), written by Ligiah Villalobos, and starring Kate del Castillo, Adrián Alonso, and Eugenio Derbez that lasts 104 minutes. The film follows nine-year-old Carlitos and his mother, Rosario. To give her son a better life, Rosario works illegally in the U.S. while Carlitos stays in Mexico with his grandmother. When unforeseen events unfold, both Rosario and Carlitos undertake separate journeys, striving to reunite.
 
 ## Copyrights:
 
