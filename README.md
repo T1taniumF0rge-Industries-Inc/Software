@@ -81,6 +81,12 @@ This is **where** I will be *storing all* of ***the repositories across GitHub**
 
 *For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/RepoSoft)
 
+## [`OkmequeSoft:`]
+
+This is **where** I will be *storing all* of ***the migrated and updated files from the [`Okmeque1/Software`] repository***.
+
+*For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/OkmequeSoft)
+
 ## [`.github:`]
 
 This is **where** this `Software` repository's ***configuration files*** will be *stored*.
