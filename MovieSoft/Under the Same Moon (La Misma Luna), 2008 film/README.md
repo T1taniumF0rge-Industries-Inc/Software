@@ -20,6 +20,10 @@ Fox Searchlight Pictures is owned by Walt Disney Studios, is a sub-division of D
 
 ## Credits:
 
+> [!NOTE]
+>
+> I could not find a link to all of the companies stated below that are accredited for. They are either local companies or have gone bankrupt. For more info, individual research is highly recommended.
+
 ### © Potomac Pictures
 
 ### © Creando Films
@@ -29,7 +33,3 @@ Fox Searchlight Pictures is owned by Walt Disney Studios, is a sub-division of D
 ### © Fox Searchlight Pictures: https://www.searchlightpictures.com/
 
 ### © The Weinstein Company
-
-> [!IMPORTANT]
->
-> I could not find a link to all of the above companies that are accredited for. They are either local companies or have gone bankrupt. For more info, individual research is highly recommended.
