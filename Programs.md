@@ -188,6 +188,8 @@ Refer to the README file for more information
 
 2 -> [Tableaux d'une Exposition Mov'ts 11-15: ](https://github.com/GamerSoft24/Software/blob/Main/MovieSoft/Sviatoslav%20Richter/Moussorgski/Mussorgski%202%20(Tableaux%20d'une%20Exposition).m4a)This is a piece composed by Modeste Moussorgski, and this file contains Movements 11-15. Read the README in the directory for more information.
 
+3 -> [Tableaux d'une Exposition - Édition Integrale: ](https://github.com/GamerSoft24/Software/blob/Main/MovieSoft/Sviatoslav%20Richter/Moussorgski/Moussorgski%20L'int%C3%A9grale%20(Tableaux%20d'une%20Exposition).m4a)This is a piece composed by Modeste Moussorgski, and this file contains all of the movements. Read the README in the directory for more information.
+
 [**Schubert & Chopin**](https://github.com/GamerSoft24/Software/tree/Main/MovieSoft/Sviatoslav%20Richter/Schubert%20%26%20Chopin)
 
 1 -> [Schubert - Moment Musicaux & Impromptus:](https://github.com/GamerSoft24/Software/tree/Main/MovieSoft/Sviatoslav%20Richter/Schubert%20%26%20Chopin) These are a part of a collection of Moment Musicaux and Impromptus, which were composed in the middle of the 19th Century. This file contains:
