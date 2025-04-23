@@ -2,11 +2,11 @@
 
 > [!WARNING]
 >
-> These loaders are unofficial and not supported by Microsoft. There is absolutely **NO WARRANTY**. We will ***not*** be liable for **any damages that these loaders can potentially make *in your possession!***
+> These loaders are unofficial and not supported by Microsoft. There is absolutely **NO WARRANTY**. We will ***not*** be liable for **any damages caused by the loaders in the `InstallerSoft/Windows/Windows Loaders` folder *in your possession! (this includes, but is not limited to, modification, execution or download of the files)***
 
 ## Are they safe?
 
-Any software downloaded from this repository is safe unless explicitely marked. The loaders *downloaded from this repository* are **safe and tested** (Okmeque1 and myself (GamerSoft24) are using it on our computers and have not been hacked so far).
+Any software downloaded from this repository is safe unless explicitely marked, as said in our security policy. The loaders *downloaded from **this** repository* are **safe and tested** (Okmeque1 and myself (GamerSoft24) are using it on our computers and have not been hacked so far, it's been about 2-3 years or more).
 
 > [!WARNING]
 > 
