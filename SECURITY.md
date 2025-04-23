@@ -1,7 +1,7 @@
 # Security Policy
 
 ## Our Programs:
-All of our programs are carefully made and have been revised and scanned for **any types** of *sneaky viruses or script problems.* They are **100% trustable** and they are **completely safe.** As the programs are very *hardware intensive*, they may take some time to load. Please be patient!
+All of our programs hosted on this repository are carefully made and have been revised and scanned for **any types** of *sneaky viruses or script problems.* They are **mostly trustable** and for the most part **completely safe, exluding explicitely marked programs such as viruses/pranks and Windows Loaders.** As the programs are very *hardware intensive*, they may take some time to load. Please be patient!
 
 ## Supported Security versions:
 
