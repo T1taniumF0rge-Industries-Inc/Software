@@ -13,6 +13,7 @@ To consider *changing programs and codes* in this `Software` repository you have
 >   
 > ### Some things to take note about:
 >
+> - The DEVELOPER.md Last Push/Pull section can be ignored, this is only for the repository collaborators and owners.
 > - The workflows in this repository may not work properly. It is expected to have workflow failures on each commit. If this happens, just ignore it.
 > - If this repository is in inactive mode, the code may not get reviewed until 6 months of a pull request being opened. If it is in semi-active mode, expect the code to be reviewed within 30 days of a pull request being opened.
 > - You may want to add new languages to the repo (for now, we don't have official BASH scripts, but if you wanted you could create a new folder named BASHSoft and go from there making your own BASH scripts)
