@@ -17,7 +17,7 @@ currently being supported with security updates.
 | < 4.1   | :x:                |
 
 ## Pull requests:
-To consider *changing programs and codes* in this `Software` repository you have to **pull request first and wait for approval** which should be *reviewed* in the **maximum delay of ***3 days***** **unless** the repository is in innactive mode! The 'Pull requests' tab is located on the top left corner of your screen (on computer).
+To consider *changing programs and codes* in this `Software` repository you have to **pull request first and wait for approval** which should be *reviewed* in the **maximum delay of ***7 days***** **unless** the repository is in inactive mode! The 'Pull requests' tab is located on the top left corner of your screen (on computer).
 
 ## Reporting (private and official) and suggestions: 
 To *report* privately and officially or make any *suggestions* to the repository, click the 'Issues' tab also located on the top left corner of your screen. Then, choose a template that suits you the best or just open a blank template and then write your issue report(s) or suggestion(s) down. Once finished, just submit and your all good!
