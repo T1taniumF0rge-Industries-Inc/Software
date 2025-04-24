@@ -26,7 +26,7 @@ To consider *changing programs and codes* in this `Software` repository you have
 
 The python program underneath is broken and could use some improvements:
 
-```
+```py
 print("made by gamersoft24")
 number = 1
 def random_math_function(amount):
@@ -39,7 +39,7 @@ random_math_function
 
 A change like so is a good starting spot, although in this case if you could make the inputs explain what they do it would be even better:
 
-```
+```py
 print("made by gamersoft24")
 print("Fixed made by GmaerSoft42")
 number = input("Enter a random number to add:") #By GmaerSoft42: Input added so that you can choose the base starting number
