@@ -27,7 +27,7 @@ https://github.com/GamerSoft24/Software/tree/Main/OkmequeSoft/Batch&CMD
 
 ### Where are the releases?
 
-This repository doesn't have releases, you're just expected to download whatever file in whatever folder you want by your means. If you're having trouble you should use the [program chart](https://github.com/Okmeque1/software/blob/main/Programs.md)
+This repository doesn't have releases, you're just expected to download whatever file in whatever folder you want by your means. If you're having trouble you should use the [program chart](https://github.com/GamerSoft24/Software/tree/Main/OkmequeSoft/Programs.md)
 
 ### Who's working on this?
 
@@ -41,10 +41,6 @@ Warning! No demands for collaborator role will be accepted for trust and securit
 
 ### Licensing and information
 
-Before downloading any programs, you must accept [the license terms](https://github.com/Okmeque1/software/blob/main/LICENSE.md) for use of those programs.
+Before downloading any programs, you must accept [the license terms](https://github.com/GamerSoft24/Software/tree/Main/OkmequeSoft/LICENSE.md) for use of those programs.
 
 For a short description of a program program, see COMMIT log or [the program chart](https://github.com/GamerSoft24/Software/blob/main/Okmeque1Soft/Programs.md)
-
-For upcoming and made updates, see [the update chart](https://github.com/Okmeque1/software/blob/main/UPDATE.MD)
-
-WARNING! The UPDATE.MD is not regularly updated and will NOT include small changes. Please refer to the commit log to see the full extent of my progress.
