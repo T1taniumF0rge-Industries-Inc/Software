@@ -8,41 +8,41 @@ If you have trouble finding the requisite `files`, you can search the folder nam
 
 ### Non-Code Files : 
 
-1 : [PROGRAMS.MD - Program Chart](https://github.com/Okmeque1/Software/tree/main/PythonSoft/Programs.md)
+1 : [PROGRAMS.MD - Program Chart](https://github.com/GamerSoft24/Software/tree/Main/Okmeque1Soft/Programs.md)
 
-2 : [LICENSE.MD - License Terms](https//github.com/Okmeque1/Software/tree/main/PythonSoft/LICENSE.md)
+2 : [LICENSE.MD - License Terms](https//github.com/Okmeque1/Software/tree/main/LICENSE.md)
 
 3 : [README.MD - The Read Me](https//github.com/Okmeque1/Software/tree/main/PythonSoft/README.md)
 
-4 : [UPDATE.MD - Update chart with major updates](https//github.com/Okmeque1/Software/tree/main/PythonSoft/UPDATE.MD)
+4 : [UPDATE.MD - Update chart with major updates](https://github.com/GamerSoft24/Software/blob/Main/.github/security/server_error.md)
 
-5 : [COMPTEST.MD - Compatability Chart](https//github.com/Okmeque1/Software/tree/main/PythonSoft/COMPTEST.md)
+5 : [COMPTEST.MD - Compatability Chart](https://github.com/GamerSoft24/Software/blob/Main/.github/security/server_error.md)
 
-6 : [ERRORS.MD - Error chart](https//github.com/Okmeque1/Software/tree/main/PythonSoft/errors.md)
+6 : [ERRORS.MD - Error chart](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Errors%20chart.md)
 
 ### Utilities :
 
-1 : [PWD.PY](https://github.com/Okmeque1/Software/tree/main/PythonSoft/Utilities/pwd.py) - Password Manager
+1 : [PWD.PY](https://github.com/GamerSoft24/Software/tree/Main/Okmeque1Soft/PythonSoft/Utilities/pwd.py) - Password Manager
 
-2 : Encryption suite : [PWD-HASH_EDITION.PY](https://github.com/Okmeque1/Software/tree/main/PythonSoft/Utilities/pwd-hash_edition.py) - [ENCRYPTER-DECRYPTER.PY](https://github.com/Okmeque1/Software/tree/main/PythonSoft/Utilities/Encrypter-Decrypter.py) - [KEYGEN.PY](https://github.com/Okmeque1/Software/tree/main/PythonSoft/Utilities/keygen.py) : Useful for hiding stuff
+2 : Encryption suite : [PWD-HASH_EDITION.PY](https://github.com/GamerSoft24/Software/tree/Main/Okmeque1Soft/PythonSoft/Utilities/pwd-hash_edition.py) - [ENCRYPTER-DECRYPTER.PY](https://github.com/GamerSoft24/Software/tree/Main/Okmeque1Soft/PythonSoft/Utilities/Encrypter-Decrypter.py) - [KEYGEN.PY](https://github.com/GamerSoft24/Software/tree/Main/Okmeque1Soft/PythonSoft/Utilities/keygen.py) : Useful for hiding stuff
 
-3 : [PWD_CHECKER.PY](https://github.com/Okmeque1/Software/tree/main/PythonSoft/Utilities/pwd_checker.py) : Password strength checker
+3 : [PWD_CHECKER.PY](https://github.com/GamerSoft24/Software/tree/Main/Okmeque1Soft/PythonSoft/Utilities/pwd_checker.py) : Password strength checker
 
-4 : [FILE MANAGER.PY](https://github.com/Okmeque1/Software/tree/main/PythonSoft/Utilities/file%20manager.py) File manager in Python, that has an awful UI
+4 : [FILE MANAGER.PY](https://github.com/GamerSoft24/Software/tree/Main/Okmeque1Soft/PythonSoft/Utilities/file%20manager.py) File manager in Python, that has an awful UI
 
-5 : iCMD : [iCMD.PY](https://github.com/Okmeque1/Software/tree/main/PythonSoft/Utilities/iCMD.py) - [iCMD-Lite](https://github.com/Okmeque1/Software/tree/main/PythonSoft/Utilities/iCMD-Lite.py) : Use if CMD/Terminal is blocked
+5 : iCMD : [iCMD.PY](https://github.com/GamerSoft24/Software/tree/Main/Okmeque1Soft/PythonSoft/Utilities/iCMD.py) - [iCMD-Lite](https://github.com/GamerSoft24/Software/tree/Main/Okmeque1Soft/PythonSoft/Utilities/iCMD-Lite.py) : Use if CMD/Terminal is blocked
 
-6 : [BCONVERTER.PY](https://github.com/Okmeque1/Software/tree/main/PythonSoft/Utilities/bconverter.py) : Binary converter that only works with integers. Feed it anything else and the program will crash as well as your computer
+6 : [BCONVERTER.PY](https://github.com/GamerSoft24/Software/tree/Main/Okmeque1Soft/PythonSoft/Utilities/bconverter.py) : Binary converter that only works with integers. Feed it anything else and the program will crash as well as your computer
 
-7 : [IMAGE DISPLAYER.PY](https://github.com/Okmeque1/Software/tree/main/PythonSoft/Utilities/image%20displayer.py) : Use if your photo displayer is broken. *Did you check that your disk isn't conking out?*
+7 : [IMAGE DISPLAYER.PY](https://github.com/GamerSoft24/Software/tree/Main/Okmeque1Soft/PythonSoft/Utilities/image%20displayer.py) : Use if your photo displayer is broken. *Did you check that your disk isn't conking out?*
 
-8 : [WORD PROCESSOR.PY](https://github.com/Okmeque1/Software/tree/main/PythonSoft/Utilities/word%20processor.py) : Finds words and tells you in what position it is, but really use CTRL-F. *Shouldn't it be renamed to WORD FINDER.PY?*
+8 : [WORD PROCESSOR.PY](https://github.com/GamerSoft24/Software/tree/Main/Okmeque1Soft/PythonSoft/Utilities/word%20processor.py) : Finds words and tells you in what position it is, but really use CTRL-F. *Shouldn't it be renamed to WORD FINDER.PY?*
 
 9 : [FACT.PY](https://github.com/GamerSoft24/Software/tree/Main/.github/SECURITY/Server%20Error.md) : `EXCEPTION 0F OCCURED : CAN NOT FIND FILE "FACT.PY" IN DATABASE`
 
-10 : [FIGURE.PY](https://github.com/Okmeque1/Software/tree/main/PythonSoft/Utilities/figure.py) : Draws a figure based on the numbers of sides.3 = Triangle,4 = Square and whatnot. *Maybe should have called it shapes.py?*
+10 : [FIGURE.PY](https://github.com/GamerSoft24/Software/tree/Main/Okmeque1Soft/PythonSoft/Utilities/figure.py) : Draws a figure based on the numbers of sides.3 = Triangle,4 = Square and whatnot. *Maybe should have called it shapes.py?*
 
-11 : [CLOCK.PY](https://github.com/Okmeque1/Software/tree/main/PythonSoft/Utilities/clock.py) : Digital clock. Can't you understand?
+11 : [CLOCK.PY](https://github.com/GamerSoft24/Software/tree/Main/Okmeque1Soft/PythonSoft/Utilities/clock.py) : Digital clock. Can't you understand?
 
 12 : [ALARM CLOCK.PY](https://github.com/Okmeque1/software/blob/main/PythonSoft/Utilities/alarm%20clock.py) : Digital alarm clock. You'll never forget appointments unless you close the script
 
@@ -52,23 +52,23 @@ If you have trouble finding the requisite `files`, you can search the folder nam
 
 ### Games :
 
-1 : [CONNECT4.PY](https://github.com/Okmeque1/software/tree/main/PythonSoft/Games/connect4.py) : Connect 4. UI is awful as I was on a rush, but very simple. Get 4 in a row either left, right, diagonal or vertical.
+1 : [CONNECT4.PY](https://github.com/GamerSoft24/Software/tree/Main/Okmeque1Soft/PythonSoft/Games/connect4.py) : Connect 4. UI is awful as I was on a rush, but very simple. Get 4 in a row either left, right, diagonal or vertical.
 
-2 : [COUNTING#5250.PY](https://github.com/Okmeque1/software/tree/main/PythonSoft/Games/counting#5250.py) : Test your counting skills. What's the next number after 299999999?
+2 : [COUNTING#5250.PY](https://github.com/GamerSoft24/Software/tree/Main/Okmeque1Soft/PythonSoft/Games/counting#5250.py) : Test your counting skills. What's the next number after 299999999?
 
-3 : [DOS.PY](https://github.com/Okmeque1/software/tree/main/PythonSoft/Games/dos.py) : Joke DOS emulator that has so much hidden stuff I don't even know them all. But don't try to edit the configurations. The context is that it emulates a VM that virtualizes a DOS environment. One where it's broken and the CD drive can't detect. 
+3 : [DOS.PY](https://github.com/GamerSoft24/Software/tree/Main/Okmeque1Soft/PythonSoft/Games/dos.py) : Joke DOS emulator that has so much hidden stuff I don't even know them all. But don't try to edit the configurations. The context is that it emulates a VM that virtualizes a DOS environment. One where it's broken and the CD drive can't detect. 
 
-4 : [FILLER.PY](https://github.com/Okmeque1/software/tree/main/PythonSoft/Games/filler.py) : Make a large file to impress someone. *This is so stupid tho*
+4 : [FILLER.PY](https://github.com/GamerSoft24/Software/tree/Main/Okmeque1Soft/PythonSoft/Games/filler.py) : Make a large file to impress someone. *This is so stupid tho*
 
-5 : HANGMAN : [HANGMAN.PY](https://github.com/Okmeque1/software/tree/main/PythonSoft/Games/hangman.py) - [UNHANGMAN.PY](https://github.com/Okmeque1/software/tree/main/PythonSoft/Games/unhangman.py) : One works more than the other
+5 : HANGMAN : [HANGMAN.PY](https://github.com/GamerSoft24/Software/tree/Main/Okmeque1Soft/PythonSoft/Games/hangman.py) - [UNHANGMAN.PY](https://github.com/GamerSoft24/Software/tree/Main/Okmeque1Soft/PythonSoft/Games/unhangman.py) : One works more than the other
 
-6 : [NOT 1.PY](https://github.com/Okmeque1/software/tree/main/PythonSoft/Games/not%201.py) : Try for yourself. Ok, the context is that you have a points, and the game will choose a random number, and if it isn't 1 then it'll ask you if you wanna take the risk of continuing or end the game and keep your final score. On easy mode, your score is not wiped if the computer chose the number 1, whereas on hard mode, if you encounter the number 1, your score is wiped to 0
+6 : [NOT 1.PY](https://github.com/GamerSoft24/Software/tree/Main/Okmeque1Soft/PythonSoft/Games/not%201.py) : Try for yourself. Ok, the context is that you have a points, and the game will choose a random number, and if it isn't 1 then it'll ask you if you wanna take the risk of continuing or end the game and keep your final score. On easy mode, your score is not wiped if the computer chose the number 1, whereas on hard mode, if you encounter the number 1, your score is wiped to 0
 
-7 : [TICTACTOE.PY](https://github.com/Okmeque1/software/tree/main/PythonSoft/Games/tictactoe.py) : Tic,Tac,Toe.
+7 : [TICTACTOE.PY](https://github.com/GamerSoft24/Software/tree/Main/Okmeque1Soft/PythonSoft/Games/tictactoe.py) : Tic,Tac,Toe.
 
-8 : RPS : [RPS-Okmeque1_Edition.py](https://github.com/Okmeque1/software/tree/main/PythonSoft/Games/rps-okmeque1_edition.py) - [RPS-Compact_edition.py](https://github.com/Okmeque1/software/tree/main/PythonSoft/Games/rps-compact_edition.py) - [RPS-Class_Edition.py](https://github.com/Okmeque1/software/blob/main/PythonSoft/Games/rps-class_edition.py) - All do virtually the same thing, but written completely differently.
+8 : RPS : [RPS-Okmeque1_Edition.py](https://github.com/GamerSoft24/Software/tree/Main/Okmeque1Soft/PythonSoft/Games/rps-okmeque1_edition.py) - [RPS-Compact_edition.py](https://github.com/GamerSoft24/Software/tree/Main/Okmeque1Soft/PythonSoft/Games/rps-compact_edition.py) - [RPS-Class_Edition.py](https://github.com/Okmeque1/software/blob/main/PythonSoft/Games/rps-class_edition.py) - All do virtually the same thing, but written completely differently.
 
-9 : [OPENTDB.PY](https://github.com/Okmeque1/software/tree/main/PythonSoft/Games/opentdb.py) : Test your knowledge!
+9 : [OPENTDB.PY](https://github.com/GamerSoft24/Software/tree/Main/Okmeque1Soft/PythonSoft/Games/opentdb.py) : Test your knowledge!
 
 ### GUI : 
 
