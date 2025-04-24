@@ -83,7 +83,13 @@ This is **where** I will be *storing all* of ***the repositories across GitHub**
 
 ## [`OkmequeSoft:`]
 
-This is **where** I will be *storing all* of ***the migrated and updated files from the [`Okmeque1/Software`] repository***.
+This is **where** I will be *storing all* of ***the migrated and updated files from the [`Okmeque1/Software`] repository.***
+
+*For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/OkmequeSoft)
+
+## [`OfficeSoft:`]
+
+This is **where** I will be *storing all* of the ***office files I use at work.***
 
 *For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/OkmequeSoft)
 
