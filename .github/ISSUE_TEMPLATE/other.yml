@@ -1,5 +1,5 @@
 name: Other
-description: Anything that is not a bug report goes here, I guess?
+description: Anything that is not a bug report or a feature request goes here, I guess?
 title: "[Other]: "
 labels: ["other"]
 assignees:
