@@ -61,6 +61,6 @@
 
 **1E/21 urllib.error.URLError:** Like the Minecraft errors, this is a client-side error or server-side error. Errors like "An existing connection was forcibly closed by the remote host" indicate a server-side error. "Connection reset" means that the specified URL has been blocked by an administrator. Contact the owner of the site to resolve this issue
 
-**1002 ModuleNotFoundError:** Module is not installed. Follow the wiki guide on how to install using pip.
+**1002 ModuleNotFoundError:** Required module does not exist. Consult the [requirements.txt](/PySoft/Requirements.txt) for the list of required modules and install via 'pip' for best compatability. After installing try again. To save time, use `pip install -r requirements.txt` in the same directory where you downloaded the requirements.txt file to install all of the required modules
 
 **2124 NotImplementedError:** A feature is not implemented. Use alternative feature if possible
