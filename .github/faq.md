@@ -8,6 +8,23 @@ This document aims to answer some common questions regarding the [`Software`](/)
 
 The goal of the `Software` repository is that everything is in one centralised area. We cover many topics and languages, such as Python, Batch, C/C++, Visual Basic Script (VBS), HyperText Markup Language (HTML) as well as other formats, such as useful software installers in InstallerSoft, game hacks in HackSoft, movies and music in MovieSoft, Minecraft Modpacks in MinecraftSoft, repository downloads in RepoSoft and useful Office templates in OfficeSoft.
 
+### Who do I credit if I fork the repo?
+
+For most programs, you must copyright GamerSoftware Corporation, and if the original program had some parts made by Okmeque1 Software or Lan Internet, you must mention them respectively (but not both, they are seperate entities), like so.
+
+`© GamerSoftware Corporation`
+
+`© Okmeque1 Software`
+
+`© Lan Internet Software`
+
+If you are going to copy a file that isn't in a fork or traceable really, you must include a `Credits.md` file in the same directory as the copied project, like so:
+```
+# Credits
+
+### © One of the three company names above: [Display Text Hyperlink](Link to the copied project)
+```
+
 ### Why are half the workflows failing?
 
 This is because our workflow configuration hasn't been finished yet, and the best solution is to ignore it.
