@@ -1,8 +1,4 @@
 # Software Repository
-
-> [!WARNING]
->
-> All new programs on this repository will be located on [`GamerSoft24/Software`](https://github.com/GamerSoft24/Software). However starting the 07/04/2025, users will have 1 month to move over their workflows to the new repository, and programs will still be updated on both repositories until the 07/05/2025. Links to program in the program chart will now redirect to `GamerSoft24/Software`
 > 
 ## 0 : Overview
 
@@ -10,20 +6,22 @@ This is the `Okmeque1/Software` repository, which contains some variety of code,
 
 ## 1 : PythonSoft
 
-This is where I am going to be storing all of my python code. The URL for PythonSoft is https://github.com/Okmeque1/software/tree/main/PythonSoft
+This is where I am going to be storing all of my python code. The URL for PythonSoft is https://github.com/GamerSoft24/Software/tree/Main/Okmeque1Soft/PythonSoft.
+
+Please be warned that all new PythonSoft projects by Okmeque1 will be stored there.
 
 ## 2 : WinScriptHost
 
-Windows Script Host. This is where all of the *.vbs files will be stored. The URL for WinScriptHost is https://github.com/Okmeque1/Software/tree/main/WinScriptHost
+Windows Script Host. This is where all of the *.vbs files will be stored. The URL for WinScriptHost is https://github.com/GamerSoft24/Software/tree/Main/Okmeque1Soft/WinScriptHost
 
 ## 3 : Batch&CMD
 
 Batch and CMD. This is where all *.bat and all *.cmd files will be stored. The URL for Batch&CMD is
-https://github.com/Okmeque1/software/tree/main/Batch&CMD
+https://github.com/GamerSoft24/Software/tree/Main/Okmeque1Soft/Batch&CMD
 
 ## 4 : .github
 
-.github configuration files for Software Repository. This is where the the repository configuration files will be. The URL for .github is https://github.com/Okmeque1/software/tree/main/.github
+.github configuration files for Software Repository. This is where the the repository configuration files will be. The URL for .github is https://github.com/GamerSoft24/Software/tree/Main/Okmeque1Soft/.github
 
 ## 5 : Some more stuff
 
