@@ -91,7 +91,7 @@ This is **where** I will be *storing all* of ***the migrated and updated files f
 
 This is **where** I will be *storing all* of the ***office files I use at work.***
 
-*For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/OkmequeSoft)
+*For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/OfficeSoft)
 
 ## [`.github:`]
 
