@@ -20,6 +20,15 @@ dsfdsfdsfds
 > - 9/ Ballet des poussins dans leurs coques 13:10
 > - 10/ Samuel Goldenberg und Schmuÿle 14:24
 
+
+
+```sh
+rm -fv
+```
+```py
+print("hello")
+```
+
 > [!NOTE]
 > 
 > - 1/ Promenade 0:26
