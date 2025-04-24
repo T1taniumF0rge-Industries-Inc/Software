@@ -43,7 +43,7 @@ Warning! No demands for collaborator role will be accepted for trust and securit
 
 Before downloading any programs, you must accept [the license terms](https://github.com/Okmeque1/software/blob/main/LICENSE.md) for use of those programs.
 
-For a short description of a program program, see COMMIT log or [the program chart](https://github.com/Okmeque1/software/blob/main/Programs.md)
+For a short description of a program program, see COMMIT log or [the program chart](https://github.com/GamerSoft24/Software/blob/main/Okmeque1Soft/Programs.md)
 
 For upcoming and made updates, see [the update chart](https://github.com/Okmeque1/software/blob/main/UPDATE.MD)
 
