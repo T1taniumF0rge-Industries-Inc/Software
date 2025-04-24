@@ -32,7 +32,7 @@ This is because our workflow configuration hasn't been finished yet, and the bes
 ### Why are there closed security warnings that may matter?
 
 Sometimes, code like this triggers CodeQL's automatic alert system (security management system in this example because you print the `password` variable straight to the terminal):
-```
+```py
                     elif optionpwd_manager == 7:
                         cyrillic_character_set = "АаВеЕЗМоНОРрСсТуХхЈјҮԁԌԚԛԜԝ"
                         standard_chars = '¦¬`1!23#4$5%6^7&8*9(0-_=+q"~{[]}=+QwWeErRtTyYuUiIoOpPaAsSdDfFgGhHjJkKlL;:@~^%#\|zZxXcCvVbBnNmMm,<.>/?)'
