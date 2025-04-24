@@ -68,4 +68,4 @@ Personally, our team at Software have used MAS and DAZ for a long time (2-3 year
 
 ### I got fired from my company from using this!
 
-That's on you mate, if you had any sense of downloading these files through the program chart (or just read the LICENSE or README files) then you must have agreed to the terms [here](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Windows%20Loaders/README.md), meaning that we are ***not* liable for any damages that these programs may have caused***. 
+That's on you mate, if you had any sense of downloading these files through the program chart (or just read the LICENSE or README files) then you must have agreed to the terms [here](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Windows%20Loaders/README.md), meaning that we are ***not* liable for any damages that these programs may have caused.**
