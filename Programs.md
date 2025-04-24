@@ -208,7 +208,19 @@ This folder is mainly used to store repository files that will be useful to @Gam
 
 ## [OkmequeSoft:](https://github.com/GamerSoft24/Software/tree/Main/OkmequeSoft)
 
-There will be a dedicated program chart for that folder only, please refer there for more information.
+There will be a dedicated [program chart](https://github.com/GamerSoft24/Software/tree/Main/OkmequeSoft/Programs.md) for that folder only, please refer there for more information.
+
+## [OfficeSoft:](https://github.com/GamerSoft24/Software/tree/Main/OfficeSoft)
+
+> [!IMPORTANT]
+>
+> **Most of the files in the *OfficeSoft* folder will require Microsoft Office 2007 or later to render properly. Thank you for your understanding**
+> 
+[**Printable Lined Paper:**](https://github.com/GamerSoft24/Software/tree/Main/OfficeSoft/Printable%20Lined%20Paper)
+
+1 -> [College Ruled Printable Lined Paper - Standard Margin:](https://github.com/GamerSoft24/Software/blob/Main/OfficeSoft/Printable%20Lined%20Paper/printable-lined-paper_standard-margin.docx) Just some regular old lined paper that you can print at home or at the library in case you forgot your A4 refill pad.
+
+2 -> [College Ruled Printable Lined Paper - Small Margin:](https://github.com/GamerSoft24/Software/blob/Main/OfficeSoft/Printable%20Lined%20Paper/printable-lined-paper_small-margin.docx) Just some regular old lined paper that you can print at home or at the library in case you forgot your A4 refill pad. This one has a much smaller margin so that you can write more on a single paper.
 
 ## [InstallerSoft:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft)
 
