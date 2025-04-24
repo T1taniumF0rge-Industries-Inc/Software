@@ -4,6 +4,10 @@ This document aims to answer some common questions regarding the [`Software`](/)
 
 ## Repository Questions:
 
+### Why is there so many things?
+
+The goal of the `Software` repository is that everything is in one centralised area. We cover many topics and languages, such as Python, Batch, C/C++, Visual Basic Script (VBS), HyperText Markup Language (HTML) as well as other formats, such as useful software installers in InstallerSoft, game hacks in HackSoft, movies and music in MovieSoft, Minecraft Modpacks in MinecraftSoft, repository downloads in RepoSoft and useful Office templates in OfficeSoft.
+
 ### Why are half the workflows failing?
 
 This is because our workflow configuration hasn't been finished yet, and the best solution is to ignore it.
