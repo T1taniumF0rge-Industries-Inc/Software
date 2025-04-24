@@ -13,7 +13,7 @@ After you have pip/pip3 installed, go to your computer's terminal (Mac Terminal,
 > To install these modules faster, download the requirements.txt file in this folder, then run "pip install -r requirements.txt" in the same directory where you downloaded that text file. Note that if you have to run pip from the `scripts` folder, you may have to specify the full file name path with the drive name included! Pip will automatically find the newest compatible versions of these modules, and this could be more convenient than manually installing every single module. However it is not recommended if you are low on hard disk space.
 > 
 By-the-way, are you interested in a short Python program that draws colorful rainbow void using a module named `turtle`? If you are, then copy this script down in your text editor (like Notepad++, Xcode or IDLE):
-```
+```py
 import turtle
 q = turtle.Pen()
 turtle.bgcolor("black")
