@@ -1,0 +1,19 @@
+<html>
+<head><link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/styles.css') }}"></head>
+<div class="hello">
+<h1> Méline Unincorporated - Buy computers!</h1>
+</div>
+Lap [1] or desk [2] computah? <input id="pctype"> <br>
+Big [1] or Small [2] storag <input id="size"> <br>
+Enter credit card number <input id="creditcardnumber"> <br>
+<a href="/"><button onclick="onButtonClick()"> Checkout and return to main page </button> <br> </a>
+<script>
+    function onButtonClick(){
+        console.log("Function passed!")
+        const input=document.getElementById("pctype").value
+        const input2=document.getElementById("size").value
+        const input3=document.getElementById("creditcardnumber").value
+        alert("You have chosen type " + input + "  of computer with type " + input2 + " of storage. Credit card number is " + input3
+    )}
+</script>
+</html>
