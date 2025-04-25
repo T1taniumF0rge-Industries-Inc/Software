@@ -55,28 +55,4 @@ This error is known to happen, and you will have to wait until either the next G
 >
 > If you try and upload a file that is over 100MB, make sure that the file extension type is correctly set in the .gitattributes file so that Git LFS can recognize the file as an LFS file and add the required pointers to point the file when the repository is getting cloned. Failure to do so will throw an error and usually (not always) mess up the commit history and file headers, and re-cloning the Git repository will potentially be required.
 > 
-## Last Pull/Clone & Last Push:
 
-### Last Pull/Clone:
-
-| Order | Date & Time      | Computer name / User Name |
-|-------|------------------|---------------------------|
-| 1     | 21/04/2025 08:51 | COMPBC2 GmaerSoft42       |
-| 2     | Not Available    | Not Available |
-| 3     | Not Available    | Not Available |
-
-### Last Push:
-
-| Order | Date & Time      | Computer name |
-|-------|------------------|---------------|
-| 1     | Not Available    | Not Available |
-| 2     | Not Available    | Not Available |
-| 3     | Not Available    | Not Available |
-
-### Formats:
-
- - Order Number. The closer the backup number is to 1, the newer
- - Date in DD/MM/YYYY format (the standard EU format, and the most used)
- - Time (if applicable, say you did git clone on 2 computers on the same day
- - PC name (can be the owner + type of device or the computer name, e.g COMPBC2)
- - Drive path (if applicable, say you put it on the A: drive or a USB or something)
