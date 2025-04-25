@@ -56,3 +56,8 @@ This error is known to happen, and you will have to wait until either the next G
 > If you try and upload a file that is over 100MB, make sure that the file extension type is correctly set in the .gitattributes file so that Git LFS can recognize the file as an LFS file and add the required pointers to point the file when the repository is getting cloned. Failure to do so will throw an error and usually (not always) mess up the commit history and file headers, and re-cloning the Git repository will potentially be required.
 > 
 
+## Windows File Sharing recommendations:
+
+> [!TIP]
+>
+> While not really repository focused, if you are trying to setup a file share with the sharing machine being a Windows 10 computer, make sure to enable all permissions and disable most security features to ensure compatability and that you create or move the files into the shared directory **AFTER** having shared the folder. Failure to do so will result in other computers throwing permission errors and failure to read the shared folder contents.
