@@ -9,7 +9,7 @@ This file is only important and applicable to the collaborators and developers o
 ## Git LFS Smudge Errors:
 
 While cloning this repository, you may encounter a similar error as the following: 
-```
+```sh
 $ git clone https://github.com/GamerSoft24/Software.git /c/GitHub
 Cloning into 'C:\GitHub'...
 remote: Enumerating objects: 10371, done.
