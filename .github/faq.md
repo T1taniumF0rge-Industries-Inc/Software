@@ -24,6 +24,14 @@ If you are going to copy a file that isn't in a fork or traceable really, you mu
 
 ### © One of the three company names above: [Display Text Hyperlink](Link to the copied project)
 ```
+Example:
+```
+# Credits
+
+### © Okmeque1 Software: [/Okmeque1/Software](https://github.com/Okmeque1/Software)
+```
+
+It should render like [so](/.github/test/COPYRIGHT_TEST.md)
 
 ### Why are half the workflows failing?
 
