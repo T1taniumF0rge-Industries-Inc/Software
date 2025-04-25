@@ -1,6 +1,6 @@
-# Developer Area
+# Developer Troubleshooting Area
 
-This file is only important and applicable to the collaborators and developers of the `Software` repository. If you are a standard user, this information does not apply and will not serve you anything
+This file is only important and applicable to the collaborators and developers of the `Software` repository for *troubleshooting purposes only*. If you are a standard user, this information does not apply and will not serve you anything unless you are using Git actively on this repository.
 
 ## Important
 
