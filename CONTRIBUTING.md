@@ -1,4 +1,4 @@
-# Code Contributing Guidelines
+# Code Contributing Guidelines 
 
 To consider *changing programs and codes* in this `Software` repository you have to **pull request first and wait for approval** which should be *reviewed* in the **maximum delay of ***7 days***** **unless** the repository is in inactive mode (located in the README file)! The 'Pull requests' tab is located on the top left corner of your screen (on computer), most generally under the word Software.
 
