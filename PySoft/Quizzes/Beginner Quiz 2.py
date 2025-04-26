@@ -76,7 +76,7 @@ try:
         b4.pack()
     windows = Tk()
     windows.geometry("640x120")
-    windows.title("Python Quiz - Beginner - © Okmeque1 Computers.")
+    windows.title("Python Quiz - Beginner - © Okmeque1 Software.")
     text = Text(windows,height=2.5,width=100)
     text.insert(END,"Welcome to the GamerSoftware-Okmeque1 Python Quiz. Test your skillz now for the ultimate coding adventure!")
     text.config(state="disabled")
