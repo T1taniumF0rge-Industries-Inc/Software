@@ -38,7 +38,7 @@ try:
         text.insert(END,"Question 1 : How do you import a module onto your Python program?")
         text.config(state="disabled")
         b1 = Button(windows,text="1 : pip install module_name",command=lambda: wg(3,2,points,"'pip install' is used to install modules onto your computer, not import them."))
-        b2 = Button(windows,text="3 : pip import module_name",command=lambda: wg(3,2,points,"the pip program is used to install modules onto your computer. However import module_name is a valid way to import modules."))
+        b2 = Button(windows,text="2 : pip import module_name",command=lambda: wg(3,2,points,"the pip program is used to install modules onto your computer. However import module_name is a valid way to import modules."))
         b4 = Button(windows,text="3 : install module_name",command=lambda: wg(3,2,points,"this is not a valid expression. You have to IMPORT the modules. To install modules, you have to use pip."))
         b3 = Button(windows,text="4 : import module_name",command=lambda: cr(2,points))
         text.pack()
