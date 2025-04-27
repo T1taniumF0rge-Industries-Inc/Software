@@ -1,6 +1,6 @@
 # Credits
 
-### © Bruce (Xiaoyu) Liu *for the main piano performance*: [bruce-liu.com](https://https://bruce-liu.com/)
+### © Bruce (Xiaoyu) Liu *for the main piano performance*: [bruce-liu.com](https://bruce-liu.com/)
 
 ### © Fryderyk Chopin Institute *for the organisation of this competition*: [chopin.nifc.pl](https://chopin.nifc.pl/pl)
 
