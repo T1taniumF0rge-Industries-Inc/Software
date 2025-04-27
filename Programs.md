@@ -4,7 +4,7 @@ This is the program chart.
 
 Special thanks to [Okmeque1](https://github.com/Okmeque1) from [`okmeque1/software`](https://github.com/Okmeque1/software) for helping to update and contribute to this file!
 
-## Quick Access
+## Quick Access - click to jump to section
 
 - [PySoft](#pysoft)
 - [VBSoft](#vbsoft)
