@@ -4,6 +4,21 @@ This is the program chart.
 
 Special thanks to [Okmeque1](https://github.com/Okmeque1) from [`okmeque1/software`](https://github.com/Okmeque1/software) for helping to update and contribute to this file!
 
+## Quick Access
+
+- [PySoft](#pysoft)
+- [VBSoft](#vbsoft)
+- [HTMLSoft](#htmlsoft)
+- [CPPSoft](#cppsoft)
+- [BatchSoft](#batchsoft)
+- [InstallerSoft](#installersoft)
+- [MinecraftSoft](#minecraftsoft)
+- [HackSoft](#hacksoft)
+- [MovieSoft](#moviesoft)
+- [RepoSoft](#reposoft)
+- [OkmequeSoft](#okmequesoft)
+- [OfficeSoft](#officesoft)
+  
 ## [PySoft](https://github.com/GamerSoft24/Software/tree/Main/PySoft)
 
 ### [GUI (Graphical User Interface):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/GUI/)
