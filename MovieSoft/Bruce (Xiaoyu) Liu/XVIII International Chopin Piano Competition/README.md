@@ -24,4 +24,4 @@ The International Chopin Piano Competition takes place more or less every single
 > For VLC Media player, you can download the *.jpg files (AlbumArtSmall.jpg, AlbumArt_{...}_Small.jpg and the _Large.jpg one and Folder.jpg) and download them into the same directory as the music files to have a background of Sviatoslav Richter instead of a boring traffic cone!
 
 > [!IMPORTANT]
-> Copyrights are visible in the file attributes, which can be viewed in Windows Explorer Properties → Details Tab or in MP3Tag Software. However, please note that the file attribute may be corrupted and reset to their defaults if you downloaded the file in a directory with any audio files of any format present.
+> Copyrights are visible in the [Credits.md](https://github.com/GamerSoft24/Software/blob/Main/MovieSoft/Bruce%20(Xiaoyu)%20Liu/XVIII%20International%20Chopin%20Piano%20Competition/Credits.md) file in this directory (because I'm too lazy to fill out the file attributes especially since I know they're going to be corrupted)
