@@ -18,7 +18,7 @@ The International Chopin Piano Competition takes place more or less every single
   - Mov't 2: Romance - Larghetto
   - Mov't 3: Rondo - Vivace
 
-# Informations and copyrights
+## Informations and copyrights
 
 > [!TIP]
 > For VLC Media player, you can download the *.jpg files (AlbumArtSmall.jpg, AlbumArt_{...}_Small.jpg and the _Large.jpg one and Folder.jpg) and download them into the same directory as the music files to have a background of Sviatoslav Richter instead of a boring traffic cone!
