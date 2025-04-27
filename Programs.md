@@ -12,7 +12,7 @@ Special thanks to [Okmeque1](https://github.com/Okmeque1) from [`okmeque1/softwa
 - [CPPSoft](#cppsoft)
 - [BatchSoft](#batchsoft)
 - [InstallerSoft](#installersoft)
-- [MinecraftSoft](#minecraftsoft)
+- [MinecraftSoft](#minceraftsoft)
 - [HackSoft](#hacksoft)
 - [MovieSoft](#moviesoft)
 - [RepoSoft](#reposoft)
