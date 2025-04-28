@@ -43,9 +43,7 @@ Gare du Nord → **Chatelet - Les Halles** → Gare de Lyon
 | RER Ⓓ                                    | 1er train | 2ème train | 14:57 |
 |--------------------------------------|-----------|------------|-------|
 | Melun via Yerres et Cesson           ►| 6         | 28         | min   |
-| Melun via Juvisy et Corbeil - Essonnes | 14        | 34         | min   |
-| Malesherbes                          | 18        | 42         | min   |
-| Corbeil-Essonnes                     | 23        | 53         | min   |
+| Corbeil-Essonnes via Juvisy et Évry - Courcouronnes                    | 23        | 53         | min   |
 
 Gare de Lyon → **Chatelet - Les Halles** → Gare du Nord
 
@@ -55,12 +53,17 @@ Gare de Lyon → **Chatelet - Les Halles** → Gare du Nord
 
 ## Juvisy
 
+Viry - Chattilon → **Juvisy** → Viry - Chatillon
+
+| RER Ⓓ                                    | 1er train | 2ème train | 14:57 |
+|--------------------------------------|-----------|------------|-------|
+| Melun via Évry - Val-de-Seine et Corbeil - Essones ►| 14        | 34         | min   |
+| Malesherbes via Évry - Val-de-Seine et Corbeil - Essones                       | 27        | 55         | min   |
+
 Vigneux-sur-Seine → **Juvisy** → Viry - Chatillon
 
 | RER Ⓓ                                    | 1er train | 2ème train | 14:57 |
 |--------------------------------------|-----------|------------|-------|
-| Melun via Évry - Val-de-Seine ►| 14        | 34         | min   |
-| Malesherbes via Évry - Val-de-Seine                       | 27        | 55         | min   |
 | Corbeil-Essonnes via Évry - Courcouronnes                   | 38        | 91         | min   |
 
 ## Corbeil - Essonnes
@@ -76,5 +79,11 @@ Le Bras de Fer → **Corbeil - Essonnes** → Le Bras de Fer
 
 | RER Ⓓ                                    | 1er train | 2ème train | 14:57 |
 |--------------------------------------|-----------|------------|-------|
-| Corbeil - Essonnes| 39      | 81| min   |
-| Juvisy via Évry - Courcouronnes                      ►| 2        | 47         | min   |
+| Creil via Évry - Courcouronnes                      ►| 2        | 47         | min   |
+
+
+Essones - Robinson / Moulin - Galant → **Corbeil - Essonnes** → Évry - Val-de-Seine
+
+| RER Ⓓ                                    | 1er train | 2ème train | 14:57 |
+|--------------------------------------|-----------|------------|-------|
+| Juvisy via Évry - Val-de-Seine                      ►| 34        | 97         | min   |
