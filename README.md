@@ -1,8 +1,8 @@
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/gamersoft24/software?label=Latest%20Release%3A) &nbsp; ![GitHub last commit](https://img.shields.io/github/last-commit/gamersoft24/software?color=red&label=Last%20Commit%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/commit-activity/w/gamersoft24/software?color=blueviolet&label=Commit%20Activity%3A)
- &nbsp;![GitHub repo size](https://img.shields.io/github/repo-size/GamerSoft24/Software?color=green&label=Repository%20Size%3A) &nbsp;![GitHub commit activity](https://img.shields.io/badge/Clone%20Size-35.6GB-066990) &nbsp; ![GitHub commit activity](https://img.shields.io/badge/Repository%20Status-Active-green) &nbsp;
+ &nbsp;![GitHub repo size](https://img.shields.io/github/repo-size/GamerSoft24/Software?color=green&label=Repository%20Size%3A) &nbsp;![GitHub commit activity](https://img.shields.io/badge/Clone%20Size-35.6GB-066990) &nbsp; ![GitHub commit activity](https://img.shields.io/badge/Repository%20Status-Semi%20Active-yellow) &nbsp;
 
 # [`Software`] Repository
-
+ora
 ### 🎉🎉 We have reached 1000 commits! -> *Next milestone 1500 commits?* 🎉🎉 
 
 **REP-SET II**, *`Version 3.1.5b`*
