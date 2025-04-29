@@ -2,7 +2,6 @@
  &nbsp;![GitHub repo size](https://img.shields.io/github/repo-size/GamerSoft24/Software?color=green&label=Repository%20Size%3A) &nbsp;![GitHub commit activity](https://img.shields.io/badge/Clone%20Size-35.6GB-066990) &nbsp; ![GitHub commit activity](https://img.shields.io/badge/Repository%20Status-Semi%20Active-yellow) &nbsp;
 
 # [`Software`] Repository
-ora
 ### 🎉🎉 We have reached 1000 commits! -> *Next milestone 1500 commits?* 🎉🎉 
 
 **REP-SET II**, *`Version 3.1.5b`*
