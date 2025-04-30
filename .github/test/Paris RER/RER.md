@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/0637a48c-9d33-408b-b927-3adf0e8b6387)
+![image](https://github.com/user-attachments/assets/3db72f8b-8688-4720-92ea-57a6c69f5769)
 
 ## La Défense
 
@@ -17,7 +17,7 @@ Nanterre - Préfecture → **La Défense** → Charles de Gaulle - Étoile
 | Marne-la-Vallée - Chessy ►| 3         | 6          | 12         | mins  |
 | Boissy - St Léger         | 5         | 8          | 10         | mins  |
 
-![image](https://github.com/user-attachments/assets/9ee71126-3f10-41fd-bfe2-0560b2af2af1)
+![image](https://github.com/user-attachments/assets/926dcf15-e6ea-4efa-a858-159f8abf0007)
 
 ## Lozère (École Polytechnique)
 
@@ -34,10 +34,10 @@ Palaiseau - Villebon → **Lozère** → Le Guichet
 |----------------------------|-----------|------------|-------|
 | Saint-Rémy - Les Chévreuse | 18        | 41         | mins  |
 
+![image](https://github.com/user-attachments/assets/14b395f7-f607-497f-a90f-568e33bc9e11)
 
-
-
-
+> [!NOTE]
+> RER C officially coming soon!
 
 ![image](https://github.com/user-attachments/assets/2001103b-b432-409d-85d5-07b6d2b38612)
 
