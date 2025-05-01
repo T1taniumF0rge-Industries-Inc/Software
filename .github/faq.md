@@ -1,37 +1,37 @@
 # Frequently Asked Questions (FAQ, NOT DONE YET!)
 
-This document aims to answer some common questions regarding the [`Software`](/) repository.
+This document aims to answer some common questions regarding the `Software` repository.
 
 ## Repository Questions:
 
 ### Why is there so many things?
 
-The goal of the `Software` repository is that everything is in one centralised area. We cover many topics and languages, such as Python, Batch, C/C++, Visual Basic Script (VBS), HyperText Markup Language (HTML) as well as other formats, such as useful software installers in InstallerSoft, game hacks in HackSoft, movies and music in MovieSoft, Minecraft Modpacks in MinecraftSoft, repository downloads in RepoSoft and useful Office templates in OfficeSoft.
+The goal of the `Software` repository is that everything is in one centralised area. We cover many topics and languages, such as Python, Batch, the C-family, Visual Basic Script (VBS), HyperText Markup Language (HTML) as well as other formats, such as useful software installers in InstallerSoft, game hacks in HackSoft, movies and music in MovieSoft, Minecraft-related stuff in MinecraftSoft, useful repository downloads in RepoSoft, pictures in PictureSoft and useful Office templates in OfficeSoft.
 
-### Who do I credit if I fork the repo?
+### Who do I credit if I fork the repository?
 
-For most programs, you must copyright GamerSoftware Corporation, and if the original program had some parts made by Okmeque1 Software or Lan Internet, you must mention them respectively (but not both, they are seperate entities), like so.
+For most programs, you must copyright Midnight_G0ldX Corporation, and if the original program had some parts made by Okmeque1 Corporation or Lan Internet LLC, you must mention them respectively (but not both, they are seperate entities), like so.
 
-`© GamerSoftware Corporation`
+`© Midnight_G0ldX Corporation`
 
-`© Okmeque1 Software`
+`© Okmeque1 Corporation`
 
-`© Lan Internet Software`
+`© Lan Internet LLC`
 
-If you are going to copy a file that isn't in a fork or traceable really, you must include a `Credits.md` file in the same directory as the copied project, like so:
+If you are going to copy a file that isn't in a fork or traceable really, you must include a `Credits.md` file in the same directory as the copied project, in an appropriate and neat format like so:
 ```
 # Credits
 
-### © One of the three company names above: [Display Text Hyperlink](Link to the copied project)
+### © One of the three company names above: [`Display Text Hyperlink`](Link to the copied project)
 ```
 Example:
 ```
 # Credits
 
-### © Okmeque1 Software: [/Okmeque1/Software](https://github.com/Okmeque1/Software)
+### © Okmeque1 Corporation: [`/Okmeque1/Software`](https://github.com/Okmeque1/Software)
 ```
 
-It should render like [so](/.github/test/COPYRIGHT_TEST.md)
+It should render like [so](/.github/credits_template.md/)
 
 ### Why are half the workflows failing?
 
@@ -39,43 +39,43 @@ This is because our workflow configuration hasn't been finished yet, and the bes
 
 ### Why are there closed security warnings that may matter?
 
-Sometimes, code like this triggers CodeQL's automatic alert system (security management system in this example because you print the `password` variable straight to the terminal):
+Sometimes, code like this triggers CodeQL's automatic alert system (["security management system.py"](/PySoft/Utilities/security%20management%20system.py) in this example because you print the `password` variable straight to the terminal in a non-encrypted way - as plain text):
 ```py
-                    elif optionpwd_manager == 7:
-                        cyrillic_character_set = "АаВеЕЗМоНОРрСсТуХхЈјҮԁԌԚԛԜԝ"
-                        standard_chars = '¦¬`1!23#4$5%6^7&8*9(0-_=+q"~{[]}=+QwWeErRtTyYuUiIoOpPaAsSdDfFgGhHjJkKlL;:@~^%#\|zZxXcCvVbBnNmMm,<.>/?)'
-                        chars = [cyrillic_character_set, standard_chars]
-                        length = int(input("Please enter your password length: "))
-                        pwd = ""
-                        for x in range(length):
-                            pwd += random.choice(random.choice(chars))
-                        print("")
-                        print(password)
-                        print("")
-                        print('Password generated! Now saving...')
-                        filename = input("Please enter a valid file name (leave blank to a default file of pwd_openscs.pwd). If the file does not
+elif optionpwd_manager == 7:
+  cyrillic_character_set = "АаВеЕЗМоНОРрСсТуХхЈјҮԁԌԚԛԜԝ"
+  standard_chars = '¦¬`1!23#4$5%6^7&8*9(0-_=+q"~{[]}=+QwWeErRtTyYuUiIoOpPaAsSdDfFgGhHjJkKlL;:@~^%#\|zZxXcCvVbBnNmMm,<.>/?)'
+  chars = [cyrillic_character_set, standard_chars]
+  length = int(input("Please enter your password length: "))
+  pwd = ""
+  for x in range(length):
+      pwd += random.choice(random.choice(chars))
+  print("")
+  print(password)
+  print("")
+  print('Password generated! Now saving...')
+  filename = input("Please enter a valid file name (leave blank to a default file of pwd_openscs.pwd). If the file does not
 ```
 However, our team at the `Software` repository have deemed these warnings an exaggeration, as in reality nobody is going to spy on your terminal, and stuff printed to the terminal can be easily deleted by just closing the terminal or clearing it. And for your information, we don't use logs because our programs aren't important enough that logs are required.
 
 ### Where do I find the programs?
 
-We have a lot of software available at your disposal for a lot of applications. It would be very inefficient and inconvenient to either navigate through every single binary in releases or have to move repositories just to download a side program that's an add-on to a regular program. So we have created the [program chart](/Programs.md) where you can find all of your required files, properly sorted and sectioned.
+We have a lot of software available at your disposal for a lot of applications. It would be very inefficient and inconvenient to either navigate through every single binary in releases or have to move repositories just to download a side program that's an add-on to a regular program. So we have created the [Programs.md](/Programs.md) - a program chart, where you can find all of your required files, properly sorted and sectioned.
 
-### Why does the repository take 36GB of disk space?
+### Why does the repository take higher than 35GB of disk space?
 
-We store a lot of binary files using Git LFS, including executables, movies, etc.
+We store a lot of binary files using Git LFS, including executables, movies, etc...
 
 ## PySoft Questions:
 
 ### Why does the program crash on startup?
 
-This could be for multiple reasons, so first, make sure all dependencies and modules are correctly installed for any and all Python versions that are installed on your computer. You can find the list of modules that you need to install in the [PySoft requirements.txt](https://github.com/GamerSoft24/Software/blob/Main/PySoft/requirements.txt) file, and to simplify installation, you can run `pip install -r requirements.txt` and Pip will automatically find the newest version of that module and install it for you.
+This could be for multiple reasons, so first, make sure all dependencies and modules are correctly installed for any and all Python versions that are installed on your computer. You can find the list of modules that you need to install in the PySoft [requirements.txt](https://github.com/GamerSoft24/Software/blob/Main/PySoft/requirements.txt) file, and to simplify installation, you can run `pip install -r requirements.txt` and Pip will automatically find the newest version of that module and install it for you [(read the PySoft's README.md for clarifications!)](/PySoft/README.md)
 
-Otherwise the best way to see what error has occured is to open a command-line window (bash, powershell, cmd) and run the script from the terminal, as it will print any errors to the terminal. Then it is highly recommended to consult the [error chart](/PySoft/Errors%20chart.md) for any possible solutions, and then you may open an issue.
+Otherwise the best way to see what error has occured is to open a command-line window (Bash, PowerShell, CMD) and run the script from the terminal, as it will print any errors to the terminal. Then it is highly recommended to consult the [error chart](/PySoft/Errors%20chart.md) for any possible solutions, and then you may open an issue.
 
 ### Why are programs mostly all in one and use outdated code writing methods (many elif statements, logic and UI in one program)?
 
-For the longest time, we stuck to our philosophy of 1 file maximum per project, for user convenience as they would only have to download one single file. However, for larger projects that may require multiple files, we have put them in the [Large Files](/PySoft/Large%20Projects) folder, but to maintain user convenience we bundle all of the files into a ZIP2EXE NSIS installer so that again, the user only has to download and run one file.
+For the longest time, we stuck to our philosophy of 1 file maximum per project, for user convenience as they would only have to download one single file. However, for larger projects that may require multiple files, we have put them in the [Large Files](/PySoft/Large%20Projects) folder, but to maintain user convenience we bundle all of the files into a zip2exe NSIS installer so that again, the user only has to download and run one file.
 
 ### Can I rewrite the programs to have better security (e.g not triggering CodeQL warnings) or better coding structure?
 
