@@ -112,5 +112,16 @@ Essones - Robinson / Moulin - Galant → **Corbeil - Essonnes** → Évry - Val-
 | Juvisy via Évry - Val-de-Seine                      ►| 34        | 97         | min   |
 
 ![image](https://github.com/user-attachments/assets/4493f035-b63b-4a09-8e74-1aa564e3fc53)
-> [!NOTE]
-> RER E coming soon!
+
+Rosny-Bois-Perrier / Bondy → **Noisy-le-Sec** → Pantin
+
+| RER Ⓔ                                    | 1er train | 2ème train | 14:57 |
+|--------------------------------------|-----------|------------|-------|
+| Nanterre - La Folie                      ►| 2        | 5         | min   |
+
+Pantin → **Noisy-le-Sec** → Rosny-Bois-Perrier / Bondy
+
+| RER Ⓔ                                    | 1er train | 2ème train | 14:57 |
+|--------------------------------------|-----------|------------|-------|
+| Chelles - Gournay                      ►| 3        | 7         | min   |
+| Tournan-en-Brie                      ►| 4        | 10         | min   |
