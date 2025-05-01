@@ -1,4 +1,4 @@
-# Frequently Asked Questions (FAQ, NOT DONE YET!)
+# Frequently Asked Questions (FAQ, NOT DONE YET!) 😿
 
 This document aims to answer some common questions regarding the `Software` repository.
 
