@@ -39,8 +39,23 @@ Palaiseau - Villebon → **Lozère** → Le Guichet
 
 ![image](https://github.com/user-attachments/assets/14b395f7-f607-497f-a90f-568e33bc9e11)
 
-> [!NOTE]
-> RER C officially coming soon!
+# Ivry-sur-Seine
+
+Vitry-sur-Seine → **Ivry-sur-Seine** → Bibliothèque François Mitterand
+
+| RER Ⓒ        | 1er train | 2ème train | 14:57 |
+|--------------|-----------|------------|-------|
+| Pontoise | 36        | 61         | mins  |
+| Versailles Château - Rive Gauche | 22        | 43         | mins  |
+| St Quentin en Yvelines  ►| 7        | 27         | mins  |
+
+Bibliothèque François Mitterand →  **Ivry-sur-Seine** → Vitry-sur-Seine
+
+| RER Ⓒ        | 1er train | 2ème train | 14:57 |
+|--------------|-----------|------------|-------|
+| St Martin d'Étampes | 38        | 39         | mins  |
+| Dourdan - La forêt ►| 04        | 58         | mins  |
+| Massy - Palaiseau  | 37        | 41         | mins  |
 
 ![image](https://github.com/user-attachments/assets/2001103b-b432-409d-85d5-07b6d2b38612)
 
