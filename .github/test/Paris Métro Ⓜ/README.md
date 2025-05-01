@@ -1,5 +1,5 @@
 > [!NOTE]
-> Pictures of Paris Métro are now stored in the [`PictureSoft/Okmeque1 Media`](https://github.com/GamerSoft24/Software/tree/Main/PictureSoft/Okmeque1%20Media) category
+> Pictures of Paris Métro Ⓜ are now stored in the [`PictureSoft/Okmeque1 Media`](https://github.com/GamerSoft24/Software/tree/Main/PictureSoft/Okmeque1%20Media) category
 
 ![image](https://github.com/user-attachments/assets/a7810348-be0a-42b8-a5d7-87e6cf332ff6)
 ![image](https://github.com/user-attachments/assets/68cf0711-09b0-4a41-8cf7-a14bc482a7cd)
