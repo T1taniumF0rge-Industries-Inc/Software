@@ -1,3 +1,6 @@
+> [!NOTE]
+> Pictures of Paris RER are now stored in the [`PictureSoft/Okmeque1 Media`](https://github.com/GamerSoft24/Software/tree/Main/PictureSoft/Okmeque1%20Media) category
+
 ![image](https://github.com/user-attachments/assets/3db72f8b-8688-4720-92ea-57a6c69f5769)
 
 ## La Défense
