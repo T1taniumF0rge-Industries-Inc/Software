@@ -2,17 +2,20 @@
  &nbsp;![GitHub repo size](https://img.shields.io/github/repo-size/GamerSoft24/Software?color=green&label=Repository%20Size%3A) &nbsp;![GitHub commit activity](https://img.shields.io/badge/Clone%20Size-35.6GB-066990) &nbsp; ![GitHub commit activity](https://img.shields.io/badge/Repository%20Status-Semi%20Active-yellow) &nbsp;
 
 # [`Software`] Repository
-### 🎉🎉 We have reached 1000 commits! -> *Next milestone 1500 commits?* 🎉🎉 
+### 🎉🎉 We have reached 1000 commits!! -> *Next milestone 2000 commits!* 🎉🎉 
 
 **REP-SET II**, *`Version 3.1.5b`*
 
+> [!IMPORTANT]
+> The ["Programs.md"](https://github.com/GamerSoft24/Software/blob/Main/Programs.md) file is currently outdated and will be updated in a maximum delay 3 months!
+
 ## [`PySoft:`]
-This is **where** I will be *storing all* of ***my and some of Okmeque1's*** Python codes and programs.
+This is **where** I and Okmeque1 will be *storing all* of ***our*** Python codes and programs.
 
 *For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/PySoft)
 
 ## [`VBSoft:`]
-This is **where** I will be *storing all* of ***my*** VBS (Windows Visual Basic Script) codes and programs.
+This is **where** I and Okmeque1 will be *storing all* of ***our*** VBS (Windows Visual Basic Script) codes and programs.
 
 > [!CAUTION]
 > 
@@ -28,9 +31,9 @@ This is **where** I will be *storing all* of ***my*** HTML (HyperText Markup Lan
 
 ## [`CPPSoft:`]
 
-This is **where** I will be *storing all* of ***my*** C & C++ codes and programs although it's name is CPPSoft (C++ Software).
+This is **where** I will be *storing all* of ***my*** C & C++ (including occasional C# & Objective-C) codes and programs although it's name is CPPSoft (C++ Software).
 
-The codes will be more *focused* on **C++** rather then **C** and also there will be lots of codes working with external devices, like NodeMCU boards.
+The codes will be more *focused* on **C++** rather then **the other languages of the C-family** and also there will be lots of codes working with external devices, like with NodeMCU boards.
 
 > [!TIP]
 > 
@@ -94,7 +97,7 @@ This is **where** I will be *storing all* of the ***office files I use at work.*
 
 ## [`PictureSoft:`]
 
-This is **where** I will be *storing all* of the **unique pictures I find interesting.**
+This is **where** I and Okmeque1 will be *storing all* of the **unique pictures I find interesting.**
 
 *For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/PictureSoft)
 
