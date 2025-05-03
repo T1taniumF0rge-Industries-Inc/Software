@@ -2,7 +2,7 @@
 
 This document aims to answer some common questions regarding the `Software` repository.
 
-## Repository Questions:
+## Repository Q&A:
 
 ### Why is there so many things?
 
@@ -63,9 +63,9 @@ We have a lot of software available at your disposal for a lot of applications. 
 
 ### Why does the repository take higher than 35GB of disk space?
 
-We store a lot of binary files using Git LFS, including executables, movies, etc...
+We store a lot of binary files using Git LFS, including executables, movies, etc... Thanks to [Git LFS](https://git-lfs.com/) and their [GitHub](https://github.com/git-lfs/git-lfs) for making the `Software` repository project possible.
 
-## PySoft Questions:
+## PySoft Q&A:
 
 ### Why does the program crash on startup?
 
@@ -85,12 +85,14 @@ There is a clear difference between a bugfix and rewriting the entire program, a
 
 ### What is the point?
 
-Some people don't want to pay Microsoft for a Windows key, and generally except for Office there isn't much use in tools like MAS or DAZ because modern Windows versions have very few limitations if you don't activate Windows. However in older versions like Windows 7 and Vista, tools like DAZ loader are required because otherwise severe restrictions on the computer are applied. Windows 7 is out of support, and Microsoft wants people to get off that OS, so they wouldn't care much if people are pirating W7, especially as if you want to install Windows 7 Ultimate on a computer that originally came with Windows XP Home Edition, then DAZ is the only option (you're not going to pay $120 for an OS that isn't even supported right?).
+Some people don't want to pay Microsoft for a Windows key, and generally except for Office there isn't much use in tools like MAS or DAZ because modern Windows versions have very few limitations if you don't activate Windows. However in older versions like Windows 7 and Vista, tools like DAZ loader are required because otherwise severe restrictions on the computer are applied. Windows 7 is out of support, and Microsoft wants people to get off that OS, so they wouldn't care much if people are pirating Windows 7, especially as if you want to install Windows 7 Ultimate on a computer that originally came with Windows XP Home Edition, then DAZ is the only option (you're not going to pay $120 for an OS that isn't even supported right?). 
+> [!CAUTION]
+> Only thing is: NEVER PUT THE DAZ LOADER AND THE SOPHOS ENDPOINT AGENT TOGETHER! THEY HAVE GENERATIONAL BEEF!!!
 
 ### Are they safe?
 
-Personally, our team at Software have used MAS and DAZ for a long time (2-3 years) and so far we have **never** been hacked or had any sort of computer problems, and for DAZ loader it is especially important since it is hard to find a reliable download link with no viruses, until I found one so I made an installer of it so that now I have a reliable way of downloading DAZ loader to activate my old Windows 7 computer.
+Personally, our full team at `Software` have used MAS and DAZ for a long time (2-3 years) and so far we have **never** been hacked or had any sort of computer problems, and for DAZ loader it is especially important since it is hard to find a reliable download link with no viruses, until I found one so I made an installer of it so that now I have a reliable way of downloading DAZ loader to activate my old Windows 7 computer.
 
 ### I got fired from my company from using this!
 
-That's on you mate, if you had any sense of downloading these files through the program chart (or just read the LICENSE or README files) then you must have agreed to the terms [here](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Windows%20Loaders/README.md), meaning that we are ***not* liable for any damages that these programs may have caused.**
+That's on you mate, if you had any sense of downloading these files through the [Programs.md](/Programs.md) file (or just read the LICENSE or README.md files) then you must have agreed to the terms [here](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Windows%20Loaders/README.md), meaning that we are ***not liable* for *any damages that these programs may have caused*.**
