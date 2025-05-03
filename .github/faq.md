@@ -1,4 +1,7 @@
-# Frequently Asked Questions (FAQ, NOT DONE YET!) 😿
+# Frequently Asked Questions (FAQ)
+
+> [!NOTE]
+> More stuff are getting added to this file. Please be patient while our team finishes the FAQ.
 
 This document aims to answer some common questions regarding the `Software` repository.
 
