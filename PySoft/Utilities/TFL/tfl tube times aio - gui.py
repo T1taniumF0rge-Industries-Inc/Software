@@ -7,7 +7,7 @@ from tkinter import messagebox, simpledialog
 # Branding and data information
 BRANDING_TEXT = (
     "GamerSoft24's GUI Time Display board for TFL London Underground - Station and Platform levels\n"
-    "© Okmeque1 for original code. Original files can be found on /GamerSoft24/Software and /Okmeque1/software's GitHub repositories.\n"
+    "© Okmeque1 for original code. Original files can be found on both /GamerSoft24/Software and /Okmeque1/software's GitHub repositories.\n"
     "Contains OS data © Crown copyright and database rights 2016' and Geomni UK Map data © and database rights [2019]\n"
     "Program core powered by TFL Open Data's APIs"
 )
