@@ -39,8 +39,8 @@ A change like so is a good starting spot, although in this case if you could mak
 ```py
 print("Made by GamerSoft24")
 print("Fixes made by GmaerSoft42")
-number = input("Enter a random number to add:") # By GmaerSoft42: Input added so that you can choose the base starting number
-def random_math_function(amount)
+number = int(input("Enter a random number to add:") # By GmaerSoft42: Input added so that you can choose the base starting number) #bruh the program was broken even on the fixed version: gmaersoft42
+def random_math_function(amount):
   for x in range(amount):
     number += number
     number += amount
