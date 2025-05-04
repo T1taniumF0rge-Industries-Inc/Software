@@ -9,3 +9,4 @@ opencv-python
 scapy
 python-nmap
 ffpyplayer
+tkinter
