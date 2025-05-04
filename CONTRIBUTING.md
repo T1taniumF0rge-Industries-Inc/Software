@@ -46,6 +46,6 @@ def random_math_function(amount):
     number += amount
   return number
 amount = input("Enter a random number to recurse: ") # Fixed broken input, GmaerSoft42
-random_math_function(amount) # Calling function properly - GmaerSoft42
+random_math_function(int(amount)) # Calling function properly - GmaerSoft42
 ```
 
