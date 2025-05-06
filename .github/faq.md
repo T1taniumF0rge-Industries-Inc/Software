@@ -84,7 +84,7 @@ For the longest time, we stuck to our philosophy of 1 file maximum per project, 
 
 There is a clear difference between a bugfix and rewriting the entire program, and before changing any file in this repository, it is best to consult the [Contributing Guidelines](/CONTRIBUTING.md) first. But as a whole, if you want to rewrite a program that is all in one file and you want to seperate the logic and the UI, you may do it on a [fork](https://github.com/GamerSoft24/Software/fork), and if you want to change a small thing in the programs then you have to make sure to keep the program in the same writing style as the original program.
 
-## InstallerSoft Windows Loader Questions:
+## Windows Loader Q&A:
 
 ### What is the point?
 
@@ -99,3 +99,15 @@ Personally, our full team at `Software` have used MAS and DAZ for a long time (2
 ### I got fired from my company from using this!
 
 That's on you mate, if you had any sense of downloading these files through the [Programs.md](/Programs.md) file (or just read the LICENSE or README.md files) then you must have agreed to the terms [here](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Windows%20Loaders/README.md), meaning that we are ***not liable* for *any damages that these programs may have caused*.**
+
+## InstallerSoft Q&A:
+
+### Why are there repackaged NSIS installers of stuff?
+
+The reason why some programs are repackaged in an NSIS installer, is because (to put it simply), some of the software are packaged in horrendous installers and our team at `Software` does not want our users to suffer. However for such installers, they are *mostly* trustable as we use and package the software in house, and in those cases we provide the source and a *.NSI file so that in case of doubt, you can make the installer yourself and prove that we're not liars.
+
+### Why are you hoarding old versions of programs?
+
+Whenever there is an old version of a program (360AFChrome for example), there is a reason to keep it. In 360AFChrome, many people use it on computers that are running Windows XP to access the internet, and in other cases like AOMEI 8.7, this version is kept because new AOMEI, just sucks (some free features in version 8.7 are paid features in 10.4.1)
+
+
