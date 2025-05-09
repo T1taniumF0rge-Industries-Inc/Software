@@ -18,7 +18,7 @@ Please select relevant option(s)
 
 ## Checklist:
 
-Please tick the checkboxes that you followed
+Please tick the checkboxes that you followed. These are not requirements, those can be seen in the [Contributing Guidelines.](/CONTRIBUTING.md)
 
 - [ ] My code follows the style guidelines of this project
 - [ ] I have performed a self-review of my own code
