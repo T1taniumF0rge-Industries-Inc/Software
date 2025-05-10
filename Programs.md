@@ -4,6 +4,8 @@ This is the program chart.
 
 Special thanks to [Okmeque1](https://github.com/Okmeque1) from [`okmeque1/software`](https://github.com/Okmeque1/software) for helping to update and contribute to this file!
 
+PictureSoft is excluded as there are too many files and they all represent a similar subject.
+
 ## Quick Access - click to jump to section
 
 - [PySoft](#pysoft)
