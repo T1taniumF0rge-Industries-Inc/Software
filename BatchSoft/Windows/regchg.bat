@@ -37,12 +37,13 @@ explorer
 reg add HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v VerboseStatus /t REG_DWORD /d 1 /f
 taskkill /f /im msedge.exe
 taskkill /f /im MicrosoftEdgeUpdate.exe
-taskkill /f /im msedgewebview2.exe
+::taskkill /f /im msedgewebview2.exe
 takeown /f C:\PROGRA~2\Microsoft
-takeown /f C:\PROGRA~2\MicroSoft\EdgeWebView
-takeown /f C:\PROGRA~2\MicroSoft\EdgeWebView\Application
-del /f C:\PROGRA~2\MicroSoft\EdgeWebView\Application
-rd /q /s C:\Progra~2\MicroSoft\EdgeWebView
+::takeown /f C:\PROGRA~2\MicroSoft\EdgeWebView
+::takeown /f C:\PROGRA~2\MicroSoft\EdgeWebView\Application
+::del /f C:\PROGRA~2\MicroSoft\EdgeWebView\Application
+::rd /q /s C:\Progra~2\MicroSoft\EdgeWebView
+:: NEVER DELETE WEBVIEW2, MANY APPLICATIONS RELY ON IT
 rd /q /s C:\PROGRA~2\Microsoft
 del /f "%PROGRAMDATA%\Microsoft\Windows\Start Menu\Programs\Microsoft Edge.lnk"
 del /f "C:\Users\Public\Desktop\Microsoft Edge.lnk"
@@ -56,10 +57,10 @@ taskkill /f /im msedge.exe
 taskkill /f /im MicrosoftEdgeUpdate.exe
 taskkill /f /im msedgewebview2.exe
 takeown /f C:\PROGRA~2\Microsoft
-takeown /f C:\PROGRA~2\MicroSoft\EdgeWebView
-takeown /f C:\PROGRA~2\MicroSoft\EdgeWebView\Application
-del /f C:\PROGRA~2\MicroSoft\EdgeWebView\Application
-rd /q /s C:\Progra~2\MicroSoft\EdgeWebView
+::takeown /f C:\PROGRA~2\MicroSoft\EdgeWebView
+::takeown /f C:\PROGRA~2\MicroSoft\EdgeWebView\Application
+::del /f C:\PROGRA~2\MicroSoft\EdgeWebView\Application
+::rd /q /s C:\Progra~2\MicroSoft\EdgeWebView
 rd /q /s C:\PROGRA~2\Microsoft
 del /f "%PROGRAMDATA%\Microsoft\Windows\Start Menu\Programs\Microsoft Edge.lnk"
 del /f "C:\Users\Public\Desktop\Microsoft Edge.lnk"
