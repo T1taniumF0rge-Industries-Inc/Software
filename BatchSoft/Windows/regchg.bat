@@ -9,6 +9,7 @@ if %errorLevel% neq 0 (
 echo *** REGISTRY EDITOR (regchg.bat, running w/Admin Permissions) - (c) Okmeque1 Corporation and okmeque1\software ***
 echo This program will make it easy for you to disable certain annoying Windows Features.
 echo WARNING! The uninstall Edge feature is completely functional but may throw errors due to the way the program deletes it. This program deletes Edge by forcibly removing all Edge-related functions, even if they don't exist.
+echo For users that use applications that rely on Microsoft Edge WebView2, it is highly recommended that you do not uninstall Microsoft Edge as applications that rely on WebView2 also rely on core functions of Microsoft Edge.
 echo [1] Disable Start Menu Search Results - Will make it easier to find what you want
 echo [2] Enable Verbose Boot Messages - This will make the messages upon startup, login and shutdown. Useful for slow PC
 echo [3] Uninstall Edge
