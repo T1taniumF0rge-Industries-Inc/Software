@@ -167,7 +167,7 @@ PictureSoft is excluded as there are too many files and they all represent a sim
 
 3 -> [Website Pinger (web pinger.bat):](https://github.com/GamerSoft24/Software/blob/Main/BatchSoft/Windows/web%20pinger.bat) Pings a specified website that you can choose.
 
-4 -> [Registry Tweaker (regchg.bat):](https://github.com/GamerSoft24/Software/tree/Main/BatchSoft/Windows/regchg.bat) A useful batch script that makes the Windows experience much better. Made by Okmeque1 and can also be found on his [`okmeque1/software`](https://github.com/Okmeque1/software) repository
+4 -> [Registry Tweaker (regchg.bat):](https://github.com/GamerSoft24/Software/tree/Main/BatchSoft/Windows/regchg.bat) A useful batch script that makes the Windows experience much better. Made by Lan Internet Software, can be found [here as well](https://github.com/laninternet/Soft/BatchUtil/regchg.bat).
 
 ### [UAC](https://github.com/GamerSoft24/Software/tree/Main/BatchSoft/Windows/UAC):
 
