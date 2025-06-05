@@ -12,6 +12,7 @@ import random
 import os
 import json
 import html
+import sys
 import psutil
 from cryptography.fernet import Fernet
 import math
@@ -37,7 +38,7 @@ class AssistantApp(tk.Tk):
 
         self.frames = {}
 
-        for F in (MainMenu, OpenWebPage, SendEmail, RandomJoke, SystemCommand, GamesMenu, TicTacToe, TextEditor, ToolsMenu, PassManager, OpenTDB, not1,ErrorGen,RPS,Calculator,HangMan,GuessNumber):
+        for F in (MainMenu, OpenWebPage, SendEmail, RandomJoke, SystemCommand, GamesMenu, TicTacToe, TextEditor, ToolsMenu, PassManager, OpenTDB, not1,ErrorGen,RPS,Calculator,HangMan,GuessNumber,WinAIO):
             # print(F)
             # print(type(F)) 
             frame = F(container, self) #put a stupid virgule on there, caused the entire program to stop working
@@ -66,6 +67,7 @@ class MainMenu(tk.Frame):
             ("Games Menu.", lambda: controller.show_frame(GamesMenu)),
             ("Text Editor", lambda: controller.show_frame(TextEditor)),
             ("Tools Menu", lambda: controller.show_frame(ToolsMenu)),
+            ("WinAIO", lambda: controller.show_frame(WinAIO)), #DO NOT FORGET TO ADD A COMMA AFTER THE END, BECAUSE OTHERWISE IT CAUSES THE ENTIRE PROGRAM TO CRASH!!!
             ("Exit.", self.quit)
         ]
 
@@ -74,6 +76,54 @@ class MainMenu(tk.Frame):
             button.pack(pady=5)
     def gettime(self):
         return datetime.datetime.now()
+class WinAIO(Frame):
+    def __init__(self,parent,controller):
+        super().__init__(parent)
+        self.controller = controller
+        label = tk.Label(self, text="WinAIO (G-AIO for Windows)", font=('Arial', 18, 'bold'))
+        label.pack(pady=10, padx=10)
+        b1 = Button(self,text="Install WinAIO ", width=40,command=lambda: self.setup(0))
+        b4 = Button(self,text="Uninstall WinAIO ", width=40,command=lambda: self.setup(1))
+        b2 = Button(self,text="More informations (highly recommended)",width=40,command=lambda: self.setup(2))
+        b3 = Button(self,text="Return to main menu",width=40,command=controller.show_frame(MainMenu))
+        b1.pack(pady=5)
+        b4.pack(pady=5)
+        b2.pack(pady=5)
+        b3.pack(pady=5)
+    def setup(self,parameter):
+        if parameter == 0:
+            wordchoice = "install G-AIO onto your computer. It will be installed in the C:\WinAIO folder (the install location can not be changed due to compatibility reasons. You can add it in the code if you want)"
+        if parameter == 1:
+            wordchoice = "uninstall G-AIO from your computer."
+        if parameter == 2:
+            a = messagebox.showinfo("WinAIO Setup Information","WinAIO is a plug-in for Windows that replaces the standard shell with this program. It changes the Shell registry key and install itself in C:\\WinAIO folder. This install directory cannot be changed.\n\nNOTE: To use this function of this program, you must agree to the license and its terms of conditions as said in the GitHub GamerSoft24/Software repository, as well as any and all disclaimers and warranty information (if applicable). We will not be liable for any damages caused by any file, software package, individual program or other material from this repository in your possession (this includes, but is not limited to, modification, execution or download of the files)! This includes, but is not limited to, unintentional bugs, user error caused by an unclear prompt, clearly marked dangerous programs that may crash your computer or user negligence (didn't read the warnings) and more.")
+        if os.name != 'nt':
+            a = messagebox.showerror("The OS that you are using is not compatible with WinAIO Software. ")
+        a = messagebox.showinfo("WinAIO Setup",f"Setup will now {wordchoice}")
+        if parameter == 0:
+            a = messagebox.askyesno("WinAIO Setup","Setup will override the default Windows menu that you may be used to and replace it with this program. The developers of this program are in no way, shape or form liable for any data loss that occurs, to the extent of the LICENSE and warranty agreements in the GitHub GamerSoft24/Software repository.\nDo you with to continue?",icon=messagebox.WARNING)
+            if a:
+                with open("C:\\WinAIO\\SETUP.BAT", "w") as authadmin:
+                    authadmin.write(r"@echo off")
+                    authadmin.write(r"net session >nul 2>&1")
+                    authadmin.write(r"if %errorLevel% neq 0 (")
+                    authadmin.write(r"    echo Please wait for admin privileges to be authorized")
+                    authadmin.write(fr'   powershell -Command "Start-Process cmd -ArgumentList "/c {os.path.abspath(__file__)} --setup" -Verb RunAs"')
+                    authadmin.write(r"    exit /b")
+                    authadmin.write(")")  
+                os.system("C:\\WinAIO\\SETUP.BAT")
+            else:
+                a = messagebox.showerror("WinAIO Setup","The operation was cancelled.")
+        if parameter == 1:       
+                with open("C:\\WinAIO\\UNSETUP.BAT", "w") as authadmin:
+                    authadmin.write(r"@echo off")
+                    authadmin.write(r"net session >nul 2>&1")
+                    authadmin.write(r"if %errorLevel% neq 0 (")
+                    authadmin.write(r"    echo Please wait for admin privileges to be authorized")
+                    authadmin.write(fr'   powershell -Command "Start-Process cmd -ArgumentList "/c {os.path.abspath(__file__)} --unsetup" -Verb RunAs"')
+                    authadmin.write(r"    exit /b")
+                    authadmin.write(")")          
+                os.system("C:\\WinAIO\\UNSETUP.BAT")
 class Diskpart(Frame): #G-AIO to SATA, lose all your DATA
     def __init__(self,parent,controller):
         super().__init__(parent)
@@ -1182,6 +1232,7 @@ class ToolsMenu(Frame):
             x = messagebox.showerror("G-AIO","Please run this program with admin privileges for this function to work properly.")
         else:
             x = messagebox.showinfo("G-AIO","Verbose Boot Messages have been enabled.")        
+
     def uacbypass(self):
         program = filedialog.askopenfilename(filetypes=[("All Files", "*.*")])
         if program:
@@ -1333,7 +1384,7 @@ class PassManager(Frame):
         numbers = "1234567890"
         lwc = "qwertyuiopasdfghjklzxcvbnm"
         upc = "QWERTYUIOPASDFGHJKLZXCVBNM"
-        spc = "Â¬`Â¦!Â£$%^&*()_+-={}[]:;@'~#|<,>.?/"
+        spc = "`!$%^&*()_+-={}[]:;@'~#|<,>.?/"
         pwd = ""
         mix = ""
         x = messagebox.showwarning("G-AIO - User Warning","Note that the following values you will enter for your password will not be 100% accurate due to the mixing logic of this program.\nIf you want 5 digits in your password, you may only have 4 or 6.")
@@ -1352,6 +1403,20 @@ class PassManager(Frame):
         x = messagebox.showinfo("G-AIO","The password has generated and saved successfully")
         return
 if __name__ == "__main__":#uarte
+    if sys.argv[1] == "--setup":
+        a = os.system("reg add HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v VerboseStatus /t REG_DWORD /d 1 /f")
+        b = os.system(f"copy {os.path.abspath(__file__)} C:\\WinAIO\\G-AIO.PY")
+        c = os.system("reg add HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon /v Shell /t REG_SZ /d C:\WinAIO\G-AIO.PY /f")
+        if a != 0 or b != 0 or c != 0:
+            d = messagebox.showerror("WinAIO Setup","An error has occured while configuring your computer. Please see the terminal logs for more information (usually the black window with text)")
+        d = messagebox.askyesno("WinAIO Setup","Setup has finished configuring your computer. For the changes to take effect, you must restart your computer. Do you wish to do that now?")
+        if d:
+            os.system("shutdown /r /t 0 ")
+    if sys.argv[1] == "--unsetup":
+        a = os.system("reg add HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon /v Shell /t REG_SZ /d C:\WINDOWS\EXPLORER.EXE /f")
+        d = messagebox.askyesno("WinAIO Setup","Setup has finished configuring your computer. For the changes to take effect, you must restart your computer. Do you wish to do that now?")
+        if d:
+            os.system("shutdown /r /t 0 ")
     app = AssistantApp()
     app.geometry("800x600")
     app.resizable(width=False,height=False)
