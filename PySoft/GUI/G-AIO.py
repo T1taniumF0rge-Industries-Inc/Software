@@ -105,28 +105,34 @@ class WinAIO(Frame):
             a = messagebox.askyesno("WinAIO Setup","Setup will override the default Windows menu that you may be used to and replace it with this program. The developers of this program are in no way, shape or form liable for any data loss that occurs, to the extent of the LICENSE and warranty agreements in the GitHub GamerSoft24/Software repository.\nDo you with to continue?",icon=messagebox.WARNING)
             if a:
                 os.system("md C:\\WinAIO")
+                with open("C:\\WinAIO\\RUN.BAT","w") as temp:
+                    temp.write(f"{os.path.abspath(__file__)} --setup\n")
+                    temp.write("exit /b\n")
                 with open("C:\\WinAIO\\SETUP.BAT", "w") as authadmin:
-                    authadmin.write(r"@echo off")
-                    authadmin.write(r"net session >nul 2>&1")
-                    authadmin.write(r"if %errorLevel% neq 0 (")
-                    authadmin.write(r"    echo Please wait for admin privileges to be authorized")
-                    authadmin.write(fr'   powershell -Command "Start-Process cmd -ArgumentList "/c {os.path.abspath(__file__)} --setup" -Verb RunAs"')
-                    authadmin.write(r"    exit /b")
-                    authadmin.write(")")  
+                    authadmin.write("@echo off\n")
+                    authadmin.write("net session >nul 2>&1\n")
+                    authadmin.write("if %errorLevel% neq 0 (\n")
+                    authadmin.write("    echo Please wait for admin privileges to be authorized\n")
+                    authadmin.write(f"""   powershell -Command "Start-Process cmd -ArgumentList '/c C:\\WinAIO\\RUN.BAT' -Verb RunAs"\n""")
+                    authadmin.write("    exit /b\n")
+                    authadmin.write(")\n")  
                 os.system("C:\\WinAIO\\SETUP.BAT")
             else:
                 a = messagebox.showerror("WinAIO Setup","The operation was cancelled.")
                 return
         if parameter == 1:       
                 os.system("md C:\\WinAIO")
+                with open("C:\\WinAIO\\RUN.BAT","w") as temp:
+                    temp.write(f"{os.path.abspath(__file__)} --unsetup\n")
+                    temp.write("exit /b\n")
                 with open("C:\\WinAIO\\UNSETUP.BAT", "w") as authadmin:
-                    authadmin.write(r"@echo off")
-                    authadmin.write(r"net session >nul 2>&1")
-                    authadmin.write(r"if %errorLevel% neq 0 (")
-                    authadmin.write(r"    echo Please wait for admin privileges to be authorized")
-                    authadmin.write(fr'   powershell -Command "Start-Process cmd -ArgumentList "/c {os.path.abspath(__file__)} --unsetup" -Verb RunAs"')
-                    authadmin.write(r"    exit /b")
-                    authadmin.write(")")          
+                    authadmin.write("@echo off\n")
+                    authadmin.write("net session >nul 2>&1\n")
+                    authadmin.write("if %errorLevel% neq 0 (\n")
+                    authadmin.write("    echo Please wait for admin privileges to be authorized\n")
+                    authadmin.write(f"""   powershell -Command "Start-Process cmd -ArgumentList '/c C:\\WinAIO\\RUN.BAT' -Verb RunAs"\n""")
+                    authadmin.write("    exit /b\n")
+                    authadmin.write(")\n")           
                 os.system("C:\\WinAIO\\UNSETUP.BAT")
 class Diskpart(Frame): #G-AIO to SATA, lose all your DATA
     def __init__(self,parent,controller):
@@ -1411,17 +1417,22 @@ if __name__ == "__main__":#uarte
         if sys.argv[1] == "--setup":
             a = os.system("reg add HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v VerboseStatus /t REG_DWORD /d 1 /f")
             b = os.system(f"copy {os.path.abspath(__file__)} C:\\WinAIO\\G-AIO.PY")
-            c = os.system("reg add HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon /v Shell /t REG_SZ /d C:\WinAIO\G-AIO.PY /f")
+            c = os.system('reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" /v Shell /t REG_SZ /d C:\WinAIO\G-AIO.PY /f')
             if a != 0 or b != 0 or c != 0:
-                d = messagebox.showerror("WinAIO Setup","An error has occured while configuring your computer. Please see the terminal logs for more information (usually the black window with text)")
+                d = messagebox.showerror("WinAIO Setup","An error has occured while configuring your computer. Please see the terminal logs for more information (usually the black window with text).\n\nSetup will now exit.")
+                exit()
             d = messagebox.askyesno("WinAIO Setup","Setup has finished configuring your computer. For the changes to take effect, you must restart your computer. Do you wish to do that now?")
             if d:
                 os.system("shutdown /r /t 0 ")
+            else:
+                exit()
         if sys.argv[1] == "--unsetup":
-            a = os.system("reg add HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon /v Shell /t REG_SZ /d C:\WINDOWS\EXPLORER.EXE /f")
+            a = os.system('reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" /v Shell /t REG_SZ /d C:\WINDOWS\EXPLORER.EXE /f')
             d = messagebox.askyesno("WinAIO Setup","Setup has finished configuring your computer. For the changes to take effect, you must restart your computer. Do you wish to do that now?")
             if d:
                 os.system("shutdown /r /t 0 ")
+            else:
+                exit()
     app = AssistantApp()
     app.geometry("800x600")
     app.resizable(width=False,height=False)
