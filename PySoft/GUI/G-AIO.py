@@ -85,13 +85,41 @@ class WinAIO(Frame):
         b1 = Button(self,text="Install WinAIO ", width=40,command=lambda: self.setup(0))
         b4 = Button(self,text="Uninstall WinAIO ", width=40,command=lambda: self.setup(1))
         b2 = Button(self,text="More informations (highly recommended)",width=40,command=lambda: self.setup(2))
+        b7 = Button(self,text="Open file manager",width=40,command=lambda: os.system("C:\windows\explorer.exe"))
         b5 = Button(self,text="Restart Computer",width=40,command=lambda: os.system("shutdown /r /t 0"))
+        b6 = Button(self,text="Remove WinAIO Directory and files",width=40,command=lambda: self.rmv())
         b3 = Button(self,text="Return to main menu",width=40,command=lambda: controller.show_frame(MainMenu))
         b1.pack(pady=5)
         b4.pack(pady=5)
         b2.pack(pady=5)
+        b7.pack(pady=5)
         b5.pack(pady=5)
+        b6.pack(pady=5)
         b3.pack(pady=5)
+    def rmv(self):
+        if "C:\\WinAIO" in os.path.abspath(__file__):
+            x = messagebox.askyesno("WinAIO Removal","Removal tool can't remove C:\\WinAIO folder because you are currently running G-AIO in that folder. The program must be copied to another location before the removal process can start.\n\nDo you want to copy?",icon=messagebox.WARNING)
+            if x:
+                directory = filedialog.askdirectory()
+                a = os.system(f'copy /Y "{os.path.abspath(__file__)}" "{directory}"')
+                if a == 0:
+                    os.chdir(directory)
+                    os.system(f'start "" {os.path.basename(__file__)} --rd')
+                    exit()
+                else:
+                    x = messagebox.showerror("WinAIO Removal","Error while removing C:\\WinAIO. Please see the logs for more info (usually the command line or the Python interpeter, usually seen with a snake icon)")  
+                    return            
+            else:
+                x = messagebox.showerror("WinAIO Removal","Failed to remove WinAIO directory: The folder is in use by another process.")
+                return
+        else:
+            a = os.system("rd /q /s C:\\WinAIO")
+            if a == 0:
+                x = messagebox.showinfo("WinAIO Removal","Removal of C:\\WinAIO successful.")
+                return
+            else:
+                x = messagebox.showerror("WinAIO Removal","Error while removing C:\\WinAIO. Please see the logs for more info (usually the command line or the Python interpeter, usually seen with a snake icon)")
+                return
     def setup(self,parameter):
         if parameter == 0:
             wordchoice = "install G-AIO onto your computer. It will be installed in the C:\WinAIO folder (the install location can not be changed due to compatibility reasons. You can add it in the code if you want)"
@@ -185,7 +213,9 @@ class Diskpart(Frame): #G-AIO to SATA, lose all your DATA
         b1.pack(pady=5)
         b2 = Button(self,text="Refresh Hard Disk information",width=40, command=self.refresh)
         b2.pack(pady=5)
-        self.diskinfo = Text(self,width=40,height=10)
+        b3 = Button(self,text="Return to main menu",width=40,command=lambda: controller.show_frame(MainMenu))
+        b3.pack(pady=5)
+        self.diskinfo = Text(self,width=50,height=10)
         self.diskinfo.pack()
     def format1(self): #because the format() function already exists??
         formatstr = "format "
@@ -210,24 +240,28 @@ class Diskpart(Frame): #G-AIO to SATA, lose all your DATA
                 if safe:
                     formatstr += "/P:0"
             try:
-                result = subprocess.run(formatstr, shell=True, capture_output=True, text=True)
-                if result.returncode == 0:
-                    x = messagebox.showinfo("G-AIO","Format has completed.")
-                    return
+                x = messagebox.showinfo("G-AIO","If the process ever appears to freeze, make sure to check the Python interpreter (usually a black window with text) if there are any prompts or error messages.")
+                result = os.system(formatstr)
+                if result == 0:
+                    x = messagebox.showinfo("G-AIO","Disk formatted successfully")
                 else:
-                    x = messagebox.showerror("G-AIO",f"Format has not completed successfully.\nError : {result.stderr}")
-                    return
+                    x = messagebox.showerror("G-AIO","Error while formatting disk, please see the logs for more info (usually the command line or the Python interpeter, usually seen with a snake icon)")
             except Exception as e:
                 x = messagebox.showerror("G-AIO",f"Error while formatting disk.\nError : {e}")
 
 
 
     def refresh(self):
-        self.diskinfo.delete("1.0",END)
-        self.diskinfo.insert(END,"Hard Disk Info\nDRIVE | FILE SYSTEM | SIZE | USED | FREE\n")
-        for x in psutil.disk_partitions():
-             usage = psutil.disk_usage(x.mountpoint)
-             self.diskinfo.insert(f"{x.mountpoint}     {x.fstype}          {usage.total/(1024**3):.2f} {usage.used/(1024**3):.2f}0 {usage.free/(1024**3):.2f})\n")
+        try:
+            self.diskinfo.delete("1.0",END)
+            self.diskinfo.insert(END,"Hard Disk Info\nDRIVE | FILE SYSTEM | SIZE | USED | FREE\n")
+            for x in psutil.disk_partitions():
+                usage = psutil.disk_usage(x.mountpoint)
+                self.diskinfo.insert(END,f"{x.mountpoint}     {x.fstype}          {usage.total/(1024**3):.2f} {usage.used/(1024**3):.2f} {usage.free/(1024**3):.2f}\n")
+        except PermissionError as e:
+            x = messagebox.showerror("G-AIO",f"A disk read error has occured while fetching disk information.\nError: {e}")
+        except Exception as e:
+            x = messagebox.showerror("G-AIO",f"Error while refreshing hard disk informations.\nError: {e}")
 class OpenWebPage(tk.Frame):
     def __init__(self, parent, controller):
         super().__init__(parent)
@@ -1466,33 +1500,52 @@ class PassManager(Frame):
             writing.write(f"\n{mix}")
         x = messagebox.showinfo("G-AIO","The password has generated and saved successfully")
         return
-if __name__ == "__main__":#uarte
-    if len(sys.argv) > 1:
-        if sys.argv[1] == "--setup":
-            a = os.system("reg add HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v VerboseStatus /t REG_DWORD /d 1 /f")
-            b = os.system(f"copy {os.path.abspath(__file__)} C:\\WinAIO\\G-AIO.PY")
-            if len(sys.argv) > 2:
-                c = os.system(f'reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" /v Shell /t REG_SZ /d "{sys.argv[2][21:]} C:\\WinAIO\\G-AIO.py" /f')
-            else:    
-                c = os.system('reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" /v Shell /t REG_SZ /d "C:\Windows\py.exe C:\\WinAIO\\G-AIO.py" /f')
-            if a != 0 or b != 0 or c != 0:
-                d = messagebox.showerror("WinAIO Setup","An error has occured while configuring your computer. Please see the terminal logs for more information (usually the black window with text).\n\nSetup will now exit.")
+if __name__ == "__main__":#uarte the martin víglen Nxd6+ blunder
+        try:
+            if len(sys.argv) > 1:
+                if sys.argv[1] == "--setup":
+                    a = os.system("reg add HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v VerboseStatus /t REG_DWORD /d 1 /f")
+                    b = os.system(f"copy {os.path.abspath(__file__)} C:\\WinAIO\\G-AIO.PY")
+                    if len(sys.argv) > 2:
+                        c = os.system(f'reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" /v Shell /t REG_SZ /d "{sys.argv[2][21:]} C:\\WinAIO\\G-AIO.py" /f')
+                    else:    
+                        c = os.system('reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" /v Shell /t REG_SZ /d "C:\Windows\py.exe C:\\WinAIO\\G-AIO.py" /f')
+                    if a != 0 or b != 0 or c != 0:
+                        d = messagebox.showerror("WinAIO Setup","An error has occured while configuring your computer. Please see the terminal logs for more information (usually the black window with text).\n\nSetup will now exit.")
+                        exit()
+                    d = messagebox.askyesno("WinAIO Setup","Setup has finished configuring your computer. For the changes to take effect, you must restart your computer. Do you wish to do that now?")
+                    if d:
+                        os.system("shutdown /r /t 0 ")
+                    else:
+                        exit()
+                if sys.argv[1] == "--unsetup":
+                    a = os.system('reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" /v Shell /t REG_SZ /d C:\WINDOWS\EXPLORER.EXE /f')
+                    if a != 0:
+                        d = messagebox.askyesno("WinAIO Setup","Setup failed to configure your computer. Do you want to retry the operation?\n\nThe program will ")
+                    d = messagebox.askyesno("WinAIO Setup","Setup has finished configuring your computer. For the changes to take effect, you must restart your computer. Do you wish to do that now?")
+                    if d:
+                        os.system("shutdown /r /t 0 ")
+                    else:
+                        exit()
+                if sys.argv[1] == "--rd":
+                    a = os.system("rd /q /s C:\\WinAIO")
+                    if a == 0:
+                        x = messagebox.showinfo("WinAIO Removal","Removal of C:\\WinAIO successful.")
+                    else:
+                        x = messagebox.showerror("WinAIO Removal","Error while removing C:\\WinAIO. Please see the logs for more info (usually the command line or the Python interpeter, usually seen with a snake icon)")              
+            app = AssistantApp()
+            app.geometry("800x600")
+            app.resizable(width=False,height=False)
+            app.mainloop()
+        except SystemExit():
+            exit("User has chosed to exit. Exiting...")
+        except (ModuleNotFoundError,ImportError) as e:
+            x = messagebox.showerror("G-AIO",f"A required module is not installed or an error has occured while importing it/\nError: {e}\nPlease make sure that all dependencies are installed as per the GitHub GamerSoft24/Software/PySoft requirements.txt requirements file. Read the README in that same folder for more information.\nThe program will exit.")
+            exit()
+        except Exception as e:
+            x = messagebox.askyesno("G-AIO",f"An error has occured in G-AIO.\nError details: {e}\nAny data that was not save was lost. Do you want to restart the program?",icon=messagebox.ERROR)
+            if x:
+                os.system(f'start "" {os.path.abspath(__file__)}')
                 exit()
-            d = messagebox.askyesno("WinAIO Setup","Setup has finished configuring your computer. For the changes to take effect, you must restart your computer. Do you wish to do that now?")
-            if d:
-                os.system("shutdown /r /t 0 ")
             else:
                 exit()
-        if sys.argv[1] == "--unsetup":
-            a = os.system('reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" /v Shell /t REG_SZ /d C:\WINDOWS\EXPLORER.EXE /f')
-            if a != 0:
-                d = messagebox.askyesno("WinAIO Setup","Setup failed to configure your computer. Do you want to retry the operation?\n\nThe program will ")
-            d = messagebox.askyesno("WinAIO Setup","Setup has finished configuring your computer. For the changes to take effect, you must restart your computer. Do you wish to do that now?")
-            if d:
-                os.system("shutdown /r /t 0 ")
-            else:
-                exit()
-    app = AssistantApp()
-    app.geometry("800x600")
-    app.resizable(width=False,height=False)
-    app.mainloop()
