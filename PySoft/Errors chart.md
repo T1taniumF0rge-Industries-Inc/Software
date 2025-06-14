@@ -3,6 +3,8 @@
 ## Please note that this chart will only be useful if we have built-in error handling systems in our programs!
 ***© Okmeque1 Corporation: [`/Okmeque1/software`](https://github.com/Okmeque1/software/blob/main/PythonSoft/errors.md)***
 
+**Before creating a GitHub issue or e-mail, please make sure to consult this document as well as the Python manual or documentation online. This will save you and us time.**
+
 **6510A FileExistsError:** A file that exists is conflicting with the specified file file name. Delete the conflicting file.
 
 **6510B FileNotFoundError:** The program could not find the specified file. Make sure the spelling and format is correct or create the specified file and try again.
