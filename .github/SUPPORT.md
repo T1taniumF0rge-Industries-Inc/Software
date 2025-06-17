@@ -29,6 +29,14 @@ If you've encountered a bug or an issue, please follow these steps:
    - **Environment:** Include details such as the operating system, browser (if applicable), and versions of relevant software.
 3. Provide screenshots or logs if applicable.
 
+If you want to fix a bug or an issue, please follow these steps:
+1. Check the [Pull Requests](https://github.com/GamerSoft24/Software/pulls) section to see if someone has already made a solution to the problem
+2. If not, create a pull requests will the following details or use the pull request template
+  - **Title:** A short and concise description of the problem and a fix, avoid over 50 words
+  - **Description:** The steps to reproduce the issue, what happens and your solution
+  - **Checklists:** Check off all of the boxes that match.
+3. Provide screenshots or logs if applicable
+
 ---
 
 ## 💡 Feature Requests
@@ -51,7 +59,7 @@ Join the community to interact with other users and maintainers:
 
 For further assistance, you can reach us:
 - **Owner:** [GamerSoft24](https://github.com/GamerSoft24)
-- **Head Maintainer:** [Okmeque1](https://github.com/Okmeque1)
+- **Head Maintainer:** [Okmeque1](https://github.com/Okmeque1), [GmaerSoft42](https://github.com/GmaerSoft42)
 
 ---
 
