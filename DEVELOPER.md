@@ -61,3 +61,9 @@ This error is known to happen, and you will have to wait until either the next G
 > [!TIP]
 >
 > While not really repository focused, if you are trying to setup a file share with the sharing machine being a Windows 10 computer, make sure to enable all permissions and disable most security features to ensure compatability and that you create or move the files into the shared directory **AFTER** having shared the folder. Failure to do so will result in other computers throwing permission errors and failure to read the shared folder contents.
+
+## Linux boot failure on G31 (2007) era systems:
+
+Most if all Linux distributions will fail to load a GUI after the initial loading process due to an auto-detection bug that causes wrong graphics parameters to be loaded that older BIOS cannot support. The temporary fix is to go into the boot menu of Linux (should show your distro name and other options) and select the main distro and press E. This will open the options flags. Find the line that starts with `linux` and add to the end of that line `nomodeset acpi=off` which will force super old VESA drivers which are guaranteed to work.
+
+For a permanent solution, it is recommended to find proper video drivers, failing that you could always patch the GRUB bootloader.
