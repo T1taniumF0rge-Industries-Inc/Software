@@ -134,3 +134,8 @@ For easy access to all working files and programs in this repository, use the [p
 This repository is licensed under the </ins>**BSD3**</ins> License.
 
 To use any material from this repository, you must agree to the **[license](/LICENSE)** and its terms of conditions, as well as ***any* and *all* disclaimers and warranty information (if applicable)**. We will ***not*** be liable for **any damages caused by any file, software package, individual program or other material from this repository *in your possession (this includes, but is not limited to, modification, execution or download of the files)*! This includes, but is not limited to, unintentional bugs, user error caused by an unclear prompt, clearly marked dangerous programs that may crash your computer or user negligence (didn't read the warnings) and more.**
+
+
+If you're not satisfied with the former, leave the repository.
+
+**NOTE:** In any situation where a warranty disclaimer is present in the `Software` repository, "we", "The Software Team", "The Devs", "The Developers" all refer to the main developers of this repository. A warranty disclaimer is a paragraph that includes "We will ***not*** be liable for **any damages caused by**", etc and explains that we aren't liable for any damages no matter what.
