@@ -28,3 +28,5 @@ for x in range(360):
 Then name your file `*.py` and save it. For me, I named it `rainbow void.py`. Run it by double-clicking the file just as you would with any files and programs and make sure you have an interpreter installed. If you do have an interpreter, it should run properly and you should get a result like this:
 
 ![Screenshot 2024-03-10 at 19 24 55](https://github.com/GamerSoft24/Software/assets/136463938/07d213aa-acf2-4a58-bfae-32a5b3fce544)
+
+If you encounter any problems with any Python files (*.py), please make sure to consult the [PySoft Errors Chart](/PySoft/Errors%20chart.md), the [FAQ](/.github/faq.md) and the Python manual. Programs will mostly come with error codes (0211, 6510B) so make sure to take that in mind if the program does specify it
