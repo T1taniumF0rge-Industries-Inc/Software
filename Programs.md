@@ -103,6 +103,8 @@ PictureSoft is excluded as there are too many files and they all represent a sim
 
 9 -> [TFL Tube Times - Station Level (tfl tube times - station level.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Utilities/tfl%20tube%20times%20-%20station%20level.py) A neat program that lets you view the train arrivals/departures for any TFL station.
 
+10 -> [Removable Device Automatic Run Configurator (autorun.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Utilities/autorun.py) A program made by Lan Internet Software that can customise and edit a USB drive using the AUTORUN.INF file. May not work outside of Windows. I don't own a Linux machine or a Mac so up to you.
+
 ### [Large Projects:](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Large%20Projects/)
 
 1 -> [SQLite Password Manager:](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Large%20Projects/SQLite%20Password%20Manager) A simple password manager that uses SQLite 3 to store passwords, while also supporting Fernet encryptions. Read the README for more info...
