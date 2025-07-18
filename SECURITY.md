@@ -16,6 +16,26 @@ currently being supported with security updates.
 | 4.1.x   | :x:                |
 | < 4.1   | :x:                |
 
+## Ignored security warnings:
+
+Sometimes, code like this triggers CodeQL's automatic alert system (["security management system.py"](/PySoft/Utilities/security%20management%20system.py) in this example because you print the `password` variable straight to the terminal in a non-encrypted way - as plain text):
+```py
+elif optionpwd_manager == 7:
+  cyrillic_character_set = "АаВеЕЗМоНОРрСсТуХхЈјҮԁԌԚԛԜԝ"
+  standard_chars = '¦¬`1!23#4$5%6^7&8*9(0-_=+q"~{[]}=+QwWeErRtTyYuUiIoOpPaAsSdDfFgGhHjJkKlL;:@~^%#\|zZxXcCvVbBnNmMm,<.>/?)'
+  chars = [cyrillic_character_set, standard_chars]
+  length = int(input("Please enter your password length: "))
+  pwd = ""
+  for x in range(length):
+      pwd += random.choice(random.choice(chars))
+  print("")
+  print(password)
+  print("")
+  print('Password generated! Now saving...')
+  filename = input("Please enter a valid file name (leave blank to a default file of pwd_openscs.pwd). If the file does not
+```
+However, our team at the `Software` repository have deemed these warnings an exaggeration, as in reality nobody is going to spy on your terminal, and stuff printed to the terminal can be easily deleted by just closing the terminal or clearing it. And for your information, we don't use logs because our programs aren't important enough that logs are required. However, some newer programs are updated to be more compliant security measures so it is recommended to always use the newest available programs for your needs.
+
 ## Pull requests:
 To consider *changing programs and codes* in this `Software` repository you have to **pull request first and wait for approval** which should be *reviewed* in the **maximum delay of ***7 days***** **unless** the repository is in inactive mode! The 'Pull requests' tab is located on the top left corner of your screen (on computer).
 
