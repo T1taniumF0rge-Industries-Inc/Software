@@ -29,7 +29,7 @@
 
 **0273/05HG NameError:** The program you got has an error or an invalid reference was put in. Try again, else contact support.
 
-**0253 ImportError OR 1002 ModuleNotFoundError:** Required module does not exist or contains an error. Consult the [requirements.txt](/PySoft/requirements.txt) for the list of required modules and install via 'pip' for best compatability. After installing try again. To save time, use `pip install -r requirements.txt` in the same directory where you downloaded the requirements.txt file to install all of the required modules
+**0253 ImportError OR 1002 ModuleNotFoundError or 0199:** Required module does not exist or contains an error. Consult the [requirements.txt](/PySoft/requirements.txt) for the list of required modules and install via 'pip' for best compatability. After installing try again. To save time, use `pip install -r requirements.txt` in the same directory where you downloaded the requirements.txt file to install all of the required modules
 
 **0255 ZeroDivisionError:** Operation resulted from dividing by 0(invalid). Check parameters and what you have entered and try again
 
