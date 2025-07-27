@@ -4,7 +4,7 @@ To consider *changing programs and codes* in this `Software` repository you have
 
 > [!IMPORTANT]
 > ### The new code must meet these basic guidelines:
-> - The person who changes it **must *clearly* mark what they changed through any means** (code comments, start of programs *or/and* in program descriptions in the programs).
+> - The person who changes it **must *clearly* mark what they changed through any means** (code comments, start of programs *or/and* in program descriptions in the programs, commit logs are welcome, recommended and appreciated but aren't required yet).
 > - It must follow a similar style of the original code (example: Rewriting ["security management system.py"](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Utilities/security%20management%20system.py) in classes and imports module would most likely get rejected because this program uses while, input and print clauses, if you want to do that then you can copy the program onto your own fork of this repository and change it).
 > - The new version of the file must still include the original copyright names and symbols, however you may still mention your username on any new code - see [this](https://github.com/GamerSoft24/Software/blob/Main/.github/faq.md#who-do-i-credit-if-i-fork-the-repository) section of the FAQ for more information on attribution and credits.
 > - The new code must function properly including handling edge cases and malformed inputs, as well as not breaking the existing unchanged code. It must have some types of error handling and not just crumple in case an unexpected error happen.
