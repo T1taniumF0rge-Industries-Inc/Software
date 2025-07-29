@@ -252,16 +252,20 @@ class Diskpart(Frame): #G-AIO to SATA, lose all your DATA
 
 
     def refresh(self):
-        try:
             self.diskinfo.delete("1.0",END)
             self.diskinfo.insert(END,"Hard Disk Info\nDRIVE | FILE SYSTEM | SIZE | USED | FREE\n")
             for x in psutil.disk_partitions():
-                usage = psutil.disk_usage(x.mountpoint)
-                self.diskinfo.insert(END,f"{x.mountpoint}     {x.fstype}          {usage.total/(1024**3):.2f} {usage.used/(1024**3):.2f} {usage.free/(1024**3):.2f}\n")
-        except PermissionError as e:
-            x = messagebox.showerror("G-AIO",f"A disk read error has occured while fetching disk information.\nError: {e}")
-        except Exception as e:
-            x = messagebox.showerror("G-AIO",f"Error while refreshing hard disk informations.\nError: {e}")
+                try:
+                    usage = psutil.disk_usage(x.mountpoint)
+                    self.diskinfo.insert(END,f"{x.mountpoint}     {x.fstype}          {usage.total/(1024**3):.2f} {usage.used/(1024**3):.2f} {usage.free/(1024**3):.2f}\n")
+                except PermissionError as e:
+                    if 'not ready' in str(e):
+                        self.diskinfo.insert(END,f"{x.mountpoint}      Disk not ready for reading\n")
+                        continue
+                    x = messagebox.showerror("G-AIO",f"A disk read error has occured while fetching disk information.\nError: {e}")
+                    continue
+                except Exception as e:
+                    x = messagebox.showerror("G-AIO",f"Error while refreshing hard disk informations.\nError: {e}")
 class OpenWebPage(tk.Frame):
     def __init__(self, parent, controller):
         super().__init__(parent)
