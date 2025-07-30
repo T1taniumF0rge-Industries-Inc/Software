@@ -42,9 +42,10 @@ def autorun_config():
                         feature_line = x               
                 if option == "1":         
                     new_icon = filedialog.askopenfilename(title="Select an icon",filetypes=[("Icon files","*.ico")])
-                    shutil.copy(new_icon, file_name[3:])
+                    print("Icon Selected, now copying to the drive for redundancy...")
+                    shutil.copy2(new_icon, file_name[:3])
+                    print("copied successfully")
                     new_icon = new_icon[2:]
-
                 if option == "2":
                     startup_file = filedialog.askopenfilename(title="Select an file that will start upon the drive being plugged in",filetypes=[("Any file","*.*")])[2:]
                     shutil.copy(startup_file, file_name[3:])
@@ -67,6 +68,10 @@ def autorun_config():
                     if option == "3":
                         lines.append(f"label = {label}")
                     output.close()
+                
+
+
+
             with open(file_name, "w") as writing:
                 print("The current file is being written do. This may take several minutes. Do not unplug the device or modify any files during this process")
                 for x in range(len(lines)):
