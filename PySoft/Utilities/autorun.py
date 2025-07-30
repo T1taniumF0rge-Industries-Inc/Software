@@ -1,5 +1,6 @@
 from tkinter import filedialog
 import os
+import shutil
 def clear():
     if os.name == 'nt':
         os.system('cls')
@@ -40,11 +41,16 @@ def autorun_config():
                         feature_present = True
                         feature_line = x               
                 if option == "1":         
-                    new_icon = filedialog.askopenfilename(title="Select an icon",filetypes=[("Icon files","*.ico")])[2:]
+                    new_icon = filedialog.askopenfilename(title="Select an icon",filetypes=[("Icon files","*.ico")])
+                    shutil.copy(new_icon, file_name[3:])
+                    new_icon = new_icon[2:]
+
                 if option == "2":
                     startup_file = filedialog.askopenfilename(title="Select an file that will start upon the drive being plugged in",filetypes=[("Any file","*.*")])[2:]
+                    shutil.copy(startup_file, file_name[3:])
                 if option == "3":
                     label = input("Enter a new drive label: ")
+                    shutil.copy(label, file_name[3:])
                 if feature_present == True:
                     if option == "1":
                         lines[feature_line] = f"icon = {new_icon}"
