@@ -131,8 +131,22 @@ class FileManager(Frame):
         b5.pack(pady=5)
         b6 = Button(self, text="Open Disk Manager", width=40, command=lambda: controller.show_frame(Diskpart))
         b6.pack(pady=5)
+        b8 = Button(self, text="Run file or command in directory", width=40, command=self.getcmd)
+        b8.pack(pady=5)
         b7 = Button(self, text="Back to Main Menu", width=40, command=lambda: controller.show_frame(MainMenu))
         b7.pack(pady=5)
+    def getcmd(self):
+        syscmd = simpledialog.askstring("G-AIO","Enter file or command to run (if file is in same directory, only the file name needs to be specified, not the full path. Output is at the bottom of the directory listing): ")
+        threading.Thread(target=self.cmd, args=syscmd).start()
+    def cmd(self, param):
+        try:
+            information = subprocess.run(f'{param}', capture_output=True, shell=True)
+            if information.returncode == 0:
+                self.out.insert(END, information.stdout)
+            else:
+                self.out.insert(END, f"Command failed - command error\nDetails: {information.stderr}\nOutput: {information.stdout}")
+        except (subprocess.CalledProcessError, Exception) as e:
+            self.out.insert(END, f"Command failed - process error.\nDetails: {e}")        
     def chd(self, param=0):
         if param == 0:
             self.new_directory = filedialog.askdirectory().replace("/","\\")
@@ -281,26 +295,32 @@ class WinAIO(Frame):
         if "C:\\WinAIO" in os.path.abspath(__file__):
             x = messagebox.askyesno("WinAIO Removal","Removal tool can't remove C:\\WinAIO folder because you are currently running G-AIO in that folder. The program must be copied to another location before the removal process can start.\n\nDo you want to copy?",icon=messagebox.WARNING)
             if x:
-                directory = filedialog.askdirectory()
-                a = os.system(f'copy /Y "{os.path.abspath(__file__)}" "{directory}"')
-                if a == 0:
-                    os.chdir(directory)
-                    os.system(f'start "" {os.path.basename(__file__)} --rd')
-                    exit()
-                else:
-                    x = messagebox.showerror("WinAIO Removal","Error while removing C:\\WinAIO. Please see the logs for more info (usually the command line or the Python interpeter, usually seen with a snake icon)")  
-                    return            
+                try:
+                    directory = filedialog.askdirectory()
+                    a = subprocess.run(f'copy /Y "{os.path.abspath(__file__)}" "{directory}"', capture_output=True, shell=True)
+                    if a.returncode == 0:
+                        os.chdir(directory)
+                        os.system(f'start "" {os.path.basename(__file__)} --rd')
+                        exit()
+                    else:
+                        x = messagebox.showerror("WinAIO Removal",f"Error while removing C:\\WinAIO. \nError details: {a.stderr}\nOutput: {a.stdout}")  
+                        return      
+                except (subprocess.CalledProcessError, Exception) as e:
+                    x = messagebox.showerror("WinAIO Removal", f"Error while removing C:\\WinAIO. \nError details: {a.stderr}\nOutput: {a.stdout}")      
             else:
                 x = messagebox.showerror("WinAIO Removal","Failed to remove WinAIO directory: The folder is in use by another process.")
                 return
         else:
-            a = os.system("rd /q /s C:\\WinAIO")
-            if a == 0:
-                x = messagebox.showinfo("WinAIO Removal","Removal of C:\\WinAIO successful.")
-                return
-            else:
-                x = messagebox.showerror("WinAIO Removal","Error while removing C:\\WinAIO. Please see the logs for more info (usually the command line or the Python interpeter, usually seen with a snake icon)")
-                return
+            try:
+                a = subprocess.run("rd /q /s C:\\WinAIO", shell=True, capture_output=True)
+                if a.returncode == 0:
+                    x = messagebox.showinfo("WinAIO Removal","Removal of C:\\WinAIO successful.")
+                    return
+                else:
+                    x = messagebox.showerror("WinAIO Removal",f"Error while removing C:\\WinAIO. \nError details: {a.stderr}\nOutput: {a.stdout}")
+                    return
+            except (subprocess.CalledProcessError, Exception) as e:
+                    x = messagebox.showerror("WinAIO Removal", f"Error while removing C:\\WinAIO. \nError details: {a.stderr}\nOutput: {a.stdout}") 
     def setup(self,parameter):
         if parameter == 0:
             wordchoice = "install G-AIO onto your computer. It will be installed in the C:\WinAIO folder (the install location can not be changed due to compatibility reasons. You can add it in the code if you want)"
@@ -310,59 +330,65 @@ class WinAIO(Frame):
             a = messagebox.showinfo("WinAIO Setup Information","WinAIO is a plug-in for Windows that replaces the standard shell with this program. It changes the Shell registry key and install itself in C:\\WinAIO folder. This install directory cannot be changed.\n\nNOTE: To use this function of this program, you must agree to the license and its terms of conditions as said in the GitHub GamerSoft24/Software repository, as well as any and all disclaimers and warranty information (if applicable). We will not be liable for any damages caused by any file, software package, individual program or other material from this repository in your possession (this includes, but is not limited to, modification, execution or download of the files)! This includes, but is not limited to, unintentional bugs, user error caused by an unclear prompt, clearly marked dangerous programs that may crash your computer or user negligence (didn't read the warnings) and more.")
             return
         if os.name != 'nt':
-            a = messagebox.showerror("The OS that you are using is not compatible with WinAIO Software. ")
+            a = messagebox.showwarning("WinAIO","The OS that you are using is not compatible with WinAIO Software. This software requires Microsoft Windows NT to operate.")
         a = messagebox.showinfo("WinAIO Setup",f"Setup will now {wordchoice}")
         if parameter == 0:
             a = messagebox.askyesno("WinAIO Setup","Setup will override the default Windows menu that you may be used to and replace it with this program. The developers of this program are in no way, shape or form liable for any data loss that occurs, to the extent of the LICENSE and warranty agreements in the GitHub GamerSoft24/Software repository.\nDo you with to continue?",icon=messagebox.WARNING)
             if a:
-                os.system("md C:\\WinAIO")
                 try:
-                    with open("C:\\Windows\\py.exe","r") as detect:
-                        
-                        with open("C:\\WinAIO\\START.BAT","w") as launcher:
-                            launcher.write("@echo off")
-                            launcher.write('start "" C:\\WinAIO\\G-AIO.PY')
-                            launcher.write("exit /b")
-                        with open("C:\\WinAIO\\RUN.BAT","w") as temp:
-                            temp.write(f"{os.path.abspath(__file__)} --setup\n")
-                            temp.write("exit /b\n")
-                        with open("C:\\WinAIO\\SETUP.BAT", "w") as authadmin:
-                            authadmin.write("@echo off\n")
-                            authadmin.write("net session >nul 2>&1\n")
-                            authadmin.write("if %errorLevel% neq 0 (\n")
-                            authadmin.write("    echo Please wait for admin privileges to be authorized\n")
-                            authadmin.write(f"""   powershell -Command "Start-Process cmd -ArgumentList '/c C:\\WinAIO\\RUN.BAT' -Verb RunAs"\n""")
-                            authadmin.write("    exit /b\n")
-                            authadmin.write(")\n")  
-                        os.system("C:\\WinAIO\\SETUP.BAT")
-                        return
-                except FileNotFoundError:
-                    askcontinue = messagebox.askyesno("WinAIO Setup","Python was not detected at the standard location of C:\Windows\py.exe\nDo you wish to specify the location of the python interpreter?",icon=messagebox.WARNING)
-                    if askcontinue:
-                        python = filedialog.askopenfilename()
-                        with open("C:\\WinAIO\\START.BAT","w") as launcher:
-                            launcher.write("@echo off")
-                            launcher.write('start "" C:\\WinAIO\\G-AIO.PY')
-                            launcher.write("exit /b")
-                        with open("C:\\WinAIO\\RUN.BAT","w") as temp:
-                            temp.write(f"{os.path.abspath(__file__)} --setup --python-interpreter={python}\n")
-                            temp.write("exit /b\n")
-                        with open("C:\\WinAIO\\SETUP.BAT", "w") as authadmin:
-                            authadmin.write("@echo off\n")
-                            authadmin.write("net session >nul 2>&1\n")
-                            authadmin.write("if %errorLevel% neq 0 (\n")
-                            authadmin.write("    echo Please wait for admin privileges to be authorized\n")
-                            authadmin.write(f"""   powershell -Command "Start-Process cmd -ArgumentList '/c C:\\WinAIO\\RUN.BAT' -Verb RunAs"\n""")
-                            authadmin.write("    exit /b\n")
-                            authadmin.write(")\n")  
-                        os.system("C:\\WinAIO\\SETUP.BAT")    
-                        return       
+                    a = subprocess.run("md C:\\WinAIO", shell=True, capture_output=True)
+                    if a.returncode == 0:
+                        try:
+                            with open("C:\\Windows\\py.exe","r") as detect:
+                                
+                                with open("C:\\WinAIO\\START.BAT","w") as launcher:
+                                    launcher.write("@echo off")
+                                    launcher.write('start "" C:\\WinAIO\\G-AIO.PY')
+                                    launcher.write("exit /b")
+                                with open("C:\\WinAIO\\RUN.BAT","w") as temp:
+                                    temp.write(f"{os.path.abspath(__file__)} --setup\n")
+                                    temp.write("exit /b\n")
+                                with open("C:\\WinAIO\\SETUP.BAT", "w") as authadmin:
+                                    authadmin.write("@echo off\n")
+                                    authadmin.write("net session >nul 2>&1\n")
+                                    authadmin.write("if %errorLevel% neq 0 (\n")
+                                    authadmin.write("    echo Please wait for admin privileges to be authorized\n")
+                                    authadmin.write(f"""   powershell -Command "Start-Process cmd -ArgumentList '/c C:\\WinAIO\\RUN.BAT' -Verb RunAs"\n""")
+                                    authadmin.write("    exit /b\n")
+                                    authadmin.write(")\n")  
+                                os.system("C:\\WinAIO\\SETUP.BAT")
+                                return
+                        except FileNotFoundError:
+                            askcontinue = messagebox.askyesno("WinAIO Setup","Python was not detected at the standard location of C:\Windows\py.exe\nDo you wish to specify the location of the python interpreter?",icon=messagebox.WARNING)
+                            if askcontinue:
+                                python = filedialog.askopenfilename()
+                                with open("C:\\WinAIO\\START.BAT","w") as launcher:
+                                    launcher.write("@echo off")
+                                    launcher.write('start "" C:\\WinAIO\\G-AIO.PY')
+                                    launcher.write("exit /b")
+                                with open("C:\\WinAIO\\RUN.BAT","w") as temp:
+                                    temp.write(f"{os.path.abspath(__file__)} --setup --python-interpreter={python}\n")
+                                    temp.write("exit /b\n")
+                                with open("C:\\WinAIO\\SETUP.BAT", "w") as authadmin:
+                                    authadmin.write("@echo off\n")
+                                    authadmin.write("net session >nul 2>&1\n")
+                                    authadmin.write("if %errorLevel% neq 0 (\n")
+                                    authadmin.write("    echo Please wait for admin privileges to be authorized\n")
+                                    authadmin.write(f"""   powershell -Command "Start-Process cmd -ArgumentList '/c C:\\WinAIO\\RUN.BAT' -Verb RunAs"\n""")
+                                    authadmin.write("    exit /b\n")
+                                    authadmin.write(")\n")  
+                                os.system("C:\\WinAIO\\SETUP.BAT")    
+                                return       
+                            else:
+                                a = messagebox.showerror("WinAIO Setup","The operation was cancelled because no Python interpreter could be found.")  
+                                return
+                        except Exception as e:
+                            a = messagebox.showerror("WinAIO Setup",f"An error has occured while creating and configuring the configuration scripts \nError details: {e}")
+                            return
                     else:
-                        a = messagebox.showerror("WinAIO Setup","The operation was cancelled because no Python interpreter could be found.")  
-                        return
+                        x = messagebox.showerror("WinAIO",f"Failed to create directory C:\\WinAIO.\nError details: {a.stderr}\nOutput: {a.stdout}")
                 except Exception as e:
-                    a = messagebox.showerror("WinAIO Setup",f"An error has occured while creating and configuring the configuration scripts \nError details: {e}")
-                    return
+                    x = messagebox.showerror("WinAIO",f"Failed to create directory C:\\WinAIO.\nError details: {a.stderr}\nOutput: {a.stdout}")
             else:
                 a = messagebox.showerror("WinAIO Setup","The operation was cancelled.")
                 return
@@ -396,6 +422,7 @@ class Diskpart(Frame): #G-AIO to SATA, lose all your DATA
         b2 = Button(self,text="Refresh Hard Disk information",width=40, command=self.refresh)
         b2.pack(pady=5)
         b4 = Button(self,text="Open G-AIO File Manager", width=40, command=lambda: controller.show_frame(FileManager))
+        b4.pack(pady=5)
         b3 = Button(self,text="Return to main menu",width=40,command=lambda: controller.show_frame(MainMenu))
         b3.pack(pady=5)
         self.diskinfo = Text(self,width=50,height=10)
@@ -423,14 +450,14 @@ class Diskpart(Frame): #G-AIO to SATA, lose all your DATA
                 if safe:
                     formatstr += "/P:0"
             try:
-                x = messagebox.showinfo("G-AIO","If the process ever appears to freeze, make sure to check the Python interpreter (usually a black window with text) if there are any prompts or error messages.")
-                result = os.system(formatstr)
-                if result == 0:
-                    x = messagebox.showinfo("G-AIO","Disk formatted successfully")
-                else:
-                    x = messagebox.showerror("G-AIO","Error while formatting disk, please see the logs for more info (usually the command line or the Python interpeter, usually seen with a snake icon)")
-            except Exception as e:
-                x = messagebox.showerror("G-AIO",f"Error while formatting disk.\nError : {e}")
+                    os.chdir(self.new_directory)
+                    information = subprocess.run(f'{formatstr}', capture_output=True, shell=True)
+                    if information.returncode == 0:
+                        self.out.insert(END, information.stdout)
+                    else:
+                        self.out.insert(END, f"Failed to format disk - command error\nDetails: {information.stderr}\nOutput: {information.stdout}")
+            except (subprocess.CalledProcessError, Exception) as e:
+                    self.out.insert(END, f"Failed to format disk - process error.\nDetails: {e}")
 
 
 
@@ -443,7 +470,7 @@ class Diskpart(Frame): #G-AIO to SATA, lose all your DATA
                     self.diskinfo.insert(END,f"{x.mountpoint}     {x.fstype}          {usage.total/(1024**3):.2f} {usage.used/(1024**3):.2f} {usage.free/(1024**3):.2f}\n")
                 except PermissionError as e:
                     if 'not ready' in str(e):
-                        self.diskinfo.insert(END,f"{x.mountpoint}      Disk not ready for reading\n")
+                        self.diskinfo.insert(END,f"{x.mountpoint}      Disk not ready for reading (e.g empty CD-ROM drive)\n")
                         continue
                     x = messagebox.showerror("G-AIO",f"A disk read error has occured while fetching disk information.\nError: {e}")
                     continue
@@ -479,9 +506,9 @@ class OpenWebPage(tk.Frame):
                 if result.returncode == 0:
                     pass
                 else:
-                    messagebox.showerror("G-AIO",f"Failed to start browser. Error: {result.stderr}")
+                    messagebox.showerror("G-AIO",f"Failed to start browser - command error. Error: {result.stderr}")
             except Exception as e:
-                messagebox.showerror("G-AIO", f"Failed to start browser. Error: {str(e)}.")            
+                messagebox.showerror("G-AIO", f"Failed to start browser - process error. Error: {str(e)}.")            
 
 class SendEmail(tk.Frame):
     def __init__(self, parent, controller):
@@ -540,12 +567,11 @@ class SendEmail(tk.Frame):
             server.sendmail(from_email, to_email, msg.as_string())
             server.quit()
             messagebox.showinfo("Email.", "Email sent successfully.")
+            self.to_entry.delete(0, tk.END)
+            self.subject_entry.delete(0, tk.END)
+            self.message_text.delete("1.0", tk.END)
         except Exception as e:
             messagebox.showerror("Email.", f"Failed to send email. Error: {str(e)}.")
-
-        self.to_entry.delete(0, tk.END)
-        self.subject_entry.delete(0, tk.END)
-        self.message_text.delete("1.0", tk.END)
 
 class RandomJoke(tk.Frame):
     def __init__(self, parent, controller):
@@ -586,9 +612,9 @@ class SystemCommand(tk.Frame):
         self.command_entry = tk.Entry(self, width=50)
         self.command_entry.pack(pady=10)
 
-        execute_button = tk.Button(self, text="Execute.", command=self.execute_command)
+        execute_button = tk.Button(self, text="Execute", command=lambda: threading.Thread(target=self.execute_command).start())
         execute_button.pack(pady=5)
-
+        
         self.output_text = tk.Text(self, width=80, height=18)
         self.output_text.pack(pady=10)
 
@@ -596,21 +622,17 @@ class SystemCommand(tk.Frame):
         back_button.pack(pady=10)
 
     def execute_command(self):
-        self.output_text.delete("1.0", tk.END)
-        self.output_text.insert(tk.END, f"Please wait for the Command Execution Service...\nCommands will time out after 5 seconds of being executed.")
         command = self.command_entry.get()
+        self.output_text.delete("1.0", tk.END)
+        self.output_text.insert(tk.END, f"Please wait for the following command to be executed: {command}")
         try:
-            result = subprocess.Popen(command, stdout=subprocess.PIPE,stderr=subprocess.PIPE, text=True, shell=True)
-            stdout, stderr = result.communicate(timeout=5)
+            result = subprocess.run(command,shell=True, capture_output=True)
             if result.returncode == 0:
                 self.output_text.delete("1.0", tk.END)
-                self.output_text.insert(tk.END, f"Command executed successfully.\nOutput:\n{stdout}.")
+                self.output_text.insert(tk.END, f"Command executed successfully.\nOutput:\n{result.stdout}.")
             else:
                 self.output_text.delete("1.0", tk.END)
-                self.output_text.insert(tk.END, f"Command failed with error:\n{stderr}.")
-        except subprocess.TimeoutExpired as e:
-            self.output_text.delete("1.0", tk.END)
-            self.output_text.insert(tk.END, f'Command timed out. \nError: {str(e)}.\n\nTip: if you want to start an application, if you are on Windows, try typing:\nstart "" (your program name here)')            
+                self.output_text.insert(tk.END, f"Command failed with error:\n{result.stderr}.")            
         except Exception as e:
             self.output_text.delete("1.0", tk.END)
             self.output_text.insert(tk.END, f"Failed to execute command. \nError: {str(e)}.")
