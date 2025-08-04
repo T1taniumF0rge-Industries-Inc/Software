@@ -1,21 +1,47 @@
-import tkinter as tk
-from tkinter import messagebox, simpledialog, filedialog
-from tkinter import *
-import datetime     
-import requests
-import webbrowser
-import smtplib
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
-import subprocess
-import random
-import os
-import json
-import html
-import sys
-import psutil
-from cryptography.fernet import Fernet
-import math
+print("This program is loading modules. This may take several moments...")
+try:
+    import tkinter as tk
+    from tkinter import messagebox, simpledialog, filedialog
+    from tkinter import *
+    import datetime     
+    import requests
+    import webbrowser
+    import smtplib
+    from email.mime.multipart import MIMEMultipart
+    from email.mime.text import MIMEText
+    import subprocess
+    import random
+    import os
+    import json
+    import html
+    import sys
+    import psutil
+    from cryptography.fernet import Fernet
+    import math
+    import shutil
+    import threading
+except (ModuleNotFoundError, ImportError) as e:
+    try:
+        x = messagebox.showerror("G-AIO Dependency Error",f"This program requires multiple modules, and one of the modules cannot be loaded, contains an error or is not installed. Make sure that all modules that are required are installed as per the GitHub GamerSoft/24 PySoft requirements.txt file.\nDetails: {e}\n\nClick OK to EXIT")
+        exit()
+    except SystemExit:
+        exit()
+    except Exception as f:
+        print(f"WARNING!!! TKINTER could not be loaded. Python installation or hard disk may be corrupted! Details: {f}")
+        print(f"This program requires multiple modules, and one of the modules cannot be loaded, contains an error or is not installed. Make sure that all modules that are required are installed as per the GitHub GamerSoft/24 PySoft requirements.txt file.\nDetails: {e}")
+        input("Press ENTER to EXIT...")
+        exit()
+except Exception as e:
+    try:
+        x = messagebox.showerror("G-AIO - Error starting program",f"Failed to start program. Review the GitHub GamerSoft24/Software PySoft Error chart and the Python manual for more information\nDetails: {e}\n\nClick OK to EXIT")
+        exit()
+    except SystemExit:
+        exit()
+    except Exception as f:
+        print(f"WARNING!!! TKINTER could not be loaded. Python installation or hard disk may be corrupted! Details: {f}")
+        print(f"Failed to start program. Review the GitHub GamerSoft24/Software PySoft Error chart and the Python manual for more information.\nDetails: {e}")
+        input("Press ENTER to EXIT...")
+        exit()
 class Color:
     HEADER = '\033[95m'
     BLUE = '\033[94m'
@@ -38,7 +64,7 @@ class AssistantApp(tk.Tk):
 
         self.frames = {}
 
-        for F in (MainMenu, OpenWebPage, SendEmail, RandomJoke, SystemCommand, GamesMenu, TicTacToe, TextEditor, ToolsMenu, PassManager, OpenTDB, not1,ErrorGen,RPS,Calculator,HangMan,GuessNumber,WinAIO,Diskpart):
+        for F in (MainMenu, OpenWebPage, SendEmail, RandomJoke, SystemCommand, GamesMenu, TicTacToe, TextEditor, ToolsMenu, PassManager, OpenTDB, not1,ErrorGen,RPS,Calculator,HangMan,GuessNumber,WinAIO,Diskpart, FileManager):
             # print(F)
             # print(type(F)) 
             frame = F(container, self) #put a stupid virgule on there, caused the entire program to stop working
@@ -76,16 +102,170 @@ class MainMenu(tk.Frame):
             button.pack(pady=5)
     def gettime(self):
         return datetime.datetime.now()
+class FileManager(Frame):
+    def __init__(self, parent, controller):
+        super().__init__(parent)
+        self.controller = controller
+        self.new_directory = ""
+        title = Label(self, text="File Manager", font=('Arial', 18, 'bold'))
+        title.pack(pady=10, padx=10)
+        self.out = Text(self, height=15, width=100)
+        scrollV = tk.Scrollbar(self, orient=tk.VERTICAL)
+        scrollV.config(command=self.out.yview)
+        self.out.config(yscrollcommand=scrollV.set)
+        scrollH = tk.Scrollbar(self, orient=tk.HORIZONTAL)
+        scrollH.config(command=self.out.xview)
+        self.out.config(xscrollcommand=scrollH.set)
+        scrollV.pack(side=tk.RIGHT, fill=tk.Y)  # Vertical on the right
+        scrollH.pack(side=tk.BOTTOM, fill=tk.X)
+        self.out.pack(pady=5)
+        b1 = Button(self,text="Change and list directory", width=40, command=self.chd)
+        b1.pack(pady=5)
+        b2 = Button(self,text="Copy files", width=40, command=lambda: self.file_movt_selector(0))
+        b2.pack(pady=5)
+        b3 = Button(self,text="Move files", width=40, command=lambda: self.file_movt_selector(1))
+        b3.pack(pady=5)
+        b4 = Button(self,text="Delete files", width=40, command=lambda: self.delete(0))
+        b4.pack(pady=5)
+        b5 = Button(self,text="Delete folder", width=40, command=lambda: self.delete(1))
+        b5.pack(pady=5)
+        b6 = Button(self, text="Open Disk Manager", width=40, command=lambda: controller.show_frame(Diskpart))
+        b6.pack(pady=5)
+        b7 = Button(self, text="Back to Main Menu", width=40, command=lambda: controller.show_frame(MainMenu))
+        b7.pack(pady=5)
+    def chd(self, param=0):
+        if param == 0:
+            self.new_directory = filedialog.askdirectory().replace("/","\\")
+        print(self.new_directory)
+        self.out.delete("1.0", END)
+        
+        try:
+            os.chdir(self.new_directory)
+            information = subprocess.run(f'dir {self.new_directory}', capture_output=True, shell=True)
+            if information.returncode == 0:
+                self.out.insert(END, information.stdout)
+            else:
+                self.out.insert(END, f"Failed to load directory - command error\nDetails: {information.stderr}\nOutput: {information.stdout}")
+        except (subprocess.CalledProcessError, Exception) as e:
+            self.out.insert(END, f"Failed to load directory - process error.\nDetails: {e}")
+    def file_movt_selector(self, param):
+        files = filedialog.askopenfilenames()
+        destination = filedialog.askdirectory()
+        print(f'param is {param}')
+        for x in files:
+            try:
+                if param == 0:
+                    threading.Thread(target=self.copy_files, args=(x, destination)).start()
+                else:
+                    threading.Thread(target=self.move_files, args=(x, destination)).start()
+            except PermissionError as e:
+                if param == 0:
+                    a = messagebox.askyesno("G-AIO",f"Access violation copying {x} to {destination}!\nDetails: {e}\nContinue copy operation?",icon=messagebox.WARNING)
+                else:
+                    a = messagebox.askyesno("G-AIO",f"Access violation moving {x} to {destination}!\nDetails: {e}\nContinue move operation?",icon=messagebox.WARNING)
+                if a != True:
+                        return 
+                else:
+                        continue
+            except Exception as e:
+                if param == 0:
+                    a = messagebox.askyesno("G-AIO",f"Error copying {x} to {destination}!\nDetails: {e}\nContinue copy operation?",icon=messagebox.WARNING)
+                else:
+                    a = messagebox.askyesno("G-AIO",f"Error moving {x} to {destination}!\nDetails: {e}\nContinue move operation?",icon=messagebox.WARNING)
+                if a != True:
+                        return 
+                else:
+                        continue
+        x = messagebox.showinfo("G-AIO","Operation started without errors")
+        self.chd(1)
+    def copy_files(self, src, dst):
+        self.out.delete("1.0", END)
+        self.insert(END, f"Copying {src} to {dst}. This may take several minutes depending on the size of your files.\nThis text window will display any errors that may occur during the copying")
+        try:
+            shutil.copy2(src, dst)
+            self.out.insert(END, f"Copied {src} to {dst}")
+            self.chd(1)
+        except PermissionError as e:
+            self.out.insert(END, f"Access violation copying {src} to {dst} - Details: {e}")
+        except Exception as e:
+            self.out.insert(END, f"Failed to copy {src} to {dst} - Details: {e}")
+    def move_files(self, src, dst):
+        self.out.delete("1.0", END)
+        self.insert(END, f"Moving {src} to {dst}. This may take several minutes depending on the size of your files.\nThis text window will display any errors that may occur during the move")
+        try:
+            shutil.move(src, dst)
+            self.out.insert(END, f"Moved {src} to {dst}")
+            self.chd(1)
+        except PermissionError as e:
+            self.out.insert(END, f"Access violation copying {src} to {dst} - Details: {e}")
+        except Exception as e:
+            self.out.insert(END, f"Failed to copy {src} to {dst} - Details: {e}")
+    def delete(self, param):
+        if param == 0:
+            delete = filedialog.askopenfilenames()
+            if __file__ in delete:
+                a = messagebox.showerror("G-AIO","Nice try, but you must close G-AIO before deleting it.\n\nSpeaking of which why are you deleting G-AIO, make a GitHub issue if you have any problems with this program")
+                return
+            if messagebox.askyesno("G-AIO",f"{delete} will be permanently ERASED! Proceed with operation?"):
+                for x in delete:
+                    try:
+                        if param == 0:
+                            threading.Thread(target=self.delete_file, args=(x,)).start()
+                    except PermissionError as e:
+                        a = messagebox.askyesno("G-AIO",f"Access violation deleting {x} !\nDetails: {e}\nContinue delete operation?",icon=messagebox.WARNING)
+                        if a != True:
+                                return  
+                        else:
+                                continue
+                    except Exception as e:
+                        a = messagebox.askyesno("G-AIO",f"Error deleting {x}!\nDetails: {e}\nContinue copy operation?",icon=messagebox.WARNING)
+                        if a != True:
+                                return 
+                        else:
+                                continue
+                x = messagebox.showinfo("G-AIO","Delete started without errors.")   
+                self.chd(1)
+        else:
+            delete = filedialog.askdirectory()
+            if delete in __file__:
+                x = messagebox.showerror("G-AIO","Cannot remove this directory: G-AIO is running from this directory.")
+                return
+            if messagebox.askyesno("G-AIO",f"{delete} and its contents will be permanently ERASED! Proceed with operation?"):
+                try:
+                    shutil.rmtree(delete)
+                    x = messagebox.showinfo("G-AIO","Delete successful")
+                except PermissionError as e:
+                        a = messagebox.showerror("G-AIO",f"Access violation deleting {x} !\nDetails: {e}")
+                        return
+                except Exception as e:
+                        a = messagebox.showerror("G-AIO",f"Error deleting {x}!\nDetails: {e}")
+                        return 
+            self.chd(1)
+    def delete_file(self, file):
+        self.out.delete("1.0", END)
+        self.insert(END, f"{file} is being deleted. This may take several minutes depending on the size of your file.\nThis text window will display any errors that may occur during the deletion")
+        try:
+            os.remove(file)
+            self.out.insert(END, f"Deleted {file}")
+            self.chd(1)
+        except PermissionError as e:
+            self.out.insert(END, f"Access violation deleting {file} - Details: {e}")
+        except Exception as e:
+            self.out.insert(END, f"Failed to delete {file} - Details: {e}")        
 class WinAIO(Frame):
     def __init__(self,parent,controller):
         super().__init__(parent)
         self.controller = controller
+        if os.name != 'nt':
+            x = messagebox.showerror("WinAIO","WinAIO is not compatible with the current operating system you are running.")
+            controller.show_frame(MainMenu)
         label = tk.Label(self, text="WinAIO (G-AIO for Windows)", font=('Arial', 18, 'bold'))
         label.pack(pady=10, padx=10)
         b1 = Button(self,text="Install WinAIO ", width=40,command=lambda: self.setup(0))
         b4 = Button(self,text="Uninstall WinAIO ", width=40,command=lambda: self.setup(1))
         b2 = Button(self,text="More informations (highly recommended)",width=40,command=lambda: self.setup(2))
-        b7 = Button(self,text="Open file manager",width=40,command=lambda: os.system("C:\windows\explorer.exe"))
+        b7 = Button(self,text="Open Windows file manager",width=40,command=lambda: os.system("C:\windows\explorer.exe"))
+        b8 = Button(self, text="Open G-AIO File Manager", width=40, command=lambda: controller.show_frame(FileManager))
         b5 = Button(self,text="Restart Computer",width=40,command=lambda: os.system("shutdown /r /t 0"))
         b6 = Button(self,text="Remove WinAIO Directory and files",width=40,command=lambda: self.rmv())
         b3 = Button(self,text="Return to main menu",width=40,command=lambda: controller.show_frame(MainMenu))
@@ -93,6 +273,7 @@ class WinAIO(Frame):
         b4.pack(pady=5)
         b2.pack(pady=5)
         b7.pack(pady=5)
+        b8.pack(pady=5)
         b5.pack(pady=5)
         b6.pack(pady=5)
         b3.pack(pady=5)
@@ -201,6 +382,7 @@ class WinAIO(Frame):
                     authadmin.write(")\n")           
                 os.system("C:\\WinAIO\\UNSETUP.BAT")
                 return
+        
 class Diskpart(Frame): #G-AIO to SATA, lose all your DATA
     def __init__(self,parent,controller):
         super().__init__(parent)
@@ -213,6 +395,7 @@ class Diskpart(Frame): #G-AIO to SATA, lose all your DATA
         b1.pack(pady=5)
         b2 = Button(self,text="Refresh Hard Disk information",width=40, command=self.refresh)
         b2.pack(pady=5)
+        b4 = Button(self,text="Open G-AIO File Manager", width=40, command=lambda: controller.show_frame(FileManager))
         b3 = Button(self,text="Return to main menu",width=40,command=lambda: controller.show_frame(MainMenu))
         b3.pack(pady=5)
         self.diskinfo = Text(self,width=50,height=10)
@@ -252,16 +435,20 @@ class Diskpart(Frame): #G-AIO to SATA, lose all your DATA
 
 
     def refresh(self):
-        try:
             self.diskinfo.delete("1.0",END)
             self.diskinfo.insert(END,"Hard Disk Info\nDRIVE | FILE SYSTEM | SIZE | USED | FREE\n")
             for x in psutil.disk_partitions():
-                usage = psutil.disk_usage(x.mountpoint)
-                self.diskinfo.insert(END,f"{x.mountpoint}     {x.fstype}          {usage.total/(1024**3):.2f} {usage.used/(1024**3):.2f} {usage.free/(1024**3):.2f}\n")
-        except PermissionError as e:
-            x = messagebox.showerror("G-AIO",f"A disk read error has occured while fetching disk information.\nError: {e}")
-        except Exception as e:
-            x = messagebox.showerror("G-AIO",f"Error while refreshing hard disk informations.\nError: {e}")
+                try:
+                    usage = psutil.disk_usage(x.mountpoint)
+                    self.diskinfo.insert(END,f"{x.mountpoint}     {x.fstype}          {usage.total/(1024**3):.2f} {usage.used/(1024**3):.2f} {usage.free/(1024**3):.2f}\n")
+                except PermissionError as e:
+                    if 'not ready' in str(e):
+                        self.diskinfo.insert(END,f"{x.mountpoint}      Disk not ready for reading\n")
+                        continue
+                    x = messagebox.showerror("G-AIO",f"A disk read error has occured while fetching disk information.\nError: {e}")
+                    continue
+                except Exception as e:
+                    x = messagebox.showerror("G-AIO",f"Error while refreshing hard disk informations.\nError: {e}")
 class OpenWebPage(tk.Frame):
     def __init__(self, parent, controller):
         super().__init__(parent)
@@ -846,6 +1033,8 @@ class Calculator(Frame):#please kill me, this took far faaaaaaaarrrrrr tooo long
     def __init__(self,parent,controller):
         super().__init__(parent)
         self.controller = controller
+        #app.geometry("800x600")
+        #app.resizable(width=False, height=False)
         self.calculation = ""       
         self.clearall = 1
         l0 = tk.Label(self, text="Calculator", font=('Arial', 18, 'bold'))
@@ -1302,8 +1491,10 @@ class ToolsMenu(Frame):
         encsuite.pack(pady=5)
         calc = Button(self,text="Calculator",command=lambda: controller.show_frame(Calculator),width=40)
         calc.pack(pady=5)
-        diskmgr = Button(self,text="Disk Manager (in testing stage)", width=40, command=self.dm)
+        diskmgr = Button(self,text="Disk Manager", width=40, command=self.dm)
         diskmgr.pack(pady=5)
+        filemgr = Button(self,text="File Manager", width=40, command=lambda: controller.show_frame(FileManager))
+        filemgr.pack(pady=5)
         back = Button(self,text="Back to main menu", command=lambda: controller.show_frame(MainMenu),width=40)
         back.pack(pady=5) #it's a backpack!
     def start(self):
@@ -1319,7 +1510,7 @@ class ToolsMenu(Frame):
                 os.system('taskkill /f /im explorer.exe')
                 os.system('explorer')
     def dm(self):
-        x = messagebox.showwarning("G-AIO","The disk manager is not fully operational nor stable.\n\nBy continuing, you acknowledge that you are responsible for all actions and that the developers are not liable for any damages, as said in the GitHub GamerSoft24/Software repository licenses and warranty agreements.")
+        #x = messagebox.showwarning("G-AIO","The disk manager is not fully operational nor stable.\n\nBy continuing, you acknowledge that you are responsible for all actions and that the developers are not liable for any damages, as said in the GitHub GamerSoft24/Software repository licenses and warranty agreements.")
         self.controller.show_frame(Diskpart)
     def verbose_boot(self):
         if os.name != 'nt':
@@ -1535,7 +1726,8 @@ if __name__ == "__main__":#uarte the martin víglen Nxd6+ blunder
                         x = messagebox.showerror("WinAIO Removal","Error while removing C:\\WinAIO. Please see the logs for more info (usually the command line or the Python interpeter, usually seen with a snake icon)")              
             app = AssistantApp()
             app.geometry("800x600")
-            app.resizable(width=False,height=False)
+            #app.resizable(width=True,height=True)
+            app.resizable(width=False, height=False)
             app.mainloop()
         except SystemExit():
             exit("User has chosed to exit. Exiting...")
