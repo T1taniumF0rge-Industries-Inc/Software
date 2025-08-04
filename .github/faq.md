@@ -58,7 +58,7 @@ elif optionpwd_manager == 7:
   print('Password generated! Now saving...')
   filename = input("Please enter a valid file name (leave blank to a default file of pwd_openscs.pwd). If the file does not
 ```
-However, our team at the `Software` repository have deemed these warnings an exaggeration, as in reality nobody is going to spy on your terminal, and stuff printed to the terminal can be easily deleted by just closing the terminal or clearing it. And for your information, we don't use logs because our programs aren't important enough that logs are required.
+However, our team at the `Software` repository have deemed these warnings an exaggeration, as in reality nobody is going to spy on your terminal, and stuff printed to the terminal can be easily deleted by just closing the terminal or clearing it. And for your information, we don't use logs because our programs aren't important enough that logs are required. However, some newer programs are updated to be more compliant security measures so it is recommended to always use the newest available programs for your needs.
 
 ### Where do I find the programs?
 
@@ -67,6 +67,10 @@ We have a lot of software available at your disposal for a lot of applications. 
 ### Why does the repository take higher than 35GB of disk space?
 
 We store a lot of binary files using Git LFS, including executables, movies, etc... Thanks to [Git LFS](https://git-lfs.com/) and their [GitHub](https://github.com/git-lfs/git-lfs) for making the `Software` repository project possible.
+
+### Why are the commit messages meaningless?
+
+You may find that some commit messages have absolutely nothing to do with the change, which is not ideal but usually in those cases the changes will be very easy to see and modify if ever needed. 
 
 ## PySoft Q&A:
 
@@ -104,10 +108,10 @@ That's on you mate, if you had any sense of downloading these files through the 
 
 ### Why are there repackaged NSIS installers of stuff?
 
-The reason why some programs are repackaged in an NSIS installer, is because (to put it simply), some of the software are packaged in horrendous installers and our team at `Software` does not want our users to suffer. However for such installers, they are *mostly* trustable as we use and package the software in house, and in those cases we provide the source and a *.NSI file so that in case of doubt, you can make the installer yourself and prove that we're not liars.
+The reason why some programs are repackaged in an NSIS installer, is because (to put it simply), some of the software are packaged in horrendous installers (ones that are buggy to hell, ones that don't let you choose the install location, etc) and our team at `Software` does not want our users to suffer. However for such installers, they are *mostly* trustable as we use and package the software in house, and in those cases we provide the source and a *.NSI file so that in case of doubt, you can make the installer yourself and prove that we're not liars. 
 
 ### Why are you hoarding old versions of programs?
 
-Whenever there is an old version of a program (360AFChrome for example), there is a reason to keep it. In 360AFChrome, many people use it on computers that are running Windows XP to access the internet, and in other cases like AOMEI 8.7, this version is kept because new AOMEI, just sucks (some free features in version 8.7 are paid features in 10.4.1)
+Whenever there is an old version of a program (360AFChrome for example), there is a reason to keep it. In 360AFChrome, many people use it on computers that are running Windows XP to access the internet, and in other cases like AOMEI 8.7, this version is kept because new AOMEI, just sucks (some free features in version 8.7 are paid features in 10.4.1 because of greedy capitalist investors who think they're the only ones on this planet)
 
 
