@@ -1,25 +1,59 @@
 print("This program is loading modules. This may take several moments...")
 try:
+    print("Importing Tkinter and its modules, please wait", end='\r')
     import tkinter as tk
     from tkinter import messagebox, simpledialog, filedialog
     from tkinter import *
+    print("Importing Tkinter and its modules, done!         ", end='\n')
+    print("Importing datetime, please wait...",end='\r')
     import datetime     
+    print("Importing datetime, done!         ",end='\n')
+    print("Importing requests, please wait...", end='\r')
     import requests
+    print("Importing requests, done!         ",end='\n')
+    print("Importing webbrowser, please wait...", end='\r')
     import webbrowser
+    print("Importing webbrowser, done!          ")
+    print("Importing smtplib, please wait...",end='\r')
     import smtplib
+    print("Importing smtplib, done!             ")
+    print("Importing email.mime (text and multipart module), please wait...", end='\r')
     from email.mime.multipart import MIMEMultipart
     from email.mime.text import MIMEText
+    print("Importing email.mime (text and multipart module), done!         ")
+    print("Importing subprocess, please wait...",end='\r')
     import subprocess
+    print("Importing subprocess, done!            ")
+    print("Importing random, please wait...",end='\r')
     import random
+    print("Importing random, done!            ")
+    print("Importing os, please wait...",end='\r')
     import os
+    print("Importing os, done!          ")
+    print("Importing json, please wait...",end='\r')
     import json
+    print("Importing json, done!          ")
+    print("Importing html, please wait...",end='\r')
     import html
+    print("Importing html, done!          ")
+    print("Importing sys, please wait...",end='\r')
     import sys
+    print("Importing sys, done!           ")
+    print("Importing psutil, please wait...",end='\r')
     import psutil
+    print("Importing psutil, done!           ")
+    print("Importing Fernet from cryptography.fernet, please wait...",end='\r')
     from cryptography.fernet import Fernet
+    print("Importing Fernet from cryptography.fernet, done!          ",end='\n')
+    print("Importing math, please wait...",end='\r')
     import math
+    print("Importing math, done!            ")
+    print("Importing shutil, please wait...",end='\r')
     import shutil
+    print("Importing shutil, done!          ")
+    print("Importing threading, please wait...",end='\r')
     import threading
+    print("Importing threading, done!                ")
 except (ModuleNotFoundError, ImportError) as e:
     try:
         x = messagebox.showerror("G-AIO Dependency Error",f"This program requires multiple modules, and one of the modules cannot be loaded, contains an error or is not installed. Make sure that all modules that are required are installed as per the GitHub GamerSoft/24 PySoft requirements.txt file.\nDetails: {e}\n\nClick OK to EXIT")
@@ -42,6 +76,7 @@ except Exception as e:
         print(f"Failed to start program. Review the GitHub GamerSoft24/Software PySoft Error chart and the Python manual for more information.\nDetails: {e}")
         input("Press ENTER to EXIT...")
         exit()
+print("Program is now starting. Please wait...")
 class Color:
     HEADER = '\033[95m'
     BLUE = '\033[94m'
@@ -137,10 +172,10 @@ class FileManager(Frame):
         b7.pack(pady=5)
     def getcmd(self):
         syscmd = simpledialog.askstring("G-AIO","Enter file or command to run (if file is in same directory, only the file name needs to be specified, not the full path. Output is at the bottom of the directory listing): ")
-        threading.Thread(target=self.cmd, args=syscmd).start()
+        threading.Thread(target=self.cmd, args=(syscmd,)).start()
     def cmd(self, param):
         try:
-            information = subprocess.run(f'{param}', capture_output=True, shell=True)
+            information = subprocess.run(param, capture_output=True, shell=True)
             if information.returncode == 0:
                 self.out.insert(END, information.stdout)
             else:
@@ -598,6 +633,8 @@ class RandomJoke(tk.Frame):
                 self.joke_label.config(text=f"{joke['setup']}\n{joke['punchline']}.")
             else:
                 messagebox.showerror("Joke.", "Failed to fetch joke from API, check firewall and internet restrictions.")
+        except requests.exceptions.ConnectionError as e:
+            messagebox.showerror("Joke.",f"Failed to fetch joke. Check firewall and internet restrictions, your internet connection or cabling and try again.\nDetails: {e}")
         except Exception as e:
             messagebox.showerror("Joke.", f"Failed to fetch joke. Error: {str(e)}.")
 
@@ -614,7 +651,7 @@ class SystemCommand(tk.Frame):
 
         execute_button = tk.Button(self, text="Execute", command=lambda: threading.Thread(target=self.execute_command).start())
         execute_button.pack(pady=5)
-        
+
         self.output_text = tk.Text(self, width=80, height=18)
         self.output_text.pack(pady=10)
 
@@ -1189,13 +1226,21 @@ class OpenTDB(Frame):
         self.controller = controller
         self.l1 = Label(self,text="Points : 0",font=('Arial',14))
         self.l1.pack(pady=5)
-        self.l2 = Label(self,text="When using setup, the setup prompts may be behind the app window.")
+        self.l2 = Label(self,text="When configuring the questions, the setup prompts may be behind the app window.")
         self.l2.pack(pady=5)
         play = Button(self,text="Play!",command = lambda: self.setup(),width=40)
         play.pack(pady=5)
         back = Button(self,text="Back to main menu", command=lambda: controller.show_frame(MainMenu),width=40)
         back.pack(pady=5)
     def setup(self):
+        try:
+            self.geturl()
+        except requests.exceptions.ConnectionError as e:
+            x = messagebox.showerror("G-AIO", f"Cannot connect to the OpenTDB Servers. Check your internet and firewall restrictions, as well as your internet connection and/or cabling.\nDetails: {e}")
+            return
+        except Exception as e:
+            x = messagebox.showerror("G-AIO",f"Failed to load main function.\nDetails: {e}")
+            return
         try:
             x = messagebox.showinfo("G-AIO - Credits","OpenTDB API - By OpenTDB Corp - Licensed under CC BY-SA 4.0. All copies of this program shall mention OpenTDB Corp.")
             numquestion = simpledialog.askinteger("Setup - Question number","Enter number of questions")
@@ -1365,7 +1410,7 @@ class GamesMenu(tk.Frame):
         back_button = tk.Button(self, text="Back to Menu.", command=lambda: controller.show_frame(MainMenu),width=40)
         back_button.pack(pady=10)
 
-    def play_tic_tac_toe(self):
+    def play_tic_tac_toe(self): # The most wasted 2 lines of code I've ever seen
         self.controller.show_frame(TicTacToe)
     def windowsformatgame(self):
         character_set = 'Â¦Â¬`1!23Â£4$â‚¬5%6^7&8*9(0)-_=+qQwWeErRtTyYuUiIoOpPaAsSdDfFgGhHjJkKlL;:@~#\|zZxXcCvVbBnNmMm,<.>/?'
@@ -1377,7 +1422,7 @@ class GamesMenu(tk.Frame):
             corrected_str = orgstr.replace(x,"")
         x = simpledialog.askstring("Windows File Format Game",f"Put the string '{orgstr}' in a Windows Compatible File format).")
         if x == corrected_str:
-            x = messagebox.showinfo("Windows File Format Game","Game Won, not bad eh")
+            x = messagebox.showinfo("Windows File Format Game","Game Won, not bad eh? Maybe you should write a parser algorithm to do this faster?")
         else:
             y = messagebox.showerror("Windows File Format Game",f"The string {x} is not a valid Windows File Format: Either too many characters were removed or invalid characters were kept.")
 
@@ -1443,12 +1488,20 @@ class HangMan(Frame):
         l1.pack(pady=5)      
         self.l2 = Label(self)
         self.l2.pack(pady=5)
-        play = Button(self,text="Play!",command=lambda: self.hangman(requests.get("https://random-word-api.herokuapp.com/word").json()[0]),width=40)
+        play = Button(self,text="Play!",command=self.get_words,width=40)
         play.pack(pady=5)
         offline = Button(self,text="Legacy Offline Mode",command=lambda: self.hangman(random.choice(["apple", "banana", "cherry", "date", "elderberry", "fig", "grape", "honeydew", "kiwi", "lemon","car","chair","table","computer","dog","cat","football"])),width=40)
         offline.pack(pady=5) #word list from https://github.com/GamerSoft24/Software/blob/Main/PySoft/Games/hangman.py
         back = Button(self,text="Back to main menu", command=lambda: controller.show_frame(MainMenu),width=40)
         back.pack(pady=5) #backpack again for school season (written august 2024)
+    def get_words(self): # No unexpected errors this time because you have no internet!
+        try:
+            words = requests.get("https://random-word-api.herokuapp.com/word").json()[0]
+            self.hangman(words)
+        except requests.exceptions.ConnectionError as e:
+            x = messagebox.showerror("G-AIO",f"Cannot connect to the HerokuApp Word API. Check your internet connection, firewall and internet restrictions and your cabling, or use the Legacy Offline mode of the game.\nDetails: {e}")
+        except Exception as e:
+            x = messagebox.showerror("G-AIO",f"Failed to load word list from HerokuApp Word API.\nDetails: {e}")
     def hangman(self,wrd):
         try:
             word = wrd
@@ -1462,7 +1515,7 @@ class HangMan(Frame):
                     x = messagebox.showinfo("G-AIO - Game won","You won!")
                     self.l2.config(text="Game Won!\nBy guessing the word.")
                     return
-                guess = simpledialog.askstring("G-AIO",f"Enter a letter to guess. You may only enter 1 letter at a time, noting that everything is in lowercase. The length of the word is {len(word)}\nIf you think you know the whole word, you may play a gambit and tru to guess it. But if you guess incorrectly, you will lose the entire game.")
+                guess = simpledialog.askstring("G-AIO",f"Enter a letter to guess. You may only enter 1 letter at a time, noting that everything is in lowercase. The length of the word is {len(word)}\nIf you think you know the whole word, you may play a gambit and try to guess it. But if you guess incorrectly, you will lose the entire game.")
                 if guess is None:
                     self.l2.config(text="Game abandoned.")
                     return
@@ -1503,11 +1556,11 @@ class ToolsMenu(Frame):
         label.pack(pady=10, padx=10)   
         pwd = Button(self, text="Password Manager", command=lambda: controller.show_frame(PassManager),width=40)
         pwd.pack(pady=5)
-        smsr = Button(self, text="Remove Start Menu Search Results",command=lambda: self.start(),width=40)#Windows Only, removes bing search results     
+        smsr = Button(self, text="Remove Windows Start Menu Search Results",command=lambda: self.start(),width=40)#Windows Only, removes bing search results     
         smsr.pack(pady=5)
-        verbose_msg = Button(self,text="Enable Verbose (detailed) boot messages",command=self.verbose_boot,width=40)
+        verbose_msg = Button(self,text="Enable Windows Verbose (detailed) boot messages",command=lambda: self.reg_editor(0),width=40)
         verbose_msg.pack(pady=5)
-        uacb = Button(self,text="UAC Bypass",command=lambda: self.uacbypass(),width=40)
+        uacb = Button(self,text="UAC Bypass",command=lambda: self.reg_editor(1),width=40)
         uacb.pack(pady=5)
         encsuite = Button(self,text="Encryption Suite",command=lambda: self.encryption(),width=40)
         encsuite.pack(pady=5)
@@ -1519,31 +1572,35 @@ class ToolsMenu(Frame):
         filemgr.pack(pady=5)
         back = Button(self,text="Back to main menu", command=lambda: controller.show_frame(MainMenu),width=40)
         back.pack(pady=5) #it's a backpack!
-    def start(self):
+    def reg_editor(self, command):
         if os.name != 'nt':
-            x = messagebox.showwarning("G-AIO","The 'Windows Start Menu Internet Search Results Remover' is not compatible with your operating system.")
-            return
-        a = os.system("reg add HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer /v DisableSearchBoxSuggestions /t REG_DWORD /d 1 /f")
-        if a != 0:
-            x = messagebox.showerror("G-AIO","Please run this program with admin privileges for this function to work properly.")
-        else:
-            x = messagebox.askyesno("G-AIO","The operation has completed successfully. For the changes to take effect, the Windows Explorer must be restarted and will take a few moments. Restart?",icon=messagebox.QUESTION)
-            if x:
-                os.system('taskkill /f /im explorer.exe')
-                os.system('explorer')
+            a = "The 'Windows Start Menu Internet Search Results Remover'" if command == 0 else "Verbose Boot Messages"
+            x = messagebox.showwarning("G-AIO",f'{a} is not compatible with your operating system. This program requires Microsoft Windows NT to operate.')
+        if command == 0:
+            try:
+                a = subprocess.run("reg add HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer /v DisableSearchBoxSuggestions /t REG_DWORD /d 1 /f", capture_output=True, shell=True)
+                if a.returncode == 0:
+                    x = messagebox.askyesno("G-AIO","The operation has completed successfully. For the changes to take effect, the Windows Explorer must be restarted and will take a few moments. Restart?",icon=messagebox.QUESTION)
+                    if x:
+                        os.system('taskkill /f /im explorer.exe')
+                        os.system('explorer')    
+                else:
+                    x = messagebox.showerror("G-AIO",f"Could not remove start menu search suggestions - command error\nDetails: {a.stderr}\nOutput: {a.stdout}")   
+            except (subprocess.CalledProcessError, Exception) as e:
+                x = messagebox.showerror("G-AIO",f"Could not remove start menu search suggestions - process error.\nDetails: {e}")  
+        elif command == 1:
+            try:
+                a = subprocess.run("reg add HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer /v DisableSearchBoxSuggestions /t REG_DWORD /d 1 /f", capture_output=True, shell=True)
+                if a.returncode == 0:
+                    x = messagebox.askyesno("G-AIO","The operation has completed successfully. You will see the changes once you log out, restart, shut down or turn on the computer.")
+
+                else:
+                    x = messagebox.showerror("G-AIO",f"Could not enable Verbose Boot Messages - command error\nDetails: {a.stderr}\nOutput: {a.stdout}")   
+            except (subprocess.CalledProcessError, Exception) as e:
+                x = messagebox.showerror("G-AIO",f"Could enable Verbose Boot Messages - process error.\nDetails: {e}")             
     def dm(self):
         #x = messagebox.showwarning("G-AIO","The disk manager is not fully operational nor stable.\n\nBy continuing, you acknowledge that you are responsible for all actions and that the developers are not liable for any damages, as said in the GitHub GamerSoft24/Software repository licenses and warranty agreements.")
         self.controller.show_frame(Diskpart)
-    def verbose_boot(self):
-        if os.name != 'nt':
-            x = messagebox.showwarning("G-AIO","Verbose Boot messages is not compatible with your operating system.")
-            return
-        a = os.system("reg add HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v VerboseStatus /t REG_DWORD /d 1 /f")
-        if a != 0:
-            x = messagebox.showerror("G-AIO","Please run this program with admin privileges for this function to work properly.")
-        else:
-            x = messagebox.showinfo("G-AIO","Verbose Boot Messages have been enabled.")        
-
     def uacbypass(self):
         program = filedialog.askopenfilename(filetypes=[("All Files", "*.*")])
         if program:
@@ -1592,7 +1649,7 @@ class GuessNumber(Frame):
         self.controller = controller
         l1 = Label(self,text="Guess the Number", font=('Arial',18,'bold'))
         l1.pack(pady=10,padx=10)#game from https://github.com/GamerSoft24/Software/blob/Main/PySoft/Games/guess%20a%20number%20(top%20100).py
-        l2 = Label(self,text="Â© GamerSoftware Corporation\nSettings\nNumber 1")
+        l2 = Label(self,text="© GamerSoftware Corporation\nSettings\nNumber 1")
         self.num1 = Entry(self,width=40)
         l2.pack(pady=5)
         self.num1.pack(pady=5)
@@ -1605,26 +1662,30 @@ class GuessNumber(Frame):
         b4 = Button(self,text="Back to Main Menu",command=lambda: controller.show_frame(MainMenu),width=40)
         b4.pack(pady=5)
     def guessnum(self):
-        num1 = int(self.num1.get())
-        num2 = int(self.num2.get())
-        if num1 >= num2:
-            x = messagebox.showerror("G-AIO","Value of Number 1 needs to be smaller and not equal to value of Number 2")
-            return
-        number = random.randint(num1,num2)
-        guess = 0
-        tries = 0
-        while guess != number:
-            tries += 1
-            guess = simpledialog.askinteger("G-AIO","Enter your guess")
-            if guess > number:
-                x = messagebox.showerror("G-AIO","Incorrect guess. Your number is too high.")
-            elif guess < number:
-                x = messagebox.showerror("G-AIO","Incorrect guess. Your number is too low.")
-            elif not guess:
+        try:
+            num1 = int(self.num1.get())
+            num2 = int(self.num2.get())
+            if num1 >= num2 or num1 == num2:
+                x = messagebox.showerror("G-AIO","Value of Number 1 needs to be smaller and not equal to value of Number 2")
                 return
-        x = messagebox.showinfo("G-AIO",f"Correct! It took you {tries} tries.")
-        return
-                
+            number = random.randint(num1,num2)
+            guess = 0
+            tries = 0
+            while guess != number:
+                tries += 1
+                guess = simpledialog.askinteger("G-AIO","Enter your guess")
+                if guess > number:
+                    x = messagebox.showerror("G-AIO","Incorrect guess. Your number is too high.")
+                elif guess < number:
+                    x = messagebox.showerror("G-AIO","Incorrect guess. Your number is too low.")
+                elif not guess:
+                    tries -= 1
+            x = messagebox.showinfo("G-AIO",f"Correct! It took you {tries} tries.")
+            return
+        except ValueError as e:
+            x = messagebox.showerror("G-AIO",f"Cannot load the game due to an invalid value. Make sure Numbers 1 and 2 are valid integers (no decimal/floating point numbers) and try again.\nDetails: {e}")
+        except Exception as e:
+            x = messagebox.showerror("G-AIO",f"Game failed to load.\nDetails: {e}")
 
 
 class PassManager(Frame):
@@ -1647,23 +1708,24 @@ class PassManager(Frame):
         self.t1.pack(pady=10)
     def gen(self,setname1):
         charlen = simpledialog.askinteger("G-AIO","Enter password length")
-        print(setname1)
-        if setname1 == "": #originally I put != "" because... well idk really, just brainrot moment.
-            setname = simpledialog.askstring("G-AIO","Enter password name")
-        else:
-            setname = setname1
+        if charlen:
+            print(setname1)
+            if setname1 == "": #originally I put != "" because... well idk really, just brainrot moment.
+                setname = simpledialog.askstring("G-AIO","Enter password name")
+            else:
+                setname = setname1
 
-        charset = 'Â¦Â¬`1!23Â£4$â‚¬5%6^7&8*9(0)-_=+qQwWeErRtTyYuUiIoOpPaAsSdDfFgGhHjJkKlL;:@~#\|zZxXcCvVbBnNmMm,<.>/?'
-        pwd = ""
-        for x in range(charlen):
-            pwd += random.choice(charset)
-        filename = simpledialog.askstring("G-AIO","Please enter a valid file name. The format must be 'A:\Directory\Subdirectory\file.extension'.")
-        try:
-            with open(filename,"a") as add:
-                add.write(f"\n{setname} -> {pwd}")
-                x = messagebox.showinfo("G-AIO","Generated and saved successfully")
-        except Exception as e:
-            x = messagebox.showerror("G-AIO - Save failed",f"Save failed. Error : {e}")
+            charset = 'Â¦Â¬`1!23Â£4$â‚¬5%6^7&8*9(0)-_=+qQwWeErRtTyYuUiIoOpPaAsSdDfFgGhHjJkKlL;:@~#\|zZxXcCvVbBnNmMm,<.>/?'
+            pwd = ""
+            for x in range(charlen):
+                pwd += random.choice(charset)
+            filename = simpledialog.askstring("G-AIO","Please enter a valid file name. The format must be 'A:\Directory\Subdirectory\file.extension'.")
+            try:
+                with open(filename,"a") as add:
+                    add.write(f"\n{setname} -> {pwd}")
+                    x = messagebox.showinfo("G-AIO","Generated and saved successfully.\nTip: for extra security, you should consider encrypting your password file using the G-AIO Encryption suite")
+            except Exception as e:
+                x = messagebox.showerror("G-AIO - Save failed",f"Save failed. Error : {e}")
     def retrieve(self):
         filename = filedialog.askopenfilename(filetypes=[("Text Files", "*.txt"), ("All Files", "*.*")])
         if filename:
@@ -1692,27 +1754,31 @@ class PassManager(Frame):
                 self.t1.insert(END,"The passwords for this file are :\n")
                 self.t1.insert(END,listall.read())
     def advanced(self):
-        numbers = "1234567890"
-        lwc = "qwertyuiopasdfghjklzxcvbnm"
-        upc = "QWERTYUIOPASDFGHJKLZXCVBNM"
-        spc = "`!$%^&*()_+-={}[]:;@'~#|<,>.?/"
-        pwd = ""
-        mix = ""
-        x = messagebox.showwarning("G-AIO - User Warning","Note that the following values you will enter for your password will not be 100% accurate due to the mixing logic of this program.\nIf you want 5 digits in your password, you may only have 4 or 6.")
-        for x in range(simpledialog.askinteger("G-AIO","Please enter the number of special characters for your password.")):
-            pwd += random.choice(spc)
-        for x in range(simpledialog.askinteger("G-AIO","Please enter the number of lowercase characters for your password")):
-            pwd += random.choice(lwc)
-        for x in range(simpledialog.askinteger("G-AIO","Please enter the number of uppercase characters for your password")):
-            pwd += random.choice(upc)
-        for x in range(simpledialog.askinteger("G-AIO","Please enter the number of digits in your password")):
-            pwd += random.choice(numbers)
-        for x in range(len(pwd)):
-            mix += random.choice(pwd)
-        with open(filedialog.askopenfilename(filetypes=[("Text Files", "*.txt"), ("All Files", "*.*")]),"a") as writing:
-            writing.write(f"\n{mix}")
-        x = messagebox.showinfo("G-AIO","The password has generated and saved successfully")
-        return
+        try:
+            numbers = "1234567890"
+            lwc = "qwertyuiopasdfghjklzxcvbnm"
+            upc = "QWERTYUIOPASDFGHJKLZXCVBNM"
+            spc = "`!$%^&*()_+-={}[]:;@'~#|<,>.?/"
+            pwd = ""
+            mix = ""
+            x = messagebox.showwarning("G-AIO - User Warning","Note that the following values you will enter for your password will not be 100% accurate due to the mixing logic of this program.\nIf you want 5 digits in your password, you may only have 4 or 6.")
+            for x in range(simpledialog.askinteger("G-AIO","Please enter the number of special characters for your password.")):
+                pwd += random.choice(spc)
+            for x in range(simpledialog.askinteger("G-AIO","Please enter the number of lowercase characters for your password")):
+                pwd += random.choice(lwc)
+            for x in range(simpledialog.askinteger("G-AIO","Please enter the number of uppercase characters for your password")):
+                pwd += random.choice(upc)
+            for x in range(simpledialog.askinteger("G-AIO","Please enter the number of digits in your password")):
+                pwd += random.choice(numbers)
+            setname = simpledialog.askstring("G-AIO","Enter a name for your password: ")
+            for x in range(len(pwd)):
+                mix += random.choice(pwd)
+            with open(filedialog.askopenfilename(filetypes=[("Text Files", "*.txt"), ("All Files", "*.*")]),"a") as writing:
+                writing.write(f"\n{setname} -> {mix}")
+            x = messagebox.showinfo("G-AIO","The password has generated and saved successfully")
+            return
+        except ValueError as e:
+            x = messagebox.showerror("G-AIO",f"Cannot generate or save password: invalid value specified. When asked for a number, enter the CORRECT values that are demanded.\nDetails: {e}")
 if __name__ == "__main__":#uarte the martin víglen Nxd6+ blunder
         try:
             if len(sys.argv) > 1:
@@ -1741,6 +1807,7 @@ if __name__ == "__main__":#uarte the martin víglen Nxd6+ blunder
                     else:
                         exit()
                 if sys.argv[1] == "--rd":
+
                     a = os.system("rd /q /s C:\\WinAIO")
                     if a == 0:
                         x = messagebox.showinfo("WinAIO Removal","Removal of C:\\WinAIO successful.")
