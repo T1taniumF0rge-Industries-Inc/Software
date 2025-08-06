@@ -81,7 +81,9 @@ PictureSoft is excluded as there are too many files and they all represent a sim
 
 15 -> [DOS Replica in a Virtual Machine System (dos.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Games/dos.py) A better DOS replica, built inside the Windows Virtual Machine system, although I don't think I coded the VM properly...
 
-16 -> [Flippity Random Name Picker Overload:](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Games/flippity_random-overload.py) Not much for a game, so I guess it belongs here? Anyways what this program allows you to do is to enter a ridiculous amount of elements that can be later used in the Flippity Wheel, and will usually make your browser a bit slow and make a very funky wheel. *Use at your own discretion. Liability is clarified in the [license](/LICENSE) and in [this section](https://github.com/GamerSoft24/Software?tab=readme-ov-file#licensing-agreement) of the README*
+16 -> [Flippity Random Name Picker Overload (flippity_random-overload.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Games/flippity_random-overload.py) Not much for a game, so I guess it belongs here? Anyways what this program allows you to do is to enter a ridiculous amount of elements that can be later used in the Flippity Wheel, and will usually make your browser a bit slow and make a very funky wheel. *Use at your own discretion. Liability is clarified in the [license](/LICENSE) and in [this section](https://github.com/GamerSoft24/Software?tab=readme-ov-file#licensing-agreement) of the README*
+
+17 -> [Colourama Text Tester (colourama_coloured-text.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Games/colorama_coloured-text.py) A cool little utility that allows you to configure different colour modes for different coloured text! 
 
 ### [Utilities:](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Utilities)
 
@@ -612,3 +614,4 @@ All versions of the WinImage program from this repository are x86 compatible.
 ## ***################################################***
 
 TEMP_LINK: https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Midtown%20Madness/Midtown%20Madness%202/MidtownMadness2Setup.exe -> MM2 -> .COMING_SOON
+
