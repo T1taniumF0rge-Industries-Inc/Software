@@ -61,7 +61,8 @@ def list_modes(): # Lists available colours according to the colours and backgro
 while True:
     try:
         clear() # Line below resets all terminal colours
-        print(Fore.RESET + Back.RESET + "*** COLOURAMA COLOURED TEXT TESTER***") # Colour is the correct spelling if you live in the UK. If you live in the US, deal with the fact that British people exist
+        print(Fore.RESET + Back.RESET + "*** COLOURAMA COLOURED TEXT TESTER***")
+        print("© Okmeque1 Software") # Colour is the correct spelling if you live in the UK. If you live in the US, deal with the fact that British people exist
         print("[1] Demonstration of available modes")
         print("[2] Random background and foreground")
         print("[3] Fixed background, random foreground")
