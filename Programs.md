@@ -49,6 +49,8 @@ PictureSoft is excluded as there are too many files and they all represent a sim
 
 2 -> [G-Editor (G-Editor.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Editors/G-Editor.py) A simple, easy to use editor. Supports find/replace feature (I think?)
 
+3 -> [CMDEdit (CMDEdit.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Editors/CMDEdit.py) A very minimalistic text editor that doesn't even require its own GUI! Supports find and replace and is overall very reliable.
+
 ### [Games:](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Games)
 
 1 -> [Hangman (hangman.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Games/hangman.py) Hangman... You understand it right..?
@@ -614,4 +616,5 @@ All versions of the WinImage program from this repository are x86 compatible.
 ## ***################################################***
 
 TEMP_LINK: https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Midtown%20Madness/Midtown%20Madness%202/MidtownMadness2Setup.exe -> MM2 -> .COMING_SOON
+
 
