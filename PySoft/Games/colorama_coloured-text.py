@@ -69,7 +69,7 @@ while True:
         print("[5] Cycling foreground and background")
         print("[6] Fixed background, cycling foreground")
         print("[7] Fixed foreground, cycling background")
-        print("[8] Configurator mode")
+        print("[8] Text Editor Mode")
         print("[9] Exit")
         option = input("Select an option: ")
         if option == '1':
@@ -99,7 +99,7 @@ while True:
             while True:
                 clear()
                 print(f'Result: {string}')
-                print(Fore.RESET + Back.RESET + "Press ENTER to configure text or exit") # Reset colours here as well so that no colours leak
+                print(Fore.RESET + Back.RESET + "Press ENTER to configure text or exit. Otherwise type anything you want and it will appear in whatever colours you selected.") # Reset colours here as well so that no colours leak
                 character = msvcrt.getwch() # Fancy Input function using msvcrt
                 if character == '\x08' and len(string) > 0:
                     string = string[:-1]
