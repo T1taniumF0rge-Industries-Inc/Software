@@ -11,3 +11,4 @@ scapy
 python-nmap
 ffpyplayer
 tkinter
+colorama
