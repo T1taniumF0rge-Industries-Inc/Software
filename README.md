@@ -7,7 +7,7 @@
 **REP-SET II**, *`Version 3.1.5b`*
 
 > [!IMPORTANT]
-> The ["Programs.md"](https://github.com/GamerSoft24/Software/blob/Main/Programs.md) file is currently outdated and will be updated in a maximum delay 3 months!
+> The ["Programs.md"](https://github.com/GamerSoft24/Software/blob/Main/Programs.md) file has most but not every single resource available in the repository. Feel free to open an issue if you are unable to find what you want!
 
 ## [`PySoft:`]
 This is **where** I and Okmeque1 will be *storing all* of ***our*** Python codes and programs.
