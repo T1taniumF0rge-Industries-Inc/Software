@@ -9,15 +9,19 @@ def clear():
         os.system('clear')
 def find_replace(tofind, toreplace=None, parameter=False):
     global text
-    splits = text.split('\n')
-    pointer = 0
-    success = False
+    splits = text.split('\n') # Split for every line using \n
+    success = False # used for if there are no matches
     for x in range(len(splits)):
+        pointer = 0 # String index pointer
+        temp = 0 # temporary value, used to prevent infinite loops in one line
         while True:
-            position = splits[x][pointer:].find(tofind)
-            if position == -1:
+            position = splits[x][pointer:].find(tofind) # Find value in one line starting from the pointer value
+            if position == -1: # No match scenario
                 break
-            pointer = position + 1
+            if temp > position: # Prevents infinite loops
+                break
+            pointer = position + 1 # increase pointer by 1 to skip last match
+            temp = position # set temp to current position, used to prevent infinite loops
             input(f"Found at line {x}, position {position}. Press ENTER to continue...")
             success = True
     if success is not True:
@@ -50,7 +54,7 @@ while True:
                 text = load.read()
         elif character == '\x06': # CTRL-F, use for finding
             find = input("\nEnter thing to find in current editor: ")
-            find_replace(find)
+            find_replace(find)           
         elif character == '\x07': # CTRL-G because apparently CTRL-H also maps to backspace because Windows legacy reasons???
             find = input("\nEnter thing to replace in current editor: ")
             replace = input("Enter replacement thing: ")
