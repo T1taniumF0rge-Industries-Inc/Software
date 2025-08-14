@@ -13,12 +13,13 @@ This password manager supports generating a password based on length, adding cus
 > [!NOTE]
 >
 > Please note that for this program to function correctly, the following modules need to be installed:
->   - `Cryptography`
+>   - `cryptography`
 >   - `sqlite3`
 >   - `os`
 >   - `random`
+>   - `pyperclip`
 >
-> The `cryptography` module is the one to install, as the other 3 should be installed by default if your Python version is over 3.10.** unless your interpreter didn't install correctly ***or*** if you installed your interpreter without administrator privileges.
+> The `cryptography` and `pyperclip` modules is the one to install, as the other 3 should be installed by default if your Python version is over 3.10.** unless your interpreter didn't install correctly ***or*** if you installed your interpreter without administrator privileges.
 
 Otherwise, you just need a standard Python 3.8 or newer interpreter with the option to import local python files as modules enabled. 
 
