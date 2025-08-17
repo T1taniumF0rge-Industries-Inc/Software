@@ -2,7 +2,6 @@ pygame
 cryptography
 requests
 psutil
-html
 subprocess
 email
 pyperclip
@@ -12,3 +11,4 @@ python-nmap
 ffpyplayer
 tkinter
 colorama
+html
