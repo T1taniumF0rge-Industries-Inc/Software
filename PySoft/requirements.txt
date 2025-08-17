@@ -2,11 +2,9 @@ pygame
 cryptography
 requests
 psutil
-email
 pyperclip
 opencv-python
 scapy
 python-nmap
 ffpyplayer
 colorama
-html
