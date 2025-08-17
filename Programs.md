@@ -225,7 +225,7 @@ Refer to the README file for more information
  
  3 -> Impromptu in A♭ Major No. 4 Op. 90 D899 (La Bémol Majeur)x
 
-2 -> [Chopin - Etude in E Major Op. 10 No. 3:](https://github.com/GamerSoft24/Software/tree/Main/MovieSoft/Sviatoslav%20Richter/Schubert%20%26%20Chopin) This etude was composed in 1832, was was composed for his series of etudes in Op. 10.
+2 -> [Chopin - Etude in E Major (Mi Majeur) Op. 10 No. 3:](https://github.com/GamerSoft24/Software/tree/Main/MovieSoft/Sviatoslav%20Richter/Schubert%20%26%20Chopin) This etude was composed in 1832, was was composed for his series of etudes in Op. 10.
 
 ## [RepoSoft:](https://github.com/GamerSoft24/Software/tree/Main/RepoSoft)
 
@@ -616,6 +616,7 @@ All versions of the WinImage program from this repository are x86 compatible.
 ## ***################################################***
 
 TEMP_LINK: https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Midtown%20Madness/Midtown%20Madness%202/MidtownMadness2Setup.exe -> MM2 -> .COMING_SOON
+
 
 
 
