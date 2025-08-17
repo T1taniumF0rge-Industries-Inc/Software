@@ -2,13 +2,13 @@
 
 There will be multiple pieces in one file.
 
-1/ Schubert - Moment Musical No. 1 in C Major (Schubert No. D780) 0:05
+1/ Schubert - Moment Musical No. 1 in C Major (Ut/Do Majeur) (Schubert No. D780) 0:05
 
-2/ Schubert - Impromptu Op. 90 No. 2 (Schubert No. D899) 5:47
+2/ Schubert - Impromptu in E♭ Major (Mi Bémol Majeur) Op. 90 No. 2 (Schubert No. D899) 5:47
 
-3/ Schubert - Impromptu Op. 90 No. 4 (Schubert No. D899) 10:21
+3/ Schubert - Impromptu in A♭ Major (La Bémol Majeur) Op. 90 No. 4 (Schubert No. D899) 10:21
 
-4/ Chopin - Etude in E Major, Op. 10 No.3 [Start of file]
+4/ Chopin - Etude in E Major (Mi Majeur) , Op. 10 No.3 [Start of file]
 
 There will be the 1958 Recital of Sviatoslav Richter.
 
