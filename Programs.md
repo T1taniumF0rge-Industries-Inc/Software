@@ -533,7 +533,7 @@ Ain't no way I'm doing it for every version. Just go into the folder with your d
 
 [**Twinkle Tray Monitor Brightness Slider:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Twinkle%20Tray%20Monitor%20Brightness%20Slider/v1.15.4)
 
-1 -> [Twinkle Tray MBS v.1.15.4:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Twinkle%20Tray%20Monitor%20Brightness%20Slider/v1.15.4/Twinkle.Tray.v1.15.4.exe) A nice software that lets you adjust your monitor brightness. Your monitor needs to have DCI control in order for this program to function. Windows 10+ Only. Neat.
+1 -> [Twinkle Tray MBS v.1.15.4:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Twinkle%20Tray%20Monitor%20Brightness%20Slider/v1.15.4/Twinkle.Tray.v1.15.4.exe) A nice software that lets you adjust your monitor brightness. Your monitor needs to have DDC/CI control in order for this program to function. Windows 10+ Only. Neat.
 
 [**UltraEdit**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/UltraEdit)
 
@@ -616,5 +616,6 @@ All versions of the WinImage program from this repository are x86 compatible.
 ## ***################################################***
 
 TEMP_LINK: https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Midtown%20Madness/Midtown%20Madness%202/MidtownMadness2Setup.exe -> MM2 -> .COMING_SOON
+
 
 
