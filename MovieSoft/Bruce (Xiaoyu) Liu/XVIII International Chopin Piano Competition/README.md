@@ -6,14 +6,14 @@ The International Chopin Piano Competition takes place more or less every single
 
 ## Pieces:
 
-- Ballade No. 2 in F Major Op. 38
-- Rondo a la Mazur in F Major Op. 5
-- Piano Sonata No. 2 in B Flat Minor Op. 35:
+- Ballade No. 2 in F Major (Fa Majeur) Op. 38
+- Rondo a la Mazur in F Major (Fa Majeur) Op. 5
+- Piano Sonata No. 2 in B Flat Minor (Ti Bémol Mineur) Op. 35:
   - Mov't 1: Grave - Doppio movimento
   - Mov't 2: Scherzo
   - Mov't 3: Marche funèbre
   - Mov't 4: Finale - Presto
-- Piano Concerto No. 1 in E Minor Op. 11:
+- Piano Concerto No. 1 in E Minor (Mi Bémol Mineur) Op. 11:
   - Mov't 1: Allegro Maestozo
   - Mov't 2: Romance - Larghetto
   - Mov't 3: Rondo - Vivace
