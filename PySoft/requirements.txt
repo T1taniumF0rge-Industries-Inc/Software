@@ -2,7 +2,6 @@ pygame
 cryptography
 requests
 psutil
-subprocess
 email
 pyperclip
 opencv-python
