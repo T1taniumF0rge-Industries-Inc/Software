@@ -497,7 +497,7 @@ Ain't no way I'm doing it for every version. Just go into the folder with your d
 
 [**Realtek:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Realtek)
 
-1 -> [Realtek AC97:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Realtek/AC97/Realtek%20AC97.exe) Realtek AC97 Driver is the most popular sound driver for Windows systems, and it helps manage surround sound, Dolby and DTS sound systems on your computer. This driver will only work if your motherboard has a PC'97 audio interface. Using the wrong driver will/could create serious audio errors!
+1 -> [Realtek AC97:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Realtek/AC97/Realtek%20AC97.exe) Realtek AC97 Driver was the most common sound driver for Windows systems from 1997 to 2010, and it helps manage surround sound, Dolby and DTS sound systems and other audio codecs on your computer if they were supported and an audio control panel was installed. This driver will only work if your motherboard has a PC'97 audio interface. Using the wrong driver will/could create serious audio errors!
 
 [**Roblox:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Roblox)
 
@@ -616,6 +616,7 @@ All versions of the WinImage program from this repository are x86 compatible.
 ## ***################################################***
 
 TEMP_LINK: https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Midtown%20Madness/Midtown%20Madness%202/MidtownMadness2Setup.exe -> MM2 -> .COMING_SOON
+
 
 
 
