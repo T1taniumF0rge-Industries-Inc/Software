@@ -2,7 +2,7 @@
 
 ## Preface:
 
-The International Chopin Piano Competition takes place more or less every single year, where contestants will have to play selected pieces by Chopin, including solo pieces (Chopin Ballade No. 2) and orchestral pieces (Chopin Concerto No. 1)
+The International Chopin Piano Competition takes place more or less every single year, where contestants will have to play selected pieces by Chopin, including solo pieces (Chopin Ballade No. 2) and orchestral pieces (Chopin Concerto No. 1). For the year of 2021, the winner of this competition was Bruce (Xiaoyu) Liu, based from the country of Canada.
 
 ## Pieces:
 
