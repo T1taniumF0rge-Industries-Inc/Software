@@ -113,17 +113,6 @@ def main():
             start()
         if option == 13:
             exit()
-def test(): 
-    pwdmanager = pwdmgr.PasswordManager()
-    pwdmanager.add_pwd("gmail","okmeque1.corporation@gmail.com","https://mail.google.com","very good password.",0,"")
-    for x in pwdmanager.fetch():
-        print(x)
-    print(pwdmanager.select("1"))
-    pwdmanager.update_pwd("1","gmail","okmeque1.corporation@gmail.com","https://github.com/GmaerSoft","horrible password") #gmaersoft42, go explore it while i TEST MY FUNCTION
-    print(pwdmanager.select("1"))
-    pwdmanager.del_pwd("1")
-    for x in pwdmanager.fetch():
-        print(x)
 if __name__ == "__main__":
     def start():
         try:
@@ -149,7 +138,7 @@ if __name__ == "__main__":
             print("Exiting...")
             exit()
         except Exception as e:
-            input(f"STOP : {e}\nReview the error chart and Python manual for more info.\nPress ENTER to return to main menu...")
+            input(f"STOP : {e}\nReview the GitHub GamerSoft24/Software PySoft error chart and Python manual for more info.\nPress ENTER to return to main menu...")
             start()
 try:
     start()
@@ -160,5 +149,5 @@ except SystemExit:
             print("Exiting...")
             exit()
 except Exception as e:
-            input(f"STOP : {e}\nReview the error chart and Python manual for more info.\nPress ENTER to return to main menu...")
+            input(f"STOP : {e}\nReview the GitHub GamerSoft24/Software PySoft the error chart and Python manual for more info.\nPress ENTER to return to main menu...")
             start()
