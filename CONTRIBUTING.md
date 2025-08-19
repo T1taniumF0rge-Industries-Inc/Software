@@ -34,7 +34,7 @@ input("Enter a random number: ")
 random_math_function
 ```
 
-A change like so is a good starting spot, although in this case if you could make the inputs explain what they do it would be even better with comments across the code or a print at the start of the code:
+A change like so is a good starting spot, although in this case if you could make the inputs explain what they do it would be even better with comments across the code or a print at the start of the code. If you want a better example, you could look inside the PySoft folder with the evolution of `security management system.py` into `AssistantApp` or `SQLite Password Manager`, as those are massive improvements over time.:
 
 ```py
 print("Made by GamerSoft24")
