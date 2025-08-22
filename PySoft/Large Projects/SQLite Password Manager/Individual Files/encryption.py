@@ -1,10 +1,18 @@
 from cryptography.fernet import Fernet
 def keygen(keygen1):
-    key = Fernet.generate_key()
-    with open(keygen1,"wb") as openfl:
-        openfl.write(key)
-    print(f"Key file saved to {keygen1}.")
-    return 
+    try:
+        key = Fernet.generate_key()
+        with open(keygen1,"wb") as openfl:
+            openfl.write(key)
+        print(f"Key file saved to {keygen1}.")
+        return 
+    except FileExistsError as e:
+        print(f"STOP : 6510A\nThe file name that you specified is conflicting with another file. Delete or rename the conflicting file, or choose a different name for your file.\nDetails: {e}")
+        input("Press ENTER to return to main menu...")
+        return
+    except Exception as e:
+        input(f"STOP : {e}\nReview the error chart and Python manual for more info.\nPress ENTER to return to main menu...")
+        return            
 def enc(keychose,file_enc):
     try:
         with open(keychose,"rb") as load:

@@ -5,6 +5,7 @@ import encryption
 import os
 import pyperclip
 key = False
+CWD = os.getcwd()
 def clear():
     if os.name == 'nt':
         os.system('cls')
@@ -26,7 +27,7 @@ def main():
         print("[9] Generate Encryption key")
         print("[10] Encrypt database")
         print("[11] Decrypt database")
-        print("[12] Refresh Database - This operation must be performed if the database has been deleted")
+        print("[12] Refresh Database - This operation must be performed if the database has been deleted to restore the original format")
         print("[13] Quit")
         option = int(input("Please select an option: "))
         if option in (1,2,3,7):
@@ -46,10 +47,10 @@ def main():
                  pwd_length = int(input("Please enter the length of your desired password: "))
                  pwd = pwdgen.cyrillic_pwd(pwd_length)
             pyperclip.copy(pwd)
-            print(f"The password has been copied to clipboard.")
+            print(f"The password has been copied to clipboard. Use CTRL-V to paste it.")
             name = input("Enter a name for your password: ")
             username = input("Enter the username for the desired application: ")
-            site = input("Enter the name of the site (if applicable): ")
+            site = input("Enter the name of the site or application (if applicable): ")
             pwdmanager.add_pwd(name, username, site, pwd)
             input("Saved password successfully. Press ENTER to continue...")
         if option == 4:
@@ -79,7 +80,7 @@ def main():
             else:
                 input("Operation cancelled. Press ENTER to continue...")
         if option == 6:
-            confirmation = input("This action is irrevokable, and you will not be able to retrieve this password after the deletion. Proceed? [Y/N]: ")
+            confirmation = input("This action is irrevokable, and you will not be able to retrieve any passwords in the database file after the deletion. Proceed? [Y/N]: ")
             if confirmation == "Y":
                 confirm = input("To proceed, type 'True': ")
                 if confirm == "True":
@@ -100,7 +101,9 @@ def main():
             input("Key successfully saved. Press ENTER to continue...")
         if option == 10 or option == 11:
             keyname = input("Please enter a valid fernet key file name. The format must be a:\directory\keyfile.frn: ")
-            dbname = input("Please enter a valid file name (The Database is usually stored in the same directory as this python file). The format must be a:\directory\pwdfile.extention: ")
+            dbname = input(f"Please enter a valid file name (The Database is usually stored in the same directory as this python file and is named 'pwd.db'. Leave blank and press enter to use default of 'pwd.db' in {CWD} (current directory)).: ")
+            if dbname == '':
+                 dbname = f'{CWD}\\pwd.db'
             if option == 10:
                 print("Encrypting file. This may take several minutes...")
                 encryption.enc(keyname, dbname)
@@ -122,7 +125,12 @@ if __name__ == "__main__":
             input("Press ENTER to RESTART program...")
             start()
         except sqlite3.DatabaseError as e:
-            input(f"STOP : Database Error - {e}\nTo continue, you must DECRYPT the database file.\n→ Press ENTER to decrypt the file...\n→ Press CTRL + C to terminate the program. You will lose any unsaved data in any open programs.")
+            os.chdir(CWD)
+            if not os.path.exists("pwd.db"):
+                        filedefaultdownload = open("pwd.db","w")
+                        filedefaultdownload.close()
+                        start()
+            input(f"STOP : Database Error - {e}\nTo continue, you may have DECRYPT the database file.\n→ Press ENTER to decrypt the file...\n→ Press CTRL + C to terminate the program. \nIf problems persist, make sure that you have the appropriate permissions to use the file and that your disks are not corrupted.")
             keyfile = input("Please enter a valid fernet key file. The format must be A:\directory\subdirectory\keyfile.frn: ")
             file = input("Please enter a valid encrypted file to decrypt: ")
             try:
