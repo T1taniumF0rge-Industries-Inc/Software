@@ -23,6 +23,8 @@ This password manager supports generating a password based on length, adding cus
 
 Otherwise, you just need a standard Python 3.8 or newer interpreter with the option to import local python files as modules enabled (this should be enabled by default unless your interpreter didn't install correctly). 
 
+Note that in some instances, the password may not be shown on screen. This is for security, and in any of these cases, the password will be copied to the clipboard.
+
 
 ## Download:
 
