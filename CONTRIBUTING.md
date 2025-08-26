@@ -11,8 +11,8 @@ To consider *changing programs and codes* in this `Software` repository you have
 > - The code must abide to the security, Code of Conduct and licenses that are present in the repository at the time of the pull request being made.
 
 > [!NOTE]
-> - The [DEVELOPER.md](/DEVELOPER.md)'s "Last Push/Pull" section can be ignored, this is only for the repository collaborators, contributors, devlopers and owners.
-> - The workflows in this repository may not work properly. It is expected to have workflow failures on each commit. If this happens, just ignore it.
+> - Please try and use meaningful commit messages that explain the changes in a precise but short manner (example: avoid commit messages like "fixed bug", instead try to aim for something like "fixed input bug that caused crashes in security management system"). It is very much appreciated, and it only has to be mentioned somewhere in the commit (could have a joke title and have the actual change underneath in the extended description)
+> - The workflows in this repository may not work properly. It is expected to have workflow failures on each commit. If this happens, just ignore it. We are trying to find a solution to this problem.
 > - If this repository is in inactive mode, the code may not get reviewed until 6 months of a pull request being opened. If it is in semi-active mode, expect the code to be reviewed within 30 days of a pull request being opened. The status can be viewed in the repository's [README](/README.md)
 > - You may want to add new languages to the repository (for now, we don't have official Bash scripts, but if you wanted you could create a new folder named BashSoft and go from there making your own Bash scripts)
 > - For individual small files, it is best to use the web editor as this repository will take about 30 minutes on average to clone using Git Bash (12 minutes fastest on a speedy SSD), since this repository's local size is higher than 35GB (make sure you update!
