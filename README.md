@@ -19,7 +19,7 @@ This is **where** I and Okmeque1 will be *storing all* of ***our*** VBS (Windows
 
 > [!CAUTION]
 > 
-> The VBS codes are *more towards **pranks*** but Windows might detect it as a virus. Be careful though as the [`/VBSoft/Deadly`](https://github.com/GamerSoft24/Software/tree/Main/VBSoft/Deadly) folder, the codes there are actually ***deadly*** and can *crash your RAM* in just a **few seconds running.** We will ***not*** be liable for **any damages caused by any scripts in the `VBSoft` folder *in your possession! (this includes, but is not limited to, modification, execution or download of the files)***
+> The VBS codes are *more towards **pranks*** but Windows/AntiVirus might detect it as a virus due to the nature of the files, however all VBS files not in the `/VBSoft/Deadly` folder should be safe to use. Be careful though as the [`/VBSoft/Deadly`](https://github.com/GamerSoft24/Software/tree/Main/VBSoft/Deadly) folder, the codes there are actually ***deadly*** and can *crash your RAM **and/or** your entire computer* in just a **few seconds of running.** We will ***not*** be liable for **any damages caused by any scripts in the `VBSoft` folder *in your possession! (this includes, but is not limited to, modification, execution or download of the files)***
 
 *For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/VBSoft)
 
@@ -43,12 +43,12 @@ The codes will be more *focused* on **C++** rather then **the other languages of
 
 ## [`BatchSoft:`]
 
-This is **where** I will be *storing all* of ***my*** Batchfile codes and programs.
+This is **where** I will be *storing all* of ***my*** Windows Batchfile codes and programs.
 
 *For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/BatchSoft)
 
 > [!CAUTION]
-> The codes in [`/BatchSoft/DestroyPC`](https://github.com/GamerSoft24/Software/tree/Main/BatchSoft/DestroyPC) folder are ***SUPER deadly*** and can *destroy your computer* and splash a bluescreen on your screen. We will ***not*** be liable for **any damages caused by any scripts in the `BatchSoft/DestroyPC` folder *in your possession! (this includes, but is not limited to, modification, execution or download of the files)***
+> The codes in [`/BatchSoft/DestroyPC`](https://github.com/GamerSoft24/Software/tree/Main/BatchSoft/DestroyPC) folder are ***SUPER deadly*** and can *crash your computer* and splash a BSOD on your screen. We will ***not*** be liable for **any damages caused by any scripts in the `BatchSoft/DestroyPC` folder *in your possession! (this includes, but is not limited to, modification, execution or download of the files)***
 
 ## [`InstallerSoft:`]
 
@@ -73,7 +73,7 @@ This is **where** I will be *storing all* of ***my and Okmeque1's collection of*
 This is **where** I will be *storing all* of ***my*** hacks that I may use in games. 
 
 > [!IMPORTANT]
-> *These hacks should only be used for* **educational purposes** *and* **testing purposes *only*** *and should not be used to ruin other people's gameplay.* We will ***not*** be liable for **any damages caused by any files in the `HackSoft` folder *in your possession! (this includes, but is not limited to, modification, execution or download of the files)*** Thank you for understanding.
+> *These hacks should only be used for* **educational purposes** *and* **testing purposes *only*** with consent from all parties involved that may be affected by the use of these hacks *and should not be used to ruin other people's gameplay or other nefarious purposes.* We will ***not*** be liable for **any damages caused by any files in the `HackSoft` folder *in your possession! (this includes, but is not limited to, modification, execution or download of the files)*** Thank you for understanding.
 
 *For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/HackSoft)
 
@@ -91,7 +91,7 @@ This is **where** I will be *storing all* of ***the migrated and updated files f
 
 ## [`OfficeSoft:`]
 
-This is **where** I will be *storing all* of the ***office files I use at work.***
+This is **where** I will be *storing all* of the ***Microsoft office files I use at work.*** (Word templates, etc)
 
 *For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/OfficeSoft)
 
@@ -113,7 +113,7 @@ This is **where** this `Software` repository's ***configuration files*** will be
 
 > [!WARNING]
 >
-> Some of our programs in the [`InstallerSoft/Windows`](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft) folder will report to most AV's as being viruses. However, unless a program is *explicitely* marked as a virus, you can trust this repository. Some installers will even come with *.nsi files so that you may check what the script is made out of, for any type of *sneaky* viruses. We will ***not*** be liable for **any damages caused by any programs in the `InstallerSoft/Windows` folder *in your possession! (this includes, but is not limited to, modification, execution or download of the files)*** If you're not happy with this, then leave the repository.
+> Some of our programs in the [`InstallerSoft/Windows`](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft) folder will report to most AV's as being viruses. However, unless a program is *explicitely* marked as a virus or a program that may crash, you can trust this repository. Some installers will even come with *.nsi files and the source so that you may check what the script is made out of, for any type of *sneaky* viruses. We will ***not*** be liable for **any damages caused by any programs in the `InstallerSoft/Windows` folder *in your possession! (this includes, but is not limited to, modification, execution or download of the files)***. You may choose to leave this repository if you do not feel comfortable with the above statement.
 
 ## Amount of programming languages:
 
@@ -133,9 +133,9 @@ For easy access to all working files and programs in this repository, use the [p
 
 This repository is licensed under the </ins>**BSD3**</ins> License.
 
-To use any material from this repository, you must agree to the **[license](/LICENSE)** and its terms of conditions, as well as ***any* and *all* disclaimers and warranty information (if applicable)**. We will ***not*** be liable for **any damages caused by any file, software package, individual program or other material from this repository *in your possession (this includes, but is not limited to, modification, execution or download of the files)*! This includes, but is not limited to, unintentional bugs, user error caused by an unclear prompt, clearly marked dangerous programs that may crash your computer or user negligence (didn't read the warnings) and more.**
+To use any material from this repository, you must agree to the **[license](/LICENSE)** and its terms of conditions, as well as ***any* and *all* disclaimers and warranty information (if applicable)**. We will ***not*** be liable for **any damages caused by any file, software package, individual program or other material from this repository *in your possession (this includes, but is not limited to, modification, execution or download of the files)*! This includes, but is not limited to, unintentional bugs, user error caused by an unclear prompt (usually an old unsupported program), clearly marked dangerous programs that may crash your computer or user negligence (didn't read the warnings) and more. However you may open an issue at any time for support and improvement of the material present.**
 
 
-If you're not satisfied with the former, leave the repository.
+ You may choose to leave this repository if you do not feel comfortable with the above statement.
 
 **NOTE:** In any situation where a warranty disclaimer is present in the `Software` repository, "we", "The Software Team", "The Devs", "The Developers" all refer to the main developers of this repository. A warranty disclaimer is a paragraph that includes "We will ***not*** be liable for **any damages caused by**", etc and explains that we aren't liable for any damages no matter what.
