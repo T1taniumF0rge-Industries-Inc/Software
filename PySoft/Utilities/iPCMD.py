@@ -10,34 +10,34 @@ def ipcmd():
         try:
             while True:
                 prompt = input(iprompt)
-                prompt = prompt.lower()
-                if prompt == 'exit' or prompt == 'return':
+                prompt1 = prompt.lower() # This way system commands still have the raw input
+                if prompt1 == 'exit' or prompt1 == 'return':
                     return False
-                elif prompt == 'ver':
+                elif prompt1 == 'ver':
                     print(ver)
                     print(ver1)
                     print('')
-                elif 'cd' in prompt[0:3]:
-                    os.chdir(prompt[3:])
+                elif 'cd' in prompt1[0:3]:
+                    os.chdir(prompt1[3:])
                     print('')
-                elif prompt == 'dsc':
+                elif prompt1 == 'dsc':
                     print("iPCMD - CMD in Python for bypassing computers with restricted/no access to Windows Command Prompt (cmd.exe) or Linux/Mac Terminal")
                     print("Use at your own risk - GamerSoftware & Okmeque1 Corporation is not responsible for any damages done to any computers or people using this program.")
-                    print("If iPCMD gets blocked or fails to bypass then your computer is not bypassable.")
+                    print("If iPCMD gets blocked or fails to bypass then your computer is not bypassable (could be for the block of os module or deleting CMD.exe, etc).")
                     print("Commands depend on your system. The prompt can be changed from the iprompt value in the code")
-                    print("Commands may not work depending on your system.")
+                    print("Commands may not work depending on your system or if the os module has been blocked.")
                     print("Current system : " + os.name)
                     print('') 
-                elif 'prompt' in prompt and 'prompt:' not in prompt and 'prompt reset' not in prompt:
+                elif 'prompt' in prompt1 and 'prompt:' not in prompt1 and 'prompt reset' not in prompt1:
                     print("Usage for prompt setting: prompt:[string]")
                     print("To reset prompt type: 'prompt reset'")
                     print('')
-                elif 'prompt:' in prompt:
+                elif 'prompt:' in prompt1:
                     iprompt = prompt[7:]+'>'
                     print('Prompt setting complete!')
                     print("To reset prompt type: 'prompt reset'")
                     print('')
-                elif prompt == 'prompt reset':
+                elif prompt1 == 'prompt reset':
                     print('Prompt resetting complete!')
                     print('')
                     iprompt = 'iPCMD>'
