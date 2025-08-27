@@ -1,4 +1,5 @@
 import tkinter as tk
+from tkinter import *
 import random
 import time
 def shift():
@@ -32,3 +33,4 @@ fps=30
 change_color=0
 shift()
 app.mainloop()
+
