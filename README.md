@@ -88,7 +88,7 @@ This is **where** I will be *storing all* of ***the repositories across GitHub**
 This is **where** I will be *storing all* of ***the migrated and updated files from the [`Okmeque1/Software`](https://github.com/Okmeque1/Software) repository.***
 
 > [!NOTE]
-> Some files may not be here due to duplicate/similar programs being available elsewhere. For easy program access in the `OkmequeSoft` folder, please use the [dedicated program chart](/OkmequeSoft/programs.md) in that folder, as the regular [programs.md](/Programs.md) does not cover this folder nor the `PictureSoft` folder.
+> Some files may not be here due to duplicate/similar programs being available elsewhere. For easy program access in the `OkmequeSoft` folder, please use the [dedicated program chart](/OkmequeSoft/Programs.md) in that folder, as the regular [programs.md](/Programs.md) does not cover this folder nor the `PictureSoft` folder.
 
 *For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/OkmequeSoft)
 
@@ -136,7 +136,7 @@ This is **where** this `Software` repository's ***configuration files*** will be
 For easy access to all working files and programs in this repository, use the [program chart (programs.md)](https://github.com/GamerSoft24/Software/tree/Main/Programs.md).
 
 > [!NOTE]
-> The program chart does not cover the `OkmequeSoft` and `PictureSoft` folders. For `OkmequeSoft`, please use the [dedicated `OkmequeSoft` program chart](/OkmequeSoft/programs.md), and for `PictureSoft`, you will have to navigate the structure maually. 
+> The program chart does not cover the `OkmequeSoft` and `PictureSoft` folders. For `OkmequeSoft`, please use the [dedicated `OkmequeSoft` program chart](/OkmequeSoft/Programs.md), and for `PictureSoft`, you will have to navigate the structure maually. 
 
 ## Licensing Agreement:
 
