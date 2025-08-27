@@ -43,6 +43,16 @@ PictureSoft is excluded as there are too many files and they all represent a sim
 
 4 -> [Temperature Converter (temperature converter.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Calculators/temperature%20converter.py) A temperature converter to help you talk with people who don't use Celsius and use instead Fahrenheit or Kelvin.
 
+### [Demos:](/PySoft/Demos)
+
+1 -> [Code Rain (code rain.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Demos/code%20rain.py) A program that rains code in green on your screen. Can be used for all sorts of purposes, such as a video background, desktop wallpaper, although if you choose to use it make sure to mention the `Software` repository. It is required and very much appreciated by the team.
+
+2 -> [Colourama Text Tester (colourama_coloured-text.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Games/colorama_coloured-text.py) A cool little utility that allows you to configure different colour modes for different coloured text! 
+
+3 -> [Happy New Year! (happy new year!!.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Games/happy%20new%20year!!.py) No room for explaining. Happy New Year! (for the current year that it is)
+
+4 -> [Rainbow Void (rainbow void.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Demos/rainbow%20void.py) Visual effect? Also really cool and is the PySoft README demo program.
+
 ### [Editors:](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Editors)
 
 1 -> [GUI Text Editor (gui-text editor.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Editors/gui-text%20editor.py) A text editor in Python.
@@ -61,31 +71,23 @@ PictureSoft is excluded as there are too many files and they all represent a sim
 
 4 -> [Guess a number from 0 to 100 (guess a number (top 100).py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Games/guess%20a%20number%20(top%20100).py) Just guess the number.
 
-5 -> [Rainbow Void (rainbow void.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Games/rainbow%20void.py) For visual effect kinda...
+5 -> [Error Generator (error generator.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Games/error%20generator.py) Generates error messages. Try it out!!
 
-6 -> [Code Rain (code rain.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Games/code%20rain.py) Text rain falls from the sky... :D
+6 -> [Battle Ships (battleships.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Games/battleships.py) You're at a war with your friend, and must knock down his ships to win!
 
-7 -> [Error Generator (error generator.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Games/error%20generator.py) Generates error messages. Try it out!!
+7 -> [Connect 4 (connect4.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Games/connect4.py) Connect 4: Get 4 pieces horizontally, vertically or diagonally. Note that the UI may not be the nicest...
 
-8 -> [Happy New Year 2024! (happy new year 2024!!.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Games/happy%20new%20year%202024!!.py) No room for explaining. Happy New Year 2024!
+8 -> [Rock Paper Scissors - Okmeque1 Edition (rps-okmeque1_edition.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Games/rps-okmeque1_edition.py) The Okmeque1 Edition of Rock Paper Scissors, which includes 6 items, and built quite clunkily. See it for yourself.
 
-9 -> [Battle Ships (battleships.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Games/battleships.py) You're at a war with your friend, and must knock down his ships to win!
+9 -> [Rock Paper Scissors - Compact Edition (rps-compact_edition.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Games/rps-compact_edition.py) This version was a retake on the Okmeque1 Edition, and is much more compact and less prone to failure (I hope)
 
-10 -> [Connect 4 (connect4.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Games/connect4.py) Connect 4: Get 4 pieces horizontally, vertically or diagonally. Note that the UI may not be the nicest...
+10 -> [Rock Paper Scissors - Class Edition (rps-class_edition.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Games/rps-class_edition.py) This version uses Classes...which is hopefully a better way of coding stuff...
 
-11 -> [Rock Paper Scissors - Okmeque1 Edition (rps-okmeque1_edition.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Games/rps-okmeque1_edition.py) The Okmeque1 Edition of Rock Paper Scissors, which includes 6 items, and built quite clunkily. See it for yourself.
+11 -> [Not 1 Game (not 1.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Games/not%201.py) This game makes you gamble, in the sense that do you want to stop and have a guarantee of points, or continue and lose everything? I can't explain it, really, run the program, it will explain it for you...
 
-12 -> [Rock Paper Scissors - Compact Edition (rps-compact_edition.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Games/rps-compact_edition.py) This version was a retake on the Okmeque1 Edition, and is much more compact and less prone to failure (I hope)
+12 -> [DOS Replica in a Virtual Machine System (dos.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Games/dos.py) A better DOS replica, built inside the Windows Virtual Machine system, although I don't think I coded the VM properly...
 
-13 -> [Rock Paper Scissors - Class Edition (rps-class_edition.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Games/rps-class_edition.py) This version uses Classes...which is hopefully a better way of coding stuff...
-
-14 -> [Not 1 Game (not 1.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Games/not%201.py) This game makes you gamble, in the sense that do you want to stop and have a guarantee of points, or continue and lose everything? I can't explain it, really, run the program, it will explain it for you...
-
-15 -> [DOS Replica in a Virtual Machine System (dos.py):](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Games/dos.py) A better DOS replica, built inside the Windows Virtual Machine system, although I don't think I coded the VM properly...
-
-16 -> [Flippity Random Name Picker Overload (flippity_random-overload.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Games/flippity_random-overload.py) Not much for a game, so I guess it belongs here? Anyways what this program allows you to do is to enter a ridiculous amount of elements that can be later used in the Flippity Wheel, and will usually make your browser a bit slow and make a very funky wheel. *Use at your own discretion. Liability is clarified in the [license](/LICENSE) and in [this section](https://github.com/GamerSoft24/Software?tab=readme-ov-file#licensing-agreement) of the README*
-
-17 -> [Colourama Text Tester (colourama_coloured-text.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Games/colorama_coloured-text.py) A cool little utility that allows you to configure different colour modes for different coloured text! 
+13 -> [Flippity Random Name Picker Overload (flippity_random-overload.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Games/flippity_random-overload.py) Not much for a game, so I guess it belongs here? Anyways what this program allows you to do is to enter a ridiculous amount of elements that can be later used in the Flippity Wheel, and will usually make your browser a bit slow and make a very funky wheel. *Use at your own discretion. Liability is clarified in the [license](/LICENSE) and in [this section](https://github.com/GamerSoft24/Software?tab=readme-ov-file#licensing-agreement) of the README*
 
 ### [Utilities:](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Utilities)
 
@@ -616,6 +618,7 @@ All versions of the WinImage program from this repository are x86 compatible.
 ## ***################################################***
 
 TEMP_LINK: https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Midtown%20Madness/Midtown%20Madness%202/MidtownMadness2Setup.exe -> MM2 -> .COMING_SOON
+
 
 
 
