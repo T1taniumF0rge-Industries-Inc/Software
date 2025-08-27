@@ -1,7 +1,7 @@
 def icmd():
     try:
         iprompt = 'iCMD>'
-        ver = 'iCMD Full 1.05A - Okmeque1 Corporation - (c) Okmeque1 Corporation 2023-2025 All Rights Reserved.'
+        ver = 'iCMD Full 1.05A - Okmeque1 Corporation - (c) Okmeque1 Corporation 2023-2079 All Rights Reserved.'
         print(ver)
         try:
             import os
@@ -9,21 +9,21 @@ def icmd():
                 prompt = input(iprompt)
                 if 'prompt:' in prompt:
                     iprompt = prompt[7:] + ">"
-                prompt = prompt.lower()
-                if prompt == 'exit' or prompt == 'return':
+                prompt1 = prompt.lower()
+                if prompt1 == 'exit' or prompt1 == 'return':
                     return False
-                elif prompt == 'ver':
+                elif prompt1 == 'ver':
                     print(ver)
-                elif 'cd' in prompt[0:3]:
-                    os.chdir(prompt[3:])
-                elif prompt == 'dsc':
+                elif 'cd' in prompt1[0:3]:
+                    os.chdir(prompt1[3:])
+                elif prompt1 == 'dsc':
                     print("iCMD - CMD for computers with restricted/no access to CMD.EXE or Linux/Mac Terminal")
                     print("Use at your own risk - Okmeque1 Corporation is not responsible for any damages done to any computers or people using this program.")
                     print("If iCMD gets blocked download the Lite version.")
                     print("Commands depend on your system.The prompt can be changed by doing PROMPT:[STRING]")
                     print("Commands may not work depending on your system.")
                     print("Current system : " + os.name)
-                elif 'prompt' in prompt and 'prompt:' not in prompt:
+                elif 'prompt' in prompt1 and 'prompt:' not in prompt1:
                     print("Usage : PROMPT:[STRING]")
                 else:
                     os.system(prompt)
@@ -94,3 +94,4 @@ def icmd():
         print("STOP : 0F0A EXCEPTION_IN_EXCEPTION : The program has attempted to recover from an exception causing another exception which caused it to forcibly close.")
         return None
 icmd()
+
