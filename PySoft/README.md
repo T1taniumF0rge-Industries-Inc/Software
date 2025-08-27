@@ -5,7 +5,7 @@ If you don't know Python or don't have a Python Interpreter installed, go downlo
 
 > [!NOTE]
 >
-> Some of these programs contains modules that have to be installed. To install these modules, you can go to [Pypa's repository](https://github.com/pypa/pip) and follow the instructions on how to install and use pip/pip3 if you don't have it on your PC although most of the Python3 interpreters will install pip/pip3 automatically (usually located in the "scripts" directory in the install location).
+> Some of these programs contains modules that have to be installed. To install these modules, you can go to [Pypa's repository](https://github.com/pypa/pip) and follow the instructions on how to install and use pip/pip3 if you don't have it on your PC although most of the Python3 interpreters will install pip/pip3 automatically (usually located in the "scripts" directory in the install location so make sure to try pip first before reading pypa).
 After you have pip/pip3 installed, go to your computer's terminal (Mac Terminal, Windows Command Prompt, PowerShell, etc...) and type `pip install` + the module's name. *Example:* `pip install pygame`. Using `pip3 install` will also work if you have pip3 although it is only really required if you have Python 2 and Python 3 installed at the same time on your PC
 
 > [!TIP]
