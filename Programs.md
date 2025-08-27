@@ -47,9 +47,9 @@ PictureSoft is excluded as there are too many files and they all represent a sim
 
 1 -> [Code Rain (code rain.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Demos/code%20rain.py) A program that rains code in green on your screen. Can be used for all sorts of purposes, such as a video background, desktop wallpaper, although if you choose to use it make sure to mention the `Software` repository. It is required and very much appreciated by the team.
 
-2 -> [Colourama Text Tester (colourama_coloured-text.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Games/colorama_coloured-text.py) A cool little utility that allows you to configure different colour modes for different coloured text! 
+2 -> [Colourama Text Tester (colourama_coloured-text.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Demos/colorama_coloured-text.py) A cool little utility that allows you to configure different colour modes for different coloured text! 
 
-3 -> [Happy New Year! (happy new year!!.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Games/happy%20new%20year!!.py) No room for explaining. Happy New Year! (for the current year that it is)
+3 -> [Happy New Year! (happy new year!!.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Demos/happy%20new%20year!!.py) No room for explaining. Happy New Year! (for the current year that it is)
 
 4 -> [Rainbow Void (rainbow void.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Demos/rainbow%20void.py) Visual effect? Also really cool and is the PySoft README demo program.
 
@@ -618,6 +618,7 @@ All versions of the WinImage program from this repository are x86 compatible.
 ## ***################################################***
 
 TEMP_LINK: https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Midtown%20Madness/Midtown%20Madness%202/MidtownMadness2Setup.exe -> MM2 -> .COMING_SOON
+
 
 
 
