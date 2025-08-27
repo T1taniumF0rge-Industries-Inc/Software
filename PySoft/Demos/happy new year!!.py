@@ -1,5 +1,6 @@
 import tkinter as tk
 import random
+import time
 def shift():
 	global change_color
 	x1,y1,x2,y2=canvas.bbox("marquee")
@@ -18,7 +19,8 @@ app.title('Gliding Text!')
 canvas=tk.Canvas(app,bg='black')
 canvas.pack(fill=tk.BOTH,expand=1)
 colors=('red','orange','yellow','green','blue','magenta','pink','purple')
-text_var="Happy New Year 2024! Wish you all happy coding!!"
+current_year = time.asctime()[-4:]
+text_var=f"Happy New Year {current_year}! Wish you all happy coding!!"
 text=canvas.create_text(0,-2000,text=text_var,font=('Handwriting',20,'bold'),fill='white',tags="marquee",anchor='nw')
 x1,y1,x2,y2=canvas.bbox("marquee")
 width=x2-x1
