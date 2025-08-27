@@ -85,7 +85,10 @@ This is **where** I will be *storing all* of ***the repositories across GitHub**
 
 ## [`OkmequeSoft:`]
 
-This is **where** I will be *storing all* of ***the migrated and updated files from the [`Okmeque1/Software`] repository.***
+This is **where** I will be *storing all* of ***the migrated and updated files from the [`Okmeque1/Software`](https://github.com/Okmeque1/Software) repository.***
+
+> [!NOTE]
+> Some files may not be here due to duplicate/similar programs being available elsewhere. For easy program access in the `OkmequeSoft` folder, please use the [dedicated program chart](/OkmequeSoft/programs.md) in that folder, as the regular [programs.md](/Programs.md) does not cover this folder nor the `PictureSoft` folder.
 
 *For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/OkmequeSoft)
 
@@ -98,6 +101,9 @@ This is **where** I will be *storing all* of the ***Microsoft office files I use
 ## [`PictureSoft:`]
 
 This is **where** I and Okmeque1 will be *storing all* of the **unique pictures I find interesting.**
+
+> [!IMPORTANT]
+> The [programs.md](/Programs.md) does not cover this folder, and you will have to navigate the folder structure.
 
 *For* **direct access**, [click here!](https://github.com/GamerSoft24/Software/tree/Main/PictureSoft)
 
@@ -113,7 +119,7 @@ This is **where** this `Software` repository's ***configuration files*** will be
 
 > [!WARNING]
 >
-> Some of our programs in the [`InstallerSoft/Windows`](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft) folder will report to most AV's as being viruses. However, unless a program is *explicitely* marked as a virus or a program that may crash, you can trust this repository. Some installers will even come with *.nsi files and the source so that you may check what the script is made out of, for any type of *sneaky* viruses. We will ***not*** be liable for **any damages caused by any programs in the `InstallerSoft/Windows` folder *in your possession! (this includes, but is not limited to, modification, execution or download of the files)***. You may choose to leave this repository if you do not feel comfortable with the above statement.
+> Some of our programs in the [`InstallerSoft/Windows`](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft) folder may report to some AV's as being viruses (most likely in-house repackaged NSIS installers and other programs). However, unless a program is *explicitely* marked as a virus or a program that may crash your computer, you can trust this repository. Some installers will even come with *.nsi files and the source (usually in a *.zip file) so that you may check what the script is made out of, for any type of *sneaky* viruses. We will ***not*** be liable for **any damages caused by any programs in the `InstallerSoft/Windows` folder *in your possession! (this includes, but is not limited to, modification, execution or download of the files)***. You may choose to leave this repository if you do not feel comfortable with the above statement.
 
 ## Amount of programming languages:
 
@@ -127,7 +133,10 @@ This is **where** this `Software` repository's ***configuration files*** will be
 
 ## Program Chart:
 
-For easy access to all working files and programs in this repository, use the [program chart](https://github.com/GamerSoft24/Software/tree/Main/Programs.md)
+For easy access to all working files and programs in this repository, use the [program chart (programs.md)](https://github.com/GamerSoft24/Software/tree/Main/Programs.md).
+
+> [!NOTE]
+> The program chart does not cover the `OkmequeSoft` and `PictureSoft` folders. For `OkmequeSoft`, please use the [dedicated `OkmequeSoft` program chart](/OkmequeSoft/programs.md), and for `PictureSoft`, you will have to navigate the structure maually. 
 
 ## Licensing Agreement:
 
