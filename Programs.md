@@ -127,6 +127,10 @@ PictureSoft is excluded as there are too many files and they all represent a sim
 
 ### [Deadly:](https://github.com/GamerSoft24/Software/tree/Main/VBSoft/Deadly)
 
+> [!CAUTION]
+> 
+> The VBS codes are *more towards **pranks*** but Windows/AntiVirus might detect it as a virus due to the nature of the files, however all VBS files not in the `/VBSoft/Deadly` folder should be safe to use. Be careful though as the [`/VBSoft/Deadly`](https://github.com/GamerSoft24/Software/tree/Main/VBSoft/Deadly) folder, the codes there are actually ***deadly*** and can *crash your RAM **and/or** your entire computer* in just a **few seconds of running.** We will ***not*** be liable for **any damages caused by any scripts in the `VBSoft` folder *in your possession! (this includes, but is not limited to, modification, execution or download of the files)***
+
 1 -> [Auto Pressing Backspace (auto press backspace.vbs):](https://github.com/GamerSoft24/Software/blob/Main/VBSoft/Deadly/auto%20press%20backspace.vbs) Will press the backspace key at a really fast rate. Careful using it!
 
 2 -> [Auto Pressing Enter (auto press enter.vbs):](https://github.com/GamerSoft24/Software/blob/Main/VBSoft/Deadly/auto%20press%20enter%20(code%20red!).vbs) Will press the enter key at a really fast rate. More deadly then Auto Pressing Backspace (auto press backspace.vbs)! Be extremely careful using it!
@@ -183,11 +187,21 @@ PictureSoft is excluded as there are too many files and they all represent a sim
 
 1 -> [UAC Bypass (uac bypass.bat):](https://github.com/GamerSoft24/Software/blob/Main/BatchSoft/Windows/UAC/uac%20bypass.bat) Drag a file/installer with the security shield tag over "uac bypass.bat" and wait for command to complete and the file/installer will open without prompting the UAC window. Be aware that some files/installers will not be able to open in this way due to an administrator opening requirement.
 
+### [DestroyPC](https://github.com/GamerSoft24/Software/blob/Main/BatchSoft/DestroyPC):
+
+> [!CAUTION]
+> The codes in [`/BatchSoft/DestroyPC`](https://github.com/GamerSoft24/Software/tree/Main/BatchSoft/DestroyPC) folder are ***SUPER deadly*** and can *crash your computer* and splash a BSOD on your screen. We will ***not*** be liable for **any damages caused by any scripts in the `BatchSoft/DestroyPC` folder *in your possession! (this includes, but is not limited to, modification, execution or download of the files)***
+
+1 -> [Start 'n Loop (start 'n loop.bat)](https://github.com/GamerSoft24/Software/blob/Main/BatchSoft/DestroyPC/start_n'_loop.bat): This script will start instances of itself, however the started instances will start other instances of the script. It's essentially exponential, and in a few seconds you go from 1 → 2 → 4 → 8 → 16, it'll crash your computer very quickly, so make sure to save all work in all open programs, close all programs then you can run the script and see how long before it bluescreens.
+
 ## [MinceraftSoft:](https://github.com/GamerSoft24/Software/tree/Main/MinecraftSoft)
 
 This folder contains all files related to Minecraft (e.g.: like modpacks or MCP files).  You must download the entire folder of the modpacks for them to work and load properly!
 
 ## [HackSoft:](https://github.com/GamerSoft24/Software/tree/Main/HackSoft)
+
+> [!IMPORTANT]
+> *These hacks should only be used for* **educational purposes** *and* **testing purposes *only*** with consent from **all** parties involved that may be affected by the use of these hacks *and should not be used to ruin other people's gameplay or other nefarious purposes.* We will ***not*** be liable for **any damages caused by any files in the `HackSoft` folder *in your possession! (this includes, but is not limited to, modification, execution or download of the files)*** Thank you for understanding.
 
 ### [Among Us:](https://github.com/GamerSoft24/Software/tree/Main/HackSoft/Among%20Us)
 
@@ -622,6 +636,7 @@ All versions of the WinImage program from this repository are x86 compatible.
 ## ***################################################***
 
 TEMP_LINK: https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Midtown%20Madness/Midtown%20Madness%202/MidtownMadness2Setup.exe -> MM2 -> .COMING_SOON
+
 
 
 
