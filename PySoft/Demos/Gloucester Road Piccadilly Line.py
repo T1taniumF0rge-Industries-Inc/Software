@@ -27,7 +27,7 @@ canvas.pack(fill=tk.BOTH,expand=1)
 colors=('orange','orange')
 destinations = ['Rayners Lane', 'Heathrow Terminal 4 & Terminals 2 and 3', 'Heathrow Terminals 2 and 3 & Terminal 5', "Northfields", "Uxbridge", "Cockfosters", "Arnos Grove"]
 destination = random.choice(destinations)
-text_var=f"This is Gloucester Road.		   	   Change here for the Circle Line.			    This is a Piccadilly Line service to {random.choice(destinations)}"
+text_var=f"This is Gloucester Road  		   	   Change here for the Circle Line  			    This is a Piccadilly Line service to {random.choice(destinations)}"
 text=canvas.create_text(0,-2000,text=text_var,font=('Handwriting',20,'bold', 'italic'),fill='white',tags="marquee",anchor='nw')
 x1,y1,x2,y2=canvas.bbox("marquee")
 width=x2-x1
