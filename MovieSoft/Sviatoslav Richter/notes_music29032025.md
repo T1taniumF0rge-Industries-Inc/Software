@@ -12,6 +12,8 @@
 > 3rd page Più lento expressive, respect ties
 > 
 > Repetitive parts (Più mosso) play with legatos and connect fingers
+>
+> Don't force the keys if you can, play them naturally with arm weight and let the arm weight press any keys, all you do is releasing
 
 > [!CAUTION]
 > 
