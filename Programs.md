@@ -249,6 +249,10 @@ There will be a dedicated [program chart](https://github.com/GamerSoft24/Softwar
 
 2 -> [College Ruled Printable Lined Paper - Small Margin:](https://github.com/GamerSoft24/Software/blob/Main/OfficeSoft/Printable%20Lined%20Paper/printable-lined-paper_small-margin.docx) Just some regular old lined paper that you can print at home or at the library in case you forgot your A4 refill pad. This one has a much smaller margin so that you can write more on a single paper.
 
+[**PC Build Templates:**](https://github.com/GamerSoft24/Software/blob/Main/OfficeSoft/PC%20Build%20Template)
+
+1 -> [Custom and OEM PC Build Template:](https://github.com/GamerSoft24/Software/blob/Main/OfficeSoft/PC%20Build%20Template/PC%20Builds.xlsx) This is a Custom and OEM PC Template in Microsoft Excel, which is not a competitor but rather a complementary to [PCPartPicker](https://pcpartpicker.com) and has a guide inside.
+
 ## [InstallerSoft:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft)
 
 ### [Windows:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows)
@@ -618,6 +622,7 @@ All versions of the WinImage program from this repository are x86 compatible.
 ## ***################################################***
 
 TEMP_LINK: https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Midtown%20Madness/Midtown%20Madness%202/MidtownMadness2Setup.exe -> MM2 -> .COMING_SOON
+
 
 
 
