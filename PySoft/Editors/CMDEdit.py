@@ -9,6 +9,8 @@ def clear():
     else:
         os.system('clear')
 def find_replace(tofind, toreplace=None, parameter=False):
+    if tofind == '':
+        return
     global text
     splits = text.split('\n') # Split for every line using \n
     success = False # used for if there are no matches
