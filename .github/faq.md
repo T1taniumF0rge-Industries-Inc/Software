@@ -70,7 +70,7 @@ We store a lot of binary files using Git LFS, including executables, movies, etc
 
 ### Why are the commit messages meaningless?
 
-You may find that some commit messages have absolutely nothing to do with the change, which is not ideal but usually in those cases the changes will be very easy to see and modify if ever needed. 
+You may find that some commit messages have absolutely nothing to do with the change, which is not ideal but usually in those cases the changes will be very easy to see and modify if ever needed. However our team is actively working to make clearer commit messages whenever possible.
 
 ## PySoft Q&A:
 
