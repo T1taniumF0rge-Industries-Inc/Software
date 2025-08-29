@@ -60,7 +60,7 @@ while True:
             input("Encoder configured. Press ENTER to continue...")
         elif character == '\x18': # CTRL-X, use for loading
             file_name = input("\nPlease enter a valid file name (A:\directory\subdirectory if on Windows, /dev/sda/folder on most other systems.). Full path must be specified if the file is not in the same directory as this program: ")
-            with open(file_name, "r") as load:
+            with open(file_name, "r", encoding=encoder) as load:
                 text = load.read()
         elif character == '\x06': # CTRL-F, use for finding
             find = input("\nEnter thing to find in current editor: ")
