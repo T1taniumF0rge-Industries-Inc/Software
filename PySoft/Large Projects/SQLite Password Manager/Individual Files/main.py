@@ -131,12 +131,17 @@ if __name__ == "__main__":
                         filedefaultdownload.close()
                         input(f"Created database file in {CWD}. Press ENTER to continue...")
                         start()
-            input(f"STOP : Database Error - {e}\nTo continue, you may have DECRYPT the database file.\n→ Press ENTER to decrypt the file...\n→ Press CTRL + C to terminate the program. \nIf problems persist, make sure that you have the appropriate permissions to use the file and that your disks are not corrupted.")
+            input(f"STOP : Database Error - {e}\nTo continue, you may have DECRYPT the database file. If this doesn't work, you will have to reinitialise the database file (Hold CTRL-Z then press ENTER if on Windows, or CTRL-D on other systems)\n→ Press ENTER to decrypt the file...\n→ Press CTRL + C to terminate the program. \nIf problems persist, make sure that you have the appropriate permissions to use the file and that your disks are not corrupted.")
             keyfile = input("Please enter a valid fernet key file. The format must be A:\directory\subdirectory\keyfile.frn: ")
             file = input("Please enter a valid encrypted file to decrypt: ")
             try:
                 encryption.dec(keyfile,file)
                 start()
+            except EOFError:
+                        filedefaultdownload = open("pwd.db","w")
+                        filedefaultdownload.close()
+                        input(f"Reset database file in {CWD}. Press ENTER to continue...")
+                        start()            
             except Exception as e:
                 input(f"STOP : {e}\nPress ENTER to retry decryption...")
                 start()
