@@ -523,6 +523,8 @@ Ain't no way I'm doing it for every version. Just go into the folder with your d
 
 1 -> [Roblox:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Roblox/RobloxPlayerInstaller.exe) Okmeque1 kind of hates this installer and thinks that the error messages are awful. If any Roblox Devs come across this, at least use the [Error chart](https://github.com/GamerSoft24/Software/blob/Main/Errors%20chart.md) or some form of error code as troubleshooting is way too hard.
 
+Side Note: why are you even playing this in 2025? You know that [Schlep](https://www.youtube.com/@RealSchlep) got banned for no reason? You should check him out and stop givinng your money to these faceless corporations. If you think I'm lying, check the recent media around Schlep as well as the -12BN stock plunge for the Roblox Corporation. 
+
 [**Steam:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Steam)
 
 1 -> [Steam Game Launcher:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Steam/SteamSetup.exe) Literally the most popular game launcher in the world made by Valve Inc., and really secure. Lots of games from Geometry Dash, Terraria and God of War to Starfield, COD and Cyberpunk 2077 ***(18+ only: and GTA series and Red Dead Redemption series)***.
@@ -629,13 +631,12 @@ All versions of the WinImage program from this repository are x86 compatible.
 
 1 -> [Roblox:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/macOS/Roblox/Roblox.dmg) Okmeque1 kind of hates this installer and thinks that the error messages are awful. If any Roblox Devs come across this, at least use the [Error chart](https://github.com/GamerSoft24/Software/blob/Main/Errors%20chart.md) or some form of error code as troubleshooting is way too hard.
 
+Side Note: why are you even playing this in 2025? You know that [Schlep](https://www.youtube.com/@RealSchlep) got banned for no reason? You should check him out and stop givinng your money to these faceless corporations. If you think I'm lying, check the recent media around Schlep as well as the -12BN stock plunge for the Roblox Corporation.
+
 [**VLC:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/macOS/VLC%20Media%20Player)
 
 1 -> [VLC Media Player:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/macOS/VLC%20Media%20Player) The video player we all know and love, from VideoLan, but for macOS.
 
-## ***################################################***
-
-TEMP_LINK: https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Midtown%20Madness/Midtown%20Madness%202/MidtownMadness2Setup.exe -> MM2 -> .COMING_SOON
 
 
 
