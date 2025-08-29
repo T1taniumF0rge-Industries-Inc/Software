@@ -509,7 +509,7 @@ Ain't no way I'm doing it for every version. Just go into the folder with your d
 
 3 -> [Python 3.12.2:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Python/v3.12.2/python-3.12.2-amd64.exe) Python version 3.12.2. Not compatible with Windows 7 or older. Latest version of Python for this repository. This release is 64-bit only.
 
-4 -> [Python 3.4.4:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Python/v3.4.4) Python version 3.4.4. Last version of Python 3 to support Windows XP (SP3+ only). Does not support modern modules or f-string syntax even though it's Python 3. Only use this if you are running Windows XP.
+4 -> [Python 3.4.4:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Python/v3.4.4) Python version 3.4.4. Last version of Python 3 to support Windows XP (SP3+ only). Does not support modern modules or f-string syntax even though it's Python 3. Only use this if you are running Windows XP (at that point, either downgrade to Windows ME or upgrade to Windows Vista. That supports more modern Python, and if your computer can run Vista smoothly you should try Windows 7).
 
 5 -> [Python 3.8.0:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Python/v3.8.0/python-3.8.0-amd64.exe) Python version 3.8.0. Last version to support Windows 7 (RTM-SP1). Mostly works, just global variables are a bit of a headache... This release is 64-bit only.
 
@@ -636,6 +636,7 @@ All versions of the WinImage program from this repository are x86 compatible.
 ## ***################################################***
 
 TEMP_LINK: https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Midtown%20Madness/Midtown%20Madness%202/MidtownMadness2Setup.exe -> MM2 -> .COMING_SOON
+
 
 
 
