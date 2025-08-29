@@ -129,6 +129,7 @@ if __name__ == "__main__":
             if not os.path.exists("pwd.db"):
                         filedefaultdownload = open("pwd.db","w")
                         filedefaultdownload.close()
+                        input(f"Created database file in {CWD}. Press ENTER to continue...")
                         start()
             input(f"STOP : Database Error - {e}\nTo continue, you may have DECRYPT the database file.\n→ Press ENTER to decrypt the file...\n→ Press CTRL + C to terminate the program. \nIf problems persist, make sure that you have the appropriate permissions to use the file and that your disks are not corrupted.")
             keyfile = input("Please enter a valid fernet key file. The format must be A:\directory\subdirectory\keyfile.frn: ")
