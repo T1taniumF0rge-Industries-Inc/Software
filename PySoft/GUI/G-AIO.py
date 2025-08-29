@@ -1556,11 +1556,13 @@ class ToolsMenu(Frame):
         label.pack(pady=10, padx=10)   
         pwd = Button(self, text="Password Manager", command=lambda: controller.show_frame(PassManager),width=40)
         pwd.pack(pady=5)
-        smsr = Button(self, text="Remove Windows Start Menu Search Results",command=lambda: self.start(),width=40)#Windows Only, removes bing search results     
+        smsr = Button(self, text="Remove Windows Start Menu Internet Search Results",command=lambda: self.reg_editor(0),width=40)#Windows Only, removes bing search results     
         smsr.pack(pady=5)
-        verbose_msg = Button(self,text="Enable Windows Verbose (detailed) boot messages",command=lambda: self.reg_editor(0),width=40)
+        verbose_msg = Button(self,text="Enable Windows Verbose (detailed) boot messages",command=lambda: self.reg_editor(1),width=40)
         verbose_msg.pack(pady=5)
-        uacb = Button(self,text="UAC Bypass",command=lambda: self.reg_editor(1),width=40)
+        w10rclkrestore = Button(self,text="Restore Windows 10 Right Click menu on Windows 11", command=lambda: self.reg_editor(2), width=40)
+        w10rclkrestore.pack(pady=5)
+        uacb = Button(self,text="UAC Bypass",command=lambda: self.uacbypass(),width=40)
         uacb.pack(pady=5)
         encsuite = Button(self,text="Encryption Suite",command=lambda: self.encryption(),width=40)
         encsuite.pack(pady=5)
@@ -1574,13 +1576,18 @@ class ToolsMenu(Frame):
         back.pack(pady=5) #it's a backpack!
     def reg_editor(self, command):
         if os.name != 'nt':
-            a = "The 'Windows Start Menu Internet Search Results Remover'" if command == 0 else "Verbose Boot Messages"
+            if command == 0:
+                a = "Start Menu Internet Search Results Remover"
+            elif command == 1:
+                a = "Verbose Boot and Login messages"
+            elif command == 2:
+                a = "Windows 10 Right-Click Menu Restorer"
             x = messagebox.showwarning("G-AIO",f'{a} is not compatible with your operating system. This program requires Microsoft Windows NT to operate.')
         if command == 0:
             try:
                 a = subprocess.run("reg add HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer /v DisableSearchBoxSuggestions /t REG_DWORD /d 1 /f", capture_output=True, shell=True)
                 if a.returncode == 0:
-                    x = messagebox.askyesno("G-AIO","The operation has completed successfully. For the changes to take effect, the Windows Explorer must be restarted and will take a few moments. Restart?",icon=messagebox.QUESTION)
+                    x = messagebox.askyesno("G-AIO","The operation has completed successfully. For the changes to take effect, the Windows Explorer must be restarted and will take a few moments (make sure that no file operations are in progress). Do you want to restart explorer?",icon=messagebox.QUESTION)
                     if x:
                         os.system('taskkill /f /im explorer.exe')
                         os.system('explorer')    
@@ -1590,14 +1597,24 @@ class ToolsMenu(Frame):
                 x = messagebox.showerror("G-AIO",f"Could not remove start menu search suggestions - process error.\nDetails: {e}")  
         elif command == 1:
             try:
-                a = subprocess.run("reg add HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer /v DisableSearchBoxSuggestions /t REG_DWORD /d 1 /f", capture_output=True, shell=True)
+                a = subprocess.run("reg add HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v VerboseStatus /t REG_DWORD /d 1 /f", capture_output=True, shell=True) #oops I forgot to do that
                 if a.returncode == 0:
-                    x = messagebox.askyesno("G-AIO","The operation has completed successfully. You will see the changes once you log out, restart, shut down or turn on the computer.")
+                    x = messagebox.showinfo("G-AIO","The operation has completed successfully. You will see the changes once you log out, restart, shut down or turn on the computer.")
 
                 else:
                     x = messagebox.showerror("G-AIO",f"Could not enable Verbose Boot Messages - command error\nDetails: {a.stderr}\nOutput: {a.stdout}")   
             except (subprocess.CalledProcessError, Exception) as e:
-                x = messagebox.showerror("G-AIO",f"Could enable Verbose Boot Messages - process error.\nDetails: {e}")             
+                x = messagebox.showerror("G-AIO",f"Could not enable Verbose Boot Messages - process error.\nDetails: {e}")    
+        elif command == 2:
+            try:
+                a = subprocess.run('reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve', capture_output=True, shell=True) #oops I forgot to do that
+                if a.returncode == 0:
+                    x = messagebox.showinfo("G-AIO","The operation has completed successfully. The effects should appear immediately, but if they do not, try restarting your computer.")
+
+                else:
+                    x = messagebox.showerror("G-AIO",f"Could not restore Windows 10 right-click menu - command error\nDetails: {a.stderr}\nOutput: {a.stdout}")   
+            except (subprocess.CalledProcessError, Exception) as e:
+                x = messagebox.showerror("G-AIO",f"Could not restore Windows 10 right-click menu - process error.\nDetails: {e}")             
     def dm(self):
         #x = messagebox.showwarning("G-AIO","The disk manager is not fully operational nor stable.\n\nBy continuing, you acknowledge that you are responsible for all actions and that the developers are not liable for any damages, as said in the GitHub GamerSoft24/Software repository licenses and warranty agreements.")
         self.controller.show_frame(Diskpart)
