@@ -23,7 +23,7 @@ try:
             except FileNotFoundError as e:
                 x = messagebox.showerror("GUI Text Editor",f"The file that you specified is not valid. Make sure the file exists and that you typed it correctly.\nError Code: 6510B\nDetails: {e}")
             except PermissionError as e:
-                x = messagebox.showerror("GUI Text Editor",f"Access violation in file. Make sure you can use the file, then try again.\nError Code: 0211\nDetails: {e}")
+                x = messagebox.showerror("GUI Text Editor",f"Access violation in file. Make sure you can use the file, then try again.\nError Code: 6510C\nDetails: {e}")
             except Exception as e:
                 x = messagebox.showerror("GUI Text Editor",f"Unhandled Exception 0x0000024066EF3E20 has occured in this program. Review the GitHub GamerSoft24/Software PySoft error chart and the Python manual for more info.\nError Code: 770A\nDetails: {e}")
     def save_file():
@@ -43,7 +43,7 @@ try:
         except FileNotFoundError as e:
             x = messagebox.showerror("GUI Text Editor",f"The file that you specified is not valid. Make sure the file exists and that you typed it correctly.\nError Code: 6510B\nDetails: {e}")
         except PermissionError as e:
-            x = messagebox.showerror("GUI Text Editor",f"Access violation in file. Make sure you can use the file, then try again.\nError Code: 0211\nDetails: {e}")
+            x = messagebox.showerror("GUI Text Editor",f"Access violation in file. Make sure you can use the file, then try again.\nError Code: 6510C\nDetails: {e}")
         except Exception as e:
             x = messagebox.showerror("GUI Text Editor",f"Unhandled Exception 0x0000024066EF3E20 has occured in this program. Review the GitHub GamerSoft24/Software PySoft error chart and the Python manual for more info.\nError Code: 770A\nDetails: {e}")
 
@@ -116,4 +116,5 @@ try:
     root.mainloop()
 except Exception as e:
     x = messagebox.showerror("GUI Text Editor",f"Unhandled Exception 0x0000024066EF3E20 has occured in this program. Review the GitHub GamerSoft24/Software PySoft error chart and the Python manual for more info.\nError Code: 770A\nDetails: {e}")
+
 
