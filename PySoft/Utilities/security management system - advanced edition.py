@@ -1,4 +1,7 @@
+import os
+CWD = os.getcwd()
 def start():
+    global CWD
     try:
         import random,time,os, pyperclip, hashlib
         from cryptography.fernet import Fernet
@@ -43,7 +46,7 @@ def start():
                 option = int(input("Select option: "))
                 if option == 1:
                     print("")
-                    input("Specifications/informations about this program: ")
+                    print("Specifications/informations about this program: ")
                     print("")
                     print("-> Program name: THE SECURITY MANAGEMENT SYSTEM (SMS) - Advanced Edition.")
                     print("-> Manufacturers: GamerSoft24 and Okmeque1/GamerSoft24.")
@@ -209,6 +212,7 @@ def start():
                                 print(f"Succesfully detected and set {CWD}\\pwd_openscs.pwd as the default password saving file")
                             else:
                                 os.chdir(directory)
+                                CWD = os.getcwd()
                                 filedefaultdownload = open(f"{directory}\\pwd_openscs.pwd","w")
                                 filedefaultdownload.close()
                                 print("")
@@ -227,7 +231,7 @@ def start():
                             pwd_manager = True                    
                     while pwd_manager:
                         clear()
-                        print("MENU: ")
+                        print("PASSWORD MANAGER SYSTEM MENU: ")
                         print("=======================================")
                         print("1 -> Add and generate password to a save file.")
                         print("2 -> Show a password from a save file.")
@@ -245,7 +249,7 @@ def start():
                             print("")
                             print('Welcome to your password generator! (learn more with option 4).')
         
-                            chars = '`1!23£4$€5%6^7&8*9(0-_=+q"~{[]}=+QwWeErRtTyYuUiIoOpPaAsSdDfFgGhHjJkKlL;:@~^%#\|zéèàZxXcCvVbBnNmMm,<.>/?)'
+                            chars = '`1!23£4$€5%6^7&8*9(0-_=+q"~{[]}=+QwWeErRtTyYuUiIoOpPaAsSdDfFgGhHjJkKlL;:@~^%#\\|zéèàZxXcCvVbBnNmMm,<.>/?)'
         
                             number = 1 # amount of passwords to generate
                             length = input('Password length: ')
@@ -362,7 +366,7 @@ def start():
                             clear()
                             print("Compatibility of this program: ")
                             print("")
-                            print("This program will run perfectly on Python for Windows but could also run on macOS, Linux and potentially other systems. The filepath format will vary as neither of those operating systems use drive letters: 'C:\...\Password Manager System\pwd' like Windows OS. The structure for those OS will be some variations of the following: ")
+                            print("This program will run perfectly on Python for Windows but could also run on macOS, Linux and potentially other systems. The filepath format will vary as neither of those operating systems use drive letters: 'C:\\...\\Password Manager System\\pwd' like Windows OS. The structure for those OS will be some variations of the following: ")
                             print("")
                             print("1 -> macOS : The file structure may be: '/path/path1/Password Manager System/pwd.*'")
                             print("2 -> Linux: The file structure is unclear as there are so many Linux distros and versions possible to download but the structure may be: '/home/folder/pwd.*' (this is an example folder).")
@@ -390,11 +394,11 @@ def start():
                                 for a in range(len(r1)):
                                     changepwd.writelines(r1[a])
                             print("Save completed with no disk errors. Returning to main menu...")
-                        elif option == 5:
-                            print("Please be aware that due to the mixing logic of this program, the amount of a type of character may not be exact.\n© Okmeque1 Software")
+                        elif optionpwd_manager == 6:
+                            #print("Please be aware that due to the mixing logic of this program, the amount of a type of character may not be exact.\n© Okmeque1 Software")
                             end = ""
                             passwd = ""
-                            spc = '¦¬`!£$€%^&*()-_=+;:@~#\|,<.>/?'
+                            spc = '¦¬`!£$€%^&*()-_=+;:@~#\\|,<.>/?'
                             num = "1234657890"
                             ch = "qQwWeErRtTyYuUiIoOpPaAsSdDfFgGhHjJkKlLzZxXcCvVbBnNmMm"
                             spcs = ""
@@ -413,8 +417,8 @@ def start():
                             end += spcs + nums + chs
                             order = [_ for _ in range(len(end))]
                             shuffled = random.shuffle(order)
-                            for x in range(len(shuffled)):
-                                passwd += end[shuffled]
+                            for x in range(len(order)):
+                                passwd += end[order[x]]
                             pyperclip.copy(passwd)
                             if parameter.upper() == "Y":
                                 print(passwd)
@@ -435,7 +439,7 @@ def start():
                             print("Now returning to the main menu")
                         elif optionpwd_manager == 7:
                             cyrillic_character_set = "АаВеЕЗМоНОРрСсТуХхЈјҮԁԌԚԛԜԝ"
-                            standard_chars = '¦¬`1!23#4$5%6^7&8*9(0-_=+q"~{[]}=+QwWeErRtTyYuUiIoOpPaAsSdDfFgGhHjJkKlL;:@~^%#\|zZxXcCvVbBnNmMm,<.>/?)'
+                            standard_chars = '¦¬`1!23#4$5%6^7&8*9(0-_=+q"~{[]}=+QwWeErRtTyYuUiIoOpPaAsSdDfFgGhHjJkKlL;:@~^%#\\|zZxXcCvVbBnNmMm,<.>/?)'
                             chars = [cyrillic_character_set, standard_chars]
                             length = int(input("Please enter your password length: "))
                             parameter = input("By default, the password is copied to the clipboard for security purposes. Do you wish to see the password in this program once generated (not recommended for security)? [Y/N]: ")
@@ -576,8 +580,12 @@ def start():
         print(f"Error: 0272\nA device on your system has either malfunctioned or has been unplugged, or a file operation has failed. The operating system will now forcibly close the program.\nDetails: {e}")
         input("Press enter to exit...")
         exit()
+    except ModuleNotFoundError as e:
+        print(f"Error: 1002/0199\nModule required is not installed. Make sure all dependencies are correctly installed as per the GitHub GamerSoft24/Software PySoft requirements.txt and try again.\nDetails: {e}")
+        input("Press enter to exit...")
+        exit()
     except Exception as e:
         print(f"Error: {e}\nPlease review the Error Chart of the GamerSoft24/Software repository, as well as the Python Manual for more information and a solution for this error.")
         input("Press enter to restart the program. Note that you have lost any data that the last operation did")
         start()
-        
+start()
