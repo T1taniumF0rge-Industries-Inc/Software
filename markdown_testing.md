@@ -116,3 +116,14 @@ Copyrights are visible in the file attributes, which can be viewed in Windows Ex
 > [!TIP]
 >
 > MartinOS might be coming to this repository soon in the form of a Python File
+
+
+> [!TIP]
+> Green Light: go straight ahead making sure you don't exceed the speed limit
+
+> [!WARNING]
+> Yellow Light: stop if you can, otherwise go ahead. In some jurisdictions, if you had the opportunity to stop and you didn't, you may receive a ticket
+>
+
+> [!CAUTION]
+> Red Light: Stop no matter what unless you can go in one direction (red for all directions except right). If you run a red light, why are you even driving?
