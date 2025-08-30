@@ -71,6 +71,7 @@ def start():
                         print("")
                         print("***** | THE FILE AND DATA ENCRYPTION SYSTEM | *****")
                         print("Program version: 1")
+                        print("The 'Software' team will NOT be liable for any damages that result from the use of this program.")
                         print("") 
                         print("MENU: ")
                         print("=======================================")
