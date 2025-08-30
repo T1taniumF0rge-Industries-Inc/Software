@@ -71,3 +71,11 @@ For a permanent solution, it is recommended to find proper video drivers, failin
 ## Docker madness:
 
 If you install Docker Desktop on your Windows computer, and you get the error `Virtualization is not detected`, firstly make sure that you are running Windows Pro (and not Home, Enterprise, etc) because some features that Docker needs are blocked/not accessible in Home. Secondly make sure to check if virtualization is enabled (by any means, BIOS check, Task Manager CPU Performance Tab, VMWare with Windows ME, etc). If that's the case then go into `Turn Windows features on or off` by searching that in the start menu. Then enable any option that is Hyper-V and WSL (Windows Subsystem for Linux) as well as enabling Network Discovery in the Network tab in Windows Explorer, and just to make sure you should also enable a telnet client *for that one rogue docker program made in 2002*. After you did that make sure to update WSL to the latest version by doing `wsl --update`, and then you just have to restart the computer and Docker will magically work. (And yes I know I hate docker too)
+
+## Basic Git Guide:
+
+- 1/ Clone this repository to any location using `git clone https://github.com/GamerSoft24/Software.git /c/GitHub` (you can replace `/c/GitHub` with any file path you want so long as it respects the format, which is /a/folder)
+- 2/ Do any changes you want so long as it follows the rules previously mentioned (re-cloning will be required if this is not respected)
+- 3/ Add the folder or file that you want. If you want to be lazy, you can add the entire folder (so if you changed `/c/GitHub/PySoft/Demos/Code\ Rain.py`, you can simply do `git add /c/GitHub`. Note that it will add any files in any directories starting from the directory that you specified)
+- 4/ Commit using a helpful commit message: `git commit -m "Code Rain: made the Code Rain even cooler"`
+- 5/ Push. You can do `git push` but I personally like using `git push --all` as it ensures that all files are properly commited to `Main`
