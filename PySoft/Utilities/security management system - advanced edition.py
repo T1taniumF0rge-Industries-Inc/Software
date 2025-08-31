@@ -204,7 +204,8 @@ while True:
                     elif defaultfileask.upper() == "N":
                             directory = input(f"Enter a valid directory name. If there is no file named 'pwd_openscs.pwd', a blank file will be created to that location, otherwise the program will automatically set that as the default. Leave blank to detect/create the file in current directory ({CWD}): ")
                             if not os.path.exists(directory):
-                                raise FileNotFoundError(f"Directory '{directory}' does not exist.")
+                                print(f"{directory} did not exist. Creating directory {directory}, please wait...")
+                                os.mkdir(directory)
                             if os.path.exists(f"{directory}\\pwd_openscs.pwd"):
                                 os.chdir(directory)
                                 CWD = os.getcwd()
