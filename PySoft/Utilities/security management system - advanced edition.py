@@ -1,7 +1,6 @@
 import os
 CWD = os.getcwd()
-def start():
-    global CWD
+while True:
     try:
         import random,time,os, pyperclip, hashlib
         from cryptography.fernet import Fernet
@@ -96,8 +95,8 @@ def start():
                                 input("Press enter to continue...")
                                 print()
                         elif optionfile_data_encryption == "2" or optionfile_data_encryption == "3":
-                            keyfilename = input("Please enter a valid Fernet key file (usually ending in '.frn'). The format must be full (all directories up to the root directory starting from your file) with the drive name included if the file in question is not in the same directory as the one this program is in ({CWD}). If this is not respected, this program will/could terminate with the main program without any warning: ")
-                            file_name = input("Please enter a valid file name path to perform the operation. The format must be full (all directories up to the root directory starting from your file) with the drive name included if the file in question is not in the same directory as the one this program is in ({CWD}). If this is not respected, this program will/could terminate with the main program without any warning: ")
+                            keyfilename = input(f"Please enter a valid Fernet key file (usually ending in '.frn'). The format must be full (all directories up to the root directory starting from your file) with the drive name included if the file in question is not in the same directory as the one this program is in ({CWD}). If this is not respected, this program will/could terminate with the main program without any warning: ")
+                            file_name = input(f"Please enter a valid file name path to perform the operation. The format must be full (all directories up to the root directory starting from your file) with the drive name included if the file in question is not in the same directory as the one this program is in ({CWD}). If this is not respected, this program will/could terminate with the main program without any warning: ")
                             with open(keyfilename,"rb") as encdeckey:
                                 key = encdeckey.read()
                             with open(file_name, "rb") as contents:
@@ -110,9 +109,9 @@ def start():
                             with open(file_name, "wb") as writing:
                                 writing.write(output)
                             print("")
-                            if option == "2":
+                            if optionfile_data_encryption == "2":
                                 print("Encrypted and saved data with no errors.")
-                            elif option == "3":
+                            elif optionfile_data_encryption == "3":
                                 print("Decryped and saved data with no errors")
                             print("")
                             input("Press enter to continue...")
@@ -557,11 +556,11 @@ def start():
     except FileExistsError as e:
         print(f"Error: 6510A\nAn existing file is conflicting with the selected file. Delete or rename the conflicting file or choose a different file name to save.\nDetails: {e}")
         input("Press enter to restart the program...")
-        start()
+        continue
     except FileNotFoundError as e:
         print(f"Error: 6510B\nThe file specified was not found. Please make sure you have the correct file and that the path is valid.\nDetails: {e}")
         input("Press enter to restart the program...")
-        start()
+        continue
     except OSError as e:
         print(f"Error: 0271\nOperating system error. Check your drive and program, as well as any files and try again.\nDetails: {e}")
         input("Press enter to exit...")
@@ -569,7 +568,7 @@ def start():
     except ValueError as e:
         print(f"Error: 0211\nYou have entered the wrong value. When asked for a value, please input the correct value that is demanded (e.g length = number.)\nDetails: {e}")
         input("Press enter to restart the program...")
-        start()
+        continue
     except KeyboardInterrupt:
         print("User has chosen to exit. Exiting...")
         exit()
@@ -587,5 +586,4 @@ def start():
     except Exception as e:
         print(f"Error: {e}\nPlease review the Error Chart of the GamerSoft24/Software repository, as well as the Python Manual for more information and a solution for this error.")
         input("Press enter to restart the program. Note that you have lost any data that the last operation did")
-        start()
-start()
+        continue
