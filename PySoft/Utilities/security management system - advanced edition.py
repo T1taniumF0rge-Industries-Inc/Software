@@ -192,7 +192,7 @@ while True:
                     print("")
                     print("When you are asked for a valid file name, please make sure that the directory is valid and for best compatibility and please make sure that any files that are specified exists.")
                     print("")
-                    prompt = "Do you have the default file: 'pwd_openscs.pwd'? [Y/N]: "
+                    prompt = "Do you have the default file: 'pwd_openscs.pwd' (if you are unsure, use 'N' at this prompt. Otherwise use 'S' to not configure a default file or Y if you have the file)? [Y/N]: "
                     if os.path.exists(f"{CWD}\\pwd_openscs.pwd"):
                         prompt = f"Do you want to use the default file: 'pwd_openscs.pwd' in this directory ({CWD})? [Y]es/[N]o, let me select a different default file/[S]kip default file configuration: "
                     defaultfileask = input(prompt)
@@ -202,9 +202,10 @@ while True:
                         print("")
                         pwd_manager = True
                     elif defaultfileask.upper() == "N":
-                            directory = input(f"Enter a valid directory name. If there is no file named 'pwd_openscs.pwd', a file will be downloaded to that location, otherwise the program will automatically set that as the default. Leave blank to detect/download the file in current directory ({CWD}): ")
+                            directory = input(f"Enter a valid directory name. If there is no file named 'pwd_openscs.pwd', a blank file will be created to that location, otherwise the program will automatically set that as the default. Leave blank to detect/create the file in current directory ({CWD}): ")
                             if not os.path.exists(directory):
-                                raise FileNotFoundError(f"Directory '{directory}' does not exist.")
+                                print(f"{directory} did not exist. Creating directory {directory}, please wait...")
+                                os.mkdir(directory)
                             if os.path.exists(f"{directory}\\pwd_openscs.pwd"):
                                 os.chdir(directory)
                                 CWD = os.getcwd()
@@ -215,10 +216,10 @@ while True:
                                 filedefaultdownload = open(f"{directory}\\pwd_openscs.pwd","w")
                                 filedefaultdownload.close()
                                 print("")
-                                print("Downloading default password file 'pwd_openscs.pwd'. Please wait...")
+                                print("Creating default password file 'pwd_openscs.pwd'. Please wait...")
                                 time.sleep(1)
                                 print("")
-                                print(f"The file that was just downloaded is called 'pwd_openscs.pwd' ({CWD}\\pwd_openscs.pwd) and it is used for default saving if no file name or set name are entered and and if this file is in the same directory as this program.")
+                                print(f"The file that was just created is called 'pwd_openscs.pwd' ({CWD}\\pwd_openscs.pwd) and it is used for default saving if no file name or set name are entered and and if this file is in the same directory as this program. \nTip: for any file prompts in this program, you can simply leave it blank and press ENTER and the program will automatically select this file.")
                             print("")
                             input("Press enter to continue...")
                             print("")
@@ -286,7 +287,7 @@ while True:
         
                         elif optionpwd_manager == 2:
                             print("")
-                            fileopen = input(f"Please enter a valid file name path. The format must be full (all directories up to the root directory starting from your file) with the drive name included if the file in question is not in the same directory as the one this program is in ({CWD}). If this is not respected, this program will/could terminate with the main program without any warning: ")
+                            fileopen = input(f"Please enter a valid file name path (leave blank and press enter to a default file of pwd_openscs.pwd in current directory {CWD}). The format must be full (all directories up to the root directory starting from your file) with the drive name included if the file in question is not in the same directory as the one this program is in ({CWD}). If this is not respected, this program will/could terminate with the main program without any warning: ")
                             if fileopen == "":
                                 passopen = open("pwd_openscs.pwd", "r")
                                 set1 = input("Please enter the set name for the desired password: ")
@@ -315,7 +316,7 @@ while True:
         
                         elif optionpwd_manager == 3:
                             print("")
-                            fileallopen = input(f"Please enter a valid file name path. The format must be full (all directories up to the root directory starting from your file) with the drive name included if the file in question is not in the same directory as the one this program is in ({CWD}). If this is not respected, this program will/could terminate with the main program without any warning: ")
+                            fileallopen = input(f"Please enter a valid file name path (leave blank and press enter to a default file of pwd_openscs.pwd in current directory {CWD}). The format must be full (all directories up to the root directory starting from your file) with the drive name included if the file in question is not in the same directory as the one this program is in ({CWD}). If this is not respected, this program will/could terminate with the main program without any warning: ")
                             if fileallopen == "":
                                 fileallopen = "pwd_openscs.pwd"
                                 passall0 = open(fileallopen,"r")
@@ -378,8 +379,8 @@ while True:
                             print("This password manager supports generating passwords with the certain characters from the Cyrillic alphabet, commonly used in Eastern Europe (Ukraine, Russia, Belarus, etc...). Using them in your passwords makes your passwords more secure as hackers do not generally target such characters, and they look identical to standard characters, however please note that these characters aren't universally adopted, and using them on an old site may cause crashes or compatability errors.")
                             input("\nPress enter to continue...")
                         elif optionpwd_manager == 5: 
-                            filedels = input(f"Please enter a valid file name path. The format must be full (all directories up to the root directory starting from your file) with the drive name included if the file in question is not in the same directory as the one this program is in ({CWD}). If this is not respected, this program will/could terminate with the main program without any warning: ")
-                            sets1 = input("Enter SET name to change : ")
+                            filedels = input(f"Please enter a valid file name path (leave blank and press enter to a default file of pwd_openscs.pwd in current directory {CWD}). The format must be full (all directories up to the root directory starting from your file) with the drive name included if the file in question is not in the same directory as the one this program is in ({CWD}). If this is not respected, this program will/could terminate with the main program without any warning: ")
+                            sets1 = input("Enter password (set) name to change : ")
             
                             with open(filedels,"r") as readpwd:
                                 r1 = readpwd.readlines()
@@ -425,12 +426,12 @@ while True:
                             filenam = input(f"Please enter a valid file name (leave blank and press enter to a default file of pwd_openscs.pwd in current directory {CWD}). If the file does not exist, the program will create it for you: ")
                             if filenam == "":
                                 filenam = "pwd_openscs.pwd"
-                                sets = input("Enter a set name for your password to continue this program.This will be used later to retrieve back the password.This program does NOT support having 2 sets of the same name.Entering a name that already exists will cause a conflict. : ")
+                                sets = input("Enter a password (set) name for your password to continue this program. This will be used later to retrieve back the password.This program does NOT support having 2 sets of the same name. Entering a name that already exists will cause a conflict. : ")
                                 passavee = open(filenam,"a")
                                 passavee.write(sets + " -> " + passwd + "\n")
                                 passavee.close()
                             else:
-                                sets = input("Enter a set name for your password to continue this program.This will be used later to retrieve back the password.This program does NOT support having 2 sets of the same name.Entering a name that already exists will cause a conflict. : ")
+                                sets = input("Enter a password (set) name for your password to continue this program. This will be used later to retrieve back the password.This program does NOT support having 2 sets of the same name. Entering a name that already exists will cause a conflict. : ")
                                 passavee = open(filenam,"a")
                                 passavee.write(sets + " -> " + passwd + "\n")
                                 passavee.close()
@@ -455,7 +456,7 @@ while True:
                             filename = input(f"Please enter a valid file name (leave blank and press enter to a default file of pwd_openscs.pwd in current directory {CWD}). If the file does not exist, the program will create it for you: ")
                             if filename == "":
                                 filename = "pwd_openscs.pwd"
-                            set0 = input("Enter a set name or nothing to continue. This program does not support having 2 sets of the same set name. Entering a set name that already exists will/could cause conflict. ")
+                            set0 = input("Enter a password (set) name to continue. This program does not support having 2 sets of the same set name. Entering a set name that already exists will/could cause conflict. ")
                             passave = open(filename, "a")
                             passave.write(set0 + " -> " + password)
                             passave.close()
