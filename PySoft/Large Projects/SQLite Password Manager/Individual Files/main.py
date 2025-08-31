@@ -12,7 +12,7 @@ def clear():
     else:
         os.system('clear')
 def main():
-    pwdmanager = pwdmgr.PasswordManager()
+    pwdmanager = pwdmgr.PasswordManager() #will initialise properly a new database in correct format if no database file is found or if the database file is empty
     while True:
         clear()
         print("*** DATABASE PASSWORD MANAGER ***")
