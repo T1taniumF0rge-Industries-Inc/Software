@@ -192,7 +192,7 @@ while True:
                     print("")
                     print("When you are asked for a valid file name, please make sure that the directory is valid and for best compatibility and please make sure that any files that are specified exists.")
                     print("")
-                    prompt = "Do you have the default file: 'pwd_openscs.pwd'? [Y/N]: "
+                    prompt = "Do you have the default file: 'pwd_openscs.pwd' (if you are unsure, use 'N' at this prompt. Otherwise use 'S' to not configure a default file or Y if you have the file)? [Y/N]: "
                     if os.path.exists(f"{CWD}\\pwd_openscs.pwd"):
                         prompt = f"Do you want to use the default file: 'pwd_openscs.pwd' in this directory ({CWD})? [Y]es/[N]o, let me select a different default file/[S]kip default file configuration: "
                     defaultfileask = input(prompt)
