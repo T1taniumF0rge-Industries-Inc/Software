@@ -561,6 +561,10 @@ while True:
         print(f"Error: 6510B\nThe file specified was not found. Please make sure you have the correct file and that the path is valid.\nDetails: {e}")
         input("Press enter to restart the program...")
         continue
+    except PermissionError as e:
+        print(f"Error: 6510C\nAccess violation in file. Make sure you have the proper permissions to use that resource and try again\nDetails: {e}")
+        input("Press enter to restart the program...")
+        continue
     except OSError as e:
         print(f"Error: 0271\nOperating system error. Check your drive and program, as well as any files and try again.\nDetails: {e}")
         input("Press enter to exit...")
