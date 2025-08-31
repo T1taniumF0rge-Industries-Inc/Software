@@ -576,7 +576,7 @@ while True:
     except KeyboardInterrupt:
         print("User has chosen to exit. Exiting...")
         exit()
-    except EOFError:
+    except EOFError: # Good enough right?
         print("User has chosen to exit. Exiting...")
         exit()
     except IOError as e:
