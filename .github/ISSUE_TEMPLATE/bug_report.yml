@@ -28,6 +28,14 @@ body:
       value: "A bug happened!"
     validations:
       required: true
+    - type: textarea
+    id: input-reproduction
+    attributes:
+      label: What inputs are required to reproduce this problem?
+      placeholder: Tell us what you entered to produce the problem!
+      value: "I entered something..."
+    validations:
+      required: true
   - type: dropdown
     id: browsers
     attributes:
