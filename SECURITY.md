@@ -36,7 +36,7 @@ elif optionpwd_manager == 7:
 ```
 However, our team at the `Software` repository have deemed these warnings an exaggeration, as in reality nobody is going to spy on your terminal, and stuff printed to the terminal can be easily deleted by just closing the terminal or clearing it. And for your information, we don't use logs because our programs aren't important enough that logs are required. More literal explanation is that for a password manager system like Security Management System, there really isn't another way to show the password to the user (nowadays we use pyperclip but only in SMS (security management system) advanced) However, some newer programs are updated to be more compliant security measures so it is recommended to always use the newest available programs for your needs.
 
-**This is a reminder that it is always important to protect your personal information through any means possible. This can be done with a number of methods, such as encrypting files, using strong passwords, storing files on USB drives that aren't plugged into any computers stored in a safe, etc. **
+**This is a reminder that it is always important to protect your personal information through any means possible. This can be done with a number of methods, such as encrypting files, using strong passwords, storing files on USB drives that aren't plugged into any computers stored in a safe, etc.**
 
 ## Pull requests:
 To consider *changing programs and codes* in this `Software` repository you have to **pull request first and wait for approval** which should be *reviewed* in the **maximum delay of ***7 days***** **unless** the repository is in inactive mode! The 'Pull requests' tab is located on the top left corner of your screen (on computer).
