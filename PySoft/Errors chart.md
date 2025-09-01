@@ -7,7 +7,10 @@
 
 **6510A FileExistsError:** A file that already exists is conflicting with the specified file name. Delete or rename the conflicting file, or specify a different file name.
 
-**6510B FileNotFoundError:** The program could not find the specified file. Make sure the spelling and format is correct or create the specified file and try again.
+**6510B FileNotFoundError:** The program could not find the specified file. Make sure the spelling and format is correct or create the specified file and try again. 
+
+> [!NOTE]
+> When a program asks for a file path, if the file in question is not in the same directory as the program (so if the file is in C:\GitHub\Projects\Data and the program is located in C:\Python), the format must be full (which includes the drive name and all folders up to the file). On Windows, the format is A:\directory\subdirectory\file.ext (note that A: can be any letter, like C:\, F:\, U:\, Z:\, and the .ext part can be any file extension you want). On other systems, it will go something like /home/python/data/data.ext (with the same file extension rules as Windows). A valid file and/or directory is a resource that exists and can be used.
 
 **0280 SyntaxError:** The program you got has an error or has been tampered with. Open an issue or a pull request if you can fix it.
 
@@ -23,7 +26,7 @@
 
 **0210/6510C PermissionError:** Access violation in file or the file is being used by another process. Check permissions and try again.
 
-**0250 EOFError:** Possible input fault or code has been tampered with. When ready to input command, press enter. Else contact support.  (note that most programs will not display errors and this can be used as an alternative method to exit, so if the program displays `User has chosen to exit. Exiting...`, it can be ignored.)
+**0250 EOFError:** Possible input fault or code has been tampered with. When ready to input command, press enter. Else contact support.  (note that most programs will not display errors and this can be used as an alternative method to exit (CTRL-Z + Enter or CTRL-D on inputs), so if the program displays `User has chosen to exit. Exiting...`, it can be ignored.)
 
 **0270 KeyboardInterrupt:** User has chosen to exit. No action is needed, and this can be ignored.
 
@@ -37,13 +40,13 @@
 
 **760F SystemError:** Bad Python interpreter. Reinstall Python and try again (you might have a broken hard drive).
 
-**765E MemoryError:** No more memory (consider upgrading your computer). Close all programs, then reboot and try again. If there's a bluescreen or it continues to fail, just go on Ali Express, Amazon or eBay while your PC is rebooting and buy some more RAM sticks. 
+**765E MemoryError:** No more memory (consider upgrading your computer). Close all programs, then reboot and try again. If there's a bluescreen or it continues to fail, just go on Ali Express, Amazon or eBay while your PC is rebooting and buy some more RAM sticks. (to replace RAM, make sure you power down your computer completely and unplug it from any power sources, such as the AC wall power or laptop battery) 
 
 **780F TimeOutError:** Operation took too long. Try again. (causes could be out of RAM, slow HDD or internet and more.)
 
-**770A GeneralException:** A general exception has occured, which means nothing and that a part of the program has had an exception. Try again and open an issue if problems persist.
+**770A BaseException:** A general exception has occured, which means nothing and that a part of the program has had an exception. Try again and open an issue if problems persist.
 
-**0261/0F0A:** Multiple errors have succeded at once, and since handlers can only handle 1 error, program crashes. Contact support.
+**0261/0F0A:** Multiple errors have succeded at once, and since handlers can only handle 1 error, program crashes. Contact support and/or use a more up-to-date program.
 
 **0190 KeyError:** Either bad key was specified for accessing a dictionary internally or bad value was inputted. Example:
 ```py
@@ -71,3 +74,4 @@ In this example, the `example[5]` piece of code fails because index 5 does not e
 **1E/21 urllib.error.URLError:** Like the Minecraft errors, this is a client-side error or server-side error. Errors like "An existing connection was forcibly closed by the remote host" indicate a server-side error. "Connection reset" means that the specified URL has been blocked by an administrator. Contact the owner of the site to resolve this issue
 
 **2124 NotImplementedError:** A feature is not implemented. Use alternative feature if possible.
+
