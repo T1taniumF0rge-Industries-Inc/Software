@@ -97,6 +97,7 @@ while True:
                         elif optionfile_data_encryption == "2" or optionfile_data_encryption == "3":
                             keyfilename = input(f"Please enter a valid Fernet key file (usually ending in '.frn'). The format must be full (all directories up to the root directory starting from your file) with the drive name included if the file in question is not in the same directory as the one this program is in ({CWD}). If this is not respected, this program will/could terminate with the main program without any warning: ")
                             file_name = input(f"Please enter a valid file name path to perform the operation. The format must be full (all directories up to the root directory starting from your file) with the drive name included if the file in question is not in the same directory as the one this program is in ({CWD}). If this is not respected, this program will/could terminate with the main program without any warning: ")
+                            print("\nOperation is starting. This may take several minutes depending on the size of your file.\n")
                             with open(keyfilename,"rb") as encdeckey:
                                 key = encdeckey.read()
                             with open(file_name, "rb") as contents:
@@ -118,7 +119,7 @@ while True:
                             print()
                         elif optionfile_data_encryption == "4":
                             prehash = input("Enter text to hash: ").encode('utf-8')
-                            print("Available Hashing Algorithms (MDA, SHA1 and SHA(3)224 not included as they are outdated and insecure):")
+                            print("Available Hashing Algorithms (MDA, SHA1 and SHA224/SHA3-224 not included as they are outdated and insecure):")
                             print("[1] SHA256 (most common)")
                             print("[2] SHA384")
                             print("[3] SHA512 (second most common)")
@@ -130,6 +131,7 @@ while True:
                             print("[9] BLAKE2B")
                             print("[10] BLAKE2S")
                             optionhashalg = input("Select hashing algorithm: ")
+                            print("Hashing text, please wait...")
                             if optionhashalg == '1':
                                 output = hashlib.sha256(prehash).hexdigest()
                             elif optionhashalg == '2':
@@ -192,9 +194,9 @@ while True:
                     print("")
                     print("When you are asked for a valid file name, please make sure that the directory is valid and for best compatibility and please make sure that any files that are specified exists.")
                     print("")
-                    prompt = "Do you have the default file: 'pwd_openscs.pwd' (if you are unsure, use 'N' at this prompt. Otherwise use 'S' to not configure a default file or Y if you have the file)? [Y/N]: "
+                    prompt = "Do you have the default file: 'pwd_openscs.pwd' (if you are unsure, use 'N' at this prompt. Otherwise use 'S' to not configure a default file or Y if you have the file)? [Y/N/S]: "
                     if os.path.exists(f"{CWD}\\pwd_openscs.pwd"):
-                        prompt = f"Do you want to use the default file: 'pwd_openscs.pwd' in this directory ({CWD})? [Y]es/[N]o, let me select a different default file/[S]kip default file configuration: "
+                        prompt = f"Do you want to use the default file: 'pwd_openscs.pwd' in this directory ({CWD})? [Y]es/[N]o, let me select a different default file in a different directory/[S]kip default file configuration: "
                     defaultfileask = input(prompt)
                     if defaultfileask.upper() == "Y":
                         print("")
@@ -241,7 +243,7 @@ while True:
                         print("6 -> Advanced Password Generator.")
                         print("7 -> Password generator based on the Cyrillic character set (learn more with option 4).")
                         print("8 -> Quit to main menu.")
-                        print("Quick Tip: it is highly recommended to encrypt the save file when you are done using this program using the FILE AND DATA ENCRYPTION SYSTEM at the main menu.")
+                        print("Quick Tip: It is highly recommended to encrypt the password save file when you are done using this program using the FILE AND DATA ENCRYPTION SYSTEM at the main menu. If you do this, it protects your passwords and personal data, as well as giving you peace of mind that your data can't be exposed by hackers.")
                         print("")
                         optionpwd_manager = int(input("Select option : "))
                         if optionpwd_manager == 1:
@@ -465,6 +467,7 @@ while True:
                             print("Saving data to main program. Please wait...")
                             time.sleep(1)
                             print("")
+                            print("It is highly recommended to encrypt the password save file when you are done using this program using the FILE AND DATA ENCRYPTION SYSTEM at the main menu. If you do this, it protects your passwords and personal data, as well as giving you peace of mind that your data can't be exposed by hackers.")
                             input("Press enter to continue...")
                             print("")
                             pwd_manager = False
