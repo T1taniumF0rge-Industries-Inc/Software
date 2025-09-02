@@ -467,7 +467,7 @@ while True:
                             print("")
                             pyperclip.copy(password)
                             if parameter.upper() == "Y":
-                                print(password)
+                                print(pwd)
                             print("The password has been copied to the clipboard for security purposes.")
                             print("")
                             print('Password generated! Now saving...')
@@ -476,7 +476,7 @@ while True:
                                 filename = "pwd_openscs.pwd"
                             set0 = input("Enter a password (set) name to continue. This program does not support having 2 sets of the same set name. Entering a set name that already exists will/could cause conflict. ")
                             passave = open(filename, "a")
-                            passave.write(set0 + " -> " + password)
+                            passave.write(set0 + " -> " + pwd)
                             passave.close()
                             print("")
                             print("Save has completed with no disk errors.")
