@@ -58,7 +58,7 @@ elif optionpwd_manager == 7:
   print('Password generated! Now saving...')
   filename = input("Please enter a valid file name (leave blank to a default file of pwd_openscs.pwd). If the file does not
 ```
-However, our team at the `Software` repository have deemed these warnings an exaggeration, as in reality nobody is going to spy on your terminal, and stuff printed to the terminal can be easily deleted by just closing the terminal or clearing it. And for your information, we don't use logs because our programs aren't important enough that logs are required. However, some newer programs are updated to be more compliant security measures so it is recommended to always use the newest available programs for your needs.
+However, our team at the `Software` repository have deemed these warnings an exaggeration, as in reality nobody is going to spy on your terminal, and stuff printed to the terminal can be easily deleted by just closing the terminal or clearing it. And for your information, we don't use logs because our programs aren't important enough that logs are required. More literal explanation is that for a password manager system like Security Management System, there really isn't another way to show the password to the user (nowadays we use pyperclip but only in SMS (security management system) advanced) However, some newer programs are updated to be more compliant security measures so it is recommended to always use the newest available programs for your needs.
 
 ### Where do I find the programs?
 
