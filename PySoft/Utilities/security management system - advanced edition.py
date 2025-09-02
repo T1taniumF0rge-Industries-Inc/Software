@@ -13,7 +13,7 @@ while True:
         CWD = os.getcwd()
         clear()
         print("***** | THE SECURITY MANAGEMENT SYSTEM ADVANCED EDITION | *****")
-        print("Program version: 6")
+        print("Program version: 6.01")
         print("")
         print("This program and all programs within are open source programs, meaning you can see their working code as well as copy it as per the GitHub GamerSoft24/Software repository License (BSD-3) as well as mention the developers, GamerSoft24, Okmeque1 and GmaerSoft42.")
         print("\nIf you are a new user to this program, it is recommended to select options 1 & 2 at the main menu to see extra informations about this program.")
@@ -86,7 +86,7 @@ while True:
                         optionfile_data_encryption = input("Select option: ")
                         if optionfile_data_encryption == "1":
                             key = Fernet.generate_key()
-                            keyfilename = input("Please enter a valid file name to save your encryption key. Make sure the file is empty. If the file does not exist, the program will create it for you (for best compatibility, your file should end in '.frn'): ")
+                            keyfilename = input("Please enter a valid file name to save your encryption key. Make sure the file is empty. If the file does not exist, the program will create it for you (for best compatibility, your file should end in '.frn' as it is the default format for Fernet key files for any programs in the PySoft folder): ")
                             with open(keyfilename, "wb") as keywrite:
                                 keywrite.write(key)
                                 print("")
@@ -204,10 +204,19 @@ while True:
                         print("")
                         pwd_manager = True
                     elif defaultfileask.upper() == "N":
-                            directory = input(f"Enter a valid directory name. If there is no file named 'pwd_openscs.pwd', a blank file will be created to that location, otherwise the program will automatically set that as the default. Leave blank to detect/create the file in current directory ({CWD}): ")
-                            if not os.path.exists(directory):
-                                print(f"{directory} did not exist. Creating directory {directory}, please wait...")
-                                os.mkdir(directory)
+                            directory_successful = False
+                            while directory_successful is False:
+                                directory = input(f"Enter a valid directory name. If there is no file named 'pwd_openscs.pwd', a blank file will be created to that location, otherwise the program will automatically set that as the default. Leave blank to detect/create the file in current directory ({CWD}): ")
+                                if not os.path.exists(directory):
+                                    createdirectory = input(f"{directory} does not exist. Do you want to create it? [Y]es/[N]o, let me choose a different directory/[E]xit to main menu: ")
+                                    if createdirectory.upper() == "Y":
+                                        os.mkdir(directory)
+                                    elif createdirectory.upper() == "N":
+                                        pass
+                                    else:
+                                        raise NotImplementedError # Will be caught later, just a stopgap to make the program restart. 
+                                if os.path.exists(directory):
+                                    directory_successful = True
                             if os.path.exists(f"{directory}\\pwd_openscs.pwd"):
                                 os.chdir(directory)
                                 CWD = os.getcwd()
@@ -292,7 +301,7 @@ while True:
                             fileopen = input(f"Please enter a valid file name path (leave blank and press enter to a default file of pwd_openscs.pwd in current directory {CWD}). The format must be full (all directories up to the root directory starting from your file) with the drive name included if the file in question is not in the same directory as the one this program is in ({CWD}). If this is not respected, this program will/could terminate with the main program without any warning: ")
                             if fileopen == "":
                                 passopen = open("pwd_openscs.pwd", "r")
-                                set1 = input("Please enter the set name for the desired password: ")
+                                set1 = input("Please enter the password (set) name for the desired password: ")
                                 print("")
                                 print("Here is the password for this set name:")
                                 print("")
@@ -305,7 +314,7 @@ while True:
         
                             else:
                                 passopen = open(fileopen, "r")
-                                set1 = input("Please enter the set name for the desired password: ")
+                                set1 = input("Please enter the password (set) name for the desired password: ")
                                 print("")
                                 print("Here is the password for this set name:")
                                 print("")
@@ -395,7 +404,11 @@ while True:
                             with open(filedels,"w") as changepwd:
                                 for a in range(len(r1)):
                                     changepwd.writelines(r1[a])
-                            print("Save completed with no disk errors. Returning to main menu...")
+                                print("")
+                                print("Save has completed with no disk errors.")
+                                print("")
+                                input("Press enter to continue...")
+                                print()
                         elif optionpwd_manager == 6:
                             #print("Please be aware that due to the mixing logic of this program, the amount of a type of character may not be exact.\n© Okmeque1 Software")
                             end = ""
@@ -406,9 +419,9 @@ while True:
                             spcs = ""
                             nums = ""
                             chs = ""
-                            spcn = int(input("Enter special character count : "))
-                            numn = int(input("Enter number count : "))
-                            chn = int(input("Enter standard character count : "))
+                            spcn = int(input("Enter special character count ($, %, *, etc) : "))
+                            numn = int(input("Enter number count (0-9) : "))
+                            chn = int(input("Enter standard character count (A-Z) : "))
                             parameter = input("By default, the password is copied to the clipboard for security purposes. Do you wish to see the password in this program once generated (not recommended for security)? [Y/N]: ")
                             for p in range(spcn):
                                 spcs += random.choice(spc)
@@ -437,8 +450,11 @@ while True:
                                 passavee = open(filenam,"a")
                                 passavee.write(sets + " -> " + passwd + "\n")
                                 passavee.close()
-                            print("Save has completed with no disk errors.")
-                            print("Now returning to the main menu")
+                                print("")
+                                print("Save has completed with no disk errors.")
+                                print("")
+                                input("Press enter to continue...")
+                                print()
                         elif optionpwd_manager == 7:
                             cyrillic_character_set = "АаВеЕЗМоНОРрСсТуХхЈјҮԁԌԚԛԜԝ"
                             standard_chars = '¦¬`1!23#4$5%6^7&8*9(0-_=+q"~{[]}=+QwWeErRtTyYuUiIoOpPaAsSdDfFgGhHjJkKlL;:@~^%#\\|zZxXcCvVbBnNmMm,<.>/?)'
@@ -462,6 +478,11 @@ while True:
                             passave = open(filename, "a")
                             passave.write(set0 + " -> " + password)
                             passave.close()
+                            print("")
+                            print("Save has completed with no disk errors.")
+                            print("")
+                            input("Press enter to continue...")
+                            print()
                         elif optionpwd_manager == 8:
                             print("")
                             print("Saving data to main program. Please wait...")
@@ -556,7 +577,8 @@ while True:
             input("Press enter to start main program.")
             print()
             sms_main()
-
+    except NotImplementedError: #simple bugfix to force return to main menu
+        continue
     except FileExistsError as e:
         print(f"Error: 6510A\nAn existing file is conflicting with the selected file. Delete or rename the conflicting file or choose a different file name to save.\nDetails: {e}")
         input("Press enter to restart the program...")
