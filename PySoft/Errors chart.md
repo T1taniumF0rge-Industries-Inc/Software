@@ -16,6 +16,8 @@
 
 **0281 Exception:** The program you got has an error or has been tampered with. Open an issue or a pull request if you can fix it.
 
+**0283 IsADirectoryError:** Path specified is a directory and not a file. Make sure you spelled the name of the resource correctly and that it is a file, not a directory.
+
 **0211 ValueError:** You have entered an incorrect value (e.g "abc" when asked for a number) or the program you got has an error or an unspecified error with file has bad permissions. Make sure that you have entered the correct values for what was asked (e.g 5 when asked for number) otherwise check permissions and try again, else contact support.
 
 **0271 OSError:** Operating system error. Check your system drive and program, as well as any files that were in use and try again.
