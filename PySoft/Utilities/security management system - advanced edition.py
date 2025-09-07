@@ -18,6 +18,7 @@ while True:
         print("")
         print("This program and all programs within are open source programs, meaning you can see their working code as well as copy it as per the GitHub GamerSoft24/Software repository License (BSD-3) as well as mention the developers, GamerSoft24, Okmeque1 and GmaerSoft42.")
         print("\nIf you are a new user to this program, it is recommended to select options 1 & 2 at the main menu to see extra informations about this program.")
+        print("Contains ERROR HANDLING and INPUT VALIDATION SYSTEM™ Technology")
         print("")
         exit_code_not_choosen = str(random.randint(108476, 907384))
         exit_code_choosen = ''
