@@ -525,7 +525,11 @@ Ain't no way I'm doing it for every version. Just go into the folder with your d
 
 1 -> [Roblox:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Roblox/RobloxPlayerInstaller.exe) Okmeque1 kind of hates this installer and thinks that the error messages are awful. If any Roblox Devs come across this, at least use the [Error chart](https://github.com/GamerSoft24/Software/blob/Main/Errors%20chart.md) or some form of error code as troubleshooting is way too hard.
 
-Side Note: why are you even playing this in 2025? You know that [Schlep](https://www.youtube.com/@RealSchlep) got banned for no reason? You should check him out and stop givinng your money to these faceless corporations. If you think I'm lying, check the recent media around Schlep as well as the -12BN stock plunge for the Roblox Corporation. 
+Side Note: why are you even playing this in 2025? You know that [Schlep](https://www.youtube.com/@RealSchlep) got banned for no reason? You should check him out and stop givinng your money to these faceless corporations. If you think I'm lying, check the recent media (by the time I go back to this file in 2036, this will be outdated, but around the Mid-august 2025 did this entire thing start) around Schlep as well as the -12BN stock plunge for the Roblox Corporation. And if you watch Schlep and like his videos, you should consider watching [Omma](https://www.youtube.com/@Omma)...
+
+# Free Schlep
+
+The `InstallerSoft Windows` part of the `Programs.md` file will continue beneath.
 
 [**Steam:**](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Steam)
 
@@ -633,11 +637,16 @@ All versions of the WinImage program from this repository are x86 compatible.
 
 1 -> [Roblox:](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/macOS/Roblox/Roblox.dmg) Okmeque1 kind of hates this installer and thinks that the error messages are awful. If any Roblox Devs come across this, at least use the [Error chart](https://github.com/GamerSoft24/Software/blob/Main/Errors%20chart.md) or some form of error code as troubleshooting is way too hard.
 
-Side Note: why are you even playing this in 2025? You know that [Schlep](https://www.youtube.com/@RealSchlep) got banned for no reason? You should check him out and stop givinng your money to these faceless corporations. If you think I'm lying, check the recent media around Schlep as well as the -12BN stock plunge for the Roblox Corporation.
+Side Note: why are you even playing this in 2025? You know that [Schlep](https://www.youtube.com/@RealSchlep) got banned for no reason? You should check him out and stop givinng your money to these faceless corporations. If you think I'm lying, check the recent media (by the time I go back to this file in 2036, this will be outdated, but around the Mid-august 2025 did this entire thing start) around Schlep as well as the -12BN stock plunge for the Roblox Corporation. And if you watch Schlep and like his videos, you should consider watching [Omma](https://www.youtube.com/@Omma)...
+
+# Free Schlep
+
+The `InstallerSoft Mac OS` part of the `Programs.md` file will continue beneath.
 
 [**VLC:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/macOS/VLC%20Media%20Player)
 
 1 -> [VLC Media Player:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/macOS/VLC%20Media%20Player) The video player we all know and love, from VideoLan, but for macOS.
+
 
 
 
