@@ -113,6 +113,8 @@ PictureSoft is excluded as there are too many files and they all represent a sim
 
 11 -> [SMS Advanced (security management system - advanced edition.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Utilities/security%20management%20system%20-%20advanced%20edition.py) The SMS but with more robust error handling, more power-user UI and has proper Fernet (high-grade) encryption! The SMS for 2025 needs.
 
+12 -> [iPCMD Extended (iPCMD - Extended Edition.py):](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Utilities/iPCMD%20-%20Extended%20Edition.py) some cool new features such as slightly better error handling, as well as a new prompt system compatible with the old prompt system. Mostly cosmetic but up to you!
+
 ### [Large Projects:](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Large%20Projects/)
 
 1 -> [SQLite Password Manager:](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Large%20Projects/SQLite%20Password%20Manager) A simple password manager that uses SQLite 3 to store passwords, while also supporting Fernet encryptions. Read the README for more info...
@@ -646,6 +648,7 @@ The `InstallerSoft Mac OS` part of the `Programs.md` file will continue beneath.
 [**VLC:**](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/macOS/VLC%20Media%20Player)
 
 1 -> [VLC Media Player:](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/macOS/VLC%20Media%20Player) The video player we all know and love, from VideoLan, but for macOS.
+
 
 
 
