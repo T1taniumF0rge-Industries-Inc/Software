@@ -76,7 +76,7 @@ def ipcmd():
                 print('')
                 input("Press enter to continue...")
                 continue
-            except (KeyboardInterrupt, EOFError, SyntaxError):
+            except (KeyboardInterrupt, EOFError, SystemExit):
                 print("User has chosen to exit. Exiting...")
                 exit()
             except IOError as e:
