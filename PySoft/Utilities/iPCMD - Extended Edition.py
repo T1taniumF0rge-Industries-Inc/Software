@@ -79,7 +79,7 @@ def ipcmd():
             except (KeyboardInterrupt, EOFError, SyntaxError):
                 print("User has chosen to exit. Exiting...")
                 exit()
-            except IOError:
+            except IOError as e:
                 print("Error: I/O error. A device on your system has either malfunctioned or has been unplugged or a file operation has failed. Make sure that any hardware connected to the computer is functioning and is correctly attached to the computer (like a USB drive plugged in all the way) and that you use Safe Eject when removing devices from the computer.")
                 print(f"Details: {e}, error code 0272")
                 print('')
