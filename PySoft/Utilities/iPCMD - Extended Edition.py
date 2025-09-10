@@ -24,7 +24,7 @@ def ipcmd():
                         print(ver)
                         print(ver1)
                         print('')
-                    elif 'cd' in prompt1[0:3]:
+                    elif 'cd ' in prompt1[0:3]:
                         os.chdir(prompt1[3:])
                         print('')
                     elif prompt1 == 'dsc':

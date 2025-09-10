@@ -175,7 +175,7 @@ class FileManager(Frame):
         threading.Thread(target=self.cmd, args=(syscmd,)).start()
     def cmd(self, param):
         try:
-            information = subprocess.run(param, capture_output=True, shell=True)
+            information = subprocess.run(param, capture_output=True, shell=True, text=True)
             if information.returncode == 0:
                 self.out.insert(END, information.stdout)
             else:
@@ -332,7 +332,7 @@ class WinAIO(Frame):
             if x:
                 try:
                     directory = filedialog.askdirectory()
-                    a = subprocess.run(f'copy /Y "{os.path.abspath(__file__)}" "{directory}"', capture_output=True, shell=True)
+                    a = subprocess.run(f'copy /Y "{os.path.abspath(__file__)}" "{directory}"', capture_output=True, shell=True, text=True)
                     if a.returncode == 0:
                         os.chdir(directory)
                         os.system(f'start "" {os.path.basename(__file__)} --rd')
@@ -347,7 +347,7 @@ class WinAIO(Frame):
                 return
         else:
             try:
-                a = subprocess.run("rd /q /s C:\\WinAIO", shell=True, capture_output=True)
+                a = subprocess.run("rd /q /s C:\\WinAIO", shell=True, capture_output=True, text=True)
                 if a.returncode == 0:
                     x = messagebox.showinfo("WinAIO Removal","Removal of C:\\WinAIO successful.")
                     return
@@ -371,7 +371,7 @@ class WinAIO(Frame):
             a = messagebox.askyesno("WinAIO Setup","Setup will override the default Windows menu that you may be used to and replace it with this program. The developers of this program are in no way, shape or form liable for any data loss that occurs, to the extent of the LICENSE and warranty agreements in the GitHub GamerSoft24/Software repository.\nDo you with to continue?",icon=messagebox.WARNING)
             if a:
                 try:
-                    a = subprocess.run("md C:\\WinAIO", shell=True, capture_output=True)
+                    a = subprocess.run("md C:\\WinAIO", shell=True, capture_output=True, text=True)
                     if a.returncode == 0:
                         try:
                             with open("C:\\Windows\\py.exe","r") as detect:
@@ -486,7 +486,7 @@ class Diskpart(Frame): #G-AIO to SATA, lose all your DATA
                     formatstr += "/P:0"
             try:
                     os.chdir(self.new_directory)
-                    information = subprocess.run(f'{formatstr}', capture_output=True, shell=True)
+                    information = subprocess.run(f'{formatstr}', capture_output=True, shell=True, text=True)
                     if information.returncode == 0:
                         self.out.insert(END, information.stdout)
                     else:
@@ -661,9 +661,9 @@ class SystemCommand(tk.Frame):
     def execute_command(self):
         command = self.command_entry.get()
         self.output_text.delete("1.0", tk.END)
-        self.output_text.insert(tk.END, f"Please wait for the following command to be executed: {command}")
+        self.output_text.insert(tk.END, f"""Please wait for the following command to be executed: {command}\nTip: If you are on Windows and the command seems to hang, try 'start "" [your program name]' """)
         try:
-            result = subprocess.run(command,shell=True, capture_output=True)
+            result = subprocess.run(command,shell=True, capture_output=True, text=True)
             if result.returncode == 0:
                 self.output_text.delete("1.0", tk.END)
                 self.output_text.insert(tk.END, f"Command executed successfully.\nOutput:\n{result.stdout}.")
@@ -1597,7 +1597,7 @@ class ToolsMenu(Frame):
                 x = messagebox.showerror("G-AIO",f"Could not remove start menu search suggestions - process error.\nDetails: {e}")  
         elif command == 1:
             try:
-                a = subprocess.run("reg add HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v VerboseStatus /t REG_DWORD /d 1 /f", capture_output=True, shell=True) #oops I forgot to do that
+                a = subprocess.run("reg add HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v VerboseStatus /t REG_DWORD /d 1 /f", capture_output=True, shell=True, text=True) #oops I forgot to do that
                 if a.returncode == 0:
                     x = messagebox.showinfo("G-AIO","The operation has completed successfully. You will see the changes once you log out, restart, shut down or turn on the computer.")
 
@@ -1607,7 +1607,7 @@ class ToolsMenu(Frame):
                 x = messagebox.showerror("G-AIO",f"Could not enable Verbose Boot Messages - process error.\nDetails: {e}")    
         elif command == 2:
             try:
-                a = subprocess.run('reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve', capture_output=True, shell=True) #oops I forgot to do that
+                a = subprocess.run('reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve', capture_output=True, shell=True, text=True) #oops I forgot to do that
                 if a.returncode == 0:
                     x = messagebox.showinfo("G-AIO","The operation has completed successfully. The effects should appear immediately, but if they do not, try restarting your computer.")
 
