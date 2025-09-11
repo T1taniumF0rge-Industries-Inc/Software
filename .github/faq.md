@@ -17,6 +17,8 @@ For most programs, you must copyright Midnight_G0ldX Corporation, and if the ori
 
 `© Midnight_G0ldX Corporation`
 
+`© T1taniumF0rge-Industries-Inc `
+
 `© Okmeque1 Corporation`
 
 `© Lan Internet LLC`
@@ -76,7 +78,7 @@ You may find that some commit messages have absolutely nothing to do with the ch
 
 ### Why does the program crash on startup?
 
-This could be for multiple reasons, so first, make sure all dependencies and modules are correctly installed for any and all Python versions that are installed on your computer. You can find the list of modules that you need to install in the PySoft [requirements.txt](https://github.com/GamerSoft24/Software/blob/Main/PySoft/requirements.txt) file, and to simplify installation, you can run `pip install -r requirements.txt` and Pip will automatically find the newest version of that module and install it for you [(read the PySoft's README.md for clarifications!)](/PySoft/README.md)
+This could be for multiple reasons, so first, make sure all dependencies and modules are correctly installed for any and all Python versions that are installed on your computer. You can find the list of modules that you need to install in the PySoft [requirements.txt](https://github.com/T1taniumF0rge/Software/blob/Main/PySoft/requirements.txt) file, and to simplify installation, you can run `pip install -r requirements.txt` and Pip will automatically find the newest version of that module and install it for you [(read the PySoft's README.md for clarifications!)](/PySoft/README.md)
 
 Otherwise the best way to see what error has occured is to open a command-line window (Bash, PowerShell, CMD) and run the script from the terminal, as it will print any errors to the terminal. Then it is highly recommended to consult the [error chart](/PySoft/Errors%20chart.md) for any possible solutions, and then you may open an issue.
 
@@ -86,7 +88,7 @@ For the longest time, we stuck to our philosophy of 1 file maximum per project, 
 
 ### Can I rewrite the programs to have better security (e.g not triggering CodeQL warnings) or better coding structure?
 
-There is a clear difference between a bugfix and rewriting the entire program, and before changing any file in this repository, it is best to consult the [Contributing Guidelines](/CONTRIBUTING.md) first. But as a whole, if you want to rewrite a program that is all in one file and you want to seperate the logic and the UI, you may do it on a [fork](https://github.com/GamerSoft24/Software/fork), and if you want to change a small thing in the programs then you have to make sure to keep the program in the same writing style as the original program.
+There is a clear difference between a bugfix and rewriting the entire program, and before changing any file in this repository, it is best to consult the [Contributing Guidelines](/CONTRIBUTING.md) first. But as a whole, if you want to rewrite a program that is all in one file and you want to seperate the logic and the UI, you may do it on a [fork](https://github.com/T1taniumF0rge/Software/fork), and if you want to change a small thing in the programs then you have to make sure to keep the program in the same writing style as the original program.
 
 ## Windows Loader Q&A:
 
@@ -102,7 +104,7 @@ Personally, our full team at `Software` have used MAS and DAZ for a long time (2
 
 ### I got fired from my company from using this!
 
-That's on you mate, if you had any sense of downloading these files through the [Programs.md](/Programs.md) file (or just read the LICENSE or README.md files) then you must have agreed to the terms [here](https://github.com/GamerSoft24/Software/blob/Main/InstallerSoft/Windows/Windows%20Loaders/README.md), meaning that we are ***not liable* for *any damages that these programs may have caused*.**
+That's on you mate, if you had any sense of downloading these files through the [Programs.md](/Programs.md) file (or just read the LICENSE or README.md files) then you must have agreed to the terms [here](https://github.com/T1taniumF0rge/Software/blob/Main/InstallerSoft/Windows/Windows%20Loaders/README.md), meaning that we are ***not liable* for *any damages that these programs may have caused*.**
 
 ## InstallerSoft Q&A:
 
