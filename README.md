@@ -2,7 +2,10 @@
  &nbsp;![GitHub repo size](https://img.shields.io/github/repo-size/T1taniumF0rge/Software?color=green&label=Repository%20Size%3A) &nbsp;![GitHub commit activity](https://img.shields.io/badge/Clone%20Size-41.2GB-066990) &nbsp; ![GitHub commit activity](https://img.shields.io/badge/Repository%20Status-Semi%20Active-yellow) &nbsp;
 
 # [`Software`] Repository
-### 🎉🎉 We have reached 1501 commits!! -> *Next milestone 2000 commits!* 🎉🎉 
+### /!\ REPOSITORY MIGRATION FROM GAMERSOFTWARE CORPORATION® TO THE TITAN1UM™ & T1TANIUMF0RGE INDUSTRIES® INCORPORATED IN PROGRESS...
+Estimated end time in 1 to 2 months
+
+### 🎉🎉 We have reached 1580 commits!! -> *Next milestone 2000 commits!* 🎉🎉 
 
 **REP-SET II**, *`Version 3.1.5b`*
 
