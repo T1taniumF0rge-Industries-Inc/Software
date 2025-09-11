@@ -5,8 +5,8 @@ To consider *changing programs and codes* in this `Software` repository you have
 > [!IMPORTANT]
 > ### The new code must meet these basic guidelines:
 > - The person who changes it **must *clearly* mark what they changed through any means** (code comments, start of programs *or/and* in program descriptions in the programs, commit logs are welcome, recommended and appreciated but aren't required yet).
-> - It must follow a similar style of the original code (example: Rewriting ["security management system.py"](https://github.com/GamerSoft24/Software/blob/Main/PySoft/Utilities/security%20management%20system.py) in classes and imports module would most likely get rejected because this program uses while, input and print clauses, if you want to do that then you can copy the program onto your own fork of this repository and change it).
-> - The new version of the file must still include the original copyright names and symbols, however you may still mention your username on any new code - see [this](https://github.com/GamerSoft24/Software/blob/Main/.github/faq.md#who-do-i-credit-if-i-fork-the-repository) section of the FAQ for more information on attribution and credits.
+> - It must follow a similar style of the original code (example: Rewriting ["security management system.py"](https://github.com/T1taniumF0rge/Software/blob/Main/PySoft/Utilities/security%20management%20system.py) in classes and imports module would most likely get rejected because this program uses while, input and print clauses, if you want to do that then you can copy the program onto your own fork of this repository and change it).
+> - The new version of the file must still include the original copyright names and symbols, however you may still mention your username on any new code - see [this](https://github.com/T1taniumF0rge/Software/blob/Main/.github/faq.md#who-do-i-credit-if-i-fork-the-repository) section of the FAQ for more information on attribution and credits.
 > - The new code must function properly including handling edge cases and malformed inputs, as well as not breaking the existing unchanged code. It must have some types of error handling and not just crumple in case an unexpected error happen.
 > - The code must abide to the security, Code of Conduct and licenses that are present in the repository at the time of the pull request being made.
 
@@ -24,7 +24,7 @@ To consider *changing programs and codes* in this `Software` repository you have
 The python program underneath is broken and could use some improvements:
 
 ```py
-print("Made by GamerSoft24")
+print("Made by T1taniumF0rge")
 number = 1
 def random_math_function(amount):
   for x in range(amount):
@@ -37,7 +37,7 @@ random_math_function
 A change like so is a good starting spot, although in this case if you could make the inputs explain what they do it would be even better with comments across the code or a print at the start of the code. If you want a better example, you could look inside the PySoft folder with the evolution of `security management system.py` into `AssistantApp` or `SQLite Password Manager`, as those are massive improvements over time.:
 
 ```py
-print("Made by GamerSoft24")
+print("Made by T1taniumF0rge")
 print("Fixes made by GmaerSoft42")
 number = int(input("Enter a random number to add:") # By GmaerSoft42: Input added so that you can choose the base starting number) #bruh the program was broken even on the fixed version: gmaersoft42
 def random_math_function(amount):
