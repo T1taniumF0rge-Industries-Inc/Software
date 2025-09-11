@@ -59,13 +59,13 @@ If a community member engages in unacceptable behavior, the community organizers
 
 If you are subject to or witness unacceptable behavior, or have any other concerns, please notify a community organizer as soon as possible. gamersoftware.corp@gmail.com.
 
-[Reporting guidelines (Security Policy)](https://github.com/GamerSoft24/Software/blob/Main/SECURITY.md)
+[Reporting guidelines (Security Policy)](https://github.com/T1taniumF0rge/Software/blob/Main/SECURITY.md)
 
 Additionally, community organizers are available to help community members engage with local law enforcement or to otherwise help those experiencing unacceptable behavior feel safe. In the context of in-person events, organizers will also provide escorts as desired by the person experiencing distress.
 
 ## 8. Addressing Grievances
 
-If you feel you have been falsely or unfairly accused of violating this Code of Conduct, you should notify GamerSoft24 with a concise description of your grievance. Your grievance will be handled in accordance with our existing governing [license](https://github.com/GamerSoft24/Software/blob/Main/LICENSE) and [security policy](https://github.com/GamerSoft24/Software/blob/Main/SECURITY.md).
+If you feel you have been falsely or unfairly accused of violating this Code of Conduct, you should notify T1taniumF0rge with a concise description of your grievance. Your grievance will be handled in accordance with our existing governing [license](https://github.com/T1taniumF0rge/Software/blob/Main/LICENSE) and [security policy](https://github.com/T1taniumF0rge/Software/blob/Main/SECURITY.md).
 
 
 
@@ -77,7 +77,9 @@ This code of conduct and its related procedures also applies to unacceptable beh
 
 ## 10. Contact info
 
-Main: gamersoftware.corp@gmail.com, Secondary: okmeque1.corporation@gmail.com, Teriary: sutoexec.bat@gmail.com
+Main: [gamersoftware.corp@gmail.com](mailto:gamersoftware.corp@gmail.com), Secondary: [okmeque1.corporation@gmail.com](mailto:okmeque1.corporation@gmail.com), Teriary: [sutoexec.bat@gmail.com](mailto:sutoexec.bat@gmail.com)
+
+Organization: [t1taniumf0rgeindustries.inc@gmail.com](mailto:t1taniumf0rgeindustries.inc@gmail.com)
 
 ## 11. License and attribution
 
