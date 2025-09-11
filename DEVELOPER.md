@@ -74,8 +74,12 @@ If you install Docker Desktop on your Windows computer, and you get the error `V
 
 ## Basic Git Guide:
 
-- 1/ Clone this repository to any location using `git clone https://github.com/GamerSoft24/Software.git /c/GitHub` (you can replace `/c/GitHub` with any file path you want so long as it respects the format, which is /a/folder)
+- 1/ Clone this repository to any location using `git clone https://github.com/T1taniumF0rge/Software.git /c/GitHub` (you can replace `/c/GitHub` with any file path you want so long as it respects the format, which is /a/folder)
 - 2/ Do any changes you want so long as it follows the rules previously mentioned (re-cloning will be required if this is not respected)
-- 3/ Add the folder or file that you want. If you want to be lazy, you can add the entire folder (so if you changed `/c/GitHub/PySoft/Demos/Code\ Rain.py`, you can simply do `git add /c/GitHub`. Note that it will add any files in any directories starting from the directory that you specified)
+- 3/ Add the folder or file that you want. If you want to be lazy, you can add the entire folder (so if you changed `/c/GitHub/PySoft/Demos/Code\ Rain.py`, you can simply do `git add /c/GitHub`. Note that it will add any files in any directories starting from the directory that you specified). `git add .` also works as well, but this time adds any changed files in any repository directories
 - 4/ Commit using a helpful commit message: `git commit -m "Code Rain: made the Code Rain even cooler"`
-- 5/ Push. You can do `git push` but I personally like using `git push --all` as it ensures that all files are properly commited to `Main`
+- 5/ Push. You can do `git push`.
+
+> [!NOTE]
+>
+> You're gonna have to do your own research if you want to use branches, rebase or merge because I don't really know (and just one thing NEVER DO IT ON MAIN IT BREAKS MY ONLY COMPUTER THAT HAS A FUNCTIONAL GIT THANK YOU FOR YOUR UNDERSTANDING). Crash course: merge is when you have 2 branches and merge both changes into a single commit into 1 branch (like merge of origin/main and local/main into origin/main that way work from origin/main and local/main are up to date on both). Rebase is when you, well I don't really know but I think it's something like rewriting commit history and placing it before another commit (like the commit to the same file but on the origin server) so that then you can rename the commit or do some cool stuff
