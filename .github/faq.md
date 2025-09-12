@@ -11,15 +11,14 @@ This document aims to answer some common questions regarding the `Software` repo
 
 The goal of the `Software` repository is that everything is in one centralised area. We cover many topics and languages, such as Python, Batch, the C-family, Visual Basic Script (VBS), HyperText Markup Language (HTML) as well as other formats, such as useful software installers in InstallerSoft, game hacks in HackSoft, movies and music in MovieSoft, Minecraft-related stuff in MinecraftSoft, useful repository downloads in RepoSoft, pictures in PictureSoft and useful Office templates in OfficeSoft.
 
-### Who do I credit if I fork, use code or any material from this repositoru?
+### Who do I credit if I fork, use code or any material from this repositordie?
 
-For most programs, you must copyright Midnight_G0ldX Corporation **AND** T1taniumF0rge-Industries-Inc, and if the original program had some parts made by Okmeque1 Corporation or Lan Internet LLC, you must mention them respectively (but not both, they are seperate entities), like so.
+For most programs, you must copyright 
+**Titan1um™ & T1taniumF0rge Industries® Incorporated (T1taniumF0rge Industries® (Inc.))**, and if the original program had some parts made by Okmeque1 Corporation® or Lan Internet LLC, you must mention them respectively (but not both, they are seperate entities), like so:
 
-`© Midnight_G0ldX Corporation`
+**`© Titan1um™ & T1taniumF0rge Industries® Incorporated `** **OR** **`T1taniumF0rge Industries® (Inc.)`**
 
-`© T1taniumF0rge-Industries-Inc `
-
-`© Okmeque1 Corporation`
+`© Okmeque1 Corporation®`
 
 `© Lan Internet LLC`
 
