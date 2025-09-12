@@ -130,8 +130,9 @@ The reason why some programs are repackaged in an NSIS installer, is because (to
 Whenever there is an old version of a program (360AFChrome for example), there is a reason to keep it. In 360AFChrome, many people use it on computers that are running Windows XP to access the internet, and in other cases like AOMEI 8.7, this version is kept because new AOMEI, just sucks (some free features in version 8.7 are paid features in 10.4.1 such as the Disk Clone feature because of greedy capitalist investors who think they're the only ones on this planet. As I've said with the Roblox corporation in Programs.md and some commit messages, the only thing most (that way I don't anger the 5 nice investors on this planet) investors want is money no matter the consequences. Or if you want a disk manager that has a slightly less polished UI but more features, try DiskGenius)
 
 > [!NOTE]
-> In any situation where a warranty or liability disclaimer is present in the `Software` repository, "we", "The Software Team", "The Devs", "The Developers" all refer to the main developers of this repository. A warranty disclaimer is a paragraph that includes "We will ***not*** be liable for **any damages caused by**", etc... and explains that we aren't liable for any damages no matter what.
+> In any situation where a warranty or liability disclaimer is present in the `Software` repository, "we", "The Software Team", "The Devs", "The Developers" all refer to the main developers of this repository. A warranty or liability disclaimer is a paragraph that includes "We will ***not*** be liable for **any damages caused by**", etc... and explains that we aren't liable for any damages no matter what.
 >  
 > For full details, go [here](https://github.com/T1taniumF0rge/Software/blob/main/.github/WARRANTY_LIABILITY_DISCLAIMER.md)!
 >
 > This repository `Software` full name `/T1taniumF0rge/Software` (old name `/GamerSoft24/Software`) is under the control of the **Titan1um™ & T1taniumF0rge® Industries Incorporated organization**.
+
