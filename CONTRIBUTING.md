@@ -8,7 +8,8 @@ To consider *changing programs and codes* in this `Software` repository you have
 ## Repository Modes:
 - Active: All active repository maintainers working full-time on the `Software` project and will review any issue, pull request or any other thing within a **maximum delay of ***7 days*****.
 - Semi Active: One or more maintainers are working part-time on this repository. Review time extends to **30 days maximum**
-- Inactive: No active maintainers are available due to certain circumstances. This will usually be announced beforehand, but this time the delay extends to a period of 6-12 months.
+- Inactive: No active maintainers are available due to certain circumstances. This will usually be announced beforehand, but this time the delay extends to a period of **6-12 months**.
+- Busy: All active repository maintainers are working on a certain task, meaning that delays may occur, usually from **30 days to 90 days long**.
 
 ## Guidelines
 
