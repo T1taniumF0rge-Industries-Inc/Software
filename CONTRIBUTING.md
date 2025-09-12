@@ -15,7 +15,7 @@ To consider *changing programs and codes* in this `Software` repository you have
 > - The workflows in this repository may not work properly. It is expected to have workflow failures on each commit. If this happens, just ignore it. We are trying to find a solution to this problem.
 > - If this repository is in inactive mode, the code may not get reviewed until 6 months of a pull request being opened. If it is in semi-active mode, expect the code to be reviewed within 30 days of a pull request being opened. The status can be viewed in the repository's [README](/README.md)
 > - You may want to add new languages to the repository (for now, we don't have official Bash scripts, but if you wanted you could create a new folder named BashSoft and go from there making your own Bash scripts)
-> - For individual small files, it is best to use the web editor as this repository will take about 30 minutes on average to clone using Git Bash (12 minutes fastest on a speedy SSD), since this repository's local size is higher than 35GB (make sure you update!
+> - For individual small files, it is best to use the web editor as this repository will take about 30 minutes on average to clone using Git Bash (12 minutes fastest on a speedy SSD), since this repository's local size is higher than 35GB (make sure you update)!
 > - If you still want to use Git Bash, it is highly recommended to use and read the [Developer File Area](/DEVELOPER.md) to avoid any potential failures that Git can throw.
 > - Your code may generate new security warnings. While not ideal, our team will review the situation and will make a decision based on the code.
 
