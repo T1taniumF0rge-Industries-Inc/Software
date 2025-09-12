@@ -1,5 +1,9 @@
 # Programs 
 
+> [!IMPORTANT]
+> ### /!\ REPOSITORY MIGRATION FROM GAMERSOFTWARE CORPORATION® TO THE TITAN1UM™ & T1TANIUMF0RGE INDUSTRIES® INCORPORATED IN PROGRESS... THIS FILE WILL NOT GET UPDATED WHILE MIGRATION IS IN PROCESS!
+> Estimated end time of migration: ***1 to 2 months***
+
 This is the program chart.
 
 Special thanks to [Okmeque1](https://github.com/Okmeque1) from [`okmeque1/software`](https://github.com/Okmeque1/software) for helping to update and contribute to this file!
@@ -648,6 +652,7 @@ The `InstallerSoft Mac OS` part of the `Programs.md` file will continue beneath.
 [**VLC:**](https://github.com/T1taniumF0rge/Software/tree/Main/InstallerSoft/macOS/VLC%20Media%20Player)
 
 1 -> [VLC Media Player:](https://github.com/T1taniumF0rge/Software/tree/Main/InstallerSoft/macOS/VLC%20Media%20Player) The video player we all know and love, from VideoLan, but for macOS.
+
 
 
 
