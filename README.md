@@ -2,8 +2,12 @@
  &nbsp;![GitHub repo size](https://img.shields.io/github/repo-size/T1taniumF0rge/Software?color=green&label=Repository%20Size%3A) &nbsp;![GitHub commit activity](https://img.shields.io/badge/Clone%20Size-41.2GB-066990) &nbsp; ![GitHub commit activity](https://img.shields.io/badge/Repository%20Status-Semi%20Active-yellow) &nbsp;
 
 # [`Software`] Repository
-### /!\ REPOSITORY MIGRATION FROM GAMERSOFTWARE CORPORATION® TO THE TITAN1UM™ & T1TANIUMF0RGE INDUSTRIES® INCORPORATED IN PROGRESS...
-Estimated end time in 1 to 2 months
+> [!IMPORTANT]
+> ### /!\ REPOSITORY MIGRATION FROM GAMERSOFTWARE CORPORATION® TO THE TITAN1UM™ & T1TANIUMF0RGE INDUSTRIES® INCORPORATED IN PROGRESS...
+> Estimated end time of migration: ***1 to 2 months***
+
+> [!WARNING]
+> **WE WILL NOT UPDATE ALL THE GAMERSOFT24 SIGNED PROJECTS TO T1TANIUMF0RGE AS THIS IS CAN PERMIT GAMERSOFT24'S SIGNED PROJECTS AND GAMERSOFT24'S NAME TO REMAIN IN THIS REPOSITORY'S TIMELINE!**
 
 ### 🎉🎉 We have reached 1580 commits!! -> *Next milestone 2000 commits!* 🎉🎉 
 
