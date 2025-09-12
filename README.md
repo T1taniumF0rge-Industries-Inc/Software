@@ -120,6 +120,12 @@ This is **where** this `Software` repository's ***configuration files*** will be
 
 *For* **direct access**, [click here!](https://github.com/T1taniumF0rge/Software/tree/Main/.github)
 
+## [`.vs:`]
+
+This is **where** this `Software` repository's Visual Studio***configuration files and project files (sometimes logs too)*** will be *stored*.
+
+*For* **direct access**, [click here!](https://github.com/T1taniumF0rge/Software/tree/Main/.vs)
+
 # Must-reads for `Software` Repository!
 
 ## InstallerSoft AV Virus Detections:
