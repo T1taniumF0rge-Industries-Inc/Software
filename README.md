@@ -122,7 +122,9 @@ This is **where** this `Software` repository's ***configuration files*** will be
 
 ## [`.vs:`]
 
-This is **where** this `Software` repository's Visual Studio***configuration files and project files (sometimes logs too)*** will be *stored*.
+This is **where** this `Software` repository's Visual Studio ***configuration files and project files (sometimes logs too)*** will be *stored*.
+
+Please ignore this folder as changes will only be made here ***if*** a commit is staged ***from*** Visual Studio directly!
 
 *For* **direct access**, [click here!](https://github.com/T1taniumF0rge/Software/tree/Main/.vs)
 
