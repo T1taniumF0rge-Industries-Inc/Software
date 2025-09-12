@@ -105,7 +105,7 @@ There is a clear difference between a bugfix and rewriting the entire program, a
 Some people don't want to pay Microsoft for a Windows key, and generally except for Office there isn't much use in tools like MAS or DAZ because modern Windows versions have very few limitations if you don't activate Windows. However in older versions like Windows 7 and Vista, tools like DAZ loader are required because otherwise severe restrictions on the computer are applied. Windows 7 is out of support, and Microsoft wants people to get off that OS, so they wouldn't care much if people are pirating Windows 7, especially as if you want to install Windows 7 Ultimate on a computer that originally came with Windows XP Home Edition, then DAZ is the only option (you're not going to pay $120 for an OS that isn't even supported right?). 
 
 > [!CAUTION]
-> Only thing is: NEVER PUT THE DAZ LOADER AND THE SOPHOS ENDPOINT AGENT TOGETHER! THEY HAVE GENERATIONAL BEEF!!!
+> Only thing is: **NEVER PUT THE DAZ LOADER AND THE SOPHOS ENDPOINT AGENT TOGETHER! THEY HAVE GENERATIONAL BEEF!!!**
 
 ### Are they safe?
 
@@ -127,6 +127,4 @@ The reason why some programs are repackaged in an NSIS installer, is because (to
 
 ### Why are you hoarding old versions of programs?
 
-Whenever there is an old version of a program (360AFChrome for example), there is a reason to keep it. In 360AFChrome, many people use it on computers that are running Windows XP to access the internet, and in other cases like AOMEI 8.7, this version is kept because new AOMEI, just sucks (some free features in version 8.7 are paid features in 10.4.1 such as the Disk Clone feature because of greedy capitalist investors who think they're the only ones on this planet. As I've said with the Roblox corporation in Programs.md and some commit messages, the only thing most (that way I don't anger the 5 nice investors on this planet) investors want is money no matter the consequences. Or if you want a disk manager that has a slightly less polished UI but more features, try DiskGenius.)
-
-
+Whenever there is an old version of a program (360AFChrome for example), there is a reason to keep it. In 360AFChrome, many people use it on computers that are running Windows XP to access the internet, and in other cases like AOMEI 8.7, this version is kept because new AOMEI, just sucks (some free features in version 8.7 are paid features in 10.4.1 such as the Disk Clone feature because of greedy capitalist investors who think they're the only ones on this planet. As I've said with the Roblox corporation in Programs.md and some commit messages, the only thing most (that way I don't anger the 5 nice investors on this planet) investors want is money no matter the consequences. Or if you want a disk manager that has a slightly less polished UI but more features, try DiskGenius)
