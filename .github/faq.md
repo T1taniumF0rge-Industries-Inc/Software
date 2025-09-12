@@ -37,6 +37,10 @@ Example:
 
 It should render like [so](/.github/credits_template.md/)
 
+> [!IMPORTANNT]
+>
+> If the original code contains copyrights for `Software024`, `GamerSoft24` or `MidnightG0ldX`, you must credit that name and credit any relevant entities according to the rules above. 
+
 ### Why are half the workflows failing?
 
 This is because our workflow configuration hasn't been finished yet, and the best solution is to ignore it.
