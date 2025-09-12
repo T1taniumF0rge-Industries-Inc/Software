@@ -1,7 +1,7 @@
 # Code Contributing Guidelines 
 
 > [!CAUTION]
-> Any contributions that violates these guidelines will be ignore and you will be given a warning. If a further warning is required you will not be able to contribute anymore and our team will ignore all contributions made by you! Please read this carefully
+> Any contributions that violates these guidelines will be ignored and you will be given a warning. If a further warning is required you will not be able to contribute anymore and our team will ignore all contributions made by you! Please read this carefully
 
 To consider *changing programs and codes* in this `Software` repository you have to **pull request first and wait for approval** which should be *reviewed* in the **maximum delay of ***7 days***** **unless** the repository is in inactive mode (in that case it will be noted in the [README.md](/README.md) file of this repository)! The "Pull Requests" tab is located on the top left corner of your screen (on computer), most generally under the word Software, and the "Issues" tab just on its left.
 
