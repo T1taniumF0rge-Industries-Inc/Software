@@ -147,9 +147,9 @@ For easy access to all working files and programs in this repository, use the [p
 
 ## Licensing Agreement:
 
-This repository is licensed under the </ins>**BSD3**</ins> License.
+This repository is licensed under the </ins>**[BSD3](/LICENSE)**</ins> License.
 
-To use **any material** from this repository, you **must** agree to the **[license](/LICENSE)** and its terms of conditions, as well as ***any* and *all* disclaimers and warranty information (if applicable)**. We will ***not*** be liable for **any damages caused by any file, software package, individual program or other material from this repository *in your possession (this includes, but is not limited to, modification, execution or download of the files)*! This includes, but is not limited to, unintentional bugs, user error caused by an unclear prompt (usually an old unsupported program), clearly marked dangerous programs that may crash your computer or user negligence (didn't read the warnings) and more. However you may open an issue at any time for support and improvement of the material present, and we will try our best to resolve the issues as best as we can.**
+To use **any material** from this repository, you **must** agree to the **[license](/LICENSE)** and its terms of conditions, as well as ***any* and *all* disclaimers, warranty or liability information/disclaimers (if applicable)**. We will ***not*** be liable for **any damages caused by any file, software package, individual program or other material from this repository *in your possession (this includes, but is not limited to, modification, execution or download of the files)*! This includes, but is not limited to, unintentional bugs, user error caused by an unclear prompt (usually an old unsupported program), clearly marked dangerous programs that may crash your computer or user negligence (didn't read the warnings) and more. However you may open an issue at any time for support and improvement of the material present, and we will try our best to resolve the issues as best as we can.**
 
  You may choose to leave this repository if you do not feel comfortable with the above statement.
 
