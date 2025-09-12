@@ -11,9 +11,9 @@ This document aims to answer some common questions regarding the `Software` repo
 
 The goal of the `Software` repository is that everything is in one centralised area. We cover many topics and languages, such as Python, Batch, the C-family, Visual Basic Script (VBS), HyperText Markup Language (HTML) as well as other formats, such as useful software installers in InstallerSoft, game hacks in HackSoft, movies and music in MovieSoft, Minecraft-related stuff in MinecraftSoft, useful repository downloads in RepoSoft, pictures in PictureSoft and useful Office templates in OfficeSoft.
 
-### Who do I credit if I fork the repository?
+### Who do I credit if I fork, use code or any material from this repositoru?
 
-For most programs, you must copyright Midnight_G0ldX Corporation, and if the original program had some parts made by Okmeque1 Corporation or Lan Internet LLC, you must mention them respectively (but not both, they are seperate entities), like so.
+For most programs, you must copyright Midnight_G0ldX Corporation **AND** T1taniumF0rge-Industries-Inc, and if the original program had some parts made by Okmeque1 Corporation or Lan Internet LLC, you must mention them respectively (but not both, they are seperate entities), like so.
 
 `© Midnight_G0ldX Corporation`
 
@@ -62,6 +62,11 @@ elif optionpwd_manager == 7:
 ```
 However, our team at the `Software` repository have deemed these warnings an exaggeration, as in reality nobody is going to spy on your terminal, and stuff printed to the terminal can be easily deleted by just closing the terminal or clearing it. And for your information, we don't use logs because our programs aren't important enough that logs are required. More literal explanation is that for a password manager system like Security Management System, there really isn't another way to show the password to the user (nowadays we use pyperclip but only in SMS (security management system) advanced) However, some newer programs are updated to be more compliant security measures so it is recommended to always use the newest available programs for your needs.
 
+> [!WARNING]
+>
+> **This is a reminder that it is always important to protect your personal information through any means possible. This can be done with a number of methods, such as encrypting files, using strong passwords, storing files on USB drives that aren't plugged into any computers stored in a safe, etc.**
+
+
 ### Where do I find the programs?
 
 We have a lot of software available at your disposal for a lot of applications. It would be very inefficient and inconvenient to either navigate through every single binary in releases or have to move repositories just to download a side program that's an add-on to a regular program. So we have created the [Programs.md](/Programs.md) - a program chart, where you can find all of your required files, properly sorted and sectioned.
@@ -84,7 +89,7 @@ Otherwise the best way to see what error has occured is to open a command-line w
 
 ### Why are programs mostly all in one and use outdated code writing methods (many elif statements, logic and UI in one program)?
 
-For the longest time, we stuck to our philosophy of 1 file maximum per project, for user convenience as they would only have to download one single file. However, for larger projects that may require multiple files, we have put them in the [Large Files](/PySoft/Large%20Projects) folder, but to maintain user convenience we bundle all of the files into a zip2exe NSIS installer so that again, the user only has to download and run one file.
+For the longest time, we stuck to our philosophy of 1 file maximum per project, for user convenience as they would only have to download one single file. However, for larger projects that may require multiple files, we have put them in the [Large Projects](/PySoft/Large%20Projects) folder, but to maintain user convenience we bundle all of the files into a zip2exe NSIS installer so that again, the user only has to download and run one file. *In this example, the Large Projects folder happens to be in PySoft, however it can exist in any of the language folders. Check [`programs.md`](/Programs.md) for more information*
 
 ### Can I rewrite the programs to have better security (e.g not triggering CodeQL warnings) or better coding structure?
 
@@ -95,12 +100,17 @@ There is a clear difference between a bugfix and rewriting the entire program, a
 ### What is the point?
 
 Some people don't want to pay Microsoft for a Windows key, and generally except for Office there isn't much use in tools like MAS or DAZ because modern Windows versions have very few limitations if you don't activate Windows. However in older versions like Windows 7 and Vista, tools like DAZ loader are required because otherwise severe restrictions on the computer are applied. Windows 7 is out of support, and Microsoft wants people to get off that OS, so they wouldn't care much if people are pirating Windows 7, especially as if you want to install Windows 7 Ultimate on a computer that originally came with Windows XP Home Edition, then DAZ is the only option (you're not going to pay $120 for an OS that isn't even supported right?). 
+
 > [!CAUTION]
 > Only thing is: NEVER PUT THE DAZ LOADER AND THE SOPHOS ENDPOINT AGENT TOGETHER! THEY HAVE GENERATIONAL BEEF!!!
 
 ### Are they safe?
 
 Personally, our full team at `Software` have used MAS and DAZ for a long time (2-3 years) and so far we have **never** been hacked or had any sort of computer problems, and for DAZ loader it is especially important since it is hard to find a reliable download link with no viruses, until I found one so I made an installer of it so that now I have a reliable way of downloading DAZ loader to activate my old Windows 7 computer.
+
+> [!IMPORTANT]
+>
+> The results described above may or may not apply to your hardware, software or environmental (environment in which you use it, such as home, work or IT) configuration, as such you should not interpret these resuls completely literally (rather take it with a grain of salt), but still have re-assurance that the `Software` team doesn't use activation software that's pure malware.
 
 ### I got fired from my company from using this!
 
@@ -114,6 +124,6 @@ The reason why some programs are repackaged in an NSIS installer, is because (to
 
 ### Why are you hoarding old versions of programs?
 
-Whenever there is an old version of a program (360AFChrome for example), there is a reason to keep it. In 360AFChrome, many people use it on computers that are running Windows XP to access the internet, and in other cases like AOMEI 8.7, this version is kept because new AOMEI, just sucks (some free features in version 8.7 are paid features in 10.4.1 because of greedy capitalist investors who think they're the only ones on this planet)
+Whenever there is an old version of a program (360AFChrome for example), there is a reason to keep it. In 360AFChrome, many people use it on computers that are running Windows XP to access the internet, and in other cases like AOMEI 8.7, this version is kept because new AOMEI, just sucks (some free features in version 8.7 are paid features in 10.4.1 such as the Disk Clone feature because of greedy capitalist investors who think they're the only ones on this planet. As I've said with the Roblox corporation in Programs.md and some commit messages, the only thing most (that way I don't anger the 5 nice investors on this planet) investors want is money no matter the consequences. Or if you want a disk manager that has a slightly less polished UI but more features, try DiskGenius.)
 
 
