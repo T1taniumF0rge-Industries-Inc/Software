@@ -10,7 +10,7 @@ This file is only important and applicable to the collaborators and developers o
 
 While cloning this repository, you may encounter a similar error as the following: 
 ```sh
-$ git clone https://github.com/GamerSoft24/Software.git /c/GitHub
+$ git clone https://github.com/T1taniumF0rge/Software.git /c/GitHub
 Cloning into 'C:\GitHub'...
 remote: Enumerating objects: 10371, done.
 remote: Counting objects: 100% (541/541), done.
@@ -68,10 +68,6 @@ Most if all Linux distributions will fail to load a GUI after the initial loadin
 
 For a permanent solution, it is recommended to find proper video drivers, failing that you could always patch the GRUB bootloader.
 
-## Docker madness:
-
-If you install Docker Desktop on your Windows computer, and you get the error `Virtualization is not detected`, firstly make sure that you are running Windows Pro (and not Home, Enterprise, etc) because some features that Docker needs are blocked/not accessible in Home. Secondly make sure to check if virtualization is enabled (by any means, BIOS check, Task Manager CPU Performance Tab, VMWare with Windows ME, etc). If that's the case then go into `Turn Windows features on or off` by searching that in the start menu. Then enable any option that is Hyper-V and WSL (Windows Subsystem for Linux) as well as enabling Network Discovery in the Network tab in Windows Explorer, and just to make sure you should also enable a telnet client *for that one rogue docker program made in 2002*. After you did that make sure to update WSL to the latest version by doing `wsl --update`, and then you just have to restart the computer and Docker will magically work. (And yes I know I hate docker too)
-
 ## Basic Git Guide:
 
 - 1/ Clone this repository to any location using `git clone https://github.com/T1taniumF0rge/Software.git /c/GitHub` (you can replace `/c/GitHub` with any file path you want so long as it respects the format, which is /a/folder)
@@ -83,3 +79,12 @@ If you install Docker Desktop on your Windows computer, and you get the error `V
 > [!NOTE]
 >
 > You're gonna have to do your own research if you want to use branches, rebase or merge because I don't really know (and just one thing NEVER DO IT ON MAIN IT BREAKS MY ONLY COMPUTER THAT HAS A FUNCTIONAL GIT THANK YOU FOR YOUR UNDERSTANDING). Crash course: merge is when you have 2 branches and merge both changes into a single commit into 1 branch (like merge of origin/main and local/main into origin/main that way work from origin/main and local/main are up to date on both). Rebase is when you, well I don't really know but I think it's something like rewriting commit history and placing it before another commit (like the commit to the same file but on the origin server) so that then you can rename the commit or do some cool stuff
+
+## Docker madness:
+
+If you install Docker Desktop on your Windows computer, and you get the error `Virtualization is not detected`, firstly make sure that you are running Windows Pro (and not Home, Enterprise, etc) because some features that Docker needs are blocked/not accessible in Home. Secondly make sure to check if virtualization is enabled (by any means, BIOS check, Task Manager CPU Performance Tab, VMWare with Windows ME, etc). If that's the case then go into `Turn Windows features on or off` by searching that in the start menu. Then enable any option that is Hyper-V and WSL (Windows Subsystem for Linux) as well as enabling Network Discovery in the Network tab in Windows Explorer, and just to make sure you should also enable a telnet client *for that one rogue docker program made in 2002*. After you did that make sure to update WSL to the latest version by doing `wsl --update`, and then you just have to restart the computer and Docker will magically work. (And yes I know I hate docker too)
+
+> [!NOTE]
+> In any situation where a warranty or liability disclaimer is present in the `Software` repository, "we", "The Software Team", "The Devs", "The Developers" all refer to the main developers of this repository. A warranty disclaimer is a paragraph that includes "We will ***not*** be liable for **any damages caused by**", etc... and explains that we aren't liable for any damages no matter what.
+>  
+> This repository `Software` full name `/T1taniumF0rge/Software` (old name `/GamerSoft24/Software`) is under the control of the **Titan1um™ & T1taniumF0rge® Industries Incorporated organization**.
