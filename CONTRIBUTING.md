@@ -6,10 +6,11 @@
 To consider *changing programs and codes* in this `Software` repository you have to **pull request first and wait for approval** which should be *reviewed* in the **maximum delay of ***7 days***** **unless** the repository is in inactive mode (in that case it will be noted in the [README.md](/README.md) file of this repository)! The "Pull Requests" tab is located on the top left corner of your screen (on computer), most generally under the word Software, and the "Issues" tab just on its left.
 
 ## Repository Modes:
-- Active: All active repository maintainers working full-time on the `Software` project and will review any issue, pull request or any other thing within a **maximum delay of ***7 days*****.
-- Semi Active: One or more maintainers are working part-time on this repository. Review time extends to **30 days maximum**
-- Inactive: No active maintainers are available due to certain circumstances. This will usually be announced beforehand, but this time the delay extends to a period of **6-12 months**.
-- Busy: All active repository maintainers are working on a certain task, meaning that delays may occur, usually from **30 days to 90 days long**.
+- Active: *All active repository maintainers working full-time on the `Software` repository and will review any issue*, pull request or any other thing within a **maximum delay of ***7 days*****.
+- Semi Active: *One or more maintainers are working part-time on this repository*. Review time extends to ***30 days maximum***.
+- Inactive: *No active maintainers are available due to certain circumstances*. This will usually be announced beforehand, but this time the delay extends to a period of ***6 to 12 months***.
+- Busy: *All active repository maintainers are working on a certain task*, meaning that **delays may occur**, usually from ***30 days to 90 days long***.
+- Migration: Although pretty rare to occur, this means *alll active repository maintainers are working on migration*, meaning that any issues and pull requests **will not be looked at *until* migration is over** and commits will **focus on migration tasks**. This usually makes the time of delay extend to a period of time of **minimum *1 to 2 months***.
 
 ## Guidelines
 
