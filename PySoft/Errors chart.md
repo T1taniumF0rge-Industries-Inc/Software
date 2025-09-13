@@ -71,7 +71,7 @@ In this example, the `example[5]` piece of code fails because index 5 does not e
 
 **1E/18 LookupError:** The encoder you specified does not exist. Please use either UTF-8 or ANSI.
 
-**1E/20 tkinter.TclError:** The GUI application you have downloaded has been tampered with. Only download Okmeque1 code from Okmeque1/Software or GamerSoft24/Software. Contact Support.
+**1E/20 tkinter.TclError:** The GUI application you have downloaded has been tampered with. Only download Okmeque1 code from Okmeque1/Software or T1taniumF0rge/Software. Contact Support.
 
 **1E/21 urllib.error.URLError:** Like the Minecraft errors, this is a client-side error or server-side error. Errors like "An existing connection was forcibly closed by the remote host" indicate a server-side error. "Connection reset" means that the specified URL has been blocked by an administrator. Contact the owner of the site to resolve this issue
 

@@ -1,4 +1,4 @@
-# Developer Troubleshooting Area
+# Developer Troubleshooting Area 
 
 This file is only important and applicable to the collaborators and developers of the `Software` repository for *troubleshooting purposes only*. If you are a standard user, this information does not apply and will not serve you anything unless you are using Git actively on this repository.
 
@@ -10,7 +10,7 @@ This file is only important and applicable to the collaborators and developers o
 
 While cloning this repository, you may encounter a similar error as the following: 
 ```sh
-$ git clone https://github.com/GamerSoft24/Software.git /c/GitHub
+$ git clone https://github.com/T1taniumF0rge/Software.git /c/GitHub
 Cloning into 'C:\GitHub'...
 remote: Enumerating objects: 10371, done.
 remote: Counting objects: 100% (541/541), done.
@@ -68,14 +68,25 @@ Most if all Linux distributions will fail to load a GUI after the initial loadin
 
 For a permanent solution, it is recommended to find proper video drivers, failing that you could always patch the GRUB bootloader.
 
+## Basic Git Guide:
+
+- 1/ Clone this repository to any location using `git clone https://github.com/T1taniumF0rge/Software.git /c/GitHub` (you can replace `/c/GitHub` with any file path you want so long as it respects the format, which is /a/folder)
+- 2/ Do any changes you want so long as it follows the rules previously mentioned (re-cloning will be required if this is not respected)
+- 3/ Add the folder or file that you want. If you want to be lazy, you can add the entire folder (so if you changed `/c/GitHub/PySoft/Demos/Code\ Rain.py`, you can simply do `git add /c/GitHub`. Note that it will add any files in any directories starting from the directory that you specified). `git add .` also works as well, but this time adds any changed files in any repository directories
+- 4/ Commit using a helpful commit message: `git commit -m "Code Rain: made the Code Rain even cooler"`
+- 5/ Push. You can do `git push`.
+
+> [!NOTE]
+>
+> You're gonna have to do your own research if you want to use branches, rebase or merge because I don't really know (and just one thing NEVER DO IT ON MAIN IT BREAKS MY ONLY COMPUTER THAT HAS A FUNCTIONAL GIT THANK YOU FOR YOUR UNDERSTANDING). Crash course: merge is when you have 2 branches and merge both changes into a single commit into 1 branch (like merge of origin/main and local/main into origin/main that way work from origin/main and local/main are up to date on both). Rebase is when you, well I don't really know but I think it's something like rewriting commit history and placing it before another commit (like the commit to the same file but on the origin server) so that then you can rename the commit or do some cool stuff
+
 ## Docker madness:
 
 If you install Docker Desktop on your Windows computer, and you get the error `Virtualization is not detected`, firstly make sure that you are running Windows Pro (and not Home, Enterprise, etc) because some features that Docker needs are blocked/not accessible in Home. Secondly make sure to check if virtualization is enabled (by any means, BIOS check, Task Manager CPU Performance Tab, VMWare with Windows ME, etc). If that's the case then go into `Turn Windows features on or off` by searching that in the start menu. Then enable any option that is Hyper-V and WSL (Windows Subsystem for Linux) as well as enabling Network Discovery in the Network tab in Windows Explorer, and just to make sure you should also enable a telnet client *for that one rogue docker program made in 2002*. After you did that make sure to update WSL to the latest version by doing `wsl --update`, and then you just have to restart the computer and Docker will magically work. (And yes I know I hate docker too)
 
-## Basic Git Guide:
-
-- 1/ Clone this repository to any location using `git clone https://github.com/GamerSoft24/Software.git /c/GitHub` (you can replace `/c/GitHub` with any file path you want so long as it respects the format, which is /a/folder)
-- 2/ Do any changes you want so long as it follows the rules previously mentioned (re-cloning will be required if this is not respected)
-- 3/ Add the folder or file that you want. If you want to be lazy, you can add the entire folder (so if you changed `/c/GitHub/PySoft/Demos/Code\ Rain.py`, you can simply do `git add /c/GitHub`. Note that it will add any files in any directories starting from the directory that you specified)
-- 4/ Commit using a helpful commit message: `git commit -m "Code Rain: made the Code Rain even cooler"`
-- 5/ Push. You can do `git push` but I personally like using `git push --all` as it ensures that all files are properly commited to `Main`
+> [!NOTE]
+> In any situation where a warranty or liability disclaimer is present in the `Software` repository, "we", "The Software Team", "The Devs", "The Developers" all refer to the main developers of this repository. A warranty or liability disclaimer is a paragraph that includes "We will ***not*** be liable for **any damages caused by**", etc... and explains that we aren't liable for any damages no matter what.
+>  
+> For full details, go [here](https://github.com/T1taniumF0rge/Software/blob/main/.github/WARRANTY_LIABILITY_DISCLAIMER.md)!
+>
+> This repository `Software` full name `/T1taniumF0rge/Software` (old name `/GamerSoft24/Software`) is under the control of the **Titan1um™ & T1taniumF0rge® Industries Incorporated organization**.

@@ -2,11 +2,11 @@
 
 ## 1. Purpose
 
-A primary goal of Software is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof).
+A primary goal of `Software` is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof).
 
 This code of conduct outlines our expectations for all those who participate in our community, as well as the consequences for unacceptable behavior.
 
-We invite all those who participate in Software to help us create safe and positive experiences for everyone.
+We invite all those who participate in `Software` to help us create safe and positive experiences for everyone.
 
 ## 2. Open Tech Citizenship
 
@@ -45,7 +45,7 @@ The following behaviors are considered harassment and are unacceptable within ou
 
 ## 5. Weapons Policy
 
-No weapons will be allowed at Software events, community spaces, or in other spaces covered by the scope of this Code of Conduct. Weapons include but are not limited to guns, explosives (including fireworks), and large knives such as those used for hunting or display, as well as any other item used for the purpose of causing injury or harm to others. Anyone seen in possession of one of these items will be asked to leave immediately, and will only be allowed to return without the weapon. Community members are further expected to comply with all state and local laws on this matter.
+No weapons will be allowed at `Software` events, community spaces, or in other spaces covered by the scope of this Code of Conduct. Weapons include but are not limited to guns, explosives (including fireworks), and large knives such as those used for hunting or display, as well as any other item used for the purpose of causing injury or harm to others. Anyone seen in possession of one of these items will be asked to leave immediately, and will only be allowed to return without the weapon. Community members are further expected to comply with all state and local laws on this matter.
 
 ## 6. Consequences of Unacceptable Behavior
 
@@ -59,13 +59,13 @@ If a community member engages in unacceptable behavior, the community organizers
 
 If you are subject to or witness unacceptable behavior, or have any other concerns, please notify a community organizer as soon as possible. gamersoftware.corp@gmail.com.
 
-[Reporting guidelines (Security Policy)](https://github.com/GamerSoft24/Software/blob/Main/SECURITY.md)
+[Reporting guidelines (Security Policy)](https://github.com/T1taniumF0rge/Software/blob/Main/SECURITY.md)
 
 Additionally, community organizers are available to help community members engage with local law enforcement or to otherwise help those experiencing unacceptable behavior feel safe. In the context of in-person events, organizers will also provide escorts as desired by the person experiencing distress.
 
 ## 8. Addressing Grievances
 
-If you feel you have been falsely or unfairly accused of violating this Code of Conduct, you should notify GamerSoft24 with a concise description of your grievance. Your grievance will be handled in accordance with our existing governing [license](https://github.com/GamerSoft24/Software/blob/Main/LICENSE) and [security policy](https://github.com/GamerSoft24/Software/blob/Main/SECURITY.md).
+If you feel you have been falsely or unfairly accused of violating this Code of Conduct, you should notify T1taniumF0rge with a concise description of your grievance. Your grievance will be handled in accordance with our existing governing [license](https://github.com/T1taniumF0rge/Software/blob/Main/LICENSE) and [security policy](https://github.com/T1taniumF0rge/Software/blob/Main/SECURITY.md).
 
 
 
@@ -77,7 +77,9 @@ This code of conduct and its related procedures also applies to unacceptable beh
 
 ## 10. Contact info
 
-Main: gamersoftware.corp@gmail.com, Secondary: okmeque1.corporation@gmail.com, Teriary: sutoexec.bat@gmail.com
+Main: [gamersoftware.corp@gmail.com](mailto:gamersoftware.corp@gmail.com), Secondary: [okmeque1.corporation@gmail.com](mailto:okmeque1.corporation@gmail.com), Teriary: [sutoexec.bat@gmail.com](mailto:sutoexec.bat@gmail.com)
+
+Organization: [t1taniumf0rgeindustries.inc@gmail.com](mailto:t1taniumf0rgeindustries.inc@gmail.com)
 
 ## 11. License and attribution
 
@@ -92,3 +94,10 @@ _Revision 2.2. Posted 4 February 2016._
 _Revision 2.1. Posted 23 June 2014._
 
 _Revision 2.0, adopted by the [Stumptown Syndicate](http://stumptownsyndicate.org) board on 10 January 2013. Posted 17 March 2013._
+
+> [!NOTE]
+> In any situation where a warranty or liability disclaimer is present in the `Software` repository, "we", "The Software Team", "The Devs", "The Developers" all refer to the main developers of this repository. A warranty or liability disclaimer is a paragraph that includes "We will ***not*** be liable for **any damages caused by**", etc... and explains that we aren't liable for any damages no matter what.
+>  
+> For full details, go [here](https://github.com/T1taniumF0rge/Software/blob/main/.github/WARRANTY_LIABILITY_DISCLAIMER.md)!
+>
+> This repository `Software` full name `/T1taniumF0rge/Software` (old name `/GamerSoft24/Software`) is under the control of the **Titan1um™ & T1taniumF0rge® Industries Incorporated organization**.

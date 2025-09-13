@@ -1,4 +1,4 @@
-# Support Guide
+# Support Guide 
 
 Thank you for using the `Software` repository! If you need assistance or have questions, please follow the guide below.
 
@@ -22,7 +22,7 @@ Before reaching out, please check if your question is answered in the [FAQ](./fa
 ## 🐛 Bug Reports and Issues
 
 If you've encountered a bug or an issue, please follow these steps:
-1. Check the [Issues](https://github.com/GamerSoft24/Software/issues) section to see if the issue has already been reported.
+1. Check the [Issues](https://github.com/T1taniumF0rge/Software/issues) section to see if the issue has already been reported.
 2. If not, create a new issue with the following details or use an existing issue template:
    - **Title:** A clear and concise summary of the problem.
    - **Description:** Steps to reproduce the issue, expected behavior, and actual behavior.
@@ -30,7 +30,7 @@ If you've encountered a bug or an issue, please follow these steps:
 3. Provide screenshots or logs if applicable.
 
 If you want to fix a bug or an issue, please follow these steps:
-1. Check the [Pull Requests](https://github.com/GamerSoft24/Software/pulls) section to see if someone has already made a solution to the problem
+1. Check the [Pull Requests](https://github.com/T1taniumF0rge/Software/pulls) section to see if someone has already made a solution to the problem
 2. If not, create a pull requests will the following details or use the pull request template
   - **Title:** A short and concise description of the problem and a fix, avoid over 50 words
   - **Description:** The steps to reproduce the issue, what happens and your solution
@@ -42,7 +42,7 @@ If you want to fix a bug or an issue, please follow these steps:
 ## 💡 Feature Requests
 
 We welcome suggestions for new features or improvements! Please:
-1. Check the [Discussions](https://github.com/GamerSoft24/Software/discussions) section for similar ideas.
+1. Check the [Discussions](https://github.com/T1taniumF0rge/Software/discussions) section for similar ideas.
 2. Open a new discussion or issue describing your feature request in detail.
 
 ---
@@ -50,7 +50,7 @@ We welcome suggestions for new features or improvements! Please:
 ## 🌐 Community Support
 
 Join the community to interact with other users and maintainers:
-- [Repository Discussions](https://github.com/GamerSoft24/Software/discussions)
+- [Repository Discussions](https://github.com/T1taniumF0rge/Software/discussions)
 - Submit questions, ideas, or feedback.
 
 ---
@@ -58,9 +58,16 @@ Join the community to interact with other users and maintainers:
 ## 📬 Contact Information
 
 For further assistance, you can reach us:
-- **Owner:** [GamerSoft24](https://github.com/GamerSoft24)
+- **Owner:** [T1taniumF0rge](https://github.com/T1taniumF0rge)
 - **Head Maintainer:** [Okmeque1](https://github.com/Okmeque1), [GmaerSoft42](https://github.com/GmaerSoft42)
 
 ---
 
 We appreciate your contributions and feedback improve this `Software` repository! 🚀
+
+> [!NOTE]
+> In any situation where a warranty or liability disclaimer is present in the `Software` repository, "we", "The Software Team", "The Devs", "The Developers" all refer to the main developers of this repository. A warranty or liability disclaimer is a paragraph that includes "We will ***not*** be liable for **any damages caused by**", etc... and explains that we aren't liable for any damages no matter what.
+>  
+> For full details, go [here](https://github.com/T1taniumF0rge/Software/blob/main/.github/WARRANTY_LIABILITY_DISCLAIMER.md)!
+>
+> This repository `Software` full name `/T1taniumF0rge/Software` (old name `/GamerSoft24/Software`) is under the control of the **Titan1um™ & T1taniumF0rge® Industries Incorporated organization**.

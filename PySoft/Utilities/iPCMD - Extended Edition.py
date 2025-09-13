@@ -24,7 +24,7 @@ def ipcmd():
                         print(ver)
                         print(ver1)
                         print('')
-                    elif 'cd' in prompt1[0:3]:
+                    elif 'cd ' in prompt1[0:3]:
                         os.chdir(prompt1[3:])
                         print('')
                     elif prompt1 == 'dsc':
@@ -58,6 +58,12 @@ def ipcmd():
                     else:
                         os.system(prompt)
                         print('')
+            except IOError as e:
+                print("Error: I/O error. A device on your system has either malfunctioned or has been unplugged or a file operation has failed. Make sure that any hardware connected to the computer is functioning and is correctly attached to the computer (like a USB drive plugged in all the way) and that you use Safe Eject when removing devices from the computer.")
+                print(f"Details: {e}, error code 0272")
+                print('')
+                input("Press enter to continue...")
+                continue
             except OSError as e:
                 print("Error: The operating system has forcibly closed the running process due to a fatal system error.")
                 print(f"Details: {e}, error code 0271")
@@ -79,12 +85,6 @@ def ipcmd():
             except (KeyboardInterrupt, EOFError, SystemExit):
                 print("User has chosen to exit. Exiting...")
                 exit()
-            except IOError as e:
-                print("Error: I/O error. A device on your system has either malfunctioned or has been unplugged or a file operation has failed. Make sure that any hardware connected to the computer is functioning and is correctly attached to the computer (like a USB drive plugged in all the way) and that you use Safe Eject when removing devices from the computer.")
-                print(f"Details: {e}, error code 0272")
-                print('')
-                input("Press enter to continue...")
-                continue
             except Exception as e:
                 print("Error: An error has occured in this program. Consult the GamerSoft24/Software PySoft error chart and the Python manual for more information, using the details as guidance for the error.")
                 print(f"Details: {e}, error code 0281 (check error chart using details information for a possible solution to this problem)")

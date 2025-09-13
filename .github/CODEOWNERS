@@ -1,13 +1,14 @@
 # CODEOWNERS file
-* @GamerSoft24 @Okmeque1 @GmaerSoft42
-/.github/ @GamerSoft24
-/BatchSoft/ @GamerSoft24 @Okmeque1 @GmaerSoft42 @SutoEXEC
-/CPPSoft/ @GamerSoft24
-/HTMLSoft/ @GamerSoft24
-/HackSoft/ @GamerSoft24
-/InstallerSoft/ @GamerSoft24 @Okmeque1
-/MinecraftSoft/ @GamerSoft24 @Okmeque1 @GmaerSoft42
-/MovieSoft/ @GamerSoft24 @Okmeque1 @GmaerSoft42
-/PySoft/ @GamerSoft24 @Okmeque1 @GmaerSoft42 @GS-ST
-/RepoSoft/ @GamerSoft24 @Okmeque1
-/VBSoft/ @GamerSoft24 @Okmeque1 @GS-ST
+* @T1taniumF0rge @Okmeque1 @GmaerSoft42
+/.github/ @T1taniumF0rge
+/BatchSoft/ @T1taniumF0rge @Okmeque1 @GmaerSoft42 @SutoEXEC
+/CPPSoft/ @T1taniumF0rge
+/HTMLSoft/ @T1taniumF0rge
+/HackSoft/ @T1taniumF0rge
+/InstallerSoft/ @T1taniumF0rge @Okmeque1
+/MinecraftSoft/ @T1taniumF0rge @Okmeque1 @GmaerSoft42
+/MovieSoft/ @T1taniumF0rge @Okmeque1 @GmaerSoft42
+/PySoft/ @T1taniumF0rge @Okmeque1 @GmaerSoft42 @GS-ST
+/RepoSoft/ @T1taniumF0rge @Okmeque1
+/VBSoft/ @T1taniumF0rge @Okmeque1 @GS-ST
+

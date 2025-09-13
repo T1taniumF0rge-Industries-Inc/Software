@@ -31,16 +31,16 @@ Please tick the checkboxes that you followed. These are not requirements, those 
 
 ## Security Policy
 
-- [ ] By submitting this pull request, you agree to follow the terms of the [security policy](https://github.com/GamerSoft24/Software/blob/Main/SECURITY.md).
+- [ ] By submitting this pull request, you agree to follow the terms of the [security policy](https://github.com/T1taniumF0rge/Software/blob/Main/SECURITY.md).
 
 ## Terms and license
 
-This repository and all of its projects are licensed under the terms of the [BSD 3-Clause License](https://github.com/GamerSoft24/Software/blob/Main/LICENSE).
-- [ ] By contributing to this repository, you agree to follow the terms and conditions of our [license](https://github.com/GamerSoft24/Software/blob/Main/LICENSE), as well as any and all warranty disclaimers. Read the [README file](/README.md) for more information.
+This repository and all of its projects are licensed under the terms of the [BSD 3-Clause License](https://github.com/T1taniumF0rge/Software/blob/Main/LICENSE).
+- [ ] By contributing to this repository, you agree to follow the terms and conditions of our [license](https://github.com/T1taniumF0rge/Software/blob/Main/LICENSE), as well as any and all warranty disclaimers. Read the [README file](/README.md) for more information.
 
 ## Code of Conduct
 
-- [ ] By contributing to this repository, you agree to abide by our [Code of Conduct](https://github.com/GamerSoft24/Software/blob/Main/CODE_OF_CONDUCT.md).
+- [ ] By contributing to this repository, you agree to abide by our [Code of Conduct](https://github.com/T1taniumF0rge/Software/blob/Main/CODE_OF_CONDUCT.md).
 
 ## Contributing Guidelines
 

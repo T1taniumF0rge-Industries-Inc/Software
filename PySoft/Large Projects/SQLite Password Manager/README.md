@@ -28,4 +28,4 @@ Note that in some instances, the password may not be shown on screen. This is fo
 
 ## Download:
 
-For most users, use the installer in the [NSIS](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Large%20Projects/SQLite%20Password%20Manager/NSIS) folder. If you want to have individual files, see the [Individual files](https://github.com/GamerSoft24/Software/tree/Main/PySoft/Large%20Projects/SQLite%20Password%20Manager/Individual%20Files)
+For most users, use the installer in the [NSIS](https://github.com/T1taniumF0rge/Software/tree/Main/PySoft/Large%20Projects/SQLite%20Password%20Manager/NSIS) folder. If you want to have individual files, see the [Individual files](https://github.com/T1taniumF0rge/Software/tree/Main/PySoft/Large%20Projects/SQLite%20Password%20Manager/Individual%20Files)

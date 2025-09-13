@@ -1,7 +1,7 @@
 # PySoft
 Welcome to `Software`'s PySoft section, where I will be storing all of my and some of Okmeque1's Python codes and programs.
 
-If you don't know Python or don't have a Python Interpreter installed, go download one version (like 3.12.2, 3.10, 3.8.2, etc...) depending on your computer [here](https://www.python.org/downloads/) from Python's website or from our [InstallerSoft category](https://github.com/GamerSoft24/Software/tree/Main/InstallerSoft/Windows/Python). Python3 and pip3 are recommended. ⚠ Make sure you have version 3.8 or above since most Python modules won't be able to run below that version (neither can modules be installed with pip). 
+If you don't know Python or don't have a Python Interpreter installed, go download one version (like 3.12.2, 3.10, 3.8.2, etc...) depending on your computer [here](https://www.python.org/downloads/) from Python's website or from our [InstallerSoft category](https://github.com/T1taniumF0rge/Software/tree/Main/InstallerSoft/Windows/Python). Python3 and pip3 are recommended. ⚠ Make sure you have version 3.8 or above since most Python modules won't be able to run below that version (neither can modules be installed with pip). 
 
 > [!NOTE]
 >
@@ -27,7 +27,7 @@ for x in range(360):
 ```
 Then name your file making sure it ends in `.py` and save it. For me, I named it `rainbow void.py`. Run it by double-clicking the file just as you would with any files and programs and make sure you have an interpreter installed and configured to automatically run Python files. If you do have an interpreter, it should run properly and you should get a result like this:
 
-![Screenshot 2024-03-10 at 19 24 55](https://github.com/GamerSoft24/Software/assets/136463938/07d213aa-acf2-4a58-bfae-32a5b3fce544)
+![Screenshot 2024-03-10 at 19 24 55](https://github.com/T1taniumF0rge/Software/assets/136463938/07d213aa-acf2-4a58-bfae-32a5b3fce544)
 
 If you encounter any problems with any Python files (*.py), please make sure to consult the [PySoft Errors Chart](/PySoft/Errors%20chart.md), the [FAQ](/.github/faq.md) and the Python manual. Programs will mostly come with error codes (0211, 6510B) so make sure to take that in mind if the program does specify it
 
