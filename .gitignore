@@ -19,12 +19,8 @@ ehthumbs.db
 *.tmp
 *.temp
 
-
 # GitHub files
 InstallerSoft/Windows/Windows Loaders/DAZ Loader/v2.2.2/Daz_Loader_v2.2.2_setup.exe
-
-# Daz Loader
-InstallerSoft/Windows/Windows Loaders/Daz_Loader_v2.2.2_setup.exe
 
 # Tooling
 _ReSharper*/
