@@ -478,7 +478,7 @@ while True:
                             for x in range(length):
                                 pwd += random.choice(random.choice(chars))
                             print("")
-                            pyperclip.copy(password)
+                            pyperclip.copy(pwd)
                             if parameter.upper() == "Y":
                                 print(pwd)
                             print("The password has been copied to the clipboard for security purposes.")
