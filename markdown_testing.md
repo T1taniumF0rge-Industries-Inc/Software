@@ -127,3 +127,8 @@ Copyrights are visible in the file attributes, which can be viewed in Windows Ex
 
 > [!CAUTION]
 > Red Light: Stop no matter what unless you can go in one direction (red for all directions except right). If you run a red light, why are you even driving?
+
+
+
+"A Thérèse": Vladimir Ashkenazy - Ludwig van Beethoven - Sonata No. 24 Op. 78 - Allegro Vivace
+
