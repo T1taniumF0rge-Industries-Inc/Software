@@ -7,7 +7,7 @@
 > Estimated end time of migration: ***1 to 2 months***
 
 > [!WARNING]
-> **WE WILL NOT UPDATE ALL THE GAMERSOFT24 SIGNED PROJECTS TO T1TANIUMF0RGE AS THIS IS CAN PERMIT GAMERSOFT24'S SIGNED PROJECTS AND GAMERSOFT24'S NAME TO REMAIN IN THIS REPOSITORY'S TIMELINE!**
+> **[GAMERSOFTWARE.CORP@GMAIL.COM](mailto:gamersoftware.corp@gmail.com) *REMAINS* THE MAIN EMAIL OF TITAN1UM (nickname) / T1TANIUMF0RGE (name)!**
 
 ### 🎉🎉 We have reached 1580 commits!! -> *Next milestone 2000 commits!* 🎉🎉 
 
