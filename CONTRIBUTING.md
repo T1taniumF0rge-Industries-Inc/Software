@@ -1,4 +1,5 @@
 # Code Contributing Guidelines 
+![GitHub commit activity](https://img.shields.io/badge/Repository%20Status-HIBERNATION!-blue) &nbsp;
 
 > [!CAUTION]
 > Any contributions that violates these guidelines will be ignored/not approved for change (if you forgot one simple thing like marking your changes in the code then our team may remind you there and *you may not receive a warning*. But if you intentionally ignore a rule multiple times or break a rule like rewrite code from scratch without forking you will have warning) and you will be given a warning. If you receive 3 warnings, you will not be able to contribute anymore and our team will ignore all contributions made by you! Please read this carefully, thank you.
@@ -12,6 +13,7 @@ To consider *changing programs and codes* in this `Software` repository you have
 - Offline: *No active helper person is available*. This will usually be announced beforehand, and ***replies are not guaranteed!***
 - Busy: *All active repository maintainers are working on a certain task*, meaning that **delays may occur**, usually from ***30 days to 90 days long***.
 - Migration: Although pretty rare to occur, this means *alll active repository maintainers are working on migration*, meaning that any issues and pull requests **will not be looked at *until* migration is over** and commits will **focus on migration tasks**. This usually makes the time of delay extend to a period of time of **minimum *1 to 2 months***.
+- HIBERNATION: *ABSOLUTELY NO STAFF ACTIVE*. THIS WILL USUALLY BE ANNOUNCED 1 DAY BEFORE THE EVENT. **ABSOLUTELY NO COMMITS WILL BE STAGED BY ANYONE AND NO REPLIES WILL BE PROVIDED DURING STATED DURATION TIME**
 
 ## Guidelines
 
