@@ -1,15 +1,16 @@
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/T1taniumF0rge/software?label=Latest%20Release%3A) &nbsp; ![GitHub last commit](https://img.shields.io/github/last-commit/T1taniumF0rge/software?color=red&label=Last%20Commit%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/commit-activity/w/T1taniumF0rge/software?color=blueviolet&label=Commit%20Activity%3A)
- &nbsp;![GitHub repo size](https://img.shields.io/github/repo-size/T1taniumF0rge/Software?color=green&label=Repository%20Size%3A) &nbsp;![GitHub commit activity](https://img.shields.io/badge/Clone%20Size-41.2GB-066990) &nbsp; ![GitHub commit activity](https://img.shields.io/badge/Repository%20Status-Migration!-yellow) &nbsp;
+ &nbsp;![GitHub repo size](https://img.shields.io/github/repo-size/T1taniumF0rge/Software?color=green&label=Repository%20Size%3A) &nbsp;![GitHub commit activity](https://img.shields.io/badge/Clone%20Size-41.2GB-066990) &nbsp; ![GitHub commit activity](https://img.shields.io/badge/Repository%20Status-HIBERNATION!-yellow) &nbsp;
 
 # [`Software`] Repository
+> [!WARNING]
+> **/!\ REPOSITORY ENTERING OFFLINE MODE FOR NAME REGISTERIES TO UPDATE (hopefully!). WE HOPE YOU UNDERSTAND AND WE ARE ONCE AGAIN SORRY FOR THE DELAYS. DURATION *3 WEEKS*.**
+
 > [!IMPORTANT]
 > ### /!\ REPOSITORY SOFTWARE NOW SET AS SOFTWARE_RETIRED: THIS REPOSITORY WILL BE TRANSFERED TO ORGANIZATION OF T1TANIUMF0RGE INDUSTRIES(R) IN A VERY SHORT AMOUNT OF TIME!
 > Estimated end time of migration: ***15 days***
 
-> [!WARNING]
-> **/!\ ALL PERSONNEL AND MEMBERS MAY ENCOUNTER ERROR 404 TRYING TO ACCESS THIS REPOSITORY AS THIS REPOSITORY URL IS CONSTANTLY CHANGING! USE THE SEARCH FEATURE IN THE HOMEPAGE INSTEAD!**
-> 
-> **LINKS TOWARDS `T1taniumF0rge/Software` WILL (hopefully!) STILL WORK AFTER TRANSFER. WE WILL RESETUP EVERYTHING TO MAKE SURE ALL LINK REDIRECTS ARE CORRECT. HOWEVER, WE WILL NEED TO WAIT FOR GITHUB'S REPOSITORIES NAME REGISTERY TO CLEAR UP THE "SOFTWARE" NAME FOR US TO BE ABLE TO PROCEED. WE HAVE NO IDEA HOW LONG THIS WILL TAKE, BUT WE WILL MAKE SURE IT IS DONE AS SOON AS POSSIBLE. [CHECK THIS DISCUSSION FOR MORE INFO!](https://github.com/orgs/community/discussions/68859)**
+> [!CAUTION]
+> **/!\ ALL PERSONNEL AND MEMBERS MAY ENCOUNTER ERROR 404 TRYING TO ACCESS THIS REPOSITORY AS THIS REPOSITORY URL IS CONSTANTLY CHANGING. USE THE SEARCH FEATURE IN THE HOMEPAGE INSTEAD!**
 
 ### 🎉🎉 We have reached 1580 commits!! -> *Next milestone 2000 commits!* 🎉🎉 
 
