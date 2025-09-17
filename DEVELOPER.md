@@ -10,7 +10,7 @@ This file is only important and applicable to the collaborators and developers o
 
 While cloning this repository, you may encounter a similar error as the following: 
 ```sh
-$ git clone https://github.com/T1taniumF0rge/Software.git /c/GitHub
+$ git clone https://github.com/T1taniumF0rge-Industries-Inc/Software.git /c/GitHub
 Cloning into 'C:\GitHub'...
 remote: Enumerating objects: 10371, done.
 remote: Counting objects: 100% (541/541), done.
@@ -70,7 +70,7 @@ For a permanent solution, it is recommended to find proper video drivers, failin
 
 ## Basic Git Guide:
 
-- 1/ Clone this repository to any location using `git clone https://github.com/T1taniumF0rge/Software.git /c/GitHub` (you can replace `/c/GitHub` with any file path you want so long as it respects the format, which is /a/folder)
+- 1/ Clone this repository to any location using `git clone https://github.com/T1taniumF0rge-Industries-Inc/Software.git /c/GitHub` (you can replace `/c/GitHub` with any file path you want so long as it respects the format, which is /a/folder)
 - 2/ Do any changes you want so long as it follows the rules previously mentioned (re-cloning will be required if this is not respected)
 - 3/ Add the folder or file that you want. If you want to be lazy, you can add the entire folder (so if you changed `/c/GitHub/PySoft/Demos/Code\ Rain.py`, you can simply do `git add /c/GitHub`. Note that it will add any files in any directories starting from the directory that you specified). `git add .` also works as well, but this time adds any changed files in any repository directories
 - 4/ Commit using a helpful commit message: `git commit -m "Code Rain: made the Code Rain even cooler"`
@@ -87,6 +87,6 @@ If you install Docker Desktop on your Windows computer, and you get the error `V
 > [!NOTE]
 > In any situation where a warranty or liability disclaimer is present in the `Software` repository, "we", "The Software Team", "The Devs", "The Developers" all refer to the main developers of this repository. A warranty or liability disclaimer is a paragraph that includes "We will ***not*** be liable for **any damages caused by**", etc... and explains that we aren't liable for any damages no matter what.
 >  
-> For full details, go [here](https://github.com/T1taniumF0rge/Software/blob/main/.github/WARRANTY_LIABILITY_DISCLAIMER.md)!
+> For full details, go [here](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/main/.github/WARRANTY_LIABILITY_DISCLAIMER.md)!
 >
-> This repository `Software` full name `/T1taniumF0rge/Software` (old name `/GamerSoft24/Software`) is under the control of the **Titan1um™ & T1taniumF0rge® Industries Incorporated organization**.
+> This repository `Software` full name `/T1taniumF0rge-Industries-Inc/Software` (old name `/GamerSoft24/Software`) is under the control of the **Titan1um™ & T1taniumF0rge® Industries Incorporated organization**.
