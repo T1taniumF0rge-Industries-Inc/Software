@@ -8,9 +8,18 @@
 
 Any software downloaded from this repository is safe unless explicitely marked, as said in our security policy. The loaders *downloaded from **this** repository* are **safe and tested** (Okmeque1 and myself (GamerSoft24) are using it on our computers and have not been hacked so far, it's been about 2-3 years or more).
 
+
+> [!IMPORTANT]
+>
+> The results described above may or may not apply to your hardware, software or environmental (environment in which you use it, such as home, work or IT) configuration, as such you should not interpret these resuls completely literally (rather take it with a grain of salt), but still have re-assurance that the `Software` team doesn't use activation software that's pure malware.
+
 > [!WARNING]
 > 
 > If you downloaded the loaders from another source apart from [`Okmeque1/Software`](https://github.com/Okmeque1/Software) or from [`massgravel/Microsoft-Activation-Scripts`](https://github.com/massgravel/Microsoft-Activation-Scripts), verify it is safe. With DAZ loader, the indicator at the top right of the application must be green. Otherwise, your version may be infected. With MAS loader, you'll have to check in the batch code within.
+
+> [!CAUTION]
+> Only thing is: **NEVER PUT THE DAZ LOADER AND THE SOPHOS ENDPOINT AGENT TOGETHER! THEY HAVE GENERATIONAL BEEF!!!**
+
                                                                                                                                                                                            
                                                                                                                                                                                            
 > [!NOTE]
