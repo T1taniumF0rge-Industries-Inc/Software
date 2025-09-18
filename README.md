@@ -6,7 +6,7 @@
 > [!CAUTION]
 > **/!\ ALL PERSONNEL AND MEMBERS MAY ENCOUNTER ERROR 404 TRYING TO ACCESS THIS REPOSITORY AS THIS REPOSITORY URL IS CONSTANTLY CHANGING. USE THE SEARCH FEATURE IN THE HOMEPAGE INSTEAD!**
 
-### 🎉🎉 We have reached 1678 commits!! -> *Next milestone 2000 commits!* 🎉🎉 
+### 🎉🎉 We have reached 1701 commits!! -> *Next milestone 2000 commits!* 🎉🎉 
 
 **REP-SET II**, *`Version 3.1.5b`*, *next update will occur soon after migration*
 
