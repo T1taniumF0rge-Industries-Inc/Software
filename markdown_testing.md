@@ -1,7 +1,8 @@
-
 # GIT LFS IS BROKEN!!!
-This is a Markdown language testing file. Please ignore!
-123 654
+> [!NOTE]
+> This is a Markdown language testing file. Please ignore!
+
+123 456 rusty typy and javacripty with his big brother java are coming to the repo!
     
 The background color is `#066990` for light mode and `rgb(9, 105, 218)` for dark mode.
 
