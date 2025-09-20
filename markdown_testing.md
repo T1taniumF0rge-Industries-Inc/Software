@@ -1,6 +1,6 @@
 # GIT LFS IS BROKEN!!!
 > [!NOTE]
-> This is a Markdown language testing file. Please ignore!
+> This is a Markdown language testing file. Please ignore! 
 
 123 456 rusty typy and javacripty with his big brother java are coming to the repo!
     
