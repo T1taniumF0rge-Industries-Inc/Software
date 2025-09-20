@@ -3,12 +3,9 @@
 
 # [`Software`] Repository
 
-> [!CAUTION]
-> **/!\ ALL PERSONNEL AND MEMBERS MAY ENCOUNTER ERROR 404 TRYING TO ACCESS THIS REPOSITORY AS THIS REPOSITORY URL IS CONSTANTLY CHANGING. USE THE SEARCH FEATURE IN THE HOMEPAGE INSTEAD!**
+### 🎉🎉 We have reached 1713 commits!! -> *Next milestone 2000 commits!* 🎉🎉 
 
-### 🎉🎉 We have reached 1701 commits!! -> *Next milestone 2000 commits!* 🎉🎉 
-
-**REP-SET II**, *`Version 3.1.5b`*, *next update will occur soon after migration*
+**REP-SET II**, *`Version 3.1.5b`*, *next update will occur soon...*
 
 > [!NOTE]
 > The ["Programs.md (program chart)"](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/Main/Programs.md) file has most but not every single resource available in the repository. Feel free to open an issue if you are unable to find what you want!
