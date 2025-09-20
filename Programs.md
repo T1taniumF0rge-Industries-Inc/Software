@@ -1,14 +1,10 @@
 # Programs  
 
-> [!IMPORTANT]
-> ### /!\ REPOSITORY MIGRATION FROM GAMERSOFTWARE CORPORATION® TO THE TITAN1UM™ & T1TANIUMF0RGE INDUSTRIES® INCORPORATED IN PROGRESS... THIS FILE WILL NOT GET UPDATED WHILE MIGRATION IS IN PROCESS!
-> Estimated end time of migration: ***1 to 2 months***
-
-This is the program chart.
+This is the Programs chart (called [Programs.md](/Programs.md) in some files).
 
 Special thanks to [Okmeque1](https://github.com/Okmeque1) from [`okmeque1/software`](https://github.com/Okmeque1/software) for helping to update and contribute to this file!
 
-PictureSoft is excluded as there are too many files and they all represent a similar subject.
+PictureSoft is not included in here as there are too many files and they all represent a similar subject.
 
 ## Quick Access - click to jump to section
 
@@ -208,7 +204,7 @@ This folder contains all files related to Minecraft (e.g.: like modpacks or MCP 
 
 ## [HackSoft:](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/HackSoft)
 
-> [!IMPORTANT]
+> [!WARNING]
 > *These hacks should only be used for* **educational purposes** *and* **testing purposes *only*** with consent from **all** parties involved that may be affected by the use of these hacks *and should not be used to ruin other people's gameplay or other nefarious purposes.* We will ***not*** be liable for **any damages caused by any files in the `HackSoft` folder *in your possession! (this includes, but is not limited to, modification, execution or download of the files)*** Thank you for understanding.
 
 ### [Among Us:](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/HackSoft/Among%20Us)
@@ -263,7 +259,7 @@ There will be a dedicated [program chart](https://github.com/T1taniumF0rge-Indus
 
 > [!IMPORTANT]
 >
-> **Most of the files in the *OfficeSoft* folder will require Microsoft Office 2007 or later to render properly. Thank you for your understanding**
+> Most of the files in the *OfficeSoft* folder will require Microsoft Office 2007 or later to render properly. Thank you for your understanding
 > 
 [**Printable Lined Paper:**](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/OfficeSoft/Printable%20Lined%20Paper)
 
@@ -659,6 +655,7 @@ The `InstallerSoft Mac OS` part of the `Programs.md` file will continue beneath.
 > For full details, go [here](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/main/.github/WARRANTY_LIABILITY_DISCLAIMER.md)!
 >
 > This repository `Software` full name `/T1taniumF0rge-Industries-Inc/Software` (old name `/GamerSoft24/Software`) is under the control of the **Titan1um™ & T1taniumF0rge® Industries Incorporated organization**.
+
 
 
 
