@@ -259,7 +259,7 @@ There will be a dedicated [Programs chart](https://github.com/T1taniumF0rge-Indu
 
 > [!IMPORTANT]
 >
-> Most of the files in the *OfficeSoft* folder will require Microsoft Office 2007 or later to render properly. Thank you for your understanding
+> Most of the files in OfficeSoft will require Microsoft Office 2007 or later to render properly. Thank you for your understanding
 > 
 [**Printable Lined Paper:**](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/OfficeSoft/Printable%20Lined%20Paper)
 
@@ -655,6 +655,7 @@ The `InstallerSoft Mac OS` part of the `Programs.md` file will continue beneath.
 > For full details, go [here](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/main/.github/WARRANTY_LIABILITY_DISCLAIMER.md)!
 >
 > This repository `Software` full name `/T1taniumF0rge-Industries-Inc/Software` (old name `/GamerSoft24/Software`) is under the control of the **Titan1um™ & T1taniumF0rge® Industries Incorporated organization**.
+
 
 
 
