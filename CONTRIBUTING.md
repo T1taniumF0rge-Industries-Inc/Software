@@ -1,5 +1,5 @@
 # Code Contributing Guidelines 
-![GitHub commit activity](https://img.shields.io/badge/Repository%20Status-Migration!-yellow) &nbsp;
+![GitHub commit activity](https://img.shields.io/badge/Repository%20Status-Busy-red) &nbsp;
 
 > [!CAUTION]
 > Any contributions that violates these guidelines will be ignored/not approved for change (if you forgot one simple thing like marking your changes in the code then our team may remind you there and *you may not receive a warning*. But if you intentionally ignore a rule multiple times or break a rule like rewrite code from scratch without forking you will have warning) and you will be given a warning. If you receive 3 warnings, you will not be able to contribute anymore and our team will ignore all contributions made by you! Please read this carefully, thank you.
