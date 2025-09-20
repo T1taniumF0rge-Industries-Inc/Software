@@ -41,7 +41,7 @@ However, our team at the `Software` repository have deemed these warnings an exa
 > **This is a reminder that it is always important to protect your personal information through any means possible. This can be done with a number of methods, such as encrypting files, using strong passwords, storing files on USB drives that aren't plugged into any computers stored in a safe, etc.**
 
 ## Pull requests:
-To consider *changing programs and codes* in this `Software` repository you have to **pull request first and wait for approval** which should be *reviewed* in the **maximum delay of ***7 days***** **unless** the repository is in inactive mode! The 'Pull requests' tab is located on the top left corner of your screen (on computer).
+To consider *changing programs and codes* in this `Software` repository you have to **pull request first and wait for approval** which should be *reviewed* in the **maximum delay of ***7 days***** **unless** the repository isn't in *Active* mode! The 'Pull requests' tab is located on the top left corner of your screen (on computer).
 
 For more information, see the [Contributing Guidelines File.](/CONTRIBUTING.md)
 
