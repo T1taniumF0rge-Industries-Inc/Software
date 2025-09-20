@@ -5,7 +5,7 @@
 
 ### 🎉🎉 We have reached 1713 commits!! -> *Next milestone 2000 commits!* 🎉🎉 
 
-**REP-SET II**, *`Version 3.1.5b`*, *next update will occur soon...*
+**REP-SET III**, *`version 4.7.2-epsilon`*
 
 > [!NOTE]
 > The ["Programs.md (program chart)"](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/Main/Programs.md) file has most but not every single resource available in the repository. Feel free to open an issue if you are unable to find what you want!
