@@ -253,7 +253,7 @@ This folder is mainly used to store repository files that will be useful to @T1t
 
 ## [OkmequeSoft:](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/OkmequeSoft)
 
-There will be a dedicated [program chart](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/OkmequeSoft/Programs.md) for that folder only, please refer there for more information.
+There will be a dedicated [Programs chart](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/OkmequeSoft/Programs.md) for that folder only, please refer there for more information.
 
 ## [OfficeSoft:](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/OfficeSoft)
 
@@ -655,6 +655,7 @@ The `InstallerSoft Mac OS` part of the `Programs.md` file will continue beneath.
 > For full details, go [here](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/main/.github/WARRANTY_LIABILITY_DISCLAIMER.md)!
 >
 > This repository `Software` full name `/T1taniumF0rge-Industries-Inc/Software` (old name `/GamerSoft24/Software`) is under the control of the **Titan1um™ & T1taniumF0rge® Industries Incorporated organization**.
+
 
 
 
