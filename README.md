@@ -169,7 +169,12 @@ Repository mode will also be shown on top of the [CONTRIBUTING.md](/CONTRIBUTING
 - Semi Active: *One or more maintainers are working part-time on this repository*. Review time extends to ***30 days maximum***.
 - Inactive: *No active maintainers are available due to certain circumstances*. This will usually be announced beforehand, but this time the delay extends to a period of ***6 to 12 months***.
 - Offline: *No active helper person is available*. This will usually be announced beforehand, and ***replies are not guaranteed!***
-- Busy: *All active repository maintainers are working on a certain task*, meaning that **delays may occur**, usually from ***30 days to 90 days long***.
-- Migration: Although pretty rare to occur, this means *alll active repository maintainers are working on migration*, meaning that any issues and pull requests **will not be looked at *until* migration is over** and commits will **focus on migration tasks**. This usually makes the time of delay extend to a period of time of **minimum *1 to 2 months***.
+- Busy: *All active repository maintainers are working on a certain task on the repository*, meaning that **delays may occur**, usually from ***30 days to 90 days long***.
+- Migration: Although pretty rare to occur, this means *all active repository maintainers are working on migration*, meaning that any issues and pull requests **will not be looked at *until* migration is over** and commits will **focus on migration tasks**. This usually makes the time of delay extend to a period of time of **minimum *1 to 2 months***.
 - HIBERNATION: *ABSOLUTELY NO STAFF ACTIVE*. THIS WILL USUALLY BE ANNOUNCED 1 DAY OR MORE BEFORE THE EVENT. **ABSOLUTELY NO COMMITS WILL BE STAGED BY ANYONE AND NO REPLIES WILL BE PROVIDED DURING STATED DURATION TIME**
+
+### Planned Modes for certain dates:
+
+1 - 15th May 2026 → 14th July 2026 - Repository will go in **Hibernation** mode (reason coming later)
+
 
