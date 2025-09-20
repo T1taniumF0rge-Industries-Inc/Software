@@ -1,7 +1,7 @@
 # Code Contributing Guidelines 
 ![GitHub commit activity](https://img.shields.io/badge/Repository%20Status-Busy-yellow) &nbsp;
 
-> [!CAUTION]
+> [!IMPORTANT]
 > Any contributions that violates these guidelines will be ignored/not approved for change (if you forgot one simple thing like marking your changes in the code then our team may remind you there and *you may not receive a warning*. But if you intentionally ignore a rule multiple times or break a rule like rewrite code from scratch without forking you will have warning) and you will be given a warning. If you receive 3 warnings, you will not be able to contribute anymore and our team will ignore all contributions made by you! Please read this carefully, thank you.
 
 To consider *changing programs and codes* in this `Software` repository you have to **pull request first and wait for approval** which should be *reviewed* in the **maximum delay of ***7 days***** **unless** the repository is in inactive mode (in that case it will be noted in the [README.md](/README.md) file of this repository)! The "Pull Requests" tab is located on the top left corner of your screen (on computer), most generally under the word Software, and the "Issues" tab just on its left.
