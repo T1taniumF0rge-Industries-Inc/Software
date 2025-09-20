@@ -8,7 +8,7 @@
 **REP-SET III**, *`version 4.7.2-epsilon`*
 
 > [!TIP]
-> You can use the ["Programs.md (Program chart)"](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/Main/Programs.md) file to explore this reposioty. However, this chart contains *most* but *not every single* resource available in the repository. Feel free to open an issue if you are unable to find what you want!
+> You can use the ["Programs.md (Program chart)"](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/Main/Programs.md) file to explore this repository. However, this chart contains *most* but *not every single* resource available in the repository. Feel free to open an issue if you are unable to find what you want!
 
 ## [`PySoft:`]
 This is **where** I and Okmeque1 will be *storing all* of ***our*** Python codes and programs.
