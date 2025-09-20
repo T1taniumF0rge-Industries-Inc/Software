@@ -133,3 +133,8 @@ Copyrights are visible in the file attributes, which can be viewed in Windows Ex
 
 "A Thérèse": Vladimir Ashkenazy - Ludwig van Beethoven - Sonata No. 24 Op. 78 - Allegro Vivace
 
+
+
+> [!IMPORTANT]
+>
+> Étude d'Éxecution Transcendantes by Sviatoslav Richter
