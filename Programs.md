@@ -275,7 +275,8 @@ There will be a dedicated [Programs chart](https://github.com/T1taniumF0rge-Indu
 
 ### [Windows:](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/InstallerSoft/Windows)
 
-**WARNING! Any programs not listed specifically having a 32-bit [(x86)](https://stackoverflow.com/questions/29974425/why-is-windows-32-bit-called-windows-x86-and-not-windows-x32) version may not run on a most computers with 32-bit architecture.** *All of the installers provided here are the latest at time of upload, but might not be at time of download. Even though most programs like Google Chrome come with auto-updating features, it is still recommended for you to double check on the program's official website for their latest installer(s) if you require a specific version of that program!*
+>[!WARNING]
+> Any programs not listed specifically having a 32-bit [(x86)](https://stackoverflow.com/questions/29974425/why-is-windows-32-bit-called-windows-x86-and-not-windows-x32) version may not run on a most computers with 32-bit architecture. *All of the installers provided here are the latest at time of upload, but might not be at time of download. Even though most programs like Google Chrome come with auto-updating features, it is still recommended for you to double check on the program's official website for their latest installer(s) if you require a specific version of that program!*
 
 [**360Chrome or/and 360AFChrome:**](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/InstallerSoft/Windows/360Chrome)
 
@@ -629,7 +630,8 @@ All versions of the WinImage program from this repository are x86 compatible.
 
 ### [macOS:](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/InstallerSoft/macOS)
 
-**WARNING! Programs may not run on certain versions of macOS. Please check your version of macOS to make sure it is compatible with the application you are downloading. There are not many installers, but we are working our hardest to find some and add to our ever growing collection.** *All of the installers provided here are the latest at time of upload, but might not be at time of download. Even though most programs like Google Chrome come with auto-updating features, it is still recommended for you to double check on the program's official website for their latest installer(s) if you require a specific version of that program!*
+>[!WARNING]
+> Programs may not run on certain versions of macOS. Please check your version of macOS to make sure it is compatible with the application you are downloading. There are not many installers, but we are working our hardest to find some and add to our ever growing collection. *All of the installers provided here are the latest at time of upload, but might not be at time of download. Even though most programs like Google Chrome come with auto-updating features, it is still recommended for you to double check on the program's official website for their latest installer(s) if you require a specific version of that program!*
 
 [**Minecraft:**](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/Main/InstallerSoft/macOS/Minecraft)
 
@@ -655,6 +657,7 @@ The `InstallerSoft Mac OS` part of the `Programs.md` file will continue beneath.
 > For full details, go [here](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/main/.github/WARRANTY_LIABILITY_DISCLAIMER.md)!
 >
 > This repository `Software` full name `/T1taniumF0rge-Industries-Inc/Software` (old name `/GamerSoft24/Software`) is under the control of the **Titan1um™ & T1taniumF0rge® Industries Incorporated organization**.
+
 
 
 
