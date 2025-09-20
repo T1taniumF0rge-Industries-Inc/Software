@@ -20,7 +20,9 @@ Repository mode will be shown at the top left corner of this file as well as at 
 
 ### Planned Modes for certain dates:
 
-1 - 15th May 2026 → 14th July 2026 - Repository will go in **Hibernation** mode (reason coming later)
+1 - 15th May 2026 → 14th July 2026 - Repository will go in **Hibernation** mode due to maintainers leave for personal reasons
+
+Thank you for your understanding, and we apologise for any inconveniences.
 
 ## Guidelines
 
