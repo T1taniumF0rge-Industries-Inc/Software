@@ -7,8 +7,8 @@
 
 **REP-SET III**, *`version 4.7.2-epsilon`*
 
-> [!NOTE]
-> The ["Programs.md (program chart)"](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/Main/Programs.md) file has most but not every single resource available in the repository. Feel free to open an issue if you are unable to find what you want!
+> [!TIP]
+> You can use the ["Programs.md (Program chart)"](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/Main/Programs.md) file to explore this reposioty. However, this chart contains *most* but *not every single* resource available in the repository. Feel free to open an issue if you are unable to find what you want!
 
 ## [`PySoft:`]
 This is **where** I and Okmeque1 will be *storing all* of ***our*** Python codes and programs.
@@ -73,7 +73,7 @@ This is **where** I will be *storing all* of ***my and Okmeque1's collection of*
 
 This is **where** I will be *storing all* of ***my*** hacks that I may use in games. 
 
-> [!IMPORTANT]
+> [!WARNING]
 > *These hacks should only be used for* **educational purposes** *and* **testing purposes *only*** with consent from **all parties** involved that may be affected by the use of these hacks *and should not be used to ruin other people's gameplay, used to unfairly advantage yourself or other nefarious purposes.* We will ***not*** be liable for **any damages caused by any files in the `HackSoft` folder *in your possession! (this includes, but is not limited to, modification, execution or download of the files)*** Thank you for understanding.
 
 *For* **direct access**, [click here!](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/HackSoft)
@@ -86,10 +86,10 @@ This is **where** I will be *storing all* of ***the repositories across GitHub**
 
 ## [`OkmequeSoft:`]
 
-This is **where** I will be *storing all* of ***the migrated and updated files from the [`Okmeque1/Software`](https://github.com/Okmeque1/Software) repository.***
+This is **where** Okmeque1 will be *storing all* of ***his migrated and updated files from his [`Okmeque1/Software`](https://github.com/Okmeque1/Software) repository.***
 
 > [!NOTE]
-> Some files may not be here due to duplicate/similar programs being available elsewhere. For easy program access in the `OkmequeSoft` folder, please use the [dedicated program chart](/OkmequeSoft/Programs.md) in that folder, as the regular [programs.md](/Programs.md) does not cover this folder nor the `PictureSoft` folder.
+> Some files may not be here due to duplicate/similar programs being available elsewhere. For easy program access in the `OkmequeSoft` folder, please use the [dedicated Programs chart](/OkmequeSoft/Programs.md) in that folder, as the regular [Programs.md](/Programs.md) does not cover this folder nor the `PictureSoft` folder.
 
 *For* **direct access**, [click here!](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/OkmequeSoft)
 
@@ -103,8 +103,8 @@ This is **where** I will be *storing all* of the ***Microsoft office files I use
 
 This is **where** I and Okmeque1 will be *storing all* of the **unique pictures I find interesting.**
 
-> [!IMPORTANT]
-> The [programs.md](/Programs.md) does not cover this folder, and you will have to navigate the folder structure.
+> [!NOTE]
+> The [Programs chart](/Programs.md) does not cover this folder, and you will have to navigate the folder structure.
 
 *For* **direct access**, [click here!](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/PictureSoft)
 
@@ -127,7 +127,6 @@ Please ignore this folder as changes will only be made here ***if*** a commit is
 ## InstallerSoft AV Virus Detections:
 
 > [!WARNING]
->
 > Some of our programs in the [`InstallerSoft/Windows`](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/InstallerSoft/Windows) folder may report to some AV's as being viruses (most likely in-house repackaged NSIS installers and other programs). However, unless a program is *explicitely* marked as a virus or a program that may crash your computer, you can trust this repository. Some installers will even come with *.nsi files and the source (usually in a *.zip file) so that you may check what the script is made out of, for any type of *sneaky* viruses. We will ***not*** be liable for **any damages caused by any programs in the `InstallerSoft/Windows` folder *in your possession! (this includes, but is not limited to, modification, execution or download of the files)***. You may choose to leave this repository if you do not feel comfortable with the above statement.
 
 ## Amount of programming languages:
@@ -140,12 +139,12 @@ Please ignore this folder as changes will only be made here ***if*** a commit is
 >
 >The main coding language in this repository is Python ([PySoft](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/PySoft)), although we do have secondary coding languages like C++ ([CPPSoft](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/CPPSoft)), Windows Batchfile ([BatchSoft](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/BatchSoft)), Windows Visual Basic Script ([VBSoft](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/VBSoft)), HyperText Markup Language ([HTMLSoft](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/HTMLSoft)), hacks with varying languages in HackSoft ([HackSoft](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/HackSoft)), Java (coming soon), JavaScript (coming soon), possibly TypeScript (coming soon), etc...
 
-## Program Chart:
+## Programs Chart:
 
-For easy access to all working files and programs in this repository, use the [program chart (programs.md)](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/Programs.md).
+For easy access to all working files and programs in this repository, use the [Programs chart (Programs.md)](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/Programs.md).
 
 > [!NOTE]
-> The program chart does not cover the `OkmequeSoft` and `PictureSoft` folders. For `OkmequeSoft`, please use the [dedicated `OkmequeSoft` program chart](/OkmequeSoft/Programs.md), and for `PictureSoft`, you will have to navigate the structure maually. 
+> The Programs chart does not cover the `OkmequeSoft` and `PictureSoft` folders. For `OkmequeSoft`, please use the [dedicated `OkmequeSoft` Programs chart](/OkmequeSoft/Programs.md), and as for `PictureSoft`, you will have to navigate the structure maually. 
 
 ## Licensing Agreement:
 
@@ -164,7 +163,7 @@ To use **any material** from this repository, you **must** agree to the **[licen
 
 ## Repository Modes:
 
-Repository mode will be shown at the top left corner of this file as well as at the top of the repository [README](/README.md)
+Repository mode will also be shown on top of the [CONTRIBUTING.md](/CONTRIBUTING.md) file
 
 - Active: *All active repository maintainers working full-time on the `Software` repository and will review any issue*, pull request or any other thing within a **maximum delay of ***7 days*****.
 - Semi Active: *One or more maintainers are working part-time on this repository*. Review time extends to ***30 days maximum***.
