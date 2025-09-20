@@ -175,6 +175,7 @@ Repository mode will also be shown on top of the [CONTRIBUTING.md](/CONTRIBUTING
 
 ### Planned Modes for certain dates:
 
-1 - 15th May 2026 → 14th July 2026 - Repository will go in **Hibernation** mode (reason coming later)
+1 - 15th May 2026 → 14th July 2026 - Repository will go in **Hibernation** mode due to maintainers leave for personal reasons
 
+Thank you for your understanding, and we apologise for any inconveniences.
 
