@@ -14,14 +14,14 @@ After you have pip/pip3 installed, go to your computer's terminal (Mac Terminal,
 > 
 By-the-way, are you interested in a short Python program that draws colorful rainbow void using a module named `turtle` (Python Graphics Drawing Module)? If you are, then copy this script down in your text editor (like Notepad++, Xcode, IDLE or your preferred):
 ```py
-import turtle
-q = turtle.Pen()
-turtle.bgcolor("black")
+import turtle # Import the actual module
+q = turtle.Pen() # Initialise the pen
+turtle.bgcolor("black") # pretty obvious no?
 sides = 7
 colors = ["red","orange","yellow","green","cyan","blue","purple"]
 for x in range(360):
-  q.pencolor(colors[x%sides])
-  q.forward(x*3/sides+x)
+  q.pencolor(colors[x%sides]) # % operator gets remain of a division. In this case, it set the color in cycling order
+  q.forward(x*3/sides+x) # Drawing stuff underneath
   q.left(360/sides+1)
   q.width(x*sides/200)
 ```
