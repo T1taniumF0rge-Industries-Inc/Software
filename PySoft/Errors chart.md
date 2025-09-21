@@ -10,7 +10,7 @@
 **6510B FileNotFoundError:** The program could not find the specified file. Make sure the spelling and format is correct or create the specified file and try again. 
 
 > [!NOTE]
-> When a program asks for a file path, if the file in question is not in the same directory as the program (so if the file is in C:\GitHub\Projects\Data and the program is located in C:\Python), the format must be full (which includes the drive name and all folders up to the file). On Windows, the format is A:\directory\subdirectory\file.ext (note that A: can be any letter, like C:\, F:\, U:\, Z:\, and the .ext part can be any file extension you want). On other systems, it will go something like /home/python/data/data.ext (with the same file extension rules as Windows). A valid file and/or directory is a resource that exists and can be used.
+> When a program asks for a file path, if the file in question is not in the same directory as the program (so if the file is in `C:\GitHub\Projects\Data` and the program is located in `C:\Python`), the format must be full (which includes the drive name and all folders up to the file). On Windows, the format is `A:\directory\subdirectory\file.ext` (note that `A:` can be any letter, like `C:\`, `F:\`, `U:\`, `Z:\`, and the `.ext` part can be any file extension you want). On other systems, it will go something like `/home/python/data/data.ext` (with the same file extension rules as Windows). A valid file and/or directory is a resource that exists and can be used.
 
 **0280 SyntaxError:** The program you got has an error or has been tampered with. Open an issue or a pull request if you can fix it.
 
