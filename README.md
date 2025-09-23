@@ -10,6 +10,10 @@
 > [!TIP]
 > You can use the ["Programs.md (Program chart)"](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/Main/Programs.md) file to explore this repository. However, this chart contains *most* but *not every single* resource available in the repository. Feel free to open an issue if you are unable to find what you want!
 
+> [!IMPORTANT]
+>
+> Important informations are present in this file that must be read for the best experience of the `Software` repository, so make sure to read the entirety of this file.
+
 ## [`PySoft:`]
 This is **where** I and Okmeque1 will be *storing all* of ***our*** Python codes and programs.
 
