@@ -8,19 +8,21 @@ To consider *changing programs and codes* in this `Software` repository you have
 
 ## Repository Modes:
 
-Repository mode will be shown at the top left corner of this file as well as at the top of the repository [README](/README.md)
+Repository mode will also be shown on top of the [CONTRIBUTING.md](/CONTRIBUTING.md) file
 
 - Active: *All active repository maintainers working full-time on the `Software` repository and will review any issue*, pull request or any other thing within a **maximum delay of ***7 days*****.
-- Semi Active: *One or more maintainers are working part-time on this repository*. Review time extends to ***30 days maximum***.
-- Inactive: *No active maintainers are available due to certain circumstances*. This will usually be announced beforehand, but this time the delay extends to a period of ***6 to 12 months***.
-- Offline: *No active helper person is available*. This will usually be announced beforehand, and ***replies are not guaranteed!***
-- Busy: *All active repository maintainers are working on a certain task*, meaning that **delays may occur**, usually from ***30 days to 90 days long***.
+- Semi Active: *One or more, but not all maintainers are working part-time on this repository*. Review time extends to ***30 days maximum***.
+- Inactive: *No active maintainers are available due to certain circumstances*. This will usually be announced beforehand, but this time the delay extends to a period of ***6 to 12 months***. However some maintainers may occasionally log on for small changes and will usually reply.
+- Offline: *No active helper person is available*. This will usually be announced beforehand, and ***replies are not guaranteed!***. However unlike *Hibernation* mode, someone may log on once and reply, although it is not guaranteed.
+- Busy: *All active repository maintainers are working on a certain task on the repository*, meaning that **delays may occur**, usually from ***30 days to 90 days long***.
 - Migration: Although pretty rare to occur, this means *all active repository maintainers are working on migration*, meaning that any issues and pull requests **will not be looked at *until* migration is over** and commits will **focus on migration tasks**. This usually makes the time of delay extend to a period of time of **minimum *1 to 2 months***.
 - HIBERNATION: *ABSOLUTELY NO STAFF ACTIVE*. THIS WILL USUALLY BE ANNOUNCED 1 DAY OR MORE BEFORE THE EVENT. **ABSOLUTELY NO COMMITS WILL BE STAGED BY ANYONE AND NO REPLIES WILL BE PROVIDED DURING STATED DURATION TIME**
 
 ### Planned Modes for certain dates:
 
 1 - 15th May 2026 → 14th July 2026 - Repository will go in **Hibernation** mode due to maintainers leave for personal reasons
+
+2 - 20th December 2025 → 30th December 2025 - Repository will go to **Offline** mode due to Christmas Holidays
 
 Thank you for your understanding, and we apologise for any inconveniences.
 
