@@ -51,7 +51,7 @@ while True:
             with open(file_name, "w", encoding=encoder) as save:
                 save.write(text)
             input("File saved. Press ENTER to continue.")
-        elif character == "\x17":
+        elif character == "\x17": # CTRL-W, configure encoder
             encoder = input("Choose encoder:\n[1] UTF-8 (most common for all systems)\n[2] ANSI (most common in Windows Pre-Vista)\n[3] Custom\nSelect: ")
             if encoder == "1":
                 encoder = 'utf-8'
