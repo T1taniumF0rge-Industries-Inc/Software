@@ -34,4 +34,9 @@ If you encounter any problems with any Python files (*.py), please make sure to 
 ## Extra Information:
 
 > [!TIP]
->  If your computer contains multiple Python projects that are using module versions that are incompatible with the modules specified in the requirements.txt file, it is recommended to use a *Virtual Environment* to isolate the modules to a specific folder (and its subfolders). This means that any installed modules in this folder will not be installed and detected in any other folder of the computer. To do that, all you have to do is open a terminal, and then type `python -m venv {Directory for Virtual Environment}`. For example: `python -m venv C:\Python\PySoft` will make a virtual environment in `C:\Python\PySoft`. However it is not strictly required and for most users you can skip this step.
+>  If your computer contains multiple Python projects that are using module versions that are incompatible with the modules specified in the requirements.txt file, it is recommended to use a *Virtual Environment* to isolate the modules to a specific folder (and its subfolders). This means that any installed modules in this folder will not be installed and detected in any other folder of the computer. To do that, all you have to do is open a terminal, and then type `python -m venv {Directory for Virtual Environment}`. For example: `python -m venv C:\Python\PySoft` will make a virtual environment in `C:\Python\PySoft`. Then you must ACTIVATE the virtual environent. See the screenshot underneath, noting that `<venv>` refers to the path of the virtual environment (in this case `C:\Python\PySoft`, so if you're on Windows CMD, you'll run `C:\Python\PySoft\Scripts\activate.bat`). However it is not strictly required and for most users you can skip this step.
+>
+> <img width="516" height="281" alt="image" src="https://github.com/user-attachments/assets/cd6a72f3-51d5-47c3-876e-1d122315cf0d" />
+
+
+
