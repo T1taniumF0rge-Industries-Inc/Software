@@ -36,12 +36,12 @@ def ipcmd():
                         print("NOTE: when using the 'cd' command, use the following format: 'cd directory' (with a space between the commands)")
                         print("Current system : " + os.name)
                         print('') 
-                    elif 'prompt' in prompt1 and 'prompt:' not in prompt1 and prompt1 != 'prompt reset' and prompt1 != 'prompt directory':
+                    elif prompt1.startswith("prompt") and not prompt1.startswith("prompt:") and prompt1 != 'prompt reset' and prompt1 != 'prompt directory':
                         print("Usage for prompt setting: prompt:[whatever text you want to be the prompt]")
                         print("To set the prompt to the current directory, type 'prompt directory'")
                         print("To reset prompt type: 'prompt reset'")
                         print('')
-                    elif 'prompt:' in prompt1:
+                    elif prompt1.startswith("prompt:"):
                         iprompt = prompt[7:]+'>'
                         print('Prompt setting complete!')
                         print("To reset prompt type: 'prompt reset'")
