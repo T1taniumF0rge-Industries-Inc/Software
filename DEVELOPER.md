@@ -2,6 +2,10 @@
 
 This file is only important and applicable to the collaborators and developers of the `Software` repository for *troubleshooting purposes only*. If you are a standard user, this information does not apply and will not serve you anything unless you are using Git actively on this repository.
 
+> [!WARNING]
+>
+> This repo's local size is over 40GB. Do NOT use Git unless absolutely required (such as an InstallerSoft Upload), instead rely on the web editor and pull request, thank you.
+> 
 ## Important
 
 .COMING_SOON → *"Use this section to tell developers about important information about this repository"*
