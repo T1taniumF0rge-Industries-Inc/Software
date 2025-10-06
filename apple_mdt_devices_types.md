@@ -1,7 +1,7 @@
 # Apple (Mobile) Device Types Chart
 
 ## Apple iPhone Simulators
-
+ 
 **i386** : iPhone Simulator  
 
 **x86_64** : iPhone Simulator  
