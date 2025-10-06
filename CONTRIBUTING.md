@@ -18,11 +18,11 @@ Repository mode will also be shown on top of the [CONTRIBUTING.md](/CONTRIBUTING
 - Migration: Although pretty rare to occur, this means *all active repository maintainers are working on migration*, meaning that any issues and pull requests **will not be looked at *until* migration is over** and commits will **focus on migration tasks**. This usually makes the time of delay extend to a period of time of **minimum *1 to 2 months***.
 - HIBERNATION: *ABSOLUTELY NO STAFF ACTIVE*. THIS WILL USUALLY BE ANNOUNCED 1 DAY OR MORE BEFORE THE EVENT. **ABSOLUTELY NO COMMITS WILL BE STAGED BY ANYONE AND NO REPLIES WILL BE PROVIDED DURING STATED DURATION TIME**
 
-### Planned Modes for certain dates:
+### Planned modes:
 
-1 - 15th May 2026 → 14th July 2026 - Repository will go in **Hibernation** mode due to maintainers leave for personal reasons
+1 - 20th December 2025 → 30th December 2025 - Repository will go to **Offline** mode due to Christmas Holidays
 
-2 - 20th December 2025 → 30th December 2025 - Repository will go to **Offline** mode due to Christmas Holidays
+2 - 15th May 2026 → 14th July 2026 - Repository will go in **Hibernation** mode due to maintainers leave for personal reasons
 
 Thank you for your understanding, and we apologise for any inconveniences.
 
