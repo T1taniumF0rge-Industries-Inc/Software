@@ -1,4 +1,4 @@
-# GIT LFS IS (maybe) BROKEN!!!
+# GIT LFS IS (maybe) BROKEN!!! blunder
 > [!NOTE]
 > This is a Markdown language testing file. Please ignore! 
 
