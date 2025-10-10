@@ -1,4 +1,4 @@
-# Apple (Mobile) Devices Types Chart
+# Apple (Mobile) Devices Types chart
 
 ## Apple iPhone Simulators
  
