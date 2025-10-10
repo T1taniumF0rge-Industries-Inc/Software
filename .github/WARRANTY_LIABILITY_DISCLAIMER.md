@@ -3,7 +3,7 @@
 > [!IMPORTANT]
 > In any situation where a warranty or liability disclaimer is present in the `Software` repository, "we", "The Software Team", "The Devs", "The Developers" all refer to the Owner, the main developers and main maintainers, and the developers and maintainers of this repository. A warranty or liability disclaimer is a paragraph that includes "We will ***not*** be liable for **any damages caused by**", etc... and explains that we aren't liable for any damages no matter what.
 > 
-> This repository `Software` full name `/T1taniumF0rge-Industries-Inc/Software` (old name `/GamerSoft24/Software` *and* `/Midnight_G0ldX/Software` before migration) is under the control of the **Titan1um™ & T1taniumF0rge® Industries Incorporated organization**.
+> This repository `Software` full name `/T1taniumF0rge-Industries-Inc/Software` (old name `/GamerSoft24/Software` *and* `/Midnight_G0ldX/Software` before the 2025 migration) is under the control of the **Titan1um™ & T1taniumF0rge® Industries Incorporated organization**.
 
 This repository is licensed under the </ins>**[BSD-3](/LICENSE)**</ins> License.
 
