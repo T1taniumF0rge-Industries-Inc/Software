@@ -1,6 +1,12 @@
-# GIT LFS IS (maybe) BROKEN!!! blunder
+# Markdown Testing
+
 > [!NOTE]
-> This is a Markdown language testing file. Please ignore! 
+> **This is a Markdown language testing file. *Please ignore!***
+
+## GIT LFS IS (maybe) BROKEN!!! blunder
+
+> [!WARNING]
+> If you dont know what a synérese and a diérese are, then please GET OUT!!!
 
 123 456 rusty typy and javacripty with his big brother java are coming to the repo!
     
