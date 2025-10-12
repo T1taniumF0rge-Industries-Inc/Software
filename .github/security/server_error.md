@@ -1,4 +1,5 @@
-# Server Error:
+# Oops! Aïe! Oww!!
+You've just encountered a server error!
 
 ## Why have I been redirected here?
 
@@ -18,7 +19,7 @@ You have been redirected to this page due to an error in the server. This measur
 
 If you think you can proceed elsewhere, you may. Attacks like these can be temporary and don't happen all the time. 
 
-If this page appears consistently, please contact support at gamersoftware.corp@gmail.com, sutoexec.bat@gmail.com or gsst2401@gmail.com
+If this page appears consistently, please contact support at t1taniumf0rgeindustries.inc@gmail.com (gamersoftware.corp@gmail.com) or sutoexec.bat@gmail.com (gsst2401@gmail.com)
 
 Thanks for understanding.
 
