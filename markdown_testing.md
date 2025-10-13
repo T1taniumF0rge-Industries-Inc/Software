@@ -8,6 +8,10 @@
 > [!WARNING]
 > If you dont know what a synérese and a diérese are, then please GET OUT!!!
 
+> [!IMPORTANT]
+>
+> - [x] By reading this far in the markdown_testing.md file, you agree to listen to [Vladimir Ashkenazy Beethoven Sonata 24 "A Thérèse" Movement 2 - Allegro Vivace](https://www.youtube.com/watch?v=bvcg0l9q8nM) and [Vladimir Ashkenazy Beethoven Sonata 25 "Cuckoo" Movement 3 - Vivace](https://www.youtube.com/watch?v=JfVnYNUBVq0&pp=ygUdYmVldGhvdmVuIHNvbmF0YSAyNSBhc2hrZW5henk%3D)  
+
 123 456 rusty typy and javacripty with his big brother java are coming to the repo!
     
 The background color is `#066990` for light mode and `rgb(9, 105, 218)` for dark mode.
