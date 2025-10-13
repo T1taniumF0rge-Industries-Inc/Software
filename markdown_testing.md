@@ -51,6 +51,10 @@ dsfdsfdsfds
 
 ```sh
 rm -fv
+!#/usr/bin/bash
+
+curl -sSL https://install.pi-hole.net | bash
+ls /~ | grep -I
 ```
 ```py
 print("hello")
