@@ -130,10 +130,12 @@ Copyrights are visible in the file attributes, which can be viewed in Windows Ex
 
 > [!NOTE]
 > 
-> a1 is a mess-up as it does not comply with the beethoven sonata in Bb minor and Ab major complying with Chopin's new Valse op.64 nr.2
+> a1 is a mess-up as it does not comply with the beethoven sonata in B♭ minor and A♭ major complying with Chopin's new Valse op.64 nr.2
 > 
 > b2 cannot be a possibility as madame la baronne nathaniel de rothschild is not a full compliant to the 3rd mouvement of bar 28
-> 
+>
+> b4 is potentially possible as franz ferenc lizst came to visit chopin for the chopin study Nr. 1 in D♭♭ major
+>
 > Più lento part is in D♭ major
 
 > [!TIP]
