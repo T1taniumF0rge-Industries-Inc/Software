@@ -10,17 +10,17 @@
 
 > [!IMPORTANT]
 >
-> - [ ] By reading this far in the markdown_testing.md file, you agree to listen to [Vladimir Ashkenazy Beethoven Sonata 24 "A Thérèse" Movement 2 - Allegro Vivace](https://www.youtube.com/watch?v=bvcg0l9q8nM) and [Vladimir Ashkenazy Beethoven Sonata 25 "Cuckoo" Movement 3 - Vivace](https://www.youtube.com/watch?v=JfVnYNUBVq0&pp=ygUdYmVldGhvdmVuIHNvbmF0YSAyNSBhc2hrZW5henk%3D)
+> - [x] By reading this far in the markdown_testing.md file, you agree to listen to [Vladimir Ashkenazy Beethoven Sonata 24 "A Thérèse" Movement 2 - Allegro Vivace](https://www.youtube.com/watch?v=bvcg0l9q8nM) and [Vladimir Ashkenazy Beethoven Sonata 25 "Cuckoo" Movement 3 - Vivace](https://www.youtube.com/watch?v=JfVnYNUBVq0&pp=ygUdYmVldGhvdmVuIHNvbmF0YSAyNSBhc2hrZW5henk%3D)
 >
 > 
-> - [ ] Più Lento part is in D major
+> - [x] Più Lento part is in D major
 > - [ ] Più Lento part is in D♭ major
 >
-> - [ ] Mazurka in A minor Op. 17 No. 4 is copy and paste
+> - [x] Mazurka in A minor Op. 17 No. 4 is copy and paste
 >
-> - [ ] Bohuslav Martinů Allegretto (No. 4 from Čtvrtky a osminky, H. 257) is too easy for Grade 7
+> - [x] Bohuslav Martinů Allegretto (No. 4 from Čtvrtky a osminky, H. 257) is too easy for Grade 7
 >
-> - [ ] Chambéry Challes-Les-Eaux is a great train station!
+> - [x] Chambéry Challes-Les-Eaux is a great train station!
 
 123 456 rusty typy and javacripty with his big brother java are coming to the repo!
     
