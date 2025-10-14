@@ -99,16 +99,20 @@ This is **where** Okmeque1 will be *storing all* of ***his migrated and updated 
 
 ## [`OfficeSoft:`]
 
-This is **where** I will be *storing all* of the ***Microsoft office files I use at work.*** (Word templates, etc)
+This is **where** I and Okmeque1 will be *storing all* of the ***Microsoft office files we use at work.*** (Word templates, etc)
 
 *For* **direct access**, [click here!](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/OfficeSoft)
 
 ## [`PictureSoft:`]
 
-This is **where** I and Okmeque1 will be *storing all* of the **unique pictures I find interesting.**
+This is **where** I and Okmeque1 will be *storing all* of the **unique pictures we find interesting.**
 
 > [!NOTE]
 > The [Programs chart](/Programs.md) does not cover this folder, and you will have to navigate the folder structure.
+
+## [`AppleSoft:`]
+
+This is **where** I will be *storing all* of my **Apple Inc. related stuff...** [(c) Apple, Inc.](https://www.apple.com/) - All rights reserved
 
 *For* **direct access**, [click here!](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/PictureSoft)
 
