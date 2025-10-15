@@ -8,7 +8,7 @@ To consider *changing programs and codes* in this `Software` repository you have
 
 ## Repository Modes:
 
-Repository mode will also be shown on top of the [CONTRIBUTING.md](/CONTRIBUTING.md) file
+Repository mode will also be shown on top of the repository's [README](/README.md)
 
 - Active: *All active repository maintainers working full-time on the `Software` repository and will review any issue*, pull request or any other thing within a **maximum delay of ***7 days*****.
 - Semi Active: *One or more, but not all maintainers are working part-time on this repository*. Review time extends to ***30 days maximum***.
