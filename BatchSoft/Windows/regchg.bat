@@ -31,6 +31,7 @@ IF ERRORLEVEL 4 GOTO W10
 IF ERRORLEVEL 3 GOTO EDGE
 IF ERRORLEVEL 2 GOTO VBM
 IF ERRORLEVEL 1 GOTO WINSEARCH
+
 :END
 IF !RESTARTCOMPUTER!==1 GOTO ASKRESTART
 echo.
@@ -38,8 +39,10 @@ echo Exit?
 choice
 IF ERRORLEVEL 2 GOTO START
 IF ERRORLEVEL 1 GOTO REALEND
+
 :REALEND
 exit /b
+
 :ASKRESTART
 echo.
 echo The changes have successfully been made. Your computer must be restarted in order to apply the changes properly. Restart?
@@ -48,12 +51,15 @@ choice
 set RESTARTCOMPUTER=0
 IF ERRORLEVEL 2 GOTO END
 IF ERRORLEVEL 1 GOTO REBOOT
+
 :REBOOT
 shutdown /r /t 10 /c "This computer will reboot in 10 seconds. Make sure to save all of your work. Changes will be applied during the reboot - REGCHG.BAT"
+
 :W10
 reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
 pause
 goto END
+
 :EVERYTHING
 reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
 reg add HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer /v DisableSearchBoxSuggestions /t REG_DWORD /d 1 /f
@@ -63,6 +69,7 @@ set RESTARTCOMPUTER=1
 reg add HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v VerboseStatus /t REG_DWORD /d 1 /f
 pause
 goto END
+
 :AIO
 reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
 reg add HKEY_CURRENT_USER\SOFTWARE\Porlicies\Microsoft\Windows\Explorer /v DisableSearchBoxSuggestions /t REG_DWORD /d 1 /f
@@ -87,6 +94,7 @@ del /f "C:\Users\Public\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch
 del /f "%USERPROFILE%\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Microsoft Edge.lnk"
 pause
 goto END
+
 :EDGE
 taskkill /f /im msedge.exe
 taskkill /f /im MicrosoftEdgeUpdate.exe
@@ -104,10 +112,12 @@ del /f "C:\Users\Public\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch
 del /f "%USERPROFILE%\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Microsoft Edge.lnk"
 pause
 goto END
+
 :VBM
 reg add HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v VerboseStatus /t REG_DWORD /d 1 /f
 pause
 goto END
+
 :WINSEARCH
 reg add HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer /v DisableSearchBoxSuggestions /t REG_DWORD /d 1 /f
 taskkill /f /im explorer.exe
