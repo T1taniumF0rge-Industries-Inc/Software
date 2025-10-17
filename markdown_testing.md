@@ -22,6 +22,19 @@
 >
 > - [x] Chambéry Challes-Les-Eaux is a great train station!
 
+> [!IMPORTANT]
+>
+> > [!NOTE]
+> >
+> > > [!TIP]
+> > >
+> > > > [!WARNING]
+> > > >
+> > > > > [!CAUTION]
+> > > > >
+> > > > > > nooooo it dooesn't render properly when you imbriquer the blocks
+
+
 123 456 rusty typy and javacripty with his big brother java are coming to the repo!
     
 The background color is `#066990` for light mode and `rgb(9, 105, 218)` for dark mode.
