@@ -2,7 +2,9 @@
 ![GitHub commit activity](https://img.shields.io/badge/Repository%20Status-Semi%20Active-yellow) &nbsp;
 
 > [!IMPORTANT]
-> Any contributions that violates these guidelines will be ignored/not approved for change (if you forgot one simple thing like marking your changes in the code then our team may remind you there and *you may not receive a warning*. But if you intentionally ignore a rule multiple times or break a rule like rewrite code from scratch without forking you will have warning) and you will be given a warning. If you receive 3 warnings, you will not be able to contribute anymore and our team will ignore all contributions made by you! Please read this carefully, thank you.
+> Any contributions that violate these guidelines will be ignored/not approved for change¹ and you will be given a warning. If you receive 3 warnings, you will not be able to contribute anymore and our team will ignore all contributions made by you! Please read this file carefully, thank you.
+>
+> ¹: if you forgot one simple thing like marking your changes in the code then our team may remind you there and *you may not receive a warning*. But if you intentionally ignore a rule multiple times or break a rule like rewrite code from scratch without forking you will have warning
 
 To consider *changing programs and codes* in this `Software` repository you have to **pull request first and wait for approval** which should be *reviewed* in the **maximum delay of ***7 days***** **unless** the repository isn't in *Active* mode (in that case it will be noted in the [README.md](/README.md) file of this repository)! The "Pull Requests" tab is located on the top left corner of your screen (on computer), most generally under the word Software, and the "Issues" tab just on its left.
 
@@ -13,10 +15,10 @@ Repository mode will also be shown on top of the repository's [README](/README.m
 - Active: *All active repository maintainers working full-time on the `Software` repository and will review any issue*, pull request or any other thing within a **maximum delay of ***7 days*****.
 - Semi Active: *One or more, but not all maintainers are working part-time on this repository*. Review time extends to ***30 days maximum***.
 - Inactive: *No active maintainers are available due to certain circumstances*. This will usually be announced beforehand, but this time the delay extends to a period of ***6 to 12 months***. However some maintainers may occasionally log on for small changes and will usually reply.
-- Offline: *No active helper person is available*. This will usually be announced beforehand, and ***replies are not guaranteed!***. However unlike *Hibernation* mode, someone may log on once and reply, although it is not guaranteed.
-- Busy: *All active repository maintainers are working on a certain task on the repository*, meaning that **delays may occur**, usually from ***30 days to 90 days long***.
+- Offline: *No active helper person is available*. This will usually be announced beforehand, and ***replies are not guaranteed!***. However unlike *Hibernation* mode, someone may log on once and reply (maybe once every 2 years unlike Inactive), although it is not guaranteed.
+- Busy: *All active repository maintainers are working on a certain task repository-based task*, meaning that **some delays may occur**, usually from ***30 days to 90 days long***.
 - Migration: Although pretty rare to occur, this means *all active repository maintainers are working on migration*, meaning that any issues and pull requests **will not be looked at *until* migration is over** and commits will **focus on migration tasks**. This usually makes the time of delay extend to a period of time of **minimum *1 to 2 months***.
-- HIBERNATION: *ABSOLUTELY NO STAFF ACTIVE*. THIS WILL USUALLY BE ANNOUNCED 1 DAY OR MORE BEFORE THE EVENT. **ABSOLUTELY NO COMMITS WILL BE STAGED BY ANYONE AND NO REPLIES WILL BE PROVIDED DURING STATED DURATION TIME**
+- HIBERNATION: *ABSOLUTELY NO STAFF ACTIVE*. THIS WILL USUALLY BE ANNOUNCED 1 DAY OR MORE BEFORE THE EVENT. **ABSOLUTELY NO COMMITS WILL BE STAGED BY ANYONE AND NO REPLIES WILL BE PROVIDED DURING STATED DURATION TIME**. 
 
 ### Planned modes:
 
