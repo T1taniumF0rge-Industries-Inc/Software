@@ -163,6 +163,8 @@ Copyrights are visible in the file attributes, which can be viewed in Windows Ex
 > b4 is potentially possible as franz ferenc lizst came to visit chopin for the chopin study Nr. 1 in D♭♭ major
 >
 > Più lento part is in D♭ major
+>
+> mazurka in a minor is copy and paste
 
 > [!TIP]
 >
