@@ -16,12 +16,13 @@ echo WARNING! The uninstall Edge feature is completely functional but may throw 
 echo.
 echo IMPORTANT For users that use applications that rely on Microsoft Edge WebView2, it is highly recommended that you do not uninstall Microsoft Edge as applications that rely on WebView2 also rely on core functions of Microsoft Edge.
 echo.
-echo [1] Disable Start Menu Search Results - Will make it easier to find what you want
+echo. NOTE: It is required to restart your computer so that the changes are applied properly after using any option of this script
+echo [1] Disable Start Menu Search Results - Will make it easier to find what you want 
 echo [2] Enable Verbose Boot Messages - This will make the messages upon startup, login and shutdown. Useful for slow PC
 echo [3] Uninstall Edge
 echo [4] Restore Windows 10 style Right-click menu - Useful for long-time Windows users.
-echo [5] Everything (PC Restart required)
-echo [6] Everything except Edge Uninstall (PC Restart required)
+echo [5] Everything 
+echo [6] Everything except Edge Uninstall 
 echo [7] Quit program
 choice /c:1234567 /m "Choose an option : "
 IF ERRORLEVEL 7 GOTO END
