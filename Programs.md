@@ -472,7 +472,7 @@ All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers
 
 [**NSIS (NullSoft Scriptable Install System):**](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/InstallerSoft/Windows/NSIS%20(Nullsoft%20Scriptable%20Install%20System))
 
-1 -> [NSIS v2.48:](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/Main/InstallerSoft/Windows/NSIS%20(Nullsoft%20Scriptable%20Install%20System)/v2.48/nsis-2.48-setup.exe) Version 2.48 of the NullSoft Scriptable Install System. Can do NSIS scripts as well as Zip2EXE which transforms your .zip archive into a nice GUI installer.
+1 -> [NSIS v2.48:](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/Main/InstallerSoft/Windows/NSIS%20(Nullsoft%20Scriptable%20Install%20System)/v2.48/nsis-2.48-setup.exe) Version 2.48 of the NullSoft Scriptable Install System. Can do NSIS scripts as well as Zip2EXE which transforms your .zip archive into a nice GUI installer. Probably runs on Windows 95 16/32/64 bit and Windows 11 64 Bit because NSIS 2.51 runs on Windows 95, and NSIS 2.48 runs on Windows 10...
 
 2 -> [NSIS v3.09:](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/Main/InstallerSoft/Windows/NSIS%20(Nullsoft%20Scriptable%20Install%20System)/v3.09/nsis-3.09-setup.exe) Version 3.09 of the NullSoft Scriptable Install System. Can do NSIS scripts as well as Zip2EXE which transforms your .zip archive into a nice GUI installer. Latest version of NSIS for this repository.
 
@@ -657,6 +657,7 @@ The `InstallerSoft Mac OS` part of the `Programs.md` file will continue beneath.
 > For full details, go [here](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/main/.github/WARRANTY_LIABILITY_DISCLAIMER.md)!
 >
 > This repository `Software` full name `/T1taniumF0rge-Industries-Inc/Software` (old name `/GamerSoft24/Software`) is under the control of the **Titan1um™ & T1taniumF0rge® Industries Incorporated organization**.
+
 
 
 
