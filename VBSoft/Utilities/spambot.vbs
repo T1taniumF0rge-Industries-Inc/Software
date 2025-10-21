@@ -1,7 +1,7 @@
 Set wshShell =wscript.CreateObject("WScript.Shell")
 strtext = inputbox ("Write down your message you like to spam") 
 strtimes = inputbox ("How many times do you like to spam?") 
-strspeed = inputbox ("How fast do you like to spam? (1000 = 1000 per sec, 100 = 10 per secs, etc...)") 
+strspeed = inputbox ("How fast do you like to spam? (1000 = 100 per sec, 100 = 10 per secs, etc...)") 
 strtimeneed = inputbox ("How many SECONDS do you need to get to your victim's input box?") 
 returnvalue=MsgBox ("You are currently agreeing to the terms of conditions, warranty and liability informations and/or disclaimers of the T1taniumF0rge-Industries-Inc/Software repository as well as acknowledging that the T1taniumF0rge Industries Inc. will NOT be liable for any damages caused by this program?",36) 
 If returnvalue=6 Then  
