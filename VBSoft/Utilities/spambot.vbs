@@ -1,3 +1,4 @@
+Set wshShell =wscript.CreateObject("WScript.Shell")
 strtext = inputbox ("Write down your message you like to spam") 
 strtimes = inputbox ("How many times do you like to spam?") 
 strspeed = inputbox ("How fast do you like to spam? (1000 = 1000 per sec, 100 = 10 per secs, etc...)") 
@@ -6,26 +7,26 @@ returnvalue=MsgBox ("You agree to the terms of conditions, warranty and liabilit
 If returnvalue=6 Then  
 End If 
 If not isnumeric (strtimes & strspeed & strtimeneed) then 
-msgbox "You entered something else then a number on Times, Speed and/or Time need. shutting down" 
+msgbox ("You entered something else then a number on Times, Speed and/or Time need. shutting down spambot service...", 16) 
 wscript.quit 
 End If 
 strtimeneed2 = strtimeneed * 1000 
 do 
 msgbox "You have " & strtimeneed & " seconds to get to your input area where you are going to spam after you click OK." 
 wscript.sleep strtimeneed2 
-shell.sendkeys ("Spambot activated" & "{enter}") 
+wshshell.sendkeys ("Spambot activated" & "{enter}") 
 for i=0 to strtimes 
-shell.sendkeys (strtext & "{enter}") 
+wshshell.sendkeys (strtext & "{enter}") 
 wscript.sleep strspeed 
 Next 
-shell.sendkeys ("Spambot deactivated" & "{enter}") 
+wshshell.sendkeys ("Spambot deactivated" & "{enter}") 
 wscript.sleep strspeed * strtimes / 10 
 returnvalue=MsgBox ("Want to spam again with the same info?",36) 
 If returnvalue=6 Then 
 Msgbox "Ok Spambot will activate again" 
 End If 
 If returnvalue=7 Then 
-msgbox "Shutting down" 
+msgbox ("Shutting down spambot service...", 16) 
 wscript.quit 
 End IF 
 loop 
