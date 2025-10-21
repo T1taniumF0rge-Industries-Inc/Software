@@ -11,7 +11,7 @@ wscript.quit
 End If 
 strtimeneed2 = strtimeneed * 1000 
 do 
-msgbox "You have " & strtimeneed & " seconds to get to your input area where you are going to spam." 
+msgbox "You have " & strtimeneed & " seconds to get to your input area where you are going to spam after you click OK." 
 wscript.sleep strtimeneed2 
 shell.sendkeys ("Spambot activated" & "{enter}") 
 for i=0 to strtimes 
