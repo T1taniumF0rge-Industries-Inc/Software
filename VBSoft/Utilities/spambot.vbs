@@ -1,7 +1,7 @@
 strtext = inputbox ("Write down your message you like to spam") 
 strtimes = inputbox ("How many times do you like to spam?") 
-strspeed = inputbox ("How fast do you like to spam? (1000 = one per sec, 100 = 10 per secs, etc...)") 
-strtimeneed = inputbox ("How many SECONDS do you need to get to your victems input box?") 
+strspeed = inputbox ("How fast do you like to spam? (1000 = 1000 per sec, 100 = 10 per secs, etc...)") 
+strtimeneed = inputbox ("How many SECONDS do you need to get to your victim's input box?") 
 
 If not isnumeric (strtimes & strspeed & strtimeneed) then 
 msgbox "You entered something else then a number on Times, Speed and/or Time need. shutting down" 
