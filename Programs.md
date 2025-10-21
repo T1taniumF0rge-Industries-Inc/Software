@@ -196,7 +196,7 @@ PictureSoft is not included in here as there are too many files and they all rep
 ### [DestroyPC](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/Main/BatchSoft/DestroyPC):
 
 > [!CAUTION]
-> The codes in [`/BatchSoft/DestroyPC`](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/BatchSoft/DestroyPC) folder are ***SUPER deadly*** and can *crash your computer* and splash a BSOD on your screen. We will ***not*** be liable for **any damages caused by any scripts in the `BatchSoft/DestroyPC` folder *in your possession! (this includes, but is not limited to, modification, execution or download of the files)***
+> The codes in [`/BatchSoft/DestroyPC`](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/BatchSoft/DestroyPC) folder are ***SUPER deadly*** and can *crash your computer* and *splash a BSOD on your screen*. We will ***not*** be liable for **any damages caused by any scripts in the `BatchSoft/DestroyPC` folder *in your possession! (this includes, but is not limited to, modification, execution or download of the files)***
 
 1 -> [Start 'n Loop (start 'n loop.bat)](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/Main/BatchSoft/DestroyPC/start_n'_loop.bat): This script will start instances of itself, however the started instances will start other instances of the script. It's essentially exponential, and in a few seconds you go from 1 → 2 → 4 → 8 → 16, it'll crash your computer very quickly, so make sure to save all work in all open programs, close all programs then you can run the script and see how long before it bluescreens.
 
@@ -659,6 +659,7 @@ The `InstallerSoft Mac OS` part of the `Programs.md` file will continue beneath.
 > For full details, go [here](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/main/.github/WARRANTY_LIABILITY_DISCLAIMER.md)!
 >
 > This repository `Software` full name `/T1taniumF0rge-Industries-Inc/Software` (old name `/GamerSoft24/Software`) is under the control of the **Titan1um™ & T1taniumF0rge® Industries Incorporated organization**.
+
 
 
 
