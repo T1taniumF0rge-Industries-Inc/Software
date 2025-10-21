@@ -157,6 +157,13 @@ PictureSoft is not included in here as there are too many files and they all rep
 
 1 -> [Open Browser (open browser.vbs):](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/Main/VBSoft/Utilities/open%20browser.vbs) Opens your default web browser (e.g.: Microsoft Edge, Google Chrome / Chrome Beta / Chrome Dev, Firefox, Opera / Opera GX, Internet Explorer 💀, etc...
 
+> [!IMPORTANT]
+>
+> You **must** agree to *the terms of conditions*, *warranty* and *liability* informations ***and/or*** disclaimers of the `T1taniumF0rge-Industries-Inc/Software` repository as well as acknowledging that the `T1taniumF0rge Industries Inc.` will NOT be liable for any damages caused by the following program.
+> 
+2 -> [Spam Bot (spambot.vbs):](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/main/VBSoft/Utilities/spambot.vbs) A tool like the name implies, allows you to spam. Use wisely, and don't get fired from work. Good luck!
+
+
 ### [Login Simulator:](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/VBSoft/Login%20Simulator)
 
 1 & 2 -> [Windows User Name and Password Login Simulator (logon.vbs & logon2.vbs):](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/PySoft/Login%20Simulator/logon.vbs) Simulates a pretty similar experience to logging into Windows back in 1999 or so. And in some versions, yes it would shut down your computer if you got it 3 times wrong. **Both files, logon.vbs and logon2.vbs need to be downloaded to ensure compatability and stability!**
@@ -659,6 +666,7 @@ The `InstallerSoft Mac OS` part of the `Programs.md` file will continue beneath.
 > For full details, go [here](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/main/.github/WARRANTY_LIABILITY_DISCLAIMER.md)!
 >
 > This repository `Software` full name `/T1taniumF0rge-Industries-Inc/Software` (old name `/GamerSoft24/Software`) is under the control of the **Titan1um™ & T1taniumF0rge® Industries Incorporated organization**.
+
 
 
 
