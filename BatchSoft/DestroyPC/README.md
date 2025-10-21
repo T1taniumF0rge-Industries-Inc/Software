@@ -1,3 +1,5 @@
+# DestroyPC Warnings
+
 > [!CAUTION]
 > The codes in [`/BatchSoft/DestroyPC`](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/BatchSoft/DestroyPC) folder are ***SUPER deadly*** and can *crash your computer* and splash a BSOD on your screen. We will ***not*** be liable for **any damages caused by any scripts in the `BatchSoft/DestroyPC` folder *in your possession! (this includes, but is not limited to, modification, execution or download of the files)***
 
