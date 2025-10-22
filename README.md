@@ -137,7 +137,7 @@ Please ignore this folder as changes will only be made here ***if*** a commit is
 ## InstallerSoft AV Virus Detections:
 
 > [!WARNING]
-> Some of our programs in the [`InstallerSoft/Windows`](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/InstallerSoft/Windows) folder may report to some AV's as being viruses (most likely in-house repackaged NSIS installers and other programs). However, unless a program is *explicitely* marked as a virus or a program that may crash your computer, you can trust this repository. Some installers will even come with *.nsi files and the source (usually in a *.zip file) so that you may check what the script is made out of, for any type of *sneaky* viruses. We will ***not*** be liable for **any damages caused by any programs in the `InstallerSoft/Windows` folder *in your possession! (this includes, but is not limited to, modification, execution or download of the files)***. You may choose to leave this repository if you do not feel comfortable with the above statement.
+> Some of our programs in the [`InstallerSoft/Windows`](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/InstallerSoft/Windows) folder may report to some AV's as being viruses (most likely in-house repackaged NSIS installers and other programs). However, unless a program is *explicitely* marked as a virus or a program that may crash your computer, you can trust this repository. Some installers will even come with *.nsi files and the source (usually in a *.zip file) so that you may check what the script is made out of, for any type of *sneaky* viruses. We will ***not*** be liable for **any damages caused by any programs in the `InstallerSoft/Windows` folder *in your possession! (this includes, but is not limited to, modification, execution or download of the files)***. You **must** leave this repository if you do not agree with the statements ***and/or*** terms and conditions stated above.
 
 ## Amount of programming languages:
 
@@ -162,7 +162,7 @@ This repository is licensed under the </ins>**[BSD-3](/LICENSE)**</ins> License.
 
 To use **any material** from this repository, you **must** agree to the **[license](/LICENSE)** and its terms of conditions, as well as ***any* and *all* disclaimers, warranty or liability information/disclaimers (if applicable)**. We will ***not*** be liable for **any damages caused by any file, software package, individual program or other material from this repository *in your possession (this includes, but is not limited to, modification, execution or download of the files)*! This includes, but is not limited to, unintentional bugs, user error caused by an unclear prompt (usually an old unsupported program), clearly marked dangerous programs that may crash your computer or user negligence (didn't read the warnings) and more. However you may open an issue at any time for support and improvement of the material present, and we will try our best to resolve the issues as best as we can.**
 
- You may choose to leave this repository if you do not feel comfortable with the above statement.
+You **must** leave this repository if you do not agree with the statements ***and/or*** terms and conditions stated above.
 
 ## Repository Modes:
 
