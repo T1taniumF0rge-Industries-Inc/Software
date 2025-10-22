@@ -65,7 +65,7 @@ To use **any material** from this repository, you **must** agree to the **[licen
 You **must** leave this repository if you do not agree with the statements ***and/or*** terms and conditions stated above.
 
 > [!NOTE]
-> In any situation where a warranty or liability disclaimer is present in the `Software` repository, "we", "The Software Team", "The Devs", "The Developers" all refer to the main developers of this repository. A warranty or liability disclaimer is a paragraph that includes "We will ***not*** be liable for **any damages caused by**", etc... and explains that we aren't liable for any damages no matter what.
+> In any situation where a warranty or liability disclaimer is present in the `Software` repository, "we", "The Software Team", "The Devs", "The Developers" all refer to the Owner, the main developers and main maintainers, and the developers and maintainers of this repository. A warranty or liability disclaimer is a paragraph that includes "We will ***not*** be liable for **any damages caused by**", etc... and explains that we aren't liable for any damages no matter what.
 >  
 > For full details, go [here](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/main/.github/WARRANTY_LIABILITY_DISCLAIMER.md)!
 >
