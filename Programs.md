@@ -665,7 +665,8 @@ The `InstallerSoft Mac OS` part of the `Programs.md` file will continue beneath.
 >  
 > For full details, go [here](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/main/.github/WARRANTY_LIABILITY_DISCLAIMER.md)!
 >
-> This repository `Software` full name `/T1taniumF0rge-Industries-Inc/Software` (old name `/GamerSoft24/Software`) is under the control of the **Titan1um™ & T1taniumF0rge® Industries Incorporated organization**.
+> This repository's (`Software`) full name is `/T1taniumF0rge-Industries-Inc/Software` (old name `/GamerSoft24/Software` *and* `/Midnight_G0ldX/Software` before the 2025 migration) and is under the control of the **Titan1um™ & T1taniumF0rge® Industries Incorporated organization**.
+
 
 
 
