@@ -114,7 +114,7 @@ This is **where** I and Okmeque1 will be *storing all* of the **unique pictures 
 
 This is **where** I will be *storing all* of my **Apple Inc. related stuff...** 
 
-### © Apple Incorporated: [`apple.com`](https://apple.com) - All Rights Reserved
+> ### © Apple Incorporated: [`apple.com`](https://apple.com) - All Rights Reserved
 
 *For* **direct access**, [click here!](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/AppleSoft)
 
