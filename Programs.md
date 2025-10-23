@@ -139,7 +139,7 @@ PictureSoft is not included in here as there are too many files and they all rep
 
 2 -> [Auto Pressing Enter (auto press enter.vbs):](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/Main/VBSoft/Deadly/auto%20press%20enter%20(code%20red!).vbs) Will press the enter key at a really fast rate. More deadly then Auto Pressing Backspace (auto press backspace.vbs)! Be extremely careful using it!
 
-3 -> [Open Google Chrome Infinitly (open chrome infinitly.vbs):](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/Main/VBSoft/Deadly/open%20chrome%20infinitly.vbs) Opens Google Chrome windows at a really fast rate. The deadliest VBS script in this `Software` repository. Can *crash your RAM* in just a **VERY quickly**!
+3 -> [Open Google Chrome Infinitly (open chrome infinitly.vbs):](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/Main/VBSoft/Deadly/open%20chrome%20infinitly.vbs) Opens Google Chrome windows at a really fast rate. The deadliest VBS script in this `Software` repository. Can *crash your RAM* **VERY quickly**!
 
 4 -> [Website Opener (website opener.vbs)](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/main/VBSoft/Deadly/website%20opener....vbs) Repeatedly opens google.chrome (or any website if you edit the script) infinitely. You should save your work before using this script, at least from my experience
 
@@ -666,6 +666,7 @@ The `InstallerSoft Mac OS` part of the `Programs.md` file will continue beneath.
 > For full details, go [here](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/main/.github/WARRANTY_LIABILITY_DISCLAIMER.md)!
 >
 > This repository's (`Software`) full name is `/T1taniumF0rge-Industries-Inc/Software` (old name `/GamerSoft24/Software` *and* `/Midnight_G0ldX/Software` before the 2025 migration) and is under the control of the **Titan1um™ & T1taniumF0rge® Industries Incorporated organization**.
+
 
 
 
