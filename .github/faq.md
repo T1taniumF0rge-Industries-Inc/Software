@@ -143,7 +143,7 @@ As for the guardrails issue, there are warnings plastered everywhere, such as in
 
 > [!IMPORTANT]
 >
-> The codes in the [/VBSoft/Deadly](/VBSoft/Deadly) and [/BatchSoft/DestroyPC](/BatchSoft/DestroyPC) are still ***SUPER deadly*** and could absolutely cause *data loss*, *crash your RAM* ***and/or*** *your entire computer*, *splash a BSOD on your screen*, etc. We will ***not*** be liable for **any damages caused by any scripts in the `BatchSoft/DestroyPC` and `VBSoft/Deadly` folders *in your possession! (this includes, but is not limited to, modification, execution or download of the files)***
+> The codes in the [`/VBSoft/Deadly`](/VBSoft/Deadly) and [`/BatchSoft/DestroyPC`](/BatchSoft/DestroyPC) are still ***SUPER deadly*** and could absolutely cause *data loss*, *crash your RAM* ***and/or*** *your entire computer*, *splash a BSOD on your screen*, etc. We will ***not*** be liable for **any damages caused by any scripts in the `BatchSoft/DestroyPC` and `VBSoft/Deadly` folders *in your possession! (this includes, but is not limited to, modification, execution or download of the files)***
 >
 ^^^ See? There's a warning right there.
 
