@@ -26,7 +26,7 @@ If returnvalue=6 Then
 Msgbox "Ok Spambot will activate again" 
 End If 
 If returnvalue=7 Then 
-msgbox ("Shutting down spambot service...", 16) 
+x=msgbox("Shutting down spambot service...", 16) 
 wscript.quit 
 End IF 
 loop 
