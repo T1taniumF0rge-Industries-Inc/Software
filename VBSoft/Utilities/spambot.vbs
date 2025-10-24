@@ -7,7 +7,7 @@ returnvalue=MsgBox ("You are currently agreeing to the terms of conditions, warr
 If returnvalue=6 Then  
 End If 
 If not isnumeric (strtimes & strspeed & strtimeneed) then 
-msgbox ("You entered something else then a number on Times, Speed and/or Time need. shutting down spambot service...", 16) 
+x=msgbox("You entered something else then a number on Times, Speed and/or Time need. shutting down spambot service...", 16) 
 wscript.quit 
 End If 
 strtimeneed2 = strtimeneed * 1000 
