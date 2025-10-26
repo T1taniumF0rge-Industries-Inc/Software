@@ -285,7 +285,7 @@ There will be a dedicated [Programs chart](https://github.com/T1taniumF0rge-Indu
 ### [Windows:](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/InstallerSoft/Windows)
 
 >[!WARNING]
-> Any programs not listed specifically having a 32-bit [(x86)](https://stackoverflow.com/questions/29974425/why-is-windows-32-bit-called-windows-x86-and-not-windows-x32) version may not run on a most computers with 32-bit architecture. *All of the installers provided here are the latest at time of upload, but might not be at time of download. Even though most programs like Google Chrome come with auto-updating features, it is still recommended for you to double check on the program's official website for their latest installer(s) if you require a specific version of that program!*
+> Any programs not listed specifically having a 32-bit [(x86)](https://stackoverflow.com/questions/29974425/why-is-windows-32-bit-called-windows-x86-and-not-windows-x32) version may not run on most computers with 32-bit architecture. *All of the installers provided here are the latest at time of upload, but might not be at time of download. Even though most programs like Google Chrome come with auto-updating features, it is still recommended for you to double check on the program's official website for their latest installer(s) if you require a specific version of that program!*
 
 [**360Chrome or/and 360AFChrome:**](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/InstallerSoft/Windows/360Chrome)
 
@@ -666,6 +666,7 @@ The `InstallerSoft Mac OS` part of the `Programs.md` file will continue beneath.
 > For full details, go [here](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/main/.github/WARRANTY_LIABILITY_DISCLAIMER.md)!
 >
 > This repository's (`Software`) full name is `/T1taniumF0rge-Industries-Inc/Software` (old name `/GamerSoft24/Software` *and* `/Midnight_G0ldX/Software` before the 2025 migration) and is under the control of the **Titan1um™ & T1taniumF0rge® Industries Incorporated organization**.
+
 
 
 
