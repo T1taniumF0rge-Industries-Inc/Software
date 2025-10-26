@@ -537,9 +537,7 @@ Ain't no way I'm doing it for every version. Just go into the folder with your d
 
 1 -> [Roblox:](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/Main/InstallerSoft/Windows/Roblox/RobloxPlayerInstaller.exe) Okmeque1 kind of hates this installer and thinks that the error messages are awful. If any Roblox Devs come across this, at least use the [Error chart](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/Main/Errors%20chart.md) or some form of error code as troubleshooting is way too hard.
 
-Side Note: why are you even playing this in 2025? You know that [Schlep](https://www.youtube.com/@RealSchlep) got banned for no reason? You should check him out and stop givinng your money to these faceless corporations. If you think I'm lying, check the recent media (by the time I go back to this file in 2036, this will be outdated, but around the Mid-august 2025 did this entire thing start) around Schlep as well as the -12BN stock plunge for the Roblox Corporation. And if you watch Schlep and like his videos, you should consider watching [Omma](https://www.youtube.com/@Omma)...
-
-# Free Schlep
+### Free Schlep
 
 The `InstallerSoft Windows` part of the `Programs.md` file will continue beneath.
 
@@ -650,9 +648,7 @@ All versions of the WinImage program from this repository are x86 compatible.
 
 1 -> [Roblox:](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/Main/InstallerSoft/macOS/Roblox/Roblox.dmg) Okmeque1 kind of hates this installer and thinks that the error messages are awful. If any Roblox Devs come across this, at least use the [Error chart](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/Main/Errors%20chart.md) or some form of error code as troubleshooting is way too hard.
 
-Side Note: why are you even playing this in 2025? You know that [Schlep](https://www.youtube.com/@RealSchlep) got banned for no reason? You should check him out and stop givinng your money to these faceless corporations. If you think I'm lying, check the recent media (by the time I go back to this file in 2036, this will be outdated, but around the Mid-august 2025 did this entire thing start) around Schlep as well as the -12BN stock plunge for the Roblox Corporation. And if you watch Schlep and like his videos, you should consider watching [Omma](https://www.youtube.com/@Omma)...
-
-# Free Schlep
+### Free Schlep
 
 The `InstallerSoft Mac OS` part of the `Programs.md` file will continue beneath.
 
@@ -666,6 +662,7 @@ The `InstallerSoft Mac OS` part of the `Programs.md` file will continue beneath.
 > For full details, go [here](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/main/.github/WARRANTY_LIABILITY_DISCLAIMER.md)!
 >
 > This repository's (`Software`) full name is `/T1taniumF0rge-Industries-Inc/Software` (old name `/GamerSoft24/Software` *and* `/Midnight_G0ldX/Software` before the 2025 migration) and is under the control of the **Titan1um™ & T1taniumF0rge® Industries Incorporated organization**.
+
 
 
 
