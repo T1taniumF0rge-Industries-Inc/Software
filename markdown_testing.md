@@ -190,3 +190,8 @@ Copyrights are visible in the file attributes, which can be viewed in Windows Ex
 > [!IMPORTANT]
 >
 > Étude d'Éxecution Transcendantes by Sviatoslav Richter
+
+
+╦1Tan║μm
+
+
