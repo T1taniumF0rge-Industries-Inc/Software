@@ -15,7 +15,7 @@
 > Important informations are present in this file that must be read for the best experience of the `Software` repository, so make sure to read the entirety of this file.
 
 ## [`PySoft:`]
-This is **where** I and Okmeque1 will be *storing all* of ***our*** Python codes and programs.
+This is **where** I and Okmeque1 will be *storing all* of ***our*** Python codes and programs. Python is the **primary** coding language of the `Software` repository.
 
 *For* **direct access**, [click here!](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/PySoft)
 
