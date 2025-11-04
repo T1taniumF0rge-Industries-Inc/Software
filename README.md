@@ -3,7 +3,7 @@
 
 # [`Software`] Repository
 
-### 🎉🎉 We have reached 1856 commits!! -> *Next milestone 2000 commits!* 🎉🎉 
+### 🎉🎉 We have reached 1901 commits!! -> *Next milestone 2000 commits!* 🎉🎉 
 
 **REP-SET III**, *`version 4.7.2-epsilon`*
 
@@ -36,7 +36,7 @@ This is **where** I will be *storing all* of ***my*** HTML (HyperText Markup Lan
 
 ## [`CPPSoft:`]
 
-This is **where** I will be *storing all* of ***my*** C & C++ (including occasional C# & Objective-C) codes and programs although it's name is CPPSoft (C++ Software).
+This is **where** I will be *storing all* of ***my*** C & C++ (including occasional C# & Objective-C) codes and programs even though its name is CPPSoft (C++ Software).
 
 The codes will be more *focused* on **C++** rather then **the other languages of the C-family** and also there will be lots of codes working with external devices, like with NodeMCU boards.
 
