@@ -8,7 +8,7 @@ if %errorLevel% neq 0 (
     exit /b
 )
 :START
-echo *** REGISTRY EDITOR II (regchg.bat, running w/Admin Permissions) - © Lan Internet Software***
+echo *** REGISTRY EDITOR III (regchg.bat, running w/Admin Permissions) - © Lan Internet Software***
 echo.
 echo.
 echo This program will make it easy for you to disable certain annoying Windows Features.
@@ -23,9 +23,11 @@ echo [3] Uninstall Edge
 echo [4] Restore Windows 10 style Right-click menu - Useful for long-time Windows users.
 echo [5] Everything 
 echo [6] Everything except Edge Uninstall 
-echo [7] Quit program
-choice /c:1234567 /m "Choose an option : "
-IF ERRORLEVEL 7 GOTO END
+echo [7] Disable Microsoft Copilot
+echo [8] Quit program
+choice /c:12345678 /m "Choose an option : "
+IF ERRORLEVEL 8 GOTO END
+IF ERRORLEVEL 7 GOTO WINDOWSAI
 IF ERRORLEVEL 6 GOTO EVERYTHING
 IF ERRORLEVEL 5 GOTO AIO
 IF ERRORLEVEL 4 GOTO W10
@@ -64,6 +66,9 @@ goto END
 :EVERYTHING
 reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
 reg add HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer /v DisableSearchBoxSuggestions /t REG_DWORD /d 1 /f
+reg add HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Search /v BingSearchedEnabled /t REG_DWORD /d 0 /f
+reg add HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\WindowsAI /v DisableAIDataAnalysis /d 1 /f
+reg add HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\WindowsCopilot /v TurnOffWindowsCopilot /d 1 /f
 taskkill /f /im explorer.exe
 timeout /t 2 /nobreak
 set RESTARTCOMPUTER=1
@@ -74,6 +79,9 @@ goto END
 :AIO
 reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
 reg add HKEY_CURRENT_USER\SOFTWARE\Porlicies\Microsoft\Windows\Explorer /v DisableSearchBoxSuggestions /t REG_DWORD /d 1 /f
+reg add HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Search /v BingSearchedEnabled /t REG_DWORD /d 0 /f
+reg add HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\WindowsAI /v DisableAIDataAnalysis /d 1 /f
+reg add HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\WindowsCopilot /v TurnOffWindowsCopilot /d 1 /f
 taskkill /f /im explorer.exe
 timeout /t 2 /nobreak
 set RESTARTCOMPUTER=1
@@ -121,9 +129,16 @@ goto END
 
 :WINSEARCH
 reg add HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer /v DisableSearchBoxSuggestions /t REG_DWORD /d 1 /f
+reg add HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Search /v BingSearchedEnabled /t REG_DWORD /d 0 /f
 taskkill /f /im explorer.exe
 timeout /t 2 /nobreak
 set RESTARTCOMPUTER=1
+pause
+goto END
+
+:WINDOWSAI
+reg add HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\WindowsAI /v DisableAIDataAnalysis /d 1 /f
+reg add HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\WindowsCopilot /v TurnOffWindowsCopilot /d 1 /f
 pause
 goto END
 goto START
