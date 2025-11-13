@@ -10,17 +10,25 @@
 **6510B FileNotFoundError:** The program could not find the specified file. Make sure the spelling and format is correct or create the specified file and try again. 
 
 > [!NOTE]
-> When a program asks for a file path, if the file in question is not in the same directory as the program (so if the file is in `C:\GitHub\Projects\Data` and the program is located in `C:\Python`), the format must be full (which includes the drive name and all folders up to the file). On Windows, the format is `A:\directory\subdirectory\file.ext` (note that `A:` can be any letter, like `C:\`, `F:\`, `U:\`, `Z:\`, and the `.ext` part can be any file extension you want). On other systems, it will go something like `/home/python/data/data.ext` (with the same file extension rules as Windows). A valid file and/or directory is a resource that exists and can be used.
+> When a program asks for a file path, if the file in question is not in the same directory as the program (so if the file is in `C:\GitHub\Projects\Data` and the program is located in `C:\Python`), the format must be full (which includes the drive name and all folders up to the file).
+> 
+> - On Windows, the format is `A:\directory\subdirectory\file.ext` (note that `A:` can be any letter, like `C:\`, `F:\`, `U:\`, `Z:\`, and the `.ext` part can be any file extension you want).
+> - On other systems, it will go something like `/home/python/data/data.ext` (with the same file extension rules as Windows). *Just remember that Windows is the only OS that doesn't care about capitalisation. This means that on other OSes, these 2 expressions won't be the same thing: `/home/temp/Var` != `/home/temp/var`*
+>   
+> A valid file and/or directory is a resource that exists and can be used. 
+>
+> Example Windows Paths: `C:\WINDOWS\SYSTEM32`, `D:\Bat\Browsers`
+> Example path for other OSes: `/usr/home`, `/bin/steam`
 
 **0280 SyntaxError:** The program you got has an error or has been tampered with. Open an issue or a pull request if you can fix it.
 
-**0281/770A Exception/BaseException (respectively, although in `PySoft` there is a mix of 770A and 0281:**  A general exception has occured, which means nothing and that a part of the program has had an exception. Use the error details for guidance on how to fix the error, and/or try to match the error description with one of the error descriptions in this chart, then try again. If problems persists, contact the program vendor
+**0281/770A Exception/BaseException (respectively, although in `PySoft` there is a mix of 770A and 0281:**  A general exception has occured, which means nothing and that a part of the program has had an exception. Use the error details for guidance on how to fix the error, and/or try to match the error description with one of the error descriptions in this chart, then try again. If problems persists, open a issue **with details (very important becaus eotherwise we won't know how to reproduce your issue and therefore we won't be able to fix it**
 
 **0283 IsADirectoryError:** Path specified is a directory and not a file. Make sure you spelled the name of the resource correctly and that it is a file, not a directory.
 
 **0211 ValueError:** You have entered an incorrect value (e.g "abc" when asked for a number) or the program you got has an error or an unspecified error with file has bad permissions. Make sure that you have entered the correct values for what was asked (e.g 5 when asked for number) otherwise check permissions and try again, else contact support.
 
-**0271 OSError:** Operating system error. Check your system drive and program, as well as any files that were in use and try again.
+**0271 OSError:** Operating system error. Check your system drive and program, as well as any files that were in use and try again. 
 
 **0272 IOError:** I/O ports error. A device on your system has either malfunctioned or has been unplugged, or a file operation has failed. Make sure that you can use any files that you specify, as well as making sure that all hardware is securely connected (like plugging in your USB drive all the way)
 
