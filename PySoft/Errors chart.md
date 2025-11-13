@@ -15,7 +15,7 @@
 > - On Windows, the format is `A:\directory\subdirectory\file.ext` (note that `A:` can be any letter, like `C:\`, `F:\`, `U:\`, `Z:\`, and the `.ext` part can be any file extension you want).
 > - On other systems, it will go something like `/home/python/data/data.ext` (with the same file extension rules as Windows). *Just remember that Windows is the only OS that doesn't care about capitalisation. This means that on other OSes, these 2 expressions won't be the same thing: `/home/temp/Var` != `/home/temp/var`*
 >   
-> A valid file and/or directory is a resource that exists and can be used. 
+> A valid file and/or directory is a resource on a storage medium that exists and can be used. 
 >
 > Example Windows Paths: `C:\WINDOWS\SYSTEM32`, `D:\Bat\Browsers`
 > Example path for other OSes: `/usr/home`, `/bin/steam`
