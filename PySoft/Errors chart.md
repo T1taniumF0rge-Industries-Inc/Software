@@ -14,7 +14,7 @@
 
 **0280 SyntaxError:** The program you got has an error or has been tampered with. Open an issue or a pull request if you can fix it.
 
-**0281 Exception:** The program you got has an error or has been tampered with. Open an issue or a pull request if you can fix it.
+**0281/770A Exception/BaseException (respectively, although in `PySoft` there is a mix of 770A and 0281:**  A general exception has occured, which means nothing and that a part of the program has had an exception. Use the error details for guidance on how to fix the error, and/or try to match the error description with one of the error descriptions in this chart, then try again. If problems persists, contact the program vendor
 
 **0283 IsADirectoryError:** Path specified is a directory and not a file. Make sure you spelled the name of the resource correctly and that it is a file, not a directory.
 
@@ -45,8 +45,6 @@
 **765E MemoryError:** No more memory (consider upgrading your computer). Close all programs, then reboot and try again. If there's a bluescreen or it continues to fail, just go on Ali Express, Amazon or eBay while your PC is rebooting and buy some more RAM sticks. (to replace RAM, make sure you power down your computer completely and unplug it from any power sources, such as the AC wall power or laptop battery) 
 
 **780F TimeOutError:** Operation took too long. Try again. (causes could be out of RAM, slow HDD or internet and more.)
-
-**770A BaseException:** A general exception has occured, which means nothing and that a part of the program has had an exception. Try again and open an issue if problems persist.
 
 **0261/0F0A:** Multiple errors have succeded at once, and since handlers can only handle 1 error, program crashes. Contact support and/or use a more up-to-date program.
 
