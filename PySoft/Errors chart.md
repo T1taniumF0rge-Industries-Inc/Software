@@ -83,7 +83,7 @@ In this example, the `example[5]` piece of code fails because index 5 does not e
 
 **1E/20 tkinter.TclError:** The GUI application you have downloaded has been tampered with. Only download Okmeque1 code from Okmeque1/Software or T1taniumF0rge-Industries-Inc/Software. Contact Support.
 
-**1E/21 urllib.error.URLError:** Like the Minecraft errors, this is a client-side error or server-side error. Errors like "An existing connection was forcibly closed by the remote host" indicate a server-side error. "Connection reset" means that the specified URL has been blocked by an administrator. Contact the owner of the site to resolve this issue
+**1E/21 urllib.error.URLError:** Like the Minecraft errors, this is a client-side error or server-side error. Errors like "An existing connection was forcibly closed by the remote host" indicate a server-side error. "Connection reset" means that the specified URL has been blocked by an administrator. Use the error details to search what kind of error it is (because to be honest I've only encountered this error once and I'm not about to bork my ThinkPad for documentation on internet errors), and if the error turns out to be a server-side error then contact the website owner (unless it is a KNOWN outage or they are already aware of the issue in which case you're just gonna annoy them)
 
 **2124 NotImplementedError:** A feature is not implemented. Use alternative feature if possible.
 
