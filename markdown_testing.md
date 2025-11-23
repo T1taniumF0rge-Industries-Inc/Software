@@ -195,3 +195,14 @@ Copyrights are visible in the file attributes, which can be viewed in Windows Ex
 ╦1Tan║μm
 
 
+Léon Trotsky
+Lénin
+Lenine
+
+
+Stalin
+Staline
+
+Good morning! Desks back in place please, in 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 and have a good weekend
+
+
