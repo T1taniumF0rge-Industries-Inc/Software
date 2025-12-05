@@ -164,6 +164,10 @@ To use **any material** from this repository, you **must** agree to the **[licen
 
 You **must** leave this repository if you do not agree with the statements ***and/or*** terms and conditions stated above.
 
+## Repository Language:
+
+This repository's language is **UK English**, therefore issues that say "colour" is a spelling fail will be removed and you will receive a warning (read [CONTRIBUTING.md](/CONTRIBUTING.md) for more information about the warning system). On the other hand, if you catch us spelling "color", you can open an issue and you might get something in return (even if it's just a thank you). 
+
 ## Repository Modes:
 
 Please read the [CONTRIBUTING.md](/CONTRIBUTING.md) file for informations, upcoming modes and more!
