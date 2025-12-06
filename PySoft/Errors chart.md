@@ -7,7 +7,7 @@
 
 **6510A FileExistsError:** A file that already exists is conflicting with the specified file name. Delete or rename the conflicting file, or specify a different file name.
 
-**6510B FileNotFoundError:** The program could not find the specified file. Make sure the spelling and format is correct or create the specified file and try again. 
+**6510B FileNotFoundError:** The program could not find the specified file. Make sure the spelling and format is correct and that the file is valid or create the specified file and try again. 
 
 > [!NOTE]
 > When a program asks for a file path, if the file in question is not in the same directory as the program (so if the file is in `C:\GitHub\Projects\Data` and the program is located in `C:\Python`), the format must be full (which includes the drive name and all folders up to the file).
