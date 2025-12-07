@@ -1,13 +1,16 @@
+import os, socket
+from colorama import *
 def ipcmd():
+    init()
     while True:
-            import os, socket
             iprompt = 'iPCMD>'
-            ver = 'GamerSoftware Corporation™ [Version iPCMD Extended Python Full 6.3A]'
+            ver = 'GamerSoftware Corporation™ [Version iPCMD Extended Python Full 6.3B]'
             ver1 = '(c) GamerSoftware Corporation™, (c) Okmeque1 Software'
             print(ver)
             print(ver1)
             print("Type 'dsc' for a description of this program.")
             print("Type 'prompt' for prompt setting changes")
+            print("NOTE: The 'color' command will be disabled if the prompt is not set to directory mode due to it conflicting with the colors in the main prompt ('Lenovo@L14 D:\\0 - iPCMD')")
             print('')
             directory_prompt = False
             try:
@@ -15,7 +18,7 @@ def ipcmd():
                     if directory_prompt is True:
                         prompt = input(os.getcwd() + ">")
                     else:
-                        print(f"{os.getlogin()}@{socket.gethostname()} {os.getcwd()} - iPCMD")
+                        print(f"{Fore.CYAN}{os.getlogin()}@{socket.gethostname()}{Fore.RESET} {Fore.GREEN}{os.getcwd()}{Fore.RESET} - {Fore.LIGHTBLUE_EX}iPCMD{Fore.RESET}")
                         prompt = input(iprompt)
                     prompt1 = prompt.lower() # This way system commands still have the raw input
                     if prompt1 == 'exit' or prompt1 == 'return':
@@ -55,28 +58,36 @@ def ipcmd():
                         directory_prompt = True
                         print('Prompt successfully set to show current directory!')
                         print('')
+                    elif prompt1.startswith('color') and directory_prompt == False:
+                        print("'color' command is disabled due to it conflicting with the colors in the main prompt ('Lenovo@L14 D:\0 - iPCMD'). ")
+                        print("To change the colour of the terminal, please change the prompt to show the current directory by doing 'prompt directory'.")
+                        print('')
                     else:
                         os.system(prompt)
                         print('')
             except IOError as e:
+                print(Fore.RESET, Back.RESET)
                 print("Error: I/O error. A device on your system has either malfunctioned or has been unplugged or a file operation has failed. Make sure that any hardware connected to the computer is functioning and is correctly attached to the computer (like a USB drive plugged in all the way) and that you use Safe Eject when removing devices from the computer.")
                 print(f"Details: {e}, error code 0272")
                 print('')
                 input("Press enter to continue...")
                 continue
             except OSError as e:
-                print("Error: The operating system has forcibly closed the running process due to a fatal system error.")
+                print(Fore.RESET, Back.RESET)
+                print("Error: Operating system or program error. Check your drives and program, as well as any files and programs that were run, and try again. ")
                 print(f"Details: {e}, error code 0271")
                 print('')
                 input("Press enter to continue...")
                 continue
             except PermissionError as e:
+                print(Fore.RESET, Back.RESET)
                 print("Error: Access violation and permission error and security bypass fail has occured in your resource. Make sure that you have the appropriate permissions to use your resource.")
                 print(f"Details: {e}, error code 6510C")
                 print('')
                 input("Press enter to continue...")
                 continue
             except FileNotFoundError as e:
+                print(Fore.RESET, Back.RESET)
                 print("Error: The requested file you specified does not exist. Make sure that the file name is valid and that the file exists and is usable")
                 print(f"Details: {e}, error code 6510B")
                 print('')
@@ -86,6 +97,7 @@ def ipcmd():
                 print("User has chosen to exit. Exiting...")
                 exit()
             except Exception as e:
+                print(Fore.RESET, Back.RESET)
                 print("Error: An error has occured in this program. Consult the GamerSoft24/Software PySoft error chart and the Python manual for more information, using the details as guidance for the error.")
                 print(f"Details: {e}, error code 0281 (check error chart using details information for a possible solution to this problem)")
                 print('')
