@@ -13,16 +13,16 @@
 > When a program asks for a file path, if the file in question is not in the same directory as the program (so if the file is in `C:\GitHub\Projects\Data` and the program is located in `C:\Python`), the format must be full (which includes the drive name and all folders up to the file).
 >
 > 
-> - On Windows, the format is `A:\directory\subdirectory\file.ext` (note that `A:` can be any letter, like `C:\`, `F:\`, `U:\`, `Z:\`, and the `.ext` part can be any file extension you want).
-> - On other systems, it will go something like `/home/python/data/data.ext` (with the same file extension rules as Windows). *Just remember that Windows is the only OS that doesn't care about capitalisation. This means that on other OSes, these 2 expressions won't be the same thing: `/home/temp/Var` != `/home/temp/var`*
+> - On Windows, the format is `A:\directory\subdirectory\file.ext` (note that `A:` can be any letter, like `C:\`, `F:\`, `U:\`, `Z:\`, and the `.ext` part can be any file extension you want, such as `.c`, `bin`, `bat`, etc).
+> - On other systems, it will go something like `/home/python/data/data.ext` (with the same file extension rules as Windows). *Just remember that Windows is the only OS that doesn't care about capitalisation (so `c:\windows` is the same thing as `C:\WINDOWS`). This means that on other OSes, these 2 expressions won't be the same thing and will refer to different directories: `/home/temp/Var` != `/home/temp/var`*
 >
 > 
 > A valid file and/or directory is a resource on a storage medium that exists and can be used.
 > 
 >
-> Example Windows Paths: `C:\WINDOWS\SYSTEM32`, `D:\Bat\Browsers`
+> Example Windows Paths: `C:\WINDOWS\SYSTEM32`, `D:\Bat\Browsers\!A1_Thor.bat`
 > 
-> Example path for other OSes: `/usr/home`, `/bin/steam`
+> Example path for other OSes: `/usr/home`, `/bin/steam/steam.sh`
 
 **0280 SyntaxError:** The program you got has an error or has been tampered with. Open an issue or a pull request if you can fix it.
 
