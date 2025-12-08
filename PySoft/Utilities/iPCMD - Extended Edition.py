@@ -1,10 +1,15 @@
 import os, socket
-from colorama import *
+try:
+    from colorama import *
+except Exception as e:
+    print(f"Error: 'colorama' module is not installed or an error has occured trying to load it. Make sure the module is installed, that it contains no errors and that your disks are not corrupted.\nUse the GitHub T1taniumF0rge-Industries-Inc/Software PySoft error chart to see which error corresponds best\nDetails: {e}, error code 0281 (use error details as guidance for the error)")
+    input("Press ENTER to exit..")
+    exit()
 def ipcmd():
     init()
     while True:
             iprompt = 'iPCMD>'
-            ver = 'GamerSoftware Corporation™ [Version iPCMD Extended Python Full 6.3B]'
+            ver = 'GamerSoftware Corporation™ [Version iPCMD Extended Python Full 7.00]'
             ver1 = '(c) GamerSoftware Corporation™, (c) Okmeque1 Software'
             print(ver)
             print(ver1)
@@ -31,14 +36,17 @@ def ipcmd():
                         print(ver1)
                         print('')
                     elif 'cd' in prompt1[0:2]:
-                        os.chdir(prompt1[2:].strip())
+                        command_chaining = prompt.split("&")
+                        os.chdir(command_chaining[0][2:].strip())
+                        for x in range(1, len(command_chaining)):
+                            os.system(command_chaining[x])
                         print('')
                     elif prompt1 == 'dsc':
                         print("*** iPCMD - Intelligent Python CMD ***")
                         print("iPCMD - CMD in Python for bypassing computers with restricted/no access to Windows Command Prompt (cmd.exe) or Linux/Mac Terminal")
                         print("Use at your own risk - GamerSoftware & Okmeque1 Corporation is not responsible for any damages done to any computers or people using this program.")
                         print("If iPCMD gets blocked or fails to bypass then your computer is not bypassable (could be for the block of os module or deleting CMD.exe, etc).")
-                        print("Commands depend on your system. The prompt can be changed using the 'prompt' command")
+                        print("Commands depend on your system. Custom commands specific to this program can be seen using the 'intro' command")
                         print("Commands may not work depending on your system or if the os module has been blocked.")
                         print("NOTE: when using the 'cd' command, use the following format: 'cd directory' (with a space between the commands)")
                         print("Current system : " + os.name)
@@ -81,29 +89,29 @@ def ipcmd():
                         print('')
             except IOError as e:
                 print(Fore.RESET, Back.RESET)
-                print("Error: I/O error. A device on your system has either malfunctioned or has been unplugged or a file operation has failed. Make sure that any hardware connected to the computer is functioning and is correctly attached to the computer (like a USB drive plugged in all the way) and that you use Safe Eject when removing devices from the computer.")
-                print(f"Details: {e}, error code 0272")
+                print(f"{Fore.RED}Error:{Fore.RESET} I/O error. A device on your system has either malfunctioned or has been unplugged or a file operation has failed. Make sure that any hardware connected to the computer is functioning and is correctly attached to the computer (like a USB drive plugged in all the way) and that you use Safe Eject when removing devices from the computer.")
+                print(f"Details: {e}, error code {Fore.CYAN}0272{Fore.RESET}")
                 print('')
                 input("Press enter to continue...")
                 continue
             except OSError as e:
                 print(Fore.RESET, Back.RESET)
-                print("Error: Operating system or program error. Check your drives and program, as well as any files and programs that were run, and try again. ")
-                print(f"Details: {e}, error code 0271")
+                print(f"{Fore.RED}Error:{Fore.RESET} Operating system or program error. Check your drives and program, as well as any files and programs that were run, and try again. ")
+                print(f"Details: {e}, error code {Fore.CYAN}0271{Fore.RESET}")
                 print('')
                 input("Press enter to continue...")
                 continue
             except PermissionError as e:
                 print(Fore.RESET, Back.RESET)
-                print("Error: Access violation and permission error and security bypass fail has occured in your resource. Make sure that you have the appropriate permissions to use your resource.")
-                print(f"Details: {e}, error code 6510C")
+                print(f"{Fore.RED}Error:{Fore.RESET} Access violation and permission error and security bypass fail has occured in your resource. Make sure that you have the appropriate permissions to use your resource.")
+                print(f"Details: {e}, error code {Fore.CYAN}6510C{Fore.RESET}")
                 print('')
                 input("Press enter to continue...")
                 continue
             except FileNotFoundError as e:
                 print(Fore.RESET, Back.RESET)
-                print("Error: The requested file you specified does not exist. Make sure that the file name is valid and that the file exists and is usable")
-                print(f"Details: {e}, error code 6510B")
+                print(f"{Fore.RED}Error:{Fore.RESET} The requested file you specified does not exist. Make sure that the file name is valid and that the file exists and is usable")
+                print(f"Details: {e}, error code {Fore.CYAN}6510B{Fore.RESET}")
                 print('')
                 input("Press enter to continue...")
                 continue
@@ -112,8 +120,8 @@ def ipcmd():
                 exit()
             except Exception as e:
                 print(Fore.RESET, Back.RESET)
-                print("Error: An error has occured in this program. Consult the GamerSoft24/Software PySoft error chart and the Python manual for more information, using the details as guidance for the error.")
-                print(f"Details: {e}, error code 0281 (check error chart using details information for a possible solution to this problem)")
+                print(f"{Fore.RED}Error:{Fore.RESET} An error has occured in this program. Consult the GamerSoft24/Software PySoft error chart and the Python manual for more information, using the details as guidance for the error.")
+                print(f"Details: {e}, error code {Fore.CYAN}0281{Fore.RESET} (check error chart using details information for a possible solution to this problem)")
                 print('')
                 input("Press enter to continue...")
                 continue
