@@ -115,6 +115,8 @@ PictureSoft is not included in here as there are too many files and they all rep
 
 12 -> [iPCMD Extended (iPCMD - Extended Edition.py):](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/Main/PySoft/Utilities/iPCMD%20-%20Extended%20Edition.py) some cool new features such as slightly better error handling, as well as a new prompt system compatible with the old prompt system. Mostly cosmetic but up to you!
 
+13 -> [iPCMD Extended Monochrome Edition (iPCMD - Extended Monochrome Edition.py): ](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/main/PySoft/Utilities/iPCMD%20-%20Extended%20Monochrome%20Edition.py) basically the same thing as Extended iPCMD but without colours. The one you'll probably use because not many systems come with colorama preinstalled.
+
 ### [Large Projects:](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/PySoft/Large%20Projects/)
 
 1 -> [SQLite Password Manager:](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/PySoft/Large%20Projects/SQLite%20Password%20Manager) A simple password manager that uses SQLite 3 to store passwords, while also supporting Fernet encryptions. Read the README for more info...
@@ -662,6 +664,7 @@ The `InstallerSoft Mac OS` part of the `Programs.md` file will continue beneath.
 > For full details, go [here](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/main/.github/WARRANTY_LIABILITY_DISCLAIMER.md)!
 >
 > This repository's (`Software`) full name is `/T1taniumF0rge-Industries-Inc/Software` (old name `/GamerSoft24/Software` *and* `/Midnight_G0ldX/Software` before the 2025 migration) and is under the control of the **Titan1um™ & T1taniumF0rge® Industries Incorporated organization**.
+
 
 
 
