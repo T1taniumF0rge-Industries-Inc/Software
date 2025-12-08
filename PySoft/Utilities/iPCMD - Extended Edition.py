@@ -10,6 +10,9 @@ def ipcmd():
             print(ver1)
             print("Type 'dsc' for a description of this program.")
             print("Type 'prompt' for prompt setting changes")
+            print("Type 'help' to get a list of commands for your system")
+            print("Type 'intro' to see this introduction screen.")
+            print("NOTE: when using the 'cd' command, use the following format: 'cd directory' (with a space between the commands)")
             print("NOTE: The 'color' command will be disabled if the prompt is not set to directory mode due to it conflicting with the colors in the main prompt ('Lenovo@L14 D:\\0 - iPCMD')")
             print('')
             directory_prompt = False
@@ -27,10 +30,11 @@ def ipcmd():
                         print(ver)
                         print(ver1)
                         print('')
-                    elif 'cd ' in prompt1[0:3]:
-                        os.chdir(prompt1[3:])
+                    elif 'cd' in prompt1[0:2]:
+                        os.chdir(prompt1[2:].strip())
                         print('')
                     elif prompt1 == 'dsc':
+                        print("*** iPCMD - Intelligent Python CMD ***")
                         print("iPCMD - CMD in Python for bypassing computers with restricted/no access to Windows Command Prompt (cmd.exe) or Linux/Mac Terminal")
                         print("Use at your own risk - GamerSoftware & Okmeque1 Corporation is not responsible for any damages done to any computers or people using this program.")
                         print("If iPCMD gets blocked or fails to bypass then your computer is not bypassable (could be for the block of os module or deleting CMD.exe, etc).")
@@ -59,8 +63,18 @@ def ipcmd():
                         print('Prompt successfully set to show current directory!')
                         print('')
                     elif prompt1.startswith('color') and directory_prompt == False:
-                        print("'color' command is disabled due to it conflicting with the colors in the main prompt ('Lenovo@L14 D:\0 - iPCMD'). ")
+                        print("'color' command is disabled due to it conflicting with the colors in the main prompt ('Lenovo@L14 D:\\0 - iPCMD'). ")
                         print("To change the colour of the terminal, please change the prompt to show the current directory by doing 'prompt directory'.")
+                        print('')
+                    elif prompt1 == 'intro' or prompt1 == 'ver':
+                        print(ver)
+                        print(ver1)
+                        print("Type 'dsc' for a description of this program.")
+                        print("Type 'prompt' for prompt setting changes")
+                        print("Type 'help' to get a list of commands for your system")
+                        print("Type 'intro' to see this introduction screen.")
+                        print("NOTE: when using the 'cd' command, use the following format: 'cd directory' (with a space between the commands)")
+                        print("NOTE: The 'color' command will be disabled if the prompt is not set to directory mode due to it conflicting with the colors in the main prompt ('Lenovo@L14 D:\\0 - iPCMD')")
                         print('')
                     else:
                         os.system(prompt)
