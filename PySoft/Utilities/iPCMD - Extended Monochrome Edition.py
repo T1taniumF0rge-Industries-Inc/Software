@@ -19,7 +19,7 @@ def ipcmd():
                     if directory_prompt is True:
                         prompt = input(os.getcwd() + ">")
                     else:
-                        print(f"{os.getlogin()}@{socket.gethostname()}{os.getcwd()}iPCMD")
+                        print(f"{os.getlogin()}@{socket.gethostname()} {os.getcwd()} - iPCMD")
                         prompt = input(iprompt)
                     prompt1 = prompt.lower() # This way system commands still have the raw input
                     if prompt1 == 'exit' or prompt1 == 'return':
