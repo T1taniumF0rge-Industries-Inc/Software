@@ -2,7 +2,7 @@ import os, socket
 def ipcmd():
     while True:
             iprompt = 'iPCMD>'
-            ver = 'GamerSoftware Corporation™ [Version iPCMD Extended Python Full 7.00]'
+            ver = 'GamerSoftware Corporation™ [Version iPCMD Extended Python Full 7.00M]'
             ver1 = '(c) GamerSoftware Corporation™, (c) Okmeque1 Software'
             print(ver)
             print(ver1)
