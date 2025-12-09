@@ -35,6 +35,12 @@ def ipcmd():
                         print(ver)
                         print(ver1)
                         print('')
+                    elif prompt1 in ('cd', 'cd /?', 'cd/?', 'cd -help', 'cd --help'):
+                        print("Use the 'cd' command to change directories. Example: 'cd C:\\WINDOWS\\SYSTEM32' will change the directory to C:\\WINDOWS\\SYSTEM32")
+                        print('')
+                    elif os.name == 'nt' and len(prompt1.strip()) == 2 and prompt1.strip()[1] == ':' and prompt1.strip()[0].isalpha() == True:
+                        os.chdir(prompt1.strip())
+                        print()
                     elif 'cd' in prompt1[0:2]:
                         command_chaining = prompt.split("&")
                         os.chdir(command_chaining[0][2:].strip())
