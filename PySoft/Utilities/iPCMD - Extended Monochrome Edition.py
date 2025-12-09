@@ -11,7 +11,6 @@ def ipcmd():
             print("Type 'help' to get a list of commands for your system")
             print("Type 'intro' to see this introduction screen.")
             print("NOTE: when using the 'cd' command, use the following format: 'cd directory' (with a space between the commands)")
-            print("NOTE: The 'color' command will be disabled if the prompt is not set to directory mode due to it conflicting with the colors in the main prompt ('Lenovo@L14 D:\\0 - iPCMD')")
             print('')
             directory_prompt = False
             try:
@@ -28,6 +27,12 @@ def ipcmd():
                         print(ver)
                         print(ver1)
                         print('')
+                    elif prompt1 in ('cd', 'cd /?', 'cd/?', 'cd -help', 'cd --help'):
+                        print("Use the 'cd' command to change directories. Example: 'cd C:\\WINDOWS\\SYSTEM32' will change the directory to C:\\WINDOWS\\SYSTEM32")
+                        print('')
+                    elif os.name == 'nt' and len(prompt1.strip()) == 2 and prompt1.strip()[1] == ':' and prompt1.strip()[0].isalpha() == True:
+                        os.chdir(prompt1.strip())
+                        print()
                     elif 'cd' in prompt1[0:2]:
                         command_chaining = prompt.split("&")
                         os.chdir(command_chaining[0][2:].strip())
@@ -62,11 +67,7 @@ def ipcmd():
                     elif prompt1 == 'prompt directory':
                         directory_prompt = True
                         print('Prompt successfully set to show current directory!')
-                        print('')
-                    elif prompt1.startswith('color') and directory_prompt == False:
-                        print("'color' command is disabled due to it conflicting with the colors in the main prompt ('Lenovo@L14 D:\\0 - iPCMD'). ")
-                        print("To change the colour of the terminal, please change the prompt to show the current directory by doing 'prompt directory'.")
-                        print('')
+                        print(''))
                     elif prompt1 == 'intro' or prompt1 == 'ver':
                         print(ver)
                         print(ver1)
@@ -75,7 +76,6 @@ def ipcmd():
                         print("Type 'help' to get a list of commands for your system")
                         print("Type 'intro' to see this introduction screen.")
                         print("NOTE: when using the 'cd' command, use the following format: 'cd directory' (with a space between the commands)")
-                        print("NOTE: The 'color' command will be disabled if the prompt is not set to directory mode due to it conflicting with the colors in the main prompt ('Lenovo@L14 D:\\0 - iPCMD')")
                         print('')
                     else:
                         os.system(prompt)
