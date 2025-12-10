@@ -1,0 +1,40 @@
+name: Literacy (Spelling fails)
+description: Any spelling mistakes. You'll get something in return
+title: "[Literacy]: "
+labels: ["literacy"]
+assignees:
+  - GmaerSoft42
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Good eyes! We'll fix it soon
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: e.g. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: Quote the spelling mistake, and the resource where you found it.
+      description: give me the spelling fails
+      placeholder: you wrote "color" instead of "colour"
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/GamerSoft24/Software/blob/Main/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
+      label: UK English is respected
+      description: By submitting this issue, you agree that the spelling mistakes are for UK English. Reminder: you will get a warning if you say "colour" is a spelling fail
+      options:
+        - label: I agree to follow this project's English Dialect
+          required: true
