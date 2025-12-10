@@ -33,9 +33,9 @@ body:
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
-    - type: checkboxes
-      id: terms
-      attributes:
+  - type: checkboxes
+    id: terms
+    attributes:
       label: UK English is respected
       description: By submitting this issue, you agree that the spelling mistakes are for UK English. Reminder: you will get a warning if you say 'colour' is a spelling fail
       options:
