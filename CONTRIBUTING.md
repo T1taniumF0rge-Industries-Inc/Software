@@ -5,6 +5,8 @@
 > Any contributions that violate these guidelines will be ignored/not approved for change¹ and you will be given a warning. If you receive 3 warnings, you will not be able to contribute anymore and our team will ignore all contributions made by you! Please read this file carefully, thank you.
 >
 > ¹: if you forgot one simple thing like marking your changes in the code then our team may remind you there and *you may not receive a warning*. But if you intentionally ignore a rule multiple times or break a rule like rewrite code from scratch without forking you will have warning
+>
+> If you feel that you have been unfairly given a warning, e-mail privately at gamersoftware.corp@gmail.com OR okmeque1.corporation@gmail.com. Do **NOT** open an issue about it, it will most likely be ignored. 
 
 To consider *changing programs and codes* in this `Software` repository you have to **pull request first and wait for approval** which should be *reviewed* in the **maximum delay of ***7 days***** **unless** the repository isn't in *Active* mode (in that case it will be noted in the [README.md](/README.md) file of this repository)! The "Pull Requests" tab is located on the top left corner of your screen (on computer), most generally under the word Software, and the "Issues" tab just on its left.
 
