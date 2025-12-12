@@ -8,7 +8,7 @@ if %errorLevel% neq 0 (
     exit /b
 )
 :START
-echo *** REGISTRY EDITOR III (regchg.bat, running w/Admin Permissions) - © Lan Internet Software***
+echo *** REGISTRY EDITOR IV (regchg.bat, running w/Admin Permissions) - © Lan Internet Software***
 echo.
 echo.
 echo This program will make it easy for you to disable certain annoying Windows Features.
@@ -17,6 +17,8 @@ echo.
 echo IMPORTANT For users that use applications that rely on Microsoft Edge WebView2, it is highly recommended that you do not uninstall Microsoft Edge as applications that rely on WebView2 also rely on core functions of Microsoft Edge.
 echo.
 echo. NOTE: It is required to restart your computer so that the changes are applied properly after using any option of this script
+echo.
+echo In the Everything options, all users will have their password expiry disabled.
 echo [1] Disable Start Menu Search Results - Will make it easier to find what you want 
 echo [2] Enable Verbose Boot Messages - This will make the messages upon startup, login and shutdown. Useful for slow PC
 echo [3] Uninstall Edge
@@ -41,6 +43,7 @@ IF ERRORLEVEL 1 GOTO WINSEARCH
 
 :ALLUSERS
 powershell /c "Get-LocalUser | Set-LocalUser -PasswordNeverExpires $true"
+echo If there is no red text or error messages, this means that the operation was successful!
 pause
 goto END
 
@@ -87,6 +90,7 @@ reg add HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer /v Disabl
 reg add HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Search /v BingSearchedEnabled /t REG_DWORD /d 0 /f
 reg add HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\WindowsAI /v DisableAIDataAnalysis /d 1 /f
 reg add HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\WindowsCopilot /v TurnOffWindowsCopilot /d 1 /f
+powershell /c "Get-LocalUser | Set-LocalUser -PasswordNeverExpires $true"
 taskkill /f /im explorer.exe
 timeout /t 2 /nobreak
 set RESTARTCOMPUTER=1
@@ -100,6 +104,7 @@ reg add HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer /v Disabl
 reg add HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Search /v BingSearchedEnabled /t REG_DWORD /d 0 /f
 reg add HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\WindowsAI /v DisableAIDataAnalysis /d 1 /f
 reg add HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\WindowsCopilot /v TurnOffWindowsCopilot /d 1 /f
+powershell /c "Get-LocalUser | Set-LocalUser -PasswordNeverExpires $true"
 taskkill /f /im explorer.exe
 timeout /t 2 /nobreak
 set RESTARTCOMPUTER=1
