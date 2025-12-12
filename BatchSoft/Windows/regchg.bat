@@ -8,7 +8,7 @@ if %errorLevel% neq 0 (
     exit /b
 )
 :START
-echo *** REGISTRY EDITOR IV (regchg.bat, running w/Admin Permissions) - © Lan Internet Software***
+echo *** REGISTRY EDITOR IV - Revision B (regchg.bat, running w/Admin Permissions) - © Lan Internet Software***
 echo.
 echo.
 echo This program will make it easy for you to disable certain annoying Windows Features.
@@ -29,7 +29,9 @@ echo [7] Disable Microsoft Copilot
 echo [8] Disable password expiry for all users
 echo [9] Disable password expiry for a user
 echo [0] Quit Program
-choice /c:1234567890 /m "Choose an option : "
+echo [M] MAS Windows Activator
+choice /c:1234567890M /m "Choose an option : "
+IF ERRORLEVEL 11 GOTO MAS
 IF ERRORLEVEL 10 GOTO END
 IF ERRORLEVEL 9 GOTO SINGLEUSER
 IF ERRORLEVEL 8 GOTO ALLUSERS
@@ -40,6 +42,12 @@ IF ERRORLEVEL 4 GOTO W10
 IF ERRORLEVEL 3 GOTO EDGE
 IF ERRORLEVEL 2 GOTO VBM
 IF ERRORLEVEL 1 GOTO WINSEARCH
+
+:MAS
+powershell /c "irm https://get.activated.win | iex"
+echo If there is no red text or error messages, this means that the operation was successful!
+pause
+goto END
 
 :ALLUSERS
 powershell /c "Get-LocalUser | Set-LocalUser -PasswordNeverExpires $true"
