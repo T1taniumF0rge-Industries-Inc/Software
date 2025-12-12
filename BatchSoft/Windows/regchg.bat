@@ -24,9 +24,13 @@ echo [4] Restore Windows 10 style Right-click menu - Useful for long-time Window
 echo [5] Everything 
 echo [6] Everything except Edge Uninstall 
 echo [7] Disable Microsoft Copilot
-echo [8] Quit program
-choice /c:12345678 /m "Choose an option : "
-IF ERRORLEVEL 8 GOTO END
+echo [8] Disable password expiry for all users
+echo [9] Disable password expiry for a user
+echo [0] Quit Program
+choice /c:1234567890 /m "Choose an option : "
+IF ERRORLEVEL 10 GOTO END
+IF ERRORLEVEL 9 GOTO SINGLEUSER
+IF ERRORLEVEL 8 GOTO ALLUSERS
 IF ERRORLEVEL 7 GOTO WINDOWSAI
 IF ERRORLEVEL 6 GOTO EVERYTHING
 IF ERRORLEVEL 5 GOTO AIO
@@ -34,6 +38,19 @@ IF ERRORLEVEL 4 GOTO W10
 IF ERRORLEVEL 3 GOTO EDGE
 IF ERRORLEVEL 2 GOTO VBM
 IF ERRORLEVEL 1 GOTO WINSEARCH
+
+:ALLUSERS
+powershell /c "Get-LocalUser | Set-LocalUser -PasswordNeverExpires $true"
+pause
+goto END
+
+:SINGLEUSER
+set /p username="Enter the name of the user: "
+powershell /c Set-LocalUser -Name '%username%' -PasswordNeverExpires $true
+echo If there is no red text or error messages, this means that the operation was successful!
+pause
+goto END
+
 
 :END
 IF !RESTARTCOMPUTER!==1 GOTO ASKRESTART
@@ -142,4 +159,7 @@ reg add HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\WindowsAI /v Disab
 reg add HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\WindowsCopilot /v TurnOffWindowsCopilot /d 1 /f
 pause
 goto END
+
+
+
 goto START
