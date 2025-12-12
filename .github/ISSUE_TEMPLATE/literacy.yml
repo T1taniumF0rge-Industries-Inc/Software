@@ -22,7 +22,7 @@ body:
     attributes:
       label: Quote the spelling mistake, and the resource where you found it.
       description: give me the spelling fails
-      placeholder: you wrote "color" instead of "colour"
+      placeholder: you wrote "color" instead of "colour" in the colorama program
     validations:
       required: true
   - type: checkboxes
