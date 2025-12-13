@@ -29,7 +29,7 @@ echo [7] Disable Microsoft Copilot
 echo [8] Disable password expiry for all users
 echo [9] Disable password expiry for a user
 echo [0] Quit Program
-echo [M] MAS Windows Activator
+echo [M] MAS Windows Activator (requires Internet Connection!)
 choice /c:1234567890M /m "Choose an option : "
 IF ERRORLEVEL 11 GOTO MAS
 IF ERRORLEVEL 10 GOTO END
