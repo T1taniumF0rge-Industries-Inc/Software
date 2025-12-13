@@ -8,6 +8,7 @@ if %errorLevel% neq 0 (
     exit /b
 )
 :START
+cls
 echo *** REGISTRY EDITOR IV - Revision B (regchg.bat, running w/Admin Permissions) - © Lan Internet Software***
 echo.
 echo.
