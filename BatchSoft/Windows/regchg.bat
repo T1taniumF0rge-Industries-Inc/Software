@@ -3,7 +3,7 @@ set RESTARTCOMPUTER=0
 setlocal enabledelayedexpansion
 net session >nul 2>&1
 if %errorLevel% neq 0 (
-    echo Please wait for admin privileges to be authorized. Admin privileges must be present in order for regchg to run properly.
+    echo Please wait for admin privileges to be authorised. Admin privileges must be present in order for regchg to run properly.
     powershell -Command "Start-Process cmd -ArgumentList '/c %~s0' -Verb RunAs"
     exit /b
 )
