@@ -9,7 +9,7 @@ if %errorLevel% neq 0 (
 )
 :START
 cls
-echo *** REGISTRY EDITOR IV - Revision B (regchg.bat, running w/Admin Permissions) - © Lan Internet Software***
+echo *** REGISTRY EDITOR IV - Revision B (regchg.bat, running w/Admin Permissions) - © Lan Internet Software ***
 echo.
 echo.
 echo This program will make it easy for you to disable certain annoying Windows Features.
