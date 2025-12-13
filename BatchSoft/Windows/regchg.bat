@@ -20,7 +20,7 @@ echo.
 echo. NOTE: It is required to restart your computer so that the changes are applied properly after using any option of this script
 echo.
 echo In the Everything options, all users will have their password expiry disabled.
-echo [1] Disable Start Menu Search Results - Will make it easier to find what you want 
+echo [1] Disable Start Menu Search Results - Will make it easier to find what you want
 echo [2] Enable Verbose Boot Messages - This will make the messages upon startup, login and shutdown. Useful for slow PC
 echo [3] Uninstall Edge
 echo [4] Restore Windows 10 style Right-click menu - Useful for long-time Windows users.
@@ -45,6 +45,7 @@ IF ERRORLEVEL 2 GOTO VBM
 IF ERRORLEVEL 1 GOTO WINSEARCH
 
 :MAS
+echo If this program appears frozen after you've exited MAS, hold the CTRL key, then press C (CTRL-C). If it asks "Terminate batch job?", use N.
 powershell /c "irm https://get.activated.win | iex"
 echo If there is no red text or error messages, this means that the operation was successful!
 pause
