@@ -110,6 +110,8 @@ This is **where** I and Okmeque1 will be *storing all* of the **unique pictures 
 > [!NOTE]
 > The [Programs chart](/Programs.md) does not cover this folder, and you will have to navigate the folder structure.
 
+*For* **direct access**, [click here!](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/PictureSoft)
+
 ## [`AppleSoft:`]
 
 This is **where** I will be *storing all* of my **Apple Inc. related stuff...** 
