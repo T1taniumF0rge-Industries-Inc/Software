@@ -5,6 +5,8 @@
 
 ### 🎉🎉 We have reached 1933 commits!! -> *Next milestone 2000 commits!* 🎉🎉 
 
+**INFORMATION UPDATE**: Repository will be going into ***Offline*** mode at 21:00 GMT 19/12/2025. Merry Christmas (if you don't celebrate then enjoy your holidays) and Happy New year!
+
 **REP-SET III**, *`version 4.7.2-epsilon`*
 
 > [!TIP]
