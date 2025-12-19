@@ -1,11 +1,10 @@
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/T1taniumF0rge-Industries-Inc/Software?label=Latest%20Release%3A) &nbsp; ![GitHub last commit](https://img.shields.io/github/last-commit/T1taniumF0rge-Industries-Inc/Software?color=red&label=Last%20Commit%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/commit-activity/w/T1taniumF0rge-Industries-Inc/Software?color=blueviolet&label=Commit%20Activity%3A)
- &nbsp;![GitHub repo size](https://img.shields.io/github/repo-size/T1taniumF0rge-Industries-Inc/Software?color=green&label=Repository%20Size%3A) &nbsp;![GitHub commit activity](https://img.shields.io/badge/Clone%20Size-41.2GB-066990) &nbsp; ![GitHub commit activity](https://img.shields.io/badge/Repository%20Status-Semi%20Active%20[Going%20Offline%20Soon!]-orange) &nbsp;
-
+ &nbsp;![GitHub repo size](https://img.shields.io/github/repo-size/T1taniumF0rge-Industries-Inc/Software?color=green&label=Repository%20Size%3A) &nbsp;![GitHub commit activity](https://img.shields.io/badge/Clone%20Size-41.2GB-066990) &nbsp; ![GitHub commit activity](https://img.shields.io/badge/Repository%20Status-Offline-red) &nbsp;
 # [`Software`] Repository
 
 ### 🎉🎉 We have reached 1933 commits!! -> *Next milestone 2000 commits!* 🎉🎉 
 
-**INFORMATION UPDATE**: Repository will be going into ***Offline*** mode at 21:00 GMT 19/12/2025. Merry Christmas (if you don't celebrate then enjoy your holidays) and Happy New year!
+**INFORMATION UPDATE**: Repository is in ***Offline*** mode until 30th December. Merry Christmas (if you don't celebrate then enjoy your holidays) and Happy New year!
 
 **REP-SET III**, *`version 4.7.2-epsilon`*
 
