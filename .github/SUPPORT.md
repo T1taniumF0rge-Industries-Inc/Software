@@ -15,7 +15,7 @@ Thank you for using the `Software` repository! If you need assistance or have qu
 
 ## ❓ Frequently Asked Questions (FAQ)
 
-Before reaching out, please check if your question is answered in the [FAQ](./faq.md) file or the repository's documentation. This saves time for both you and the maintainers.
+Before reaching out, please check if your question is answered in the [FAQ](./faq.md) file or the repository's documentation. This saves time for both you and the maintainers. Otherwise you may open an issue, a discussion thread or e-mail us directly.
 
 ---
 
@@ -23,7 +23,7 @@ Before reaching out, please check if your question is answered in the [FAQ](./fa
 
 If you've encountered a bug or an issue, please follow these steps:
 1. Check the [Issues](https://github.com/T1taniumF0rge/Software/issues) section to see if the issue has already been reported.
-2. If not, create a new issue with the following details or use an existing issue template:
+2. If not, create a new issue with the following details or use an existing issue template that best suits the problem:
    - **Title:** A clear and concise summary of the problem.
    - **Description:** Steps to reproduce the issue, expected behavior, and actual behavior.
    - **Environment:** Include details such as the operating system, browser (if applicable), and versions of relevant software.
@@ -35,7 +35,9 @@ If you want to fix a bug or an issue, please follow these steps:
   - **Title:** A short and concise description of the problem and a fix, avoid over 50 words
   - **Description:** The steps to reproduce the issue, what happens and your solution
   - **Checklists:** Check off all of the boxes that match.
-3. Provide screenshots or logs if applicable
+3. Provide screenshots or logs if applicable.
+
+It will be  *reviewed* in the **maximum delay of ***7 days***** **unless** the repository isn't in *Active* mode (in that case it will be noted in the [README.md](/README.md) file of this repository)!
 
 ---
 
@@ -43,7 +45,7 @@ If you want to fix a bug or an issue, please follow these steps:
 
 We welcome suggestions for new features or improvements! Please:
 1. Check the [Discussions](https://github.com/T1taniumF0rge/Software/discussions) section for similar ideas.
-2. Open a new discussion or issue describing your feature request in detail.
+2. Open a new discussion or pull request describing your feature request in detail.
 
 ---
 
@@ -63,11 +65,11 @@ For further assistance, you can reach us:
 
 ---
 
-We appreciate your contributions and feedback improve this `Software` repository! 🚀
+We appreciate your contributions and feedback that help us improve this `Software` repository! 🚀
 
 > [!NOTE]
-> In any situation where a warranty or liability disclaimer is present in the `Software` repository, "we", "The Software Team", "The Devs", "The Developers" all refer to the main developers of this repository. A warranty or liability disclaimer is a paragraph that includes "We will ***not*** be liable for **any damages caused by**", etc... and explains that we aren't liable for any damages no matter what.
+> In any situation where a warranty or liability disclaimer is present in the `Software` repository, "we", "The Software Team", "The Devs", "The Developers" all refer to the Owner, the main developers and main maintainers, and the developers and maintainers of this repository. A warranty or liability disclaimer is a paragraph that includes "We will ***not*** be liable for **any damages caused by**", etc... and explains that we aren't liable for any damages no matter what.
 >  
-> For full details, go [here](https://github.com/T1taniumF0rge/Software/blob/main/.github/WARRANTY_LIABILITY_DISCLAIMER.md)!
+> For full details, go [here](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/main/.github/WARRANTY_LIABILITY_DISCLAIMER.md)!
 >
-> This repository `Software` full name `/T1taniumF0rge/Software` (old name `/GamerSoft24/Software`) is under the control of the **Titan1um™ & T1taniumF0rge® Industries Incorporated organization**.
+> This repository's (`Software`) full name is `/T1taniumF0rge-Industries-Inc/Software` (old name `/GamerSoft24/Software` *and* `/Midnight_G0ldX/Software` before the 2025 migration) and is under the control of the **Titan1um™ & T1taniumF0rge® Industries Incorporated organization**.

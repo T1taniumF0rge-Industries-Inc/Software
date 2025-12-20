@@ -1,0 +1,4 @@
+.vbs
+.vbe
+.wsf
+.wsc

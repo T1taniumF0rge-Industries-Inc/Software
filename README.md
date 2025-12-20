@@ -1,17 +1,22 @@
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/T1taniumF0rge-Industries-Inc/Software?label=Latest%20Release%3A) &nbsp; ![GitHub last commit](https://img.shields.io/github/last-commit/T1taniumF0rge-Industries-Inc/Software?color=red&label=Last%20Commit%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github/commit-activity/w/T1taniumF0rge-Industries-Inc/Software?color=blueviolet&label=Commit%20Activity%3A)
- &nbsp;![GitHub repo size](https://img.shields.io/github/repo-size/T1taniumF0rge-Industries-Inc/Software?color=green&label=Repository%20Size%3A) &nbsp;![GitHub commit activity](https://img.shields.io/badge/Clone%20Size-41.2GB-066990) &nbsp; ![GitHub commit activity](https://img.shields.io/badge/Repository%20Status-Busy-yellow) &nbsp;
-
+ &nbsp;![GitHub repo size](https://img.shields.io/github/repo-size/T1taniumF0rge-Industries-Inc/Software?color=green&label=Repository%20Size%3A) &nbsp;![GitHub commit activity](https://img.shields.io/badge/Clone%20Size-41.2GB-066990) &nbsp; ![GitHub commit activity](https://img.shields.io/badge/Repository%20Status-Offline-red) &nbsp;
 # [`Software`] Repository
 
-### 🎉🎉 We have reached 1713 commits!! -> *Next milestone 2000 commits!* 🎉🎉 
+### 🎉🎉 We have reached 1933 commits!! -> *Next milestone 2000 commits!* 🎉🎉 
+
+**INFORMATION UPDATE**: Repository is in ***Offline*** mode until 30th December. Merry Christmas (if you don't celebrate then enjoy your holidays) and Happy New year!
 
 **REP-SET III**, *`version 4.7.2-epsilon`*
 
 > [!TIP]
-> You can use the ["Programs.md (Program chart)"](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/Main/Programs.md) file to explore this reposioty. However, this chart contains *most* but *not every single* resource available in the repository. Feel free to open an issue if you are unable to find what you want!
+> You can use the ["Programs.md (Program chart)"](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/Main/Programs.md) file to explore this repository. However, this chart contains *most* but *not every single* resource available in the repository. Feel free to open an issue if you are unable to find what you want!
+
+> [!IMPORTANT]
+>
+> Important informations are present in this file that must be read for the best experience of the `Software` repository, so make sure to read the entirety of this file.
 
 ## [`PySoft:`]
-This is **where** I and Okmeque1 will be *storing all* of ***our*** Python codes and programs.
+This is **where** I and Okmeque1 will be *storing all* of ***our*** Python codes and programs. Python is the **primary** coding language of the `Software` repository.
 
 *For* **direct access**, [click here!](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/PySoft)
 
@@ -32,7 +37,7 @@ This is **where** I will be *storing all* of ***my*** HTML (HyperText Markup Lan
 
 ## [`CPPSoft:`]
 
-This is **where** I will be *storing all* of ***my*** C & C++ (including occasional C# & Objective-C) codes and programs although it's name is CPPSoft (C++ Software).
+This is **where** I will be *storing all* of ***my*** C & C++ (including occasional C# & Objective-C) codes and programs even though its name is CPPSoft (C++ Software).
 
 The codes will be more *focused* on **C++** rather then **the other languages of the C-family** and also there will be lots of codes working with external devices, like with NodeMCU boards.
 
@@ -49,7 +54,7 @@ This is **where** I will be *storing all* of ***my*** Windows Batchfile codes an
 *For* **direct access**, [click here!](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/BatchSoft)
 
 > [!CAUTION]
-> The codes in [`/BatchSoft/DestroyPC`](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/BatchSoft/DestroyPC) folder are ***SUPER deadly*** and can *crash your computer* and splash a BSOD on your screen. We will ***not*** be liable for **any damages caused by any scripts in the `BatchSoft/DestroyPC` folder *in your possession! (this includes, but is not limited to, modification, execution or download of the files)***
+> The codes in [`/BatchSoft/DestroyPC`](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/BatchSoft/DestroyPC) folder are ***SUPER deadly*** and can *crash your computer* and *splash a BSOD on your screen*. We will ***not*** be liable for **any damages caused by any scripts in the `BatchSoft/DestroyPC` folder *in your possession! (this includes, but is not limited to, modification, execution or download of the files)***
 
 ## [`InstallerSoft:`]
 
@@ -95,18 +100,26 @@ This is **where** Okmeque1 will be *storing all* of ***his migrated and updated 
 
 ## [`OfficeSoft:`]
 
-This is **where** I will be *storing all* of the ***Microsoft office files I use at work.*** (Word templates, etc)
+This is **where** I and Okmeque1 will be *storing all* of the ***Microsoft office files we use at work.*** (Word templates, etc)
 
 *For* **direct access**, [click here!](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/OfficeSoft)
 
 ## [`PictureSoft:`]
 
-This is **where** I and Okmeque1 will be *storing all* of the **unique pictures I find interesting.**
+This is **where** I and Okmeque1 will be *storing all* of the **unique pictures we find interesting.**
 
 > [!NOTE]
 > The [Programs chart](/Programs.md) does not cover this folder, and you will have to navigate the folder structure.
 
 *For* **direct access**, [click here!](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/PictureSoft)
+
+## [`AppleSoft:`]
+
+This is **where** I will be *storing all* of my **Apple Inc. related stuff...** 
+
+> ### © Apple Incorporated: [`apple.com`](https://apple.com) - All Rights Reserved
+
+*For* **direct access**, [click here!](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/AppleSoft)
 
 ## [`.github:`]
 
@@ -127,7 +140,7 @@ Please ignore this folder as changes will only be made here ***if*** a commit is
 ## InstallerSoft AV Virus Detections:
 
 > [!WARNING]
-> Some of our programs in the [`InstallerSoft/Windows`](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/InstallerSoft/Windows) folder may report to some AV's as being viruses (most likely in-house repackaged NSIS installers and other programs). However, unless a program is *explicitely* marked as a virus or a program that may crash your computer, you can trust this repository. Some installers will even come with *.nsi files and the source (usually in a *.zip file) so that you may check what the script is made out of, for any type of *sneaky* viruses. We will ***not*** be liable for **any damages caused by any programs in the `InstallerSoft/Windows` folder *in your possession! (this includes, but is not limited to, modification, execution or download of the files)***. You may choose to leave this repository if you do not feel comfortable with the above statement.
+> Some of our programs in the [`InstallerSoft/Windows`](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/InstallerSoft/Windows) folder may report to some AV's as being viruses (most likely in-house repackaged NSIS installers and other programs). However, unless a program is *explicitely* marked as a virus or a program that may crash your computer, you can trust this repository. Some installers will even come with *.nsi files and the source (usually in a *.zip file) so that you may check what the script is made out of, for any type of *sneaky* viruses. We will ***not*** be liable for **any damages caused by any programs in the `InstallerSoft/Windows` folder *in your possession! (this includes, but is not limited to, modification, execution or download of the files)***. You **must** leave this repository if you do not agree with the statements ***and/or*** terms and conditions stated above.
 
 ## Amount of programming languages:
 
@@ -148,35 +161,23 @@ For easy access to all working files and programs in this repository, use the [P
 
 ## Licensing Agreement:
 
-This repository is licensed under the </ins>**[BSD-3](/LICENSE)**</ins> License.
+This repository is licensed under the </ins>**[BSD-3](/LICENSE)**</ins> License.  There is **ABSOLUTELY NO WARRANTY** to any material provided in the `Software` repository.
 
 To use **any material** from this repository, you **must** agree to the **[license](/LICENSE)** and its terms of conditions, as well as ***any* and *all* disclaimers, warranty or liability information/disclaimers (if applicable)**. We will ***not*** be liable for **any damages caused by any file, software package, individual program or other material from this repository *in your possession (this includes, but is not limited to, modification, execution or download of the files)*! This includes, but is not limited to, unintentional bugs, user error caused by an unclear prompt (usually an old unsupported program), clearly marked dangerous programs that may crash your computer or user negligence (didn't read the warnings) and more. However you may open an issue at any time for support and improvement of the material present, and we will try our best to resolve the issues as best as we can.**
 
- You may choose to leave this repository if you do not feel comfortable with the above statement.
+You **must** leave this repository if you do not agree with the statements ***and/or*** terms and conditions stated above.
 
-> [!NOTE]
-> In any situation where a warranty or liability disclaimer is present in the `Software` repository, "we", "The Software Team", "The Devs", "The Developers" all refer to the main developers of this repository. A warranty or liability disclaimer is a paragraph that includes "We will ***not*** be liable for **any damages caused by**", etc... and explains that we aren't liable for any damages no matter what.
->  
-> For full details, go [here](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/main/.github/WARRANTY_LIABILITY_DISCLAIMER.md)!
->
-> This repository `Software` full name `/T1taniumF0rge-Industries-Inc/Software` (old name `/GamerSoft24/Software`) is under the control of the **Titan1um™ & T1taniumF0rge® Industries Incorporated organization**.
+## Repository Language:
+
+This repository's language is **UK English**, therefore issues that say "colour" is a spelling fail will be removed and you will receive a warning (read [CONTRIBUTING.md](/CONTRIBUTING.md) for more information about the warning system). On the other hand, if you catch us spelling "color", you can open an issue and you might get something in return (even if it's just a thank you). 
 
 ## Repository Modes:
 
-Repository mode will also be shown on top of the [CONTRIBUTING.md](/CONTRIBUTING.md) file
+Please read the [CONTRIBUTING.md](/CONTRIBUTING.md) file for informations, upcoming modes and more!
 
-- Active: *All active repository maintainers working full-time on the `Software` repository and will review any issue*, pull request or any other thing within a **maximum delay of ***7 days*****.
-- Semi Active: *One or more maintainers are working part-time on this repository*. Review time extends to ***30 days maximum***.
-- Inactive: *No active maintainers are available due to certain circumstances*. This will usually be announced beforehand, but this time the delay extends to a period of ***6 to 12 months***.
-- Offline: *No active helper person is available*. This will usually be announced beforehand, and ***replies are not guaranteed!***
-- Busy: *All active repository maintainers are working on a certain task on the repository*, meaning that **delays may occur**, usually from ***30 days to 90 days long***.
-- Migration: Although pretty rare to occur, this means *all active repository maintainers are working on migration*, meaning that any issues and pull requests **will not be looked at *until* migration is over** and commits will **focus on migration tasks**. This usually makes the time of delay extend to a period of time of **minimum *1 to 2 months***.
-- HIBERNATION: *ABSOLUTELY NO STAFF ACTIVE*. THIS WILL USUALLY BE ANNOUNCED 1 DAY OR MORE BEFORE THE EVENT. **ABSOLUTELY NO COMMITS WILL BE STAGED BY ANYONE AND NO REPLIES WILL BE PROVIDED DURING STATED DURATION TIME**
-
-### Planned Modes for certain dates:
-
-1 - 15th May 2026 → 14th July 2026 - Repository will go in **Hibernation** mode due to maintainers leave for personal reasons
-
-Thank you for your understanding, and we apologise for any inconveniences.
-
-
+> [!NOTE]
+> In any situation where a warranty or liability disclaimer is present in the `Software` repository, "we", "The Software Team", "The Devs", "The Developers" all refer to the Owner, the main developers and main maintainers, and the developers and maintainers of this repository. A warranty or liability disclaimer is a paragraph that includes "We will ***not*** be liable for **any damages caused by**", etc... and explains that we aren't liable for any damages no matter what.
+>  
+> For full details, go [here](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/main/.github/WARRANTY_LIABILITY_DISCLAIMER.md)!
+>
+> This repository's (`Software`) full name is `/T1taniumF0rge-Industries-Inc/Software` (old name `/GamerSoft24/Software` *and* `/Midnight_G0ldX/Software` before the 2025 migration) and is under the control of the **Titan1um™ & T1taniumF0rge® Industries Incorporated organization**.

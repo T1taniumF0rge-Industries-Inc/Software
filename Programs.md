@@ -115,6 +115,8 @@ PictureSoft is not included in here as there are too many files and they all rep
 
 12 -> [iPCMD Extended (iPCMD - Extended Edition.py):](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/Main/PySoft/Utilities/iPCMD%20-%20Extended%20Edition.py) some cool new features such as slightly better error handling, as well as a new prompt system compatible with the old prompt system. Mostly cosmetic but up to you!
 
+13 -> [iPCMD Extended Monochrome Edition (iPCMD - Extended Monochrome Edition.py): ](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/main/PySoft/Utilities/iPCMD%20-%20Extended%20Monochrome%20Edition.py) basically the same thing as Extended iPCMD but without colours. The one you'll probably use because not many systems come with colorama preinstalled.
+
 ### [Large Projects:](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/PySoft/Large%20Projects/)
 
 1 -> [SQLite Password Manager:](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/PySoft/Large%20Projects/SQLite%20Password%20Manager) A simple password manager that uses SQLite 3 to store passwords, while also supporting Fernet encryptions. Read the README for more info...
@@ -139,7 +141,9 @@ PictureSoft is not included in here as there are too many files and they all rep
 
 2 -> [Auto Pressing Enter (auto press enter.vbs):](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/Main/VBSoft/Deadly/auto%20press%20enter%20(code%20red!).vbs) Will press the enter key at a really fast rate. More deadly then Auto Pressing Backspace (auto press backspace.vbs)! Be extremely careful using it!
 
-3 -> [Open Google Chrome Infinitly (open chrome infinitly.vbs):](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/Main/VBSoft/Deadly/open%20chrome%20infinitly.vbs) Opens Google Chrome windows at a really fast rate. The deadliest VBS script in this `Software` repository. Can *crash your RAM* in just a **VERY quickly**!
+3 -> [Open Google Chrome Infinitly (open chrome infinitly.vbs):](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/Main/VBSoft/Deadly/open%20chrome%20infinitly.vbs) Opens Google Chrome windows at a really fast rate. The deadliest VBS script in this `Software` repository. Can *crash your RAM* **VERY quickly**!
+
+4 -> [Website Opener (website opener.vbs)](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/main/VBSoft/Deadly/website%20opener....vbs) Repeatedly opens google.chrome (or any website if you edit the script) infinitely. You should save your work before using this script, at least from my experience
 
 ### [Games:](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/VBSoft/Games)
 
@@ -154,6 +158,13 @@ PictureSoft is not included in here as there are too many files and they all rep
 ### [Utilities:](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/VBSoft/Utilities)
 
 1 -> [Open Browser (open browser.vbs):](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/Main/VBSoft/Utilities/open%20browser.vbs) Opens your default web browser (e.g.: Microsoft Edge, Google Chrome / Chrome Beta / Chrome Dev, Firefox, Opera / Opera GX, Internet Explorer 💀, etc...
+
+> [!IMPORTANT]
+>
+> You **must** agree to *the terms of conditions*, *warranty* and *liability* informations ***and/or*** disclaimers of the `T1taniumF0rge-Industries-Inc/Software` repository as well as acknowledging that the `T1taniumF0rge Industries Inc.` will NOT be liable for any damages caused by the following program.
+> 
+2 -> [Spam Bot (spambot.vbs):](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/main/VBSoft/Utilities/spambot.vbs) A tool like the name implies, allows you to spam. Use wisely, and don't get fired from work. Good luck!
+
 
 ### [Login Simulator:](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/VBSoft/Login%20Simulator)
 
@@ -194,7 +205,7 @@ PictureSoft is not included in here as there are too many files and they all rep
 ### [DestroyPC](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/Main/BatchSoft/DestroyPC):
 
 > [!CAUTION]
-> The codes in [`/BatchSoft/DestroyPC`](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/BatchSoft/DestroyPC) folder are ***SUPER deadly*** and can *crash your computer* and splash a BSOD on your screen. We will ***not*** be liable for **any damages caused by any scripts in the `BatchSoft/DestroyPC` folder *in your possession! (this includes, but is not limited to, modification, execution or download of the files)***
+> The codes in [`/BatchSoft/DestroyPC`](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/BatchSoft/DestroyPC) folder are ***SUPER deadly*** and can *crash your computer* and *splash a BSOD on your screen*. We will ***not*** be liable for **any damages caused by any scripts in the `BatchSoft/DestroyPC` folder *in your possession! (this includes, but is not limited to, modification, execution or download of the files)***
 
 1 -> [Start 'n Loop (start 'n loop.bat)](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/Main/BatchSoft/DestroyPC/start_n'_loop.bat): This script will start instances of itself, however the started instances will start other instances of the script. It's essentially exponential, and in a few seconds you go from 1 → 2 → 4 → 8 → 16, it'll crash your computer very quickly, so make sure to save all work in all open programs, close all programs then you can run the script and see how long before it bluescreens.
 
@@ -276,7 +287,7 @@ There will be a dedicated [Programs chart](https://github.com/T1taniumF0rge-Indu
 ### [Windows:](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/InstallerSoft/Windows)
 
 >[!WARNING]
-> Any programs not listed specifically having a 32-bit [(x86)](https://stackoverflow.com/questions/29974425/why-is-windows-32-bit-called-windows-x86-and-not-windows-x32) version may not run on a most computers with 32-bit architecture. *All of the installers provided here are the latest at time of upload, but might not be at time of download. Even though most programs like Google Chrome come with auto-updating features, it is still recommended for you to double check on the program's official website for their latest installer(s) if you require a specific version of that program!*
+> Any programs not listed specifically having a 32-bit [(x86)](https://stackoverflow.com/questions/29974425/why-is-windows-32-bit-called-windows-x86-and-not-windows-x32) version may not run on most computers with 32-bit architecture. *All of the installers provided here are the latest at time of upload, but might not be at time of download. Even though most programs like Google Chrome come with auto-updating features, it is still recommended for you to double check on the program's official website for their latest installer(s) if you require a specific version of that program!*
 
 [**360Chrome or/and 360AFChrome:**](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/InstallerSoft/Windows/360Chrome)
 
@@ -472,7 +483,7 @@ All versions of 360Chrome or/and 360AFChrome can run on 32-bit Windows computers
 
 [**NSIS (NullSoft Scriptable Install System):**](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/InstallerSoft/Windows/NSIS%20(Nullsoft%20Scriptable%20Install%20System))
 
-1 -> [NSIS v2.48:](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/Main/InstallerSoft/Windows/NSIS%20(Nullsoft%20Scriptable%20Install%20System)/v2.48/nsis-2.48-setup.exe) Version 2.48 of the NullSoft Scriptable Install System. Can do NSIS scripts as well as Zip2EXE which transforms your .zip archive into a nice GUI installer.
+1 -> [NSIS v2.48:](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/Main/InstallerSoft/Windows/NSIS%20(Nullsoft%20Scriptable%20Install%20System)/v2.48/nsis-2.48-setup.exe) Version 2.48 of the NullSoft Scriptable Install System. Can do NSIS scripts as well as Zip2EXE which transforms your .zip archive into a nice GUI installer. Probably runs on anything between Windows 95 16/32 bit / NT 4.0 (release 1381) and Windows 11 64 Bit because NSIS 2.51 runs on Windows 95, and NSIS 2.48 runs on Windows 10...or just use NSIS 3.09. I use NSIS 2.48 because the language is easier
 
 2 -> [NSIS v3.09:](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/Main/InstallerSoft/Windows/NSIS%20(Nullsoft%20Scriptable%20Install%20System)/v3.09/nsis-3.09-setup.exe) Version 3.09 of the NullSoft Scriptable Install System. Can do NSIS scripts as well as Zip2EXE which transforms your .zip archive into a nice GUI installer. Latest version of NSIS for this repository.
 
@@ -528,9 +539,7 @@ Ain't no way I'm doing it for every version. Just go into the folder with your d
 
 1 -> [Roblox:](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/Main/InstallerSoft/Windows/Roblox/RobloxPlayerInstaller.exe) Okmeque1 kind of hates this installer and thinks that the error messages are awful. If any Roblox Devs come across this, at least use the [Error chart](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/Main/Errors%20chart.md) or some form of error code as troubleshooting is way too hard.
 
-Side Note: why are you even playing this in 2025? You know that [Schlep](https://www.youtube.com/@RealSchlep) got banned for no reason? You should check him out and stop givinng your money to these faceless corporations. If you think I'm lying, check the recent media (by the time I go back to this file in 2036, this will be outdated, but around the Mid-august 2025 did this entire thing start) around Schlep as well as the -12BN stock plunge for the Roblox Corporation. And if you watch Schlep and like his videos, you should consider watching [Omma](https://www.youtube.com/@Omma)...
-
-# Free Schlep
+### Free Schlep
 
 The `InstallerSoft Windows` part of the `Programs.md` file will continue beneath.
 
@@ -622,7 +631,7 @@ All versions of the WinImage program from this repository are x86 compatible.
 
 > [!IMPORTANT]
 >
-> You must agree to the terms in the [README](/InstallerSoft/Windows/Windows%20Loaders/README.md) before you can use any file in the `InstallerSoft/Windows Loaders` folder.
+> You must agree to the terms in this [README file](/InstallerSoft/Windows/Windows%20Loaders/README.md) before you can use any material in the `InstallerSoft/Windows Loaders` folder.
 > 
 1 -> [DAZ loader:](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/Main/InstallerSoft/Windows/Windows%20Loaders/DAZ%20Loader/v2.2.2/Daz_Loader_v2.2.2_setup.exe) Version 2.2.2 of the Windows Activator by DAZ. Can activate Windows 7 and Vista. Make sure the indicator at the top right is green. Otherwise, your version may be infected.
 
@@ -641,9 +650,7 @@ All versions of the WinImage program from this repository are x86 compatible.
 
 1 -> [Roblox:](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/Main/InstallerSoft/macOS/Roblox/Roblox.dmg) Okmeque1 kind of hates this installer and thinks that the error messages are awful. If any Roblox Devs come across this, at least use the [Error chart](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/Main/Errors%20chart.md) or some form of error code as troubleshooting is way too hard.
 
-Side Note: why are you even playing this in 2025? You know that [Schlep](https://www.youtube.com/@RealSchlep) got banned for no reason? You should check him out and stop givinng your money to these faceless corporations. If you think I'm lying, check the recent media (by the time I go back to this file in 2036, this will be outdated, but around the Mid-august 2025 did this entire thing start) around Schlep as well as the -12BN stock plunge for the Roblox Corporation. And if you watch Schlep and like his videos, you should consider watching [Omma](https://www.youtube.com/@Omma)...
-
-# Free Schlep
+### Free Schlep
 
 The `InstallerSoft Mac OS` part of the `Programs.md` file will continue beneath.
 
@@ -652,11 +659,23 @@ The `InstallerSoft Mac OS` part of the `Programs.md` file will continue beneath.
 1 -> [VLC Media Player:](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/InstallerSoft/macOS/VLC%20Media%20Player) The video player we all know and love, from VideoLan, but for macOS.
 
 > [!NOTE]
-> In any situation where a warranty or liability disclaimer is present in the `Software` repository, "we", "The Software Team", "The Devs", "The Developers" all refer to the main developers of this repository. A warranty or liability disclaimer is a paragraph that includes "We will ***not*** be liable for **any damages caused by**", etc... and explains that we aren't liable for any damages no matter what.
+> In any situation where a warranty or liability disclaimer is present in the `Software` repository, "we", "The Software Team", "The Devs", "The Developers" all refer to the Owner, the main developers and main maintainers, and the developers and maintainers of this repository. A warranty or liability disclaimer is a paragraph that includes "We will ***not*** be liable for **any damages caused by**", etc... and explains that we aren't liable for any damages no matter what.
 >  
 > For full details, go [here](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/main/.github/WARRANTY_LIABILITY_DISCLAIMER.md)!
 >
-> This repository `Software` full name `/T1taniumF0rge-Industries-Inc/Software` (old name `/GamerSoft24/Software`) is under the control of the **Titan1um™ & T1taniumF0rge® Industries Incorporated organization**.
+> This repository's (`Software`) full name is `/T1taniumF0rge-Industries-Inc/Software` (old name `/GamerSoft24/Software` *and* `/Midnight_G0ldX/Software` before the 2025 migration) and is under the control of the **Titan1um™ & T1taniumF0rge® Industries Incorporated organization**.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

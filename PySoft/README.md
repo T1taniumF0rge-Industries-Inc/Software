@@ -10,18 +10,18 @@ After you have pip/pip3 installed, go to your computer's terminal (Mac Terminal,
                         
 > [!TIP]
 >
-> To install these modules faster, download the requirements.txt file in this folder, then run "pip install -r requirements.txt" in the same directory where you downloaded that text file. Note that if you have to run pip from the `scripts` folder, you may have to specify the full file name path with the drive name included (for easier installation next time, you might want to consider adding Pip to PATH but it is not required)! Pip will automatically find the newest compatible versions of these modules, and this could be more convenient than manually installing every single module. However it is not recommended if you are low on hard disk space as some modules may take up a lot of space, in which case it is recommended to choose which modules to install manually to check how much disk space they will use, as pip doesn't tell you how much disk space they will take before installation.
+> To install these modules faster, download the requirements.txt file in this folder, then run "pip install -r requirements.txt" in the same directory where you downloaded that text file. Note that if you have to run pip from the `scripts` folder, you may have to specify the full file name path with the drive name included (for easier installation next time, you might want to consider adding Pip to PATH but it is not required)! Pip will automatically find the newest compatible versions of these modules, and this could be more convenient than manually installing every single module. However it is not recommended if you are low on hard disk space as some modules may take up a lot of space, in which case it is recommended to choose which modules to install manually to check how much disk space they will use, as pip doesn't tell you how much disk space they will take before installation, nor does it let you choose where to install them (most of the time, see `venv` in the extra information of this file)
 > 
 By-the-way, are you interested in a short Python program that draws colorful rainbow void using a module named `turtle` (Python Graphics Drawing Module)? If you are, then copy this script down in your text editor (like Notepad++, Xcode, IDLE or your preferred):
 ```py
-import turtle
-q = turtle.Pen()
-turtle.bgcolor("black")
+import turtle # Import the actual module
+q = turtle.Pen() # Initialise the pen
+turtle.bgcolor("black") # pretty obvious no?
 sides = 7
 colors = ["red","orange","yellow","green","cyan","blue","purple"]
 for x in range(360):
-  q.pencolor(colors[x%sides])
-  q.forward(x*3/sides+x)
+  q.pencolor(colors[x%sides]) # % operator gets remain of a division. In this case, it set the color in cycling order
+  q.forward(x*3/sides+x) # Drawing stuff underneath
   q.left(360/sides+1)
   q.width(x*sides/200)
 ```
@@ -34,4 +34,9 @@ If you encounter any problems with any Python files (*.py), please make sure to 
 ## Extra Information:
 
 > [!TIP]
->  If your computer contains multiple Python projects that are using module versions that are incompatible with the modules specified in the requirements.txt file, it is recommended to use a *Virtual Environment* to isolate the modules to a specific folder (and its subfolders). This means that any installed modules in this folder will not be installed and detected in any other folder of the computer. To do that, all you have to do is open a terminal, and then type `python -m venv {Directory for Virtual Environment}`. For example: `python -m venv C:\Python\PySoft` will make a virtual environment in `C:\Python\PySoft`. However it is not strictly required and for most users you can skip this step.
+>  If your computer contains multiple Python projects that are using module versions that are incompatible with the modules specified in the requirements.txt file, it is recommended to use a *Virtual Environment* to isolate the modules to a specific folder (and its subfolders). This means that any installed modules in this folder will not be installed and detected in any other folder of the computer. To do that, all you have to do is open a terminal, and then type `python -m venv {Directory for Virtual Environment}`. For example: `python -m venv C:\Python\PySoft` will make a virtual environment in `C:\Python\PySoft`. Then you must ACTIVATE the virtual environent. See the screenshot underneath, noting that `<venv>` refers to the path of the virtual environment (in this case `C:\Python\PySoft`, so if you're on Windows CMD, you'll run `C:\Python\PySoft\Scripts\activate.bat`). However it is not strictly required and for most users you can skip this step. POSIX may refer to UNIX, Mac OS or Linux based systems but you can ignore the POSIX part and just find the name of your shell in the screenshot.
+>
+> <img width="516" height="281" alt="image" src="https://github.com/user-attachments/assets/cd6a72f3-51d5-47c3-876e-1d122315cf0d" />
+
+
+

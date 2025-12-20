@@ -2,6 +2,10 @@
 
 This file is only important and applicable to the collaborators and developers of the `Software` repository for *troubleshooting purposes only*. If you are a standard user, this information does not apply and will not serve you anything unless you are using Git actively on this repository.
 
+> [!WARNING]
+>
+> This repo's local size is over 40GB. Do NOT use Git unless absolutely required (such as an InstallerSoft Upload), instead rely on the web editor and pull request, thank you.
+> 
 ## Important
 
 .COMING_SOON → *"Use this section to tell developers about important information about this repository"*
@@ -84,9 +88,17 @@ For a permanent solution, it is recommended to find proper video drivers, failin
 
 If you install Docker Desktop on your Windows computer, and you get the error `Virtualization is not detected`, firstly make sure that you are running Windows Pro (and not Home, Enterprise, etc) because some features that Docker needs are blocked/not accessible in Home. Secondly make sure to check if virtualization is enabled (by any means, BIOS check, Task Manager CPU Performance Tab, VMWare with Windows ME, etc). If that's the case then go into `Turn Windows features on or off` by searching that in the start menu. Then enable any option that is Hyper-V and WSL (Windows Subsystem for Linux) as well as enabling Network Discovery in the Network tab in Windows Explorer, and just to make sure you should also enable a telnet client *for that one rogue docker program made in 2002*. After you did that make sure to update WSL to the latest version by doing `wsl --update`, and then you just have to restart the computer and Docker will magically work. (And yes I know I hate docker too)
 
+## GitHub front-end website updating problems
+
+If you update a file in the GitHub web editor (so this website), while the contents of the files may appear updated in your specific webpage, it's only client side at first and it actually takes up to 10 minutes for those changes to be written to the server because of distribution layers between GitHub and your web browser. So if you update something in GitHub and want to test straight away, the best solution is to simply copy and paste the file contents into a notepad and save it with the same file name as on the website (so you copy for example the contents of spambot.vbs and name your file spambot.vbs), that way it is guaranteed to take the correct file contents. Thanks big tech for not fixing this issue :/. 
+
 > [!NOTE]
-> In any situation where a warranty or liability disclaimer is present in the `Software` repository, "we", "The Software Team", "The Devs", "The Developers" all refer to the main developers of this repository. A warranty or liability disclaimer is a paragraph that includes "We will ***not*** be liable for **any damages caused by**", etc... and explains that we aren't liable for any damages no matter what.
+>
+> This only seems to be affecting the GitHub front-end website, if you use a CLI like Git, it bypasses some of these layers and writes directly to the server.
+
+> [!NOTE]
+> In any situation where a warranty or liability disclaimer is present in the `Software` repository, "we", "The Software Team", "The Devs", "The Developers" all refer to the Owner, the main developers and main maintainers, and the developers and maintainers of this repository. A warranty or liability disclaimer is a paragraph that includes "We will ***not*** be liable for **any damages caused by**", etc... and explains that we aren't liable for any damages no matter what.
 >  
 > For full details, go [here](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/main/.github/WARRANTY_LIABILITY_DISCLAIMER.md)!
 >
-> This repository `Software` full name `/T1taniumF0rge-Industries-Inc/Software` (old name `/GamerSoft24/Software`) is under the control of the **Titan1um™ & T1taniumF0rge® Industries Incorporated organization**.
+> This repository's (`Software`) full name is `/T1taniumF0rge-Industries-Inc/Software` (old name `/GamerSoft24/Software` *and* `/Midnight_G0ldX/Software` before the 2025 migration) and is under the control of the **Titan1um™ & T1taniumF0rge® Industries Incorporated organization**.

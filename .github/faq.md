@@ -1,7 +1,7 @@
 # Frequently Asked Questions (FAQ)
 
 > [!NOTE]
-> More stuff are getting added to this file. Please be patient while our team finishes the FAQ.
+> More stuff are getting added to this file. If there's a question without an answer, feel free to e-mail us or open an issue and we will try to answer as best we can
 
 This document aims to answer some common questions regarding the `Software` repository.
 
@@ -121,6 +121,10 @@ That's on you mate, if you had any sense of downloading these files through the 
 
 ## InstallerSoft Q&A:
 
+### Why does InstallerSoft even exist?
+
+That's a good question. Standard explanation is that it allows the `Software` repository users to download everything from one repository, so that they download everything at once and then do their business. Literal explanation is that a lot of companies actually hide their old installers, and sometimes the old version is better (or works better on Windows 7 let's say). There will always be a reason that a specific program and its version is stored in `InstallerSoft`. 
+
 ### Why are there repackaged NSIS installers of stuff?
 
 The reason why some programs are repackaged in an NSIS installer, is because (to put it simply), some of the software are packaged in horrendous installers (ones that are buggy to hell, ones that don't let you choose the install location, etc) and our team at `Software` does not want our users to suffer. However for such installers, they are *mostly* trustable as we use and package the software in house, and in those cases we provide the source and a *.NSI file so that in case of doubt, you can make the installer yourself and prove that we're not liars. 
@@ -129,10 +133,24 @@ The reason why some programs are repackaged in an NSIS installer, is because (to
 
 Whenever there is an old version of a program (360AFChrome for example), there is a reason to keep it. In 360AFChrome, many people use it on computers that are running Windows XP to access the internet, and in other cases like AOMEI 8.7, this version is kept because new AOMEI, just sucks (some free features in version 8.7 are paid features in 10.4.1 such as the Disk Clone feature because of greedy capitalist investors who think they're the only ones on this planet. As I've said with the Roblox corporation in Programs.md and some commit messages, the only thing most (that way I don't anger the 5 nice investors on this planet) investors want is money no matter the consequences. Or if you want a disk manager that has a slightly less polished UI but more features, try DiskGenius)
 
-> [!NOTE]
-> In any situation where a warranty or liability disclaimer is present in the `Software` repository, "we", "The Software Team", "The Devs", "The Developers" all refer to the main developers of this repository. A warranty or liability disclaimer is a paragraph that includes "We will ***not*** be liable for **any damages caused by**", etc... and explains that we aren't liable for any damages no matter what.
->  
-> For full details, go [here](https://github.com/T1taniumF0rge/Software/blob/main/.github/WARRANTY_LIABILITY_DISCLAIMER.md)!
+## Other Q&A:
+
+### Why are you hosting "deadly" programs with little to no guardrails?
+
+We made these scripts purely out of fun (so absolutely no malicious intent) and it also gives some useful insight. Not all of these codes are necessarily meant to be run, in this case you can learn a lot, such as VBS Shell sendkeys (which can be a super useful thing, let's say if you had an automated thing that required pasting the same thing about a 1000 times over), or the %1 operator in batch. *Also ngl but if you have a good friend you prank them with this. Of course make sure nothing important is open on their computer and make sure to fix any damage...and maybe accept that your friend may never trust you with their computer :)*
+
+As for the guardrails issue, there are warnings plastered everywhere, such as in the [DestroyPC folder](/BatchSoft/DestroyPC), about 4 in the [README](/README.md) and some of them even in programs. These warnings are virtually impossible to miss and the programs will not execute their payload if ran directly, they will always show a menu or a messagebox or have some sort of buffer between the user executing the program and the payload, preventing accidental execution. 
+
+> [!IMPORTANT]
 >
-> This repository `Software` full name `/T1taniumF0rge/Software` (old name `/GamerSoft24/Software`) is under the control of the **Titan1um™ & T1taniumF0rge® Industries Incorporated organization**.
+> The codes in the [`/VBSoft/Deadly`](/VBSoft/Deadly) and [`/BatchSoft/DestroyPC`](/BatchSoft/DestroyPC) are still ***SUPER deadly*** and could absolutely cause *data loss*, *crash your RAM* ***and/or*** *your entire computer*, *splash a BSOD on your screen*, etc. We will ***not*** be liable for **any damages caused by any scripts in the `BatchSoft/DestroyPC` and `VBSoft/Deadly` folders *in your possession! (this includes, but is not limited to, modification, execution or download of the files)***
+>
+^^^ See? There's a warning right there.
+
+> [!NOTE]
+> In any situation where a warranty or liability disclaimer is present in the `Software` repository, "we", "The Software Team", "The Devs", "The Developers" all refer to the Owner, the main developers and main maintainers, and the developers and maintainers of this repository. A warranty or liability disclaimer is a paragraph that includes "We will ***not*** be liable for **any damages caused by**", etc... and explains that we aren't liable for any damages no matter what.
+>  
+> For full details, go [here](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/main/.github/WARRANTY_LIABILITY_DISCLAIMER.md)!
+>
+> This repository's (`Software`) full name is `/T1taniumF0rge-Industries-Inc/Software` (old name `/GamerSoft24/Software` *and* `/Midnight_G0ldX/Software` before the 2025 migration) and is under the control of the **Titan1um™ & T1taniumF0rge® Industries Incorporated organization**.
 

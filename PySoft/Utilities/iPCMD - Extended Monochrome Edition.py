@@ -1,15 +1,8 @@
 import os, socket
-try:
-    from colorama import *
-except Exception as e:
-    print(f"Error: 'colorama' module is not installed or an error has occured trying to load it. Make sure the module is installed, that it contains no errors and that your disks are not corrupted.\nUse the GitHub T1taniumF0rge-Industries-Inc/Software PySoft error chart to see which error corresponds best\nDetails: {e}, error code 0281 (use error details as guidance for the error)")
-    input("Press ENTER to exit..")
-    exit()
 def ipcmd():
-    init()
     while True:
             iprompt = 'iPCMD>'
-            ver = 'GamerSoftware Corporation™ [Version iPCMD Extended Python Full 7.00]'
+            ver = 'GamerSoftware Corporation™ [Version iPCMD Extended Python Full 7.00M]'
             ver1 = '(c) GamerSoftware Corporation™, (c) Okmeque1 Software'
             print(ver)
             print(ver1)
@@ -18,7 +11,6 @@ def ipcmd():
             print("Type 'help' to get a list of commands for your system")
             print("Type 'intro' to see this introduction screen.")
             print("NOTE: when using the 'cd' command, use the following format: 'cd directory' (with a space between the commands)")
-            print("NOTE: The 'color' command will be disabled if the prompt is not set to directory mode due to it conflicting with the colors in the main prompt ('Lenovo@L14 D:\\0 - iPCMD')")
             print('')
             directory_prompt = False
             try:
@@ -26,7 +18,7 @@ def ipcmd():
                     if directory_prompt is True:
                         prompt = input(os.getcwd() + ">")
                     else:
-                        print(f"{Fore.CYAN}{os.getlogin()}@{socket.gethostname()}{Fore.RESET} {Fore.GREEN}{os.getcwd()}{Fore.RESET} - {Fore.LIGHTBLUE_EX}iPCMD{Fore.RESET}")
+                        print(f"{os.getlogin()}@{socket.gethostname()} {os.getcwd()} - iPCMD")
                         prompt = input(iprompt)
                     prompt1 = prompt.lower() # This way system commands still have the raw input
                     if prompt1 == 'exit' or prompt1 == 'return':
@@ -75,11 +67,7 @@ def ipcmd():
                     elif prompt1 == 'prompt directory':
                         directory_prompt = True
                         print('Prompt successfully set to show current directory!')
-                        print('')
-                    elif prompt1.startswith('color') and directory_prompt == False:
-                        print("'color' command is disabled due to it conflicting with the colors in the main prompt ('Lenovo@L14 D:\\0 - iPCMD'). ")
-                        print("To change the colour of the terminal, please change the prompt to show the current directory by doing 'prompt directory'.")
-                        print('')
+                        print(''))
                     elif prompt1 == 'intro' or prompt1 == 'ver':
                         print(ver)
                         print(ver1)
@@ -88,36 +76,31 @@ def ipcmd():
                         print("Type 'help' to get a list of commands for your system")
                         print("Type 'intro' to see this introduction screen.")
                         print("NOTE: when using the 'cd' command, use the following format: 'cd directory' (with a space between the commands)")
-                        print("NOTE: The 'color' command will be disabled if the prompt is not set to directory mode due to it conflicting with the colors in the main prompt ('Lenovo@L14 D:\\0 - iPCMD')")
                         print('')
                     else:
                         os.system(prompt)
                         print('')
             except IOError as e:
-                print(Fore.RESET, Back.RESET)
-                print(f"{Fore.RED}Error:{Fore.RESET} I/O error. A device on your system has either malfunctioned or has been unplugged or a file operation has failed. Make sure that any hardware connected to the computer is functioning and is correctly attached to the computer (like a USB drive plugged in all the way) and that you use Safe Eject when removing devices from the computer.")
-                print(f"Details: {e}, error code {Fore.CYAN}0272{Fore.RESET}")
+                print(f"Error: I/O error. A device on your system has either malfunctioned or has been unplugged or a file operation has failed. Make sure that any hardware connected to the computer is functioning and is correctly attached to the computer (like a USB drive plugged in all the way) and that you use Safe Eject when removing devices from the computer.")
+                print(f"Details: {e}, error code 0272")
                 print('')
                 input("Press enter to continue...")
                 continue
             except OSError as e:
-                print(Fore.RESET, Back.RESET)
-                print(f"{Fore.RED}Error:{Fore.RESET} Operating system or program error. Check your drives and program, as well as any files and programs that were run, and try again. ")
-                print(f"Details: {e}, error code {Fore.CYAN}0271{Fore.RESET}")
+                print(f"Error: Operating system or program error. Check your drives and program, as well as any files and programs that were run, and try again. ")
+                print(f"Details: {e}, error code 0271")
                 print('')
                 input("Press enter to continue...")
                 continue
             except PermissionError as e:
-                print(Fore.RESET, Back.RESET)
-                print(f"{Fore.RED}Error:{Fore.RESET} Access violation and permission error and security bypass fail has occured in your resource. Make sure that you have the appropriate permissions to use your resource.")
-                print(f"Details: {e}, error code {Fore.CYAN}6510C{Fore.RESET}")
+                print(f"Error: Access violation and permission error and security bypass fail has occured in your resource. Make sure that you have the appropriate permissions to use your resource.")
+                print(f"Details: {e}, error code 6510C")
                 print('')
                 input("Press enter to continue...")
                 continue
             except FileNotFoundError as e:
-                print(Fore.RESET, Back.RESET)
-                print(f"{Fore.RED}Error:{Fore.RESET} The requested file you specified does not exist. Make sure that the file name is valid and that the file exists and is usable")
-                print(f"Details: {e}, error code {Fore.CYAN}6510B{Fore.RESET}")
+                print(f"Error: The requested file you specified does not exist. Make sure that the file name is valid and that the file exists and is usable")
+                print(f"Details: {e}, error code 6510B")
                 print('')
                 input("Press enter to continue...")
                 continue
@@ -125,9 +108,8 @@ def ipcmd():
                 print("User has chosen to exit. Exiting...")
                 exit()
             except Exception as e:
-                print(Fore.RESET, Back.RESET)
-                print(f"{Fore.RED}Error:{Fore.RESET} An error has occured in this program. Consult the GamerSoft24/Software PySoft error chart and the Python manual for more information, using the details as guidance for the error.")
-                print(f"Details: {e}, error code {Fore.CYAN}0281{Fore.RESET} (check error chart using details information for a possible solution to this problem)")
+                print(f"Error: An error has occured in this program. Consult the GamerSoft24/Software PySoft error chart and the Python manual for more information, using the details as guidance for the error.")
+                print(f"Details: {e}, error code 0281 (check error chart using details information for a possible solution to this problem)")
                 print('')
                 input("Press enter to continue...")
                 continue

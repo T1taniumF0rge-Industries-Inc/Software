@@ -1,26 +1,33 @@
 # Code Contributing Guidelines 
-![GitHub commit activity](https://img.shields.io/badge/Repository%20Status-Busy-yellow) &nbsp;
+![GitHub commit activity](https://img.shields.io/badge/Repository%20Status-Offline-red) &nbsp;
+> [!IMPORTANT]
+> Any contributions that violate these guidelines will be ignored/not approved for change¹ and you will be given a warning. If you receive 3 warnings, you will not be able to contribute anymore and our team will ignore all contributions made by you! Please read this file carefully, thank you.
+>
+> ¹: if you forgot one simple thing like marking your changes in the code then our team may remind you there and *you may not receive a warning*. But if you intentionally ignore a rule multiple times or break a rule like rewrite code from scratch without forking you will have warning
+>
+> If you feel that you have been unfairly given a warning, e-mail privately at gamersoftware.corp@gmail.com OR okmeque1.corporation@gmail.com. Do **NOT** open an issue about it, it will most likely be ignored. 
 
-> [!CAUTION]
-> Any contributions that violates these guidelines will be ignored/not approved for change (if you forgot one simple thing like marking your changes in the code then our team may remind you there and *you may not receive a warning*. But if you intentionally ignore a rule multiple times or break a rule like rewrite code from scratch without forking you will have warning) and you will be given a warning. If you receive 3 warnings, you will not be able to contribute anymore and our team will ignore all contributions made by you! Please read this carefully, thank you.
-
-To consider *changing programs and codes* in this `Software` repository you have to **pull request first and wait for approval** which should be *reviewed* in the **maximum delay of ***7 days***** **unless** the repository is in inactive mode (in that case it will be noted in the [README.md](/README.md) file of this repository)! The "Pull Requests" tab is located on the top left corner of your screen (on computer), most generally under the word Software, and the "Issues" tab just on its left.
+To consider *changing programs and codes* in this `Software` repository you have to **pull request first and wait for approval** which should be *reviewed* in the **maximum delay of ***7 days***** **unless** the repository isn't in *Active* mode (in that case it will be noted in the [README.md](/README.md) file of this repository)! The "Pull Requests" tab is located on the top left corner of your screen (on computer), most generally under the word Software, and the "Issues" tab just on its left.
 
 ## Repository Modes:
 
-Repository mode will be shown at the top left corner of this file as well as at the top of the repository [README](/README.md)
+Repository mode will also be shown on top of the repository's [README](/README.md)
 
 - Active: *All active repository maintainers working full-time on the `Software` repository and will review any issue*, pull request or any other thing within a **maximum delay of ***7 days*****.
-- Semi Active: *One or more maintainers are working part-time on this repository*. Review time extends to ***30 days maximum***.
-- Inactive: *No active maintainers are available due to certain circumstances*. This will usually be announced beforehand, but this time the delay extends to a period of ***6 to 12 months***.
-- Offline: *No active helper person is available*. This will usually be announced beforehand, and ***replies are not guaranteed!***
-- Busy: *All active repository maintainers are working on a certain task*, meaning that **delays may occur**, usually from ***30 days to 90 days long***.
+- Semi Active: *One or more, but not all maintainers are working part-time on this repository*. Review time extends to ***30 days maximum***.
+- Inactive: *No active maintainers are available due to certain circumstances*. This will usually be announced beforehand, but this time the delay extends to a period of ***6 to 12 months***. However some maintainers may occasionally log on for small changes and will usually reply.
+- Offline: *No active helper person is available*. This will usually be announced beforehand, and ***replies are not guaranteed!***. However unlike *Hibernation* mode, someone may log on once and reply (maybe once every 2 years unlike Inactive), although it is not guaranteed.
+- Busy: *All active repository maintainers are working on a certain task repository-based task*, meaning that **some delays may occur**, usually from ***30 days to 90 days long***.
 - Migration: Although pretty rare to occur, this means *all active repository maintainers are working on migration*, meaning that any issues and pull requests **will not be looked at *until* migration is over** and commits will **focus on migration tasks**. This usually makes the time of delay extend to a period of time of **minimum *1 to 2 months***.
-- HIBERNATION: *ABSOLUTELY NO STAFF ACTIVE*. THIS WILL USUALLY BE ANNOUNCED 1 DAY OR MORE BEFORE THE EVENT. **ABSOLUTELY NO COMMITS WILL BE STAGED BY ANYONE AND NO REPLIES WILL BE PROVIDED DURING STATED DURATION TIME**
+- HIBERNATION: *ABSOLUTELY NO STAFF ACTIVE*. THIS WILL USUALLY BE ANNOUNCED 1 DAY OR MORE BEFORE THE EVENT. **ABSOLUTELY NO COMMITS WILL BE STAGED BY ANYONE AND NO REPLIES WILL BE PROVIDED DURING STATED DURATION TIME**. 
 
-### Planned Modes for certain dates:
+### Planned modes:
 
-1 - 15th May 2026 → 14th July 2026 - Repository will go in **Hibernation** mode (reason coming later)
+1 - 19th December 2025 21:00 → 30th December 2025 - Repository will go to **Offline** mode due to Christmas Holidays
+
+2 - 15th May 2026 → 14th July 2026 - Repository will go in **Hibernation** mode due to maintainers leave for personal reasons
+
+Thank you for your understanding, and we apologise for any inconveniences.
 
 ## Guidelines
 
@@ -32,6 +39,8 @@ Repository mode will be shown at the top left corner of this file as well as at 
 > - The new code must function properly including handling edge cases and malformed inputs, as well as not breaking the existing unchanged code. It must have some types of error handling and not just crumple in case an unexpected error happen.
 > - The code must abide to the security, Code of Conduct and licenses and warranty/liability disclaimers that are present in the repository at the time of the pull request being made.
 > - You are not allowed to do a pull request by just looking at the code and seeing something is wrong (unless it's blatantly obvious like print(passwod) instead of print(password), which in this case our team will thank you), such as [here](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/0d873336c748148a44703f6b852f641656674fa8/PySoft/Utilities/security%20management%20system%20-%20advanced%20edition.py#L234). This is a hack, but it works pretty well, and doesn't affect the user experience in the slightest. For a more in-detail issue that might look like an issue but it isn't, you must use the code before doing a pull request. Failing to do so will result in a warning.
+> - Defusal (making deadly programs non deadly) or removal of deadly codes will result in a warning. Keep in mind that these codes are not specifically meant to be run, could be for learning, besides, there are warnings everywhere. Read [this](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/main/.github/faq.md#why-are-you-hosting-deadly-programs-with-little-to-no-guardrails) section of the FAQ for more information about deadly codes in `Software`. Deadly codes are found in [/BatchSoft/DestroyPC](/BatchSoft/DestroyPC) and [VBSoft/Deadly](/VBSoft/Deadly).
+> - All codes are expected to be using **UK English**. If this is not respected, we will fix it for you at the expense that you must proof-read your work next time otherwise you get a warning (so basically you get a joker where you have 1 chance to mess up then the standard system applies). Common mistakes: "color" instead of "colour", "traveling" instead of "travelling", etc. 
 
 > [!NOTE]
 > - Please try and use meaningful commit messages that explain the changes in a precise but short manner (example: avoid commit messages like "fixed bug", instead try to aim for something like "fixed input bug that caused crashes in security management system"). It is very much appreciated, and it only has to be mentioned somewhere in the commit (could have a joke title and have the actual change underneath in the extended description)
@@ -73,8 +82,8 @@ random_math_function(int(amount)) # Calling function properly - GmaerSoft42
 ```
 
 > [!NOTE]
-> In any situation where a warranty or liability disclaimer is present in the `Software` repository, "we", "The Software Team", "The Devs", "The Developers" all refer to the main developers of this repository. A warranty or liability disclaimer is a paragraph that includes "We will ***not*** be liable for **any damages caused by**", etc... and explains that we aren't liable for any damages no matter what.
+> In any situation where a warranty or liability disclaimer is present in the `Software` repository, "we", "The Software Team", "The Devs", "The Developers" all refer to the Owner, the main developers and main maintainers, and the developers and maintainers of this repository. A warranty or liability disclaimer is a paragraph that includes "We will ***not*** be liable for **any damages caused by**", etc... and explains that we aren't liable for any damages no matter what.
 >  
 > For full details, go [here](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/main/.github/WARRANTY_LIABILITY_DISCLAIMER.md)!
 >
-> This repository `Software` full name `/T1taniumF0rge-Industries-Inc/Software` (old name `/GamerSoft24/Software`) is under the control of the **Titan1um™ & T1taniumF0rge® Industries Incorporated organization**.
+> This repository's (`Software`) full name is `/T1taniumF0rge-Industries-Inc/Software` (old name `/GamerSoft24/Software` *and* `/Midnight_G0ldX/Software` before the 2025 migration) and is under the control of the **Titan1um™ & T1taniumF0rge® Industries Incorporated organization**.

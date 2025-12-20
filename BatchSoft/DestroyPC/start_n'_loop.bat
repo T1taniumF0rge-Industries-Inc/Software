@@ -4,6 +4,7 @@ title Start n' Loop
 if not "%1"=="" (
     goto :NUKE
 )
+title Start n' Loop PC Crasher
 echo Start n' Loop PC Crasher:
 echo (c) Okmeque1 Corporation. Open-source.
 echo WARNING! THIS WILL COMPLETELY NUKE YOUR COMPUTER.

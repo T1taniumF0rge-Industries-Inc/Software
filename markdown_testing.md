@@ -1,10 +1,54 @@
-# GIT LFS IS BROKEN!!!
+# Markdown Testing File
+
 > [!NOTE]
-> This is a Markdown language testing file. Please ignore! 
+> This is a **Markdown language testing file *for developers!* Please ignore!**
+
+## GIT LFS IS (maybe) BROKEN!!! blunder
+
+> [!WARNING]
+> If you dont know what a synérese and a diérese are, then please GET OUT!!!
+
+> [!IMPORTANT]
+>
+> - [x] By reading this far in the markdown_testing.md file, you agree to listen to [Vladimir Ashkenazy Beethoven Sonata 24 "A Thérèse" Movement 2 - Allegro Vivace](https://www.youtube.com/watch?v=bvcg0l9q8nM) and [Vladimir Ashkenazy Beethoven Sonata 25 "Cuckoo" Movement 3 - Vivace](https://www.youtube.com/watch?v=JfVnYNUBVq0&pp=ygUdYmVldGhvdmVuIHNvbmF0YSAyNSBhc2hrZW5henk%3D)
+>
+> 
+> - [x] Più Lento part is in D major
+> - [ ] Più Lento part is in D♭ major
+>
+> - [x] Mazurka in A minor Op. 17 No. 4 is copy and paste
+>
+> - [x] Bohuslav Martinů Allegretto (No. 4 from Čtvrtky a osminky, H. 257) is too easy for Grade 7
+>
+> - [x] Chambéry Challes-Les-Eaux is a great train station!
+
+> [!IMPORTANT]
+>
+> > [!NOTE]
+> >
+> > > [!TIP]
+> > >
+> > > > [!WARNING]
+> > > >
+> > > > > [!CAUTION]
+> > > > >
+> > > > > > nooooo it dooesn't render properly when you imbriquer the blocks
+> > > > > >
+
+> > > > > a
+> > a
+> > > > > > > > > a
+> > > > > > > > > > > > > > > > a
+> > > > a
+> > > > > > > > > > a
+> > > > > > > > > > > > > > > > > > > > > > > a
+
 
 123 456 rusty typy and javacripty with his big brother java are coming to the repo!
     
 The background color is `#066990` for light mode and `rgb(9, 105, 218)` for dark mode.
+
+The background color is #066990 for light mode and rgb(9, 105, 218) for dark mode.
 
 </ins>test</ins>
 
@@ -12,7 +56,7 @@ The background color is `#066990` for light mode and `rgb(9, 105, 218)` for dark
 
 This is a suite of movements consisting of Movements (so-called Pictures) and Promenades, and have variations. Here are them all:
 dsfdsfdsfds
-> [!Moussorgski 1]s
+> [!Moussorgski]
 >
 > - 1/ Promenade 0:26
 > - 2/ Gnomus 1:34adswdasadsadsadfsz
@@ -29,6 +73,10 @@ dsfdsfdsfds
 
 ```sh
 rm -fv
+!#/usr/bin/bash
+
+curl -sSL https://install.pi-hole.net | bash
+ls /~ | grep -I
 ```
 ```py
 print("hello")
@@ -108,11 +156,15 @@ Copyrights are visible in the file attributes, which can be viewed in Windows Ex
 
 > [!NOTE]
 > 
-> a1 is a mess-up as it does not comply with the beethoven sonata in Bb minor and Ab major complying with Chopin's new Valse op.64 nr.2
+> a1 is a mess-up as it does not comply with the beethoven sonata in B♭ minor and A♭ major complying with Chopin's new Valse op.64 nr.2
 > 
 > b2 cannot be a possibility as madame la baronne nathaniel de rothschild is not a full compliant to the 3rd mouvement of bar 28
-> 
-> Più lento part is in Db major
+>
+> b4 is potentially possible as franz ferenc lizst came to visit chopin for the chopin study Nr. 1 in D♭♭ major
+>
+> Più lento part is in D♭ major
+>
+> mazurka in a minor is copy and paste
 
 > [!TIP]
 >
@@ -138,3 +190,19 @@ Copyrights are visible in the file attributes, which can be viewed in Windows Ex
 > [!IMPORTANT]
 >
 > Étude d'Éxecution Transcendantes by Sviatoslav Richter
+
+
+╦1Tan║μm
+
+
+Léon Trotsky
+Lénin
+Lenine
+
+
+Stalin
+Staline
+
+Good morning! Desks back in place please, in 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 and have a good weekend
+
+

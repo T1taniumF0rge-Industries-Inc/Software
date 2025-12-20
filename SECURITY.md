@@ -41,7 +41,7 @@ However, our team at the `Software` repository have deemed these warnings an exa
 > **This is a reminder that it is always important to protect your personal information through any means possible. This can be done with a number of methods, such as encrypting files, using strong passwords, storing files on USB drives that aren't plugged into any computers stored in a safe, etc.**
 
 ## Pull requests:
-To consider *changing programs and codes* in this `Software` repository you have to **pull request first and wait for approval** which should be *reviewed* in the **maximum delay of ***7 days***** **unless** the repository is in inactive mode! The 'Pull requests' tab is located on the top left corner of your screen (on computer).
+To consider *changing programs and codes* in this `Software` repository you have to **pull request first and wait for approval** which should be *reviewed* in the **maximum delay of ***7 days***** **unless** the repository isn't in *Active* mode! The 'Pull requests' tab is located on the top left corner of your screen (on computer).
 
 For more information, see the [Contributing Guidelines File.](/CONTRIBUTING.md)
 
@@ -58,13 +58,15 @@ To *report* violence, unacceptable behaviour or security vulnerabilities, you ca
 
 > [!IMPORTANT]
 >
-> Despite our programs being selected and tested to not break your computer with any sort of *sneaky* viruses or other problems **unless explicitely marked and/or said otherwise**, we can not fully guarantee maximum compatibility for your system (e.g whether it will run on your device, make it break or so on) due to your hardware capabilities. If you have low hardware power, then the program might crash on you, and vice-versa.
+> Despite our programs being selected and tested to not break your computer with any sort of *sneaky* viruses or other problems **unless explicitely marked and/or said otherwise**, we can not fully guarantee maximum compatibility for your system (e.g whether it will run on your device, make it break or so on) due to your hardware capabilities. If you have low hardware power, then the program might crash on you, and vice-versa.  There is **ABSOLUTELY NO WARRANTY** to any material provided in the `Software` repository.
 
 To use **any material** from this repository, you **must** agree to the **[license](/LICENSE)** and its terms of conditions, as well as ***any* and *all* disclaimers, warranty or liability information/disclaimers (if applicable)**. We will ***not*** be liable for **any damages caused by any file, software package, individual program or other material from this repository *in your possession (this includes, but is not limited to, modification, execution or download of the files)*! This includes, but is not limited to, unintentional bugs, user error caused by an unclear prompt (usually an old unsupported program), clearly marked dangerous programs that may crash your computer or user negligence (didn't read the warnings) and more. However you may open an issue at any time for support and improvement of the material present, and we will try our best to resolve the issues as best as we can.**
 
+You **must** leave this repository if you do not agree with the statements ***and/or*** terms and conditions stated above.
+
 > [!NOTE]
-> In any situation where a warranty or liability disclaimer is present in the `Software` repository, "we", "The Software Team", "The Devs", "The Developers" all refer to the main developers of this repository. A warranty or liability disclaimer is a paragraph that includes "We will ***not*** be liable for **any damages caused by**", etc... and explains that we aren't liable for any damages no matter what.
+> In any situation where a warranty or liability disclaimer is present in the `Software` repository, "we", "The Software Team", "The Devs", "The Developers" all refer to the Owner, the main developers and main maintainers, and the developers and maintainers of this repository. A warranty or liability disclaimer is a paragraph that includes "We will ***not*** be liable for **any damages caused by**", etc... and explains that we aren't liable for any damages no matter what.
 >  
-> For full details, go [here](https://github.com/T1taniumF0rge-Industries-Inc/Software/Software/blob/main/.github/WARRANTY_LIABILITY_DISCLAIMER.md)!
+> For full details, go [here](https://github.com/T1taniumF0rge-Industries-Inc/Software/blob/main/.github/WARRANTY_LIABILITY_DISCLAIMER.md)!
 >
-> This repository `Software` full name `/T1taniumF0rge-Industries-Inc/Software/Software` (old name `/GamerSoft24/Software`) is under the control of the **Titan1um™ & T1taniumF0rge-Industries-Inc/Software® Industries Incorporated organization**.
+> This repository's (`Software`) full name is `/T1taniumF0rge-Industries-Inc/Software` (old name `/GamerSoft24/Software` *and* `/Midnight_G0ldX/Software` before the 2025 migration) and is under the control of the **Titan1um™ & T1taniumF0rge® Industries Incorporated organization**.
