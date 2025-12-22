@@ -9,7 +9,7 @@ if %errorLevel% neq 0 (
 )
 :START
 cls
-echo *** REGISTRY EDITOR IV - Revision B (regchg.bat, running w/Admin Permissions) - © Lan Internet Software ***
+echo *** REGISTRY EDITOR IV - Revision C (regchg.bat, running w/Admin Permissions) - © Lan Internet Software ***
 echo.
 echo.
 echo This program will make it easy for you to disable certain annoying Windows Features.
@@ -31,7 +31,9 @@ echo [8] Disable password expiry for all users
 echo [9] Disable password expiry for a user
 echo [0] Quit Program
 echo [M] MAS Windows Activator (requires Internet Connection!)
-choice /c:1234567890M /m "Choose an option : "
+echo [S] Configure Windows Shell
+choice /c:1234567890MS /m "Choose an option : "
+IF ERRORLEVEL 12 GOTO SHELL
 IF ERRORLEVEL 11 GOTO MAS
 IF ERRORLEVEL 10 GOTO END
 IF ERRORLEVEL 9 GOTO SINGLEUSER
@@ -43,6 +45,38 @@ IF ERRORLEVEL 4 GOTO W10
 IF ERRORLEVEL 3 GOTO EDGE
 IF ERRORLEVEL 2 GOTO VBM
 IF ERRORLEVEL 1 GOTO WINSEARCH
+
+:SHELL
+cls
+echo *** REGISTRY EDITOR IV - Revision C (regchg.bat, running w/Admin Permissions) - © Lan Internet Software ***
+echo.
+echo The method in which thi program functions is that when your Windows PC starts up, it checks a registry key to determine what will be the default shell (in this case EXPLORER.EXE). The shell is what you'll interact with after you've logged on. Some people replace the shell with more lightweight options (such as FreeCommander) or replace it with a completely different thing (such as a cash register/POS program. If you go to your local McDo, it's just regular Windows computers but with a custom shell)
+echo.
+echo [1] Set custom executable for Windows Shell
+echo [2] Reset shell to C:\WINDOWS\EXPLORER.EXE
+choice /c:12 /m "Choose an option: "
+IF ERRORLEVEL 2 GOTO RESETSHELL
+IF ERRORLEVEL 1 GOTO SHCONFIG
+
+:RESETSHELL
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" /v Shell /t REG_SZ /d "C:\Windows\EXPLORER.EXE" /f
+pause
+goto END
+
+:SHCONFIG
+echo.
+echo You may also specify command line arguments for your application when you will log on. Examples of valid applications and command line arguments:
+echo 1: C:\Windows\py.exe C:\\WinAIO\\G-AIO.py
+echo 2: C:\WINDOWS\SYSTEM32\CMD.EXE /C pause
+echo 3: D:\downloads\idunno.exe --help
+echo.
+echo NOTE: You must specify the FULL FILE PATH to your application and make sure that the file is USABLE (not read/write protected). If you do not respect this rule, Windows will NOT be able to find your application and will display a black screen upon startup (you will have to start the Task Manager and start this program again, and reconfigure it which is doable but annoying so it is best to avoid these troubles now)
+echo.
+set /p shell=Enter the path to your executable name and any command line arguments: 
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" /v Shell /t REG_SZ /d "%shell%" /f
+pause
+goto END
+
 
 :MAS
 echo If this program appears frozen after you've exited MAS, hold the CTRL key, then press C (CTRL-C). If it asks "Terminate batch job?", use N.
