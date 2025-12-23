@@ -9,7 +9,7 @@ if %errorLevel% neq 0 (
 )
 :START
 cls
-echo *** REGISTRY EDITOR IV - Revision C (regchg.bat, running w/Admin Permissions) - © Lan Internet Software ***
+echo *** REGISTRY EDITOR IV - Revision D (regchg.bat, running w/Admin Permissions) - © Lan Internet Software ***
 echo.
 echo.
 echo This program will make it easy for you to disable certain annoying Windows Features.
@@ -32,7 +32,9 @@ echo [9] Disable password expiry for a user
 echo [0] Quit Program
 echo [M] MAS Windows Activator (requires Internet Connection!)
 echo [S] Configure Windows Shell
-choice /c:1234567890MS /m "Choose an option : "
+echo [F] Fix Blank Explorer Warning Pop-up on startup
+choice /c:1234567890MSF /m "Choose an option : "
+IF ERRORLEVEL 13 GOTO FIX
 IF ERRORLEVEL 12 GOTO SHELL
 IF ERRORLEVEL 11 GOTO MAS
 IF ERRORLEVEL 10 GOTO END
@@ -46,11 +48,25 @@ IF ERRORLEVEL 3 GOTO EDGE
 IF ERRORLEVEL 2 GOTO VBM
 IF ERRORLEVEL 1 GOTO WINSEARCH
 
+:FIX
+echo.
+echo The way this function of this program works is that certain programs add a rogue registry key that causes Windows to think it has to load a startup file when it does not, however since the program in question didn't implement their files correctly, it causes Wwindows to display a blank error box on startup. This program will fix this annoying behaviour.
+echo.
+echo NOTE: The fix for this involves deleting a registry key. However since the name of the registry key has changed across Windows Versions, and REGCHG is designed to operate on the widest range of computers, you may see errors. For this function of this program, as long as at least one command completed successfully (or you see "The operation has completed successfully" at least once), this means that the fix has succeeded.
+echo If the system says "ERROR: The system was unable to find the specified registry key or value.", it can be safely ignored.
+echo.
+reg delete "HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Windows" /v Run /f 
+reg delete "HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Windows" /v Load /f 
+echo.
+pause
+goto END
+
+
 :SHELL
 cls
-echo *** REGISTRY EDITOR IV - Revision C (regchg.bat, running w/Admin Permissions) - © Lan Internet Software ***
+echo *** REGISTRY EDITOR IV - Revision D (regchg.bat, running w/Admin Permissions) - © Lan Internet Software ***
 echo.
-echo The method in which thi program functions is that when your Windows PC starts up, it checks a registry key to determine what will be the default shell (in this case EXPLORER.EXE). The shell is what you'll interact with after you've logged on. Some people replace the shell with more lightweight options (such as FreeCommander) or replace it with a completely different thing (such as a cash register/POS program. If you go to your local McDo, it's just regular Windows computers but with a custom shell)
+echo The method in which this program functions is that when your Windows PC starts up, it checks a registry key to determine what will be the default shell (in this case EXPLORER.EXE). The shell is what you'll interact with after you've logged on. Some people replace the shell with more lightweight options (such as FreeCommander) or replace it with a completely different thing (such as a cash register/POS program. If you go to your local McDo, it's just regular Windows computers but with a custom shell)
 echo.
 echo [1] Set custom executable for Windows Shell
 echo [2] Reset shell to C:\WINDOWS\EXPLORER.EXE
