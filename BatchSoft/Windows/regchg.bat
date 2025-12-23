@@ -65,10 +65,11 @@ goto END
 
 :SHCONFIG
 echo.
-echo You may also specify command line arguments for your application when you will log on. Examples of valid applications and command line arguments:
+echo You may also specify command line arguments for your application when you will log on if your application supports it and if you want. Examples of valid applications and command line arguments:
 echo 1: C:\Windows\py.exe C:\\WinAIO\\G-AIO.py
 echo 2: C:\WINDOWS\SYSTEM32\CMD.EXE /C pause
 echo 3: D:\downloads\idunno.exe --help
+echo 4: C:\Windows\Notepad.exe
 echo.
 echo NOTE: You must specify the FULL FILE PATH to your application and make sure that the file is USABLE (not read/write protected). If you do not respect this rule, Windows will NOT be able to find your application and will display a black screen upon startup (you will have to start the Task Manager and start this program again, and reconfigure it which is doable but annoying so it is best to avoid these troubles now)
 echo.
