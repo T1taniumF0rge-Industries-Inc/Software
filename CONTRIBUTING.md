@@ -23,7 +23,7 @@ Repository mode will also be shown on top of the repository's [README](/README.m
 
 ### Planned modes:
 
-1 - 19th December 2025 21:00 → 30th December 2025 - Repository will go to **Offline** mode due to Christmas Holidays
+1 - 19th December 2025 21:00 → 2nd Jan 2026 - Repository will go to **Offline** mode due to Christmas Holidays & New Year Celebrations.
 
 2 - 15th May 2026 → 14th July 2026 - Repository will go in **Hibernation** mode due to maintainers leave for personal reasons
 
