@@ -9,13 +9,10 @@ if %errorLevel% neq 0 (
 )
 :START
 cls
-echo *** REGISTRY EDITOR IV - Revision D (regchg.bat, running w/Admin Permissions) - © Lan Internet Software ***
+echo *** REGISTRY EDITOR IV - Revision E (regchg.bat, running w/Admin Permissions) - © Lan Internet Software ***
 echo.
 echo.
-echo This program will make it easy for you to disable certain annoying Windows Features.
-echo WARNING! The uninstall Edge feature is completely functional but may throw errors due to the way the program deletes it. This program deletes Edge by forcibly removing all Edge-related functions, even if they don't exist
-echo.
-echo IMPORTANT For users that use applications that rely on Microsoft Edge WebView2, it is highly recommended that you do not uninstall Microsoft Edge as applications that rely on WebView2 also rely on core functions of Microsoft Edge.
+echo This program will make it easy for you to disable certain annoying Windows Features by changing certain registry keys (basically small parameters that tell Windows how to function)
 echo.
 echo. NOTE: It is required to restart your computer so that the changes are applied properly after using any option of this script
 echo.
@@ -33,6 +30,9 @@ echo [0] Quit Program
 echo [M] MAS Windows Activator (requires Internet Connection!)
 echo [S] Configure Windows Shell
 echo [F] Fix Blank Explorer Warning Pop-up on startup
+echo.
+echo Lan Internet Software is NOT responsible for ANY damages that arise from the use of any functions of this program.
+echo.
 choice /c:1234567890MSF /m "Choose an option : "
 IF ERRORLEVEL 13 GOTO FIX
 IF ERRORLEVEL 12 GOTO SHELL
@@ -66,7 +66,7 @@ goto END
 cls
 echo *** REGISTRY EDITOR IV - Revision D (regchg.bat, running w/Admin Permissions) - © Lan Internet Software ***
 echo.
-echo The method in which this program functions is that when your Windows PC starts up, it checks a registry key to determine what will be the default shell (in this case EXPLORER.EXE). The shell is what you'll interact with after you've logged on. Some people replace the shell with more lightweight options (such as FreeCommander) or replace it with a completely different thing (such as a cash register/POS program. If you go to your local McDo, it's just regular Windows computers but with a custom shell)
+echo The method in which this part of this program functions is that when your Windows PC starts up, it checks a registry key to determine what will be the default shell (in this case EXPLORER.EXE). The shell is what you'll interact with after you've logged on. Some people replace the shell with more lightweight options (such as FreeCommander) or replace it with a completely different thing (such as a cash register/POS program. If you go to your local McDo, it's just regular Windows computers but with a custom shell)
 echo.
 echo [1] Set custom executable for Windows Shell
 echo [2] Reset shell to C:\WINDOWS\EXPLORER.EXE
@@ -96,10 +96,12 @@ goto END
 
 
 :MAS
-echo If this program appears frozen after you've exited MAS, hold the CTRL key, then press C (CTRL-C). If it asks "Terminate batch job?", use N.
-powershell /c "irm https://get.activated.win | iex"
-echo If there is no red text or error messages, this means that the operation was successful!
+echo.
+echo MAS is a third party program made by "Massgravel" (https://github.com/massgravel/Microsoft-Activation-Scripts). MAS will open in a seperate window. Any problems that arise from the use of that program should be reported on Massgravel's repository and not the T1taniumF0rge repository. 
+echo.
+echo If this program appears frozen after you've exited MAS, hold the CTRL key, then press C (CTRL-C). If it asks "Terminate batch job?", use N. If there is no red text or error messages, this means that the operation was successful!
 pause
+powershell /c "irm https://get.activated.win | iex"
 goto END
 
 :ALLUSERS
@@ -160,6 +162,17 @@ pause
 goto END
 
 :AIO
+echo.
+echo WARNING!!! Many applications rely on Microsoft Edge WebView 2 (and thus Microsoft Edge Core). Deleting Microsoft Edge will permanently destroy those functions until Edge is reinstalled. If you used option 5 by accident, use N at the next choice prompt, and then choose option 6.
+echo.
+echo The way this function works is that since Microsoft provides no uninstaller for Microsoft Edge, we have to manually force-stop it, and then force-remove its components, which also has the side effect of Windows thinking the application is still installed on the computer.
+echo.
+echo Continue with delete operation?
+choice
+IF ERRORLEVEL 2 GOTO START
+IF ERRORLEVEL 1 GOTO REALAIO
+
+:REALAIO
 reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
 reg add HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer /v DisableSearchBoxSuggestions /t REG_DWORD /d 1 /f
 reg add HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Search /v BingSearchedEnabled /t REG_DWORD /d 0 /f
@@ -189,6 +202,16 @@ pause
 goto END
 
 :EDGE
+echo.
+echo WARNING!!! Many applications rely on Microsoft Edge WebView 2 (and thus Microsoft Edge Core). Deleting Microsoft Edge will permanently destroy those functions until Edge is reinstalled.
+echo.
+echo The way this function works is that since Microsoft provides no uninstaller for Microsoft Edge, we have to manually force-stop it, and then force-remove its components, which also has the side effect of Windows thinking the application is still installed on the computer.
+echo.
+echo Continue with delete operation?
+choice
+IF ERRORLEVEL 2 GOTO START
+IF ERRORLEVEL 1 GOTO REALEDGE
+:READLEDGE
 taskkill /f /im msedge.exe
 taskkill /f /im MicrosoftEdgeUpdate.exe
 taskkill /f /im msedgewebview2.exe
