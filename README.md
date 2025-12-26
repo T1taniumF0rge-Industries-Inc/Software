@@ -4,7 +4,7 @@
 
 ### 🎉🎉 We have reached 1933 commits!! -> *Next milestone 2000 commits!* 🎉🎉 
 
-**INFORMATION UPDATE**: Repository is in ***Offline*** mode until 30th December. Merry Christmas (if you don't celebrate then enjoy your holidays) and Happy New year!
+**INFORMATION UPDATE**: Repository is in ***Offline*** mode until 2nd January. Merry Christmas (if you don't celebrate then enjoy your holidays) and Happy New year!
 
 **REP-SET III**, *`version 4.7.2-epsilon`*
 
