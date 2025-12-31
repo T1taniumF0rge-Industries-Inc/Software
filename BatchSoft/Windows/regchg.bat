@@ -9,8 +9,8 @@ if %errorLevel% neq 0 (
 )
 :START
 cls
-title REGISTRY EDITOR IV - Revision F (regchg.bat) - (c) Lan Internet Software
-echo *** REGISTRY EDITOR IV - Revision F (regchg.bat, running w/Admin Permissions) - (c) Lan Internet Software ***
+title REGISTRY EDITOR IV - Revision G (regchg.bat) - (c) Lan Internet Software
+echo *** REGISTRY EDITOR IV - Revision G (regchg.bat, running w/Admin Permissions) - (c) Lan Internet Software ***
 echo.
 echo This program will make it easy for you to disable certain annoying Windows Features by changing certain registry keys (basically small parameters that tell Windows how to function)
 echo.
@@ -21,7 +21,7 @@ echo [3] Uninstall Edge
 echo [4] Restore Windows 10 style Right-click menu in Windows 11. (read extra informations for clarification)
 echo [5] Everything 
 echo [6] Everything except Edge Uninstall 
-echo [7] Disable Microsoft Copilot
+echo [7] Disable Microsoft Copilot (Main Copilot & Data Analysis, read extra informations for clarification)
 echo [8] Disable password expiry for all users
 echo [9] Disable password expiry for a user
 echo [0] Quit Program
@@ -53,19 +53,20 @@ IF ERRORLEVEL 1 GOTO WINSEARCH
 
 :CHGLOG
 cls
-echo *** REGISTRY EDITOR IV - Revision F (regchg.bat, running w/Admin Permissions) - (c) Lan Internet Software ***
+echo *** REGISTRY EDITOR IV - Revision G (regchg.bat, running w/Admin Permissions) - (c) Lan Internet Software ***
 echo.
 echo ** CHANGELOG **
-echo The changelog is a feature added in REGCHG IV Revision F.
+echo The changelog is a feature added in REGCHG IV Revision G.
 echo.
 echo Revision F: Add detailed information screen, add the changelog and polish the UI even more to make it super clear to the user.
 echo.
+echo Revision G: Fix small documentation mistakes and add mention to more advanced Windows AI Remover.
 pause
 goto START
 
 :INFO
 cls
-echo *** REGISTRY EDITOR IV - Revision F (regchg.bat, running w/Admin Permissions) - (c) Lan Internet Software ***
+echo *** REGISTRY EDITOR IV - Revision G (regchg.bat, running w/Admin Permissions) - (c) Lan Internet Software ***
 echo.
 echo ** GENERAL DESCRIPTION **
 echo This program will make it easy for you to disable certain annoying Windows Features by chainging certain registry keys. Lan Internet Software recommends using this program on brand new Windows Installations, as it will speed up the computer and extend battery life by disabling components that you are probably not going to use.
@@ -112,7 +113,7 @@ echo.
 echo Files Modified:
 echo  - Takeown: C:\PROGRA~2\MICROSOFT
 echo  - Kill processes: "msedge.exe", "MicrosoftEdgeUpdate.exe", "MSEdgeWebView2.exe"
-echo  - Remove directory: C:\PROGRA~2\MICROSOFR
+echo  - Remove directory: C:\PROGRA~2\MICROSOFT
 echo  - Delete: %PROGRAMDATA%\Microsoft\Windows\Start Menu\Programs\Microsoft Edge.lnk
 echo  - Delete: C:\Users\Public\Desktop\Microsoft Edge.lnk
 echo  - Delete: %USERPROFILE%\Desktop\Microsoft Edge.lnk
@@ -136,6 +137,12 @@ pause
 echo.
 echo 7: Disable Microsoft Copilot
 echo Like Edge, Microsoft is heavily pushing for its "Copilot" AI into Windows. It is already integrated in many parts of the OS as well as the keyboard (the Menu/Right Windows key are replaced by the Copilot key which opens the Copilot app). AI can be useful, it is the entire reason services such as ChatGPT, Grok or whatever you want are so successful. The key difference is that people don't want it all the time, only when they want it which is something that Microsoft refuses to understand. Moreover, Microsoft uses your data to collect information, to feed it back into its AI to "improve" it, and is opt-out by default, meaning that if you don't explicitely refuse it, it will collect your data. This program disables Copilot and Data Analysis, speeding up your computer and giving you more control over your data.
+echo.
+echo This program only disables the main Copilot app and integrations into the main Windows system. Copilot in Edge, MSPaint and Notepad may still remain. If you want to have more advanced AI removal, Lan Internet Software recommends ZOICWARE's "RemoveWindowsAI" tool (https://github.com/zoicware/RemoveWindowsAI).
+echo.
+echo Registry Keys:
+echo  - HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\WindowsCopilot /v TurnOffWindowsCopilot
+echo  - HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\WindowsAI /v DisableAIDataAnalysis
 echo.
 pause
 echo.
