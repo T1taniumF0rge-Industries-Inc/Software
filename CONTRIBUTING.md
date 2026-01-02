@@ -1,5 +1,5 @@
 # Code Contributing Guidelines 
-![GitHub commit activity](https://img.shields.io/badge/Repository%20Status-Offline-red) &nbsp;
+![GitHub commit activity](https://img.shields.io/badge/Repository%20Status-Semi%20Active-yellow) &nbsp;
 > [!IMPORTANT]
 > Any contributions that violate these guidelines will be ignored/not approved for change¹ and you will be given a warning. If you receive 3 warnings within 1 year, you will not be able to contribute anymore and our team will ignore all contributions made by you! Please read this file carefully, thank you.
 >
@@ -23,9 +23,7 @@ Repository mode will also be shown on top of the repository's [README](/README.m
 
 ### Planned modes:
 
-1 - 19th December 2025 21:00 → 2nd Jan 2026 - Repository will go to **Offline** mode due to Christmas Holidays & New Year Celebrations.
-
-2 - 15th May 2026 → 14th July 2026 - Repository will go in **Hibernation** mode due to maintainers leave for personal reasons
+1 - 15th May 2026 → 14th July 2026 - Repository will go in **Hibernation** mode due to maintainers leave for personal reasons
 
 Thank you for your understanding, and we apologise for any inconveniences.
 
