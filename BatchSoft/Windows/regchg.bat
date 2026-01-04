@@ -1,5 +1,7 @@
 @echo off
-set RESTARTCOMPUTER=0
+set RESTARTCOMPUTER=
+set WINVER= *** PLEASE CONFIGURE YOUR WINDOWS VERSION USING OPTION 5 ***
+set CONFIGURED=0
 setlocal enabledelayedexpansion
 net session >nul 2>&1
 if %errorLevel% neq 0 (
@@ -9,8 +11,8 @@ if %errorLevel% neq 0 (
 )
 :START
 cls
-title REGISTRY EDITOR IV - Revision G (regchg.bat) - (c) Lan Internet Software
-echo *** REGISTRY EDITOR IV - Revision G (regchg.bat, running w/Admin Permissions) - (c) Lan Internet Software ***
+title REGISTRY EDITOR V (regchg.bat) - (c) Lan Internet Software
+echo *** REGISTRY EDITOR V (regchg.bat, running w/Admin Permissions) - (c) Lan Internet Software ***
 echo.
 echo This program will make it easy for you to disable certain annoying Windows Features by changing certain registry keys (basically small parameters that tell Windows how to function)
 echo.
@@ -21,7 +23,7 @@ echo [3] Uninstall Edge
 echo [4] Restore Windows 10 style Right-click menu in Windows 11. (read extra informations for clarification)
 echo [5] Everything 
 echo [6] Everything except Edge Uninstall 
-echo [7] Disable Microsoft Copilot (Main Copilot & Data Analysis, read extra informations for clarification)
+echo [7] Disable Microsoft Copilot (Main Copilot and Data Analysis, read extra informations for clarification)
 echo [8] Disable password expiry for all users
 echo [9] Disable password expiry for a user
 echo [0] Quit Program
@@ -30,11 +32,14 @@ echo [S] Configure Windows Shell
 echo [F] Fix Blank Explorer Warning Pop-up on startup
 echo [I] Informations about this program and its functions
 echo [L] Last Updates/Changelog
+echo [E] Explorer Utilities
 echo.
 echo Lan Internet Software is NOT responsible for ANY damages that arise from the use of any functions of this program. 
+echo If you have any concerns of system instability, you should backup the registry.
 echo If you have any doubts, questions or problems, consult the informations screen first. For example, errors in option 3 may be normal.
 echo.
-choice /c:1234567890MSFIL /m "Choose an option : "
+choice /c:1234567890MSFILE /m "Choose an option : "
+IF ERRORLEVEL 16 GOTO UTILS
 IF ERRORLEVEL 15 GOTO CHGLOG
 IF ERRORLEVEL 14 GOTO INFO
 IF ERRORLEVEL 13 GOTO FIX
@@ -51,9 +56,292 @@ IF ERRORLEVEL 3 GOTO EDGE
 IF ERRORLEVEL 2 GOTO VBM
 IF ERRORLEVEL 1 GOTO WINSEARCH
 
+:UTILS
+cls 
+set RESTARTCOMPUTER=1
+echo *** REGISTRY EDITOR V (regchg.bat, running w/Admin Permissions) - (c) Lan Internet Software ***
+echo.
+echo Windows Explorer Utilities
+echo.
+echo Current Windows Version: %WINVER%
+echo.
+echo [1] Add all folders (Documents, Pictures, etc) to Navigation Pane (left sidebar)
+echo [2] Remove all folders (Documents, Pictures, etc) to Navigation Pane (left sidebar)
+echo [3] Add individual folders (Documents, Pictures, etc) to Navigation Pane (left sidebar)
+echo [4] Remove individual folders (Documents, Pictures, etc) to Navigation Pane (left sidebar)
+echo [5] Set Windows Version ( *** IMPORTANT *** )
+echo [6] Exit Windows Explorer Utilities
+echo [7] Display Explorer Utilities Information Screen
+choice /c:1234567 /m "Choose an option. Remember to use Option 5 to configure your Windows Version: "
+IF ERRORLEVEL 7 GOTO UTILINFO
+IF ERRORLEVEL 6 GOTO END
+IF ERRORLEVEL 5 GOTO WINCONFIG
+IF ERRORLEVEL 4 GOTO INDRMV
+IF ERRORLEVEL 3 GOTO INDADD
+IF ERRORLEVEL 2 GOTO ALLRMV
+IF ERRORLEVEL 1 GOTO ALLADD
+
+:INDRMV
+IF %CONFIGURED% EQU 0 goto WINCONFIG
+echo.
+echo [1] 3D Objects
+echo [2] Desktop
+echo [3] Documents
+echo [4] Music
+echo [5] Pictures
+echo [6] Videos
+echo [7] Downloads
+echo [8] Return to Utilities Menu
+choice /c:12345678 /m "Choose a folder to remove: "
+IF ERRORLEVEL 8 GOTO UTILS
+IF ERRORLEVEL 7 IF %WINVER% GEQ 11 CALL :W11RMVDOWN
+IF ERRORLEVEL 7 IF %WINVER% LEQ 10 CALL :W10RMVDOWN
+IF ERRORLEVEL 6 IF %WINVER% GEQ 11 CALL :W11RMVVIDS
+IF ERRORLEVEL 6 IF %WINVER% LEQ 10 CALL :W10RMVVIDS
+IF ERRORLEVEL 5 IF %WINVER% GEQ 11 CALL :W11RMVPICS
+IF ERRORLEVEL 5 IF %WINVER% LEQ 10 CALL :W10RMVPICS
+IF ERRORLEVEL 4 IF %WINVER% GEQ 11 CALL :W11RMVMUS
+IF ERRORLEVEL 4 IF %WINVER% LEQ 10 CALL :W10RMVMUS
+IF ERRORLEVEL 3 IF %WINVER% GEQ 11 CALL :W11RMVDOCS
+IF ERRORLEVEL 3 IF %WINVER% LEQ 10 CALL :W10RMVDOCS
+IF ERRORLEVEL 2 IF %WINVER% GEQ 11 CALL :W11RMVMUS
+IF ERRORLEVEL 2 IF %WINVER% LEQ 10 CALL :W10RMVMUS
+IF ERRORLEVEL 1 IF %WINVER% GEQ 11 CALL :W11RMV3DOBJ
+IF ERRORLEVEL 1 IF %WINVER% LEQ 10 CALL :W10RMV3DOBJ
+echo.
+pause
+goto INDRMV
+
+:INDADD
+IF %CONFIGURED% EQU 0 goto WINCONFIG
+echo.
+echo [1] 3D Objects
+echo [2] Desktop
+echo [3] Documents
+echo [4] Music
+echo [5] Pictures
+echo [6] Videos
+echo [7] Downloads
+echo [8] Return to Utilities Menu
+choice /c:12345678 /m "Choose a folder to add: "
+IF ERRORLEVEL 8 GOTO UTILS
+IF ERRORLEVEL 7 IF %WINVER% GEQ 11 CALL :W11ADDDOWN
+IF ERRORLEVEL 7 IF %WINVER% LEQ 10 CALL :W10ADDDOWN
+IF ERRORLEVEL 6 IF %WINVER% GEQ 11 CALL :W11ADDVIDS
+IF ERRORLEVEL 6 IF %WINVER% LEQ 10 CALL :W10ADDVIDS
+IF ERRORLEVEL 5 IF %WINVER% GEQ 11 CALL :W11ADDPICS
+IF ERRORLEVEL 5 IF %WINVER% LEQ 10 CALL :W10ADDPICS
+IF ERRORLEVEL 4 IF %WINVER% GEQ 11 CALL :W11ADDMUS
+IF ERRORLEVEL 4 IF %WINVER% LEQ 10 CALL :W10ADDMUS
+IF ERRORLEVEL 3 IF %WINVER% GEQ 11 CALL :W11ADDDOCS
+IF ERRORLEVEL 3 IF %WINVER% LEQ 10 CALL :W10ADDDOCS
+IF ERRORLEVEL 2 IF %WINVER% GEQ 11 CALL :W11ADDMUS
+IF ERRORLEVEL 2 IF %WINVER% LEQ 10 CALL :W10ADDMUS
+IF ERRORLEVEL 1 IF %WINVER% GEQ 11 CALL :W11ADD3DOBJ
+IF ERRORLEVEL 1 IF %WINVER% LEQ 10 CALL :W10ADD3DOBJ
+echo.
+pause
+goto INDADD
+
+
+:ALLADD
+IF %CONFIGURED% EQU 0 goto WINCONFIG
+IF %WINVER% GEQ 11 GOTO ADDALL11
+IF %WINVER% LEQ 10 GOTO ADDALL10
+
+:ADDALL11
+call :W11ADD3DOBJ
+call :W11ADDDKST
+call :W11ADDDOCS
+call :W10ADDDOWN
+call :W11ADDMUS
+call :W11ADDPICS
+call :W11ADDVIDS
+pause
+goto UTILS 
+
+:ADDALL10
+call :W10ADD3DOBJ
+call :W10ADDDKST
+call :W10ADDDOCS
+call :W10ADDDOWN
+call :W10ADDMUS
+call :W10ADDPICS
+call :W10ADDVIDS
+pause
+goto UTILS 
+
+:ALLRMV
+IF %CONFIGURED% EQU 0 goto WINCONFIG
+IF %WINVER% GEQ 11 GOTO RMVALL11
+IF %WINVER% LEQ 10 GOTO RMVALL10
+
+:RMVALL11
+call :W11RMV3DOBJ
+call :W11RMVDKST
+call :W11RMVDOCS
+call :W11RMVDOWN
+call :W11RMVMUS
+call :W11RMVPICS
+call :W11RMVVIDS
+pause
+goto UTILS 
+
+:RMVALL10
+call :W10RMV3DOBJ
+call :W10RMVDKST
+call :W10RMVDOCS
+call :W10RMVDOWN
+call :W10RMVMUS
+call :W10RMVPICS
+call :W10RMVVIDS
+pause
+goto UTILS 
+
+:: WIN10 Folder Removals
+
+:W10RMV3DOBJ
+reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A}" /f
+reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A}" /f
+:W10RMVDKST
+reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}" /f
+reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}" /f
+:W10RMVDOCS
+reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{A8CDFF1C-4878-43be-B5FD-F8091C1C60D0}" /f
+reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{d3162b92-9365-467a-956b-92703aca08af}" /f
+reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{A8CDFF1C-4878-43be-B5FD-F8091C1C60D0}" /f
+reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{d3162b92-9365-467a-956b-92703aca08af}" /f
+:W10RMVDOWN
+reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{374DE290-123F-4565-9164-39C4925E467B}" /f
+reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{088e3905-0323-4b02-9826-5d99428e115f}" /f
+reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{374DE290-123F-4565-9164-39C4925E467B}" /f
+reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{088e3905-0323-4b02-9826-5d99428e115f}" /f
+:W10RMVMUS
+reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{1CF1260C-4DD0-4ebb-811F-33C572699FDE}" /f
+reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{3dfdf296-dbec-4fb4-81d1-6a3438bcf4de}" /f
+reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{1CF1260C-4DD0-4ebb-811F-33C572699FDE}" /f
+reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{3dfdf296-dbec-4fb4-81d1-6a3438bcf4de}" /f
+:W10RMVPICS
+reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{3ADD1653-EB32-4cb0-BBD7-DFA0ABB5ACCA}" /f
+reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{24ad3ad4-a569-4530-98e1-ab02f9417aa8}" /f
+reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{3ADD1653-EB32-4cb0-BBD7-DFA0ABB5ACCA}" /f
+reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{24ad3ad4-a569-4530-98e1-ab02f9417aa8}" /f
+:W10RMVVIDS
+reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{A0953C92-50DC-43bf-BE83-3742FED03C9C}" /f
+reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{f86fa3ab-70d2-4fc7-9c99-fcbf05467f3a}" /f
+reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{A0953C92-50DC-43bf-BE83-3742FED03C9C}" /f
+reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{f86fa3ab-70d2-4fc7-9c99-fcbf05467f3a}" /f
+
+::Win10 Folder Adds
+
+:W10ADD3DOBJ
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A}" /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A}" /f
+:W10ADDDKST
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}" /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}" /f
+:W10ADDDOCS
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{A8CDFF1C-4878-43be-B5FD-F8091C1C60D0}" /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{d3162b92-9365-467a-956b-92703aca08af}" /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{A8CDFF1C-4878-43be-B5FD-F8091C1C60D0}" /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{d3162b92-9365-467a-956b-92703aca08af}" /f
+:W10ADDDOWN
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{374DE290-123F-4565-9164-39C4925E467B}" /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{088e3905-0323-4b02-9826-5d99428e115f}" /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{374DE290-123F-4565-9164-39C4925E467B}" /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{088e3905-0323-4b02-9826-5d99428e115f}" /f
+:W10ADDMUS
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{1CF1260C-4DD0-4ebb-811F-33C572699FDE}" /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{3dfdf296-dbec-4fb4-81d1-6a3438bcf4de}" /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{1CF1260C-4DD0-4ebb-811F-33C572699FDE}" /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{3dfdf296-dbec-4fb4-81d1-6a3438bcf4de}" /f
+:W10ADDPICS
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{3ADD1653-EB32-4cb0-BBD7-DFA0ABB5ACCA}" /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{24ad3ad4-a569-4530-98e1-ab02f9417aa8}" /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{3ADD1653-EB32-4cb0-BBD7-DFA0ABB5ACCA}" /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{24ad3ad4-a569-4530-98e1-ab02f9417aa8}" /f
+:W10ADDVIDS
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{A0953C92-50DC-43bf-BE83-3742FED03C9C}" /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{f86fa3ab-70d2-4fc7-9c99-fcbf05467f3a}" /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{A0953C92-50DC-43bf-BE83-3742FED03C9C}" /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{f86fa3ab-70d2-4fc7-9c99-fcbf05467f3a}" /f
+
+:: Win11 Folder remove
+
+:W11RMV3DOBJ
+call :W10RMV3DOBJ
+:W11RMVDKST
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}" /v HideIfEnabled /t REG_DWORD /v 022ab9b9 /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}" /v HiddenByDefault /t REG_DWORD /v 00000001 /f
+:W11RMVDOCS
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{d3162b92-9365-467a-956b-92703aca08af}" /v HideIfEnabled /t REG_DWORD /v 022ab9b9 /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{d3162b92-9365-467a-956b-92703aca08af}" /v HiddenByDefault /t REG_DWORD /v 00000001 /f
+:W11RMVDOWN
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{088e3905-0323-4b02-9826-5d99428e115f}" /v HideIfEnabled /t REG_DWORD /v 022ab9b9 /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{088e3905-0323-4b02-9826-5d99428e115f}" /v HiddenByDefault /t REG_DWORD /v 00000001 /f
+:W11RMVMUS
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{3dfdf296-dbec-4fb4-81d1-6a3438bcf4de}" /v HideIfEnabled /t REG_DWORD /v 022ab9b9 /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{1CF1260C-4DD0-4ebb-811F-33C572699FDE}" /v HiddenByDefault /t REG_DWORD /v 00000001 /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{3dfdf296-dbec-4fb4-81d1-6a3438bcf4de}" /v HiddenByDefault /t REG_DWORD /v 00000001 /f
+:W11RMVPICS
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{24ad3ad4-a569-4530-98e1-ab02f9417aa8}" /v HideIfEnabled /t REG_DWORD /v 022ab9b9 /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{24ad3ad4-a569-4530-98e1-ab02f9417aa8}" /v HiddenByDefault /t REG_DWORD /v 00000001 /f
+:W11RMVVIDS
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{f86fa3ab-70d2-4fc7-9c99-fcbf05467f3a}" /v HideIfEnabled /t REG_DWORD /v 022ab9b9 /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{f86fa3ab-70d2-4fc7-9c99-fcbf05467f3a}" /v HiddenByDefault /t REG_DWORD /v 00000001 /f
+
+:: Win11 Folder add
+:W11ADD3DOBJ
+call :W10ADD3DOBJ
+:W11ADDDKST
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}" /v HideIfEnabled /t REG_DWORD /ve /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}" /v HiddenByDefault /t REG_DWORD /v 00000000 /f
+:W11ADDDOCS
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{d3162b92-9365-467a-956b-92703aca08af}" /v HideIfEnabled /t REG_DWORD /ve /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{d3162b92-9365-467a-956b-92703aca08af}" /v HiddenByDefault /t REG_DWORD /v 00000000 /f
+:W11ADDDOWN
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{088e3905-0323-4b02-9826-5d99428e115f}" /v HideIfEnabled /t REG_DWORD /ve /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{088e3905-0323-4b02-9826-5d99428e115f}" /v HiddenByDefault /t REG_DWORD /v 00000000 /f
+:W11ADDMUS
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{3dfdf296-dbec-4fb4-81d1-6a3438bcf4de}" /v HideIfEnabled /t REG_DWORD /ve /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{1CF1260C-4DD0-4ebb-811F-33C572699FDE}" /v HiddenByDefault /t REG_DWORD /v 00000000 /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{3dfdf296-dbec-4fb4-81d1-6a3438bcf4de}" /v HiddenByDefault /t REG_DWORD /v 00000000 /f
+:W11ADDPICS
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{24ad3ad4-a569-4530-98e1-ab02f9417aa8}" /v HideIfEnabled /t REG_DWORD /ve /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{24ad3ad4-a569-4530-98e1-ab02f9417aa8}" /v HiddenByDefault /t REG_DWORD /v 00000000 /f
+:W11ADDVIDS
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{f86fa3ab-70d2-4fc7-9c99-fcbf05467f3a}" /v HideIfEnabled /t REG_DWORD /ve /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{f86fa3ab-70d2-4fc7-9c99-fcbf05467f3a}" /v HiddenByDefault /t REG_DWORD /v 00000000 /f
+
+
+:UTILINFO
+echo.
+echo The "Windows Explorer Utilities" allow you to configure Windows Explorer in the way you want, as most of the options either require you digging through option menus or editing the registry.
+echo IMPORTANT: It is important that you use Option 5 to set your Windows version correctly (7, 8, 10, 11, etc)
+echo Options 1-4 (add/remove folder) rely on the following registry keys:
+echo HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{CORRESPONDING_FOLDER_GUID}
+echo HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{CORRESPONDING_FOLDER_GUID}
+echo "HideIfEnabled"=dword:{corresponding values} in the same registry keys (if using Windows 11)
+echo.
+pause
+goto UTILS
+
+:WINCONFIG
+echo.
+IF %CONFIGURED% EQU 0 echo Please configure your Windows Version to proceed.
+echo IMPORTANT: It is important that the version number you enter is corresponding to your current Windows version, as different registry keys are used on different Windows versions. Entering the wrong version will cause the wrong registry keys to be applied, which could cause serious system errors!
+echo.
+set /p WINVER="Enter your simple Windows version (10, 11, 7, etc): "
+set CONFIGURED=1 
+echo.
+pause
+goto UTILS
+
+
+
 :CHGLOG
 cls
-echo *** REGISTRY EDITOR IV - Revision G (regchg.bat, running w/Admin Permissions) - (c) Lan Internet Software ***
+echo *** REGISTRY EDITOR V (regchg.bat, running w/Admin Permissions) - (c) Lan Internet Software ***
 echo.
 echo ** CHANGELOG **
 echo The changelog is a feature added in REGCHG IV Revision G.
@@ -61,12 +349,14 @@ echo.
 echo Revision F: Add detailed information screen, add the changelog and polish the UI even more to make it super clear to the user.
 echo.
 echo Revision G: Fix small documentation mistakes and add mention to more advanced Windows AI Remover.
+echo.
+echo REGCHG V: Explorer Features addition.
 pause
 goto START
 
 :INFO
 cls
-echo *** REGISTRY EDITOR IV - Revision G (regchg.bat, running w/Admin Permissions) - (c) Lan Internet Software ***
+echo *** REGISTRY EDITOR V (regchg.bat, running w/Admin Permissions) - (c) Lan Internet Software ***
 echo.
 echo ** GENERAL DESCRIPTION **
 echo This program will make it easy for you to disable certain annoying Windows Features by chainging certain registry keys. Lan Internet Software recommends using this program on brand new Windows Installations, as it will speed up the computer and extend battery life by disabling components that you are probably not going to use.
@@ -200,6 +490,10 @@ echo This displays the latest updates and new features added to REGCHG, that way
 echo.
 pause
 echo.
+echo E: Explorer Utilities
+echo Refer to the information screen in that menu for more information as it contains many utilities.
+echo.
+pause
 echo ** USAGE OF REGCHG **
 echo.
 echo For the best experience of REGCHG, simply read everything that is displayed on screen, and in doubt, view the Informations Screen.
@@ -229,6 +523,8 @@ goto END
 :SHELL
 cls
 echo *** REGISTRY EDITOR IV - Revision D (regchg.bat, running w/Admin Permissions) - (c) Lan Internet Software ***
+echo.
+echo Windows Shell Utilities
 echo.
 echo [1] Set custom executable for Windows Shell
 echo [2] Reset shell to C:\WINDOWS\EXPLORER.EXE
