@@ -512,6 +512,9 @@ echo "HideIfEnabled"=dword:{corresponding values} in the same registry keys (if 
 echo.
 echo ** TROUBLESHOOTING **
 echo Functions 1-4: If they do not appear to change anything, firstly make sure your Windows Version is set correctly as this tells REGCHG which registry keys are being used. Secondly you may try different Windows versions: some old Windows 11 builds use the old Windows 10 registry keys (may be more common on NTDEV Tiny builds). Lastly other settings may be conflicting with REGCHG, not allowing it to do the proper changes
+echo.
+echo ** NOTES**
+echo For some reason, even though the code is all correct, options 3 and options 4 are swapped however I'm not changing the UI because it may be correct on other builds. My test was using a Tiny10 build but they're kind of horrible for hacks like these. Options 1 and 2 are confirmed working.
 pause
 goto UTILS
 
