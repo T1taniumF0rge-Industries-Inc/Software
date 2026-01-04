@@ -72,7 +72,7 @@ echo [3] Add individual folders (Documents, Pictures, etc) to Navigation Pane (l
 echo [4] Remove individual folders (Documents, Pictures, etc) to Navigation Pane (left sidebar)
 echo [5] Set Windows Version ( *** IMPORTANT *** )
 echo [6] Exit Windows Explorer Utilities
-echo [7] Display Explorer Utilities Information Screen
+echo [7] Display Explorer Utilities Information Screen (Troubleshooting Steps Here)
 choice /c:1234567 /m "Choose an option. Remember to use Option 5 to configure your Windows Version: "
 IF ERRORLEVEL 7 GOTO UTILINFO
 IF ERRORLEVEL 6 GOTO END
