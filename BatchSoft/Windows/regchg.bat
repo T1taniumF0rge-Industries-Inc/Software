@@ -510,6 +510,8 @@ echo HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Ex
 echo HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{CORRESPONDING_FOLDER_GUID}
 echo "HideIfEnabled"=dword:{corresponding values} in the same registry keys (if using Windows 11)
 echo.
+echo ** TROUBLESHOOTING **
+echo Functions 1-4: If they do not appear to change anything, firstly make sure your Windows Version is set correctly as this tells REGCHG which registry keys are being used. Secondly you may try different Windows versions: some old Windows 11 builds use the old Windows 10 registry keys (may be more common on NTDEV Tiny builds). Lastly other settings may be conflicting with REGCHG, not allowing it to do the proper changes
 pause
 goto UTILS
 
