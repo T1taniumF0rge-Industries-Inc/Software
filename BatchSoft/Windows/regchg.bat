@@ -34,12 +34,14 @@ echo [F] Fix Blank Explorer Warning Pop-up on startup
 echo [I] Informations about this program and its functions
 echo [L] Last Updates/Changelog
 echo [E] Explorer Utilities
+echo [A] Enable Administrator Account
 echo.
 echo Lan Internet Software is NOT responsible for ANY damages that arise from the use of any functions of this program. 
 echo If you have any concerns of system instability, you should backup the registry.
 echo If you have any doubts, questions or problems, consult the informations screen first. For example, errors in option 3 may be normal.
 echo.
-choice /c:1234567890MSFILE /m "Choose an option : "
+choice /c:1234567890MSFILEA /m "Choose an option : "
+IF ERRORLEVEL 17 GOTO ADMIN
 IF ERRORLEVEL 16 GOTO UTILS
 IF ERRORLEVEL 15 GOTO CHGLOG
 IF ERRORLEVEL 14 GOTO INFO
@@ -56,6 +58,12 @@ IF ERRORLEVEL 4 GOTO W10
 IF ERRORLEVEL 3 GOTO EDGE
 IF ERRORLEVEL 2 GOTO VBM
 IF ERRORLEVEL 1 GOTO WINSEARCH
+
+:ADMIN
+net user administrator /active:yes
+echo.
+pause
+goto START
 
 :UTILS
 cls 
@@ -686,6 +694,12 @@ echo E: Explorer Utilities
 echo Refer to the information screen in that menu for more information as it contains many utilities.
 echo.
 pause
+echo.
+echo A: Enable Admin account
+echo Enables the Administrator account. That account won't have any UAC prompt or weird permission errors unlike standard admin accounts so you should use it if you need administrative operations
+echo Commands Run:
+echo  - net user administrator /active:yes
+pause
 echo ** USAGE OF REGCHG **
 echo.
 echo For the best experience of REGCHG, simply read everything that is displayed on screen, and in doubt, view the Informations Screen.
@@ -805,6 +819,7 @@ goto END
 
 :EVERYTHING
 echo.
+net user administrator /active:yes
 reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
 reg add HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer /v DisableSearchBoxSuggestions /t REG_DWORD /d 1 /f
 reg add HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Search /v BingSearchedEnabled /t REG_DWORD /d 0 /f
@@ -831,6 +846,7 @@ IF ERRORLEVEL 1 GOTO REALAIO
 
 :REALAIO
 echo.
+net user administrator /active:yes
 reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
 reg add HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer /v DisableSearchBoxSuggestions /t REG_DWORD /d 1 /f
 reg add HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Search /v BingSearchedEnabled /t REG_DWORD /d 0 /f
