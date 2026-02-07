@@ -2,9 +2,9 @@
  &nbsp;![GitHub repo size](https://img.shields.io/github/repo-size/T1taniumF0rge-Industries-Inc/Software?color=green&label=Repository%20Size%3A) &nbsp;![GitHub commit activity](https://img.shields.io/badge/Clone%20Size-41.2GB-066990) &nbsp; ![GitHub commit activity](https://img.shields.io/badge/Repository%20Status-Semi%20Active-yellow) &nbsp;
 # [`Software`] Repository
 
-### ** !!! INFORMATION UPDATE !!!: The repository will enter *Hibernation* mode on the 1st March 2026. See [CONTRIBUTING.md](/CONTRIBUTING.MD) for more information.**
+### !!! INFORMATION UPDATE !!!: The repository will enter *Hibernation* mode on the 1st March 2026. See [CONTRIBUTING.md](/CONTRIBUTING.md) for more information.
 
-### 🎉🎉 We have reached 1989 commits!! -> *Next milestone 2000 commits!* 🎉🎉 
+### 🎉🎉 We have reached 1990 commits!! -> *Next milestone 2000 commits!* 🎉🎉 
 
 **REP-SET III**, *`version 4.7.2-epsilon`*
 
