@@ -3,6 +3,7 @@
 set RESTARTCOMPUTER=
 set WINVER= *** PLEASE CONFIGURE YOUR WINDOWS VERSION USING OPTION 5 ***
 set CONFIGURED=0
+set TITLE=REGISTRY EDITOR 5.1
 setlocal enabledelayedexpansion
 net session >nul 2>&1
 if %errorLevel% neq 0 (
@@ -12,8 +13,8 @@ if %errorLevel% neq 0 (
 )
 :START
 cls
-title REGISTRY EDITOR V (regchg.bat) - (c) Lan Internet Software
-echo *** REGISTRY EDITOR V (regchg.bat, running w/Admin Permissions) - (c) Lan Internet Software ***
+title %TITLE% (regchg.bat) - (c) Lan Internet Software
+echo *** %TITLE% (regchg.bat, running w/Admin Permissions) - (c) Lan Internet Software ***
 echo.
 echo This program will make it easy for you to disable certain annoying Windows Features by changing certain registry keys (basically small parameters that tell Windows how to function)
 echo.
@@ -35,12 +36,14 @@ echo [I] Informations about this program and its functions
 echo [L] Last Updates/Changelog
 echo [E] Explorer Utilities
 echo [A] Enable Administrator Account
+echo [C] Change hostname (the name that identifies your computer on a network)
 echo.
 echo Lan Internet Software is NOT responsible for ANY damages that arise from the use of any functions of this program. 
 echo If you have any concerns of system instability, you should backup the registry.
 echo If you have any doubts, questions or problems, consult the informations screen first. For example, errors in option 3 may be normal.
 echo.
-choice /c:1234567890MSFILEA /m "Choose an option : "
+choice /c:1234567890MSFILEAC /m "Choose an option : "
+IF ERRORLEVEL 18 GOTO SETPC
 IF ERRORLEVEL 17 GOTO ADMIN
 IF ERRORLEVEL 16 GOTO UTILS
 IF ERRORLEVEL 15 GOTO CHGLOG
@@ -59,6 +62,19 @@ IF ERRORLEVEL 3 GOTO EDGE
 IF ERRORLEVEL 2 GOTO VBM
 IF ERRORLEVEL 1 GOTO WINSEARCH
 
+:SETPC
+set /p PCNAME=Enter your new computer name. Note that using special characters like $, * or £ may cause problems. Read the informations screen for more information: 
+reg add HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\ComputerName\ActiveComputerName /v ComputerName /t REG_SZ /d %PCNAME% /f
+reg add HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\ComputerName\ComputerName /v ComputerName /t REG_SZ /d %PCNAME% /f
+reg add HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters /v "NV Hostname" /t REG_SZ /d %PCNAME% /f
+reg add HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters /v Hostname /t REG_SZ /d %PCNAME% /f
+set RESTARTCOMPUTER=1
+echo.
+pause
+goto END
+
+
+
 :ADMIN
 net user administrator /active:yes
 echo.
@@ -68,7 +84,7 @@ goto START
 :UTILS
 cls 
 set RESTARTCOMPUTER=1
-echo *** REGISTRY EDITOR V (regchg.bat, running w/Admin Permissions) - (c) Lan Internet Software ***
+echo *** %TITLE% (regchg.bat, running w/Admin Permissions) - (c) Lan Internet Software ***
 echo.
 echo Windows Explorer Utilities
 echo.
@@ -541,7 +557,7 @@ goto UTILS
 
 :CHGLOG
 cls
-echo *** REGISTRY EDITOR V (regchg.bat, running w/Admin Permissions) - (c) Lan Internet Software ***
+echo *** %TITLE% (regchg.bat, running w/Admin Permissions) - (c) Lan Internet Software ***
 echo.
 echo ** CHANGELOG **
 echo The changelog is a feature added in REGCHG IV Revision G.
@@ -556,7 +572,7 @@ goto START
 
 :INFO
 cls
-echo *** REGISTRY EDITOR V (regchg.bat, running w/Admin Permissions) - (c) Lan Internet Software ***
+echo *** %TITLE% (regchg.bat, running w/Admin Permissions) - (c) Lan Internet Software ***
 echo.
 echo ** GENERAL DESCRIPTION **
 echo This program will make it easy for you to disable certain annoying Windows Features by chainging certain registry keys. Lan Internet Software recommends using this program on brand new Windows Installations, as it will speed up the computer and extend battery life by disabling components that you are probably not going to use.
@@ -699,6 +715,17 @@ echo A: Enable Admin account
 echo Enables the Administrator account. That account won't have any UAC prompt or weird permission errors unlike standard admin accounts so you should use it if you need administrative operations
 echo Commands Run:
 echo  - net user administrator /active:yes
+echo.
+pause
+echo.
+echo C: Change hostname
+echo This changes the hostname of your system. On a network, devices are identified using IP addresses. However, in modern days, most devices will show the hostname as well, which is a name that identifies a specific device. So for example, instead of seeing 192.168.0.24, you could see LIVING-ROOM-PC and know instantly where that is. 
+echo NOTE: It is highly recommended to avoid special characters, such as !, £ or & as Windows may interpret these characters in an unknown manner (for example MS-DOS or CMD commands or weird driver parameters), as well as avoid having 2 devices of the same hostname on a network as it may cause a conflict between both devices.
+echo Registry Keys:
+echo  - Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\ComputerName\ActiveComputerName
+echo  - Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\ComputerName\ComputerName
+echo  - HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters (Hostname & NV Hostname)
+echo.
 pause
 echo ** USAGE OF REGCHG **
 echo.
@@ -708,7 +735,7 @@ echo To select an option, press any key that is marked in a bracket. For example
 echo [I] View Information Screen
 echo You simply press the "I" key on your keyboard. The program will go to its associated function.
 echo.
-echo If you see "Press any key to continue . . .", you simply press any alphanumerical key on your keyboard (1-9, A-Z) and you will move to the next menu.
+echo If this program appears to have frozen, please make sure that the program is not waiting for you to press a key (indicated by "Press any key to continue . . ." on the screen). If pressing a key does nothing, hold the Control (CTRL) key, then press C, and then answer 'Y' to any prompts, then restart the program. 
 echo.
 pause
 goto START
