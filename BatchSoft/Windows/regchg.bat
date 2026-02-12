@@ -3,7 +3,7 @@
 set RESTARTCOMPUTER=
 set WINVER= *** PLEASE CONFIGURE YOUR WINDOWS VERSION USING OPTION 5 ***
 set CONFIGURED=0
-set TITLE=Registry Editor 5.2
+set TITLE=Registry Editor 5.3
 setlocal enabledelayedexpansion
 net session >nul 2>&1
 if %errorLevel% neq 0 (
@@ -16,7 +16,8 @@ cls
 title %TITLE% (regchg.bat) - (c) Lan Internet Software
 echo *** %TITLE% (regchg.bat, running w/Admin Permissions) - (c) Lan Internet Software ***
 echo.
-echo This program will make it easy for you to disable certain annoying Windows Features by changing certain registry keys (basically small parameters that tell Windows how to function)
+echo This program allows you to change certain Windows features & behaviours. 
+echo In any doubt of anything, or if this is the first time using this program, consult the informations screen by pressing the 'I' key.
 echo.
 echo In the "Everything" options, all users will have their password expiry disabled.
 echo [1] Disable Bing/Internet Start Menu Search Results
@@ -33,17 +34,14 @@ echo [M] MAS Windows Activator (Third-party program not made by Lan Internet Sof
 echo [S] Configure Windows Shell
 echo [F] Fix Blank Explorer Warning Pop-up on startup
 echo [I] Informations about this program and its functions
-echo [L] Last Updates/Changelog
 echo [E] Explorer Utilities
 echo [A] Enable Administrator Account
 echo [C] Change hostname (the name that identifies your computer on a network)
 echo [W] Change workgroup (Network Sector)
 echo.
 echo Lan Internet Software is NOT responsible for ANY damages that arise from the use of any functions of this program. 
-echo If you have any concerns of system instability, you should backup the registry.
-echo If you have any doubts, questions or problems, consult the informations screen first. For example, errors in option 3 may be normal.
 echo.
-choice /c:1234567890MSFILEACW /m "Choose an option : "
+choice /c:1234567890MSFIEACW /m "Choose an option : "
 IF ERRORLEVEL 19 GOTO WORKGR
 IF ERRORLEVEL 18 GOTO SETPC
 IF ERRORLEVEL 17 GOTO ADMIN
@@ -66,7 +64,7 @@ IF ERRORLEVEL 1 GOTO WINSEARCH
 
 :WORKGR
 set /p WORG=Enter your desired workgroup name. If the workgroup in question does not exist, this program will create it for you. Note that special characters like $, * or £ may cause problems: 
-Add-Computer -WorkGroupName "%WORG%"
+powershell /c Add-Computer -WorkGroupName "%WORG%"
 echo.
 set RESTARTCOMPUTER=1
 pause
@@ -591,6 +589,8 @@ echo A registry key is a small piece of data that tells Windows (or a certain pr
 echo.
 echo NOTE: If your computer is owned by an organisation, it is recommended to ask your administrator permission before using REGCHG or ask to do the relevant changes using the Group Policy Editor (gpedit.msc). Lan Internet Software is NOT responsible for ANY damages that arise from the use of any functions of this program.
 echo.
+echo If you are unsure that any of the following commands or registry keys won't affect your computer, please back up the registry. 
+echo.
 echo In this program, REGCHG, regchg.bat and REGISTRY EDITOR all refer to this program.
 echo.
 pause
@@ -611,11 +611,11 @@ echo By default, Windows does not show "Verbose" (precise) boot messages. The us
 echo  - "Please wait"
 echo  - "Restarting"
 echo  - "Signing out"
-echo However, by enabling Verbose Boot Messages, you replace the above imprecise messages with:
+echo However, by enabling Verbose Boot Messages, you replace the above, imprecise messages with:
 echo  - "Please wait for the User Profile Service"
 echo  - "Stopping Service: Windows Update Optimisation"
 echo  - "Preparing Windows"
-echo If your computer is slower than usual on startup, sign-in, sign-out or shutdown, this allows you to see exactly which part of the process is slowing down the computer, and lets you better research your problem. Even on fast computers, it is useful as Windows Update is sometimes rather sneaky.
+echo If your computer is slower than usual on startup, sign-in, sign-out or shutdown, this allows you to see exactly which part of the process is slowing down the computer, and lets you better research your problem. Even on fast computers, it is useful as Windows Update is sometimes rather sneaky and may appear frozen without Verbose Boot messages.
 echo.
 echo Registry Keys:
 echo  - HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\VerboseStatus
@@ -639,7 +639,7 @@ echo.
 pause
 echo.
 echo 4: Restore Windows 10 style Right-click menu in Windows 11
-echo Windows 11 brought with it radical changes in the UI (User Interface), here being the Windows 11 Right-Click menu. In Windows 11, they simplify the options menu, however essential options such as renaming, deleting, etc are hidden away behing the "More Options" menu. Clicking that button brings the full right-click menu, however to get here requires one extra click which can be unsettling for age-old Windows Users. This programs removes the Windows 11 Right-Click menu and replaces is it with the traditional Windows 10 Right-Click Menu.
+echo Windows 11 brought with it radical changes in the UI (User Interface), here being the Windows 11 Right-Click menu. In Windows 11, they simplify the options menu, however essential options such as renaming, deleting, etc are hidden away behing the "More Options" menu. Clicking that button brings the full right-click menu, however to get here requires one extra click which can be annoying for age-old Windows Users. This programs removes the Windows 11 Right-Click menu and replaces is it with the traditional Windows 10 Right-Click Menu.
 echo.
 echo Registry Keys:
 echo  - HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32
@@ -846,7 +846,7 @@ exit /b
 :ASKRESTART
 echo.            
 echo The changes have successfully been made. Your computer must be restarted in order to apply the changes properly. Restart now?
-echo If you do NOT want to restart your computer, use N at this prompt and restart explorer manually. This script cannot do that due to the limitations of the batch programming language. If you want to restart your computer, REGCHG will give you 10 seconds after you say "Yes" before the computer will restart, so it is recommended to save all work in any and all open programs.
+echo If you restart your computer, REGCHG will give you 10 seconds after you say "Yes" before the computer will restart, so it is recommended to save all work in any and all open programs before selecting your choice..
 choice
 set RESTARTCOMPUTER=0
 IF ERRORLEVEL 2 GOTO END
