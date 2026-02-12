@@ -3,7 +3,7 @@
 set RESTARTCOMPUTER=
 set WINVER= *** PLEASE CONFIGURE YOUR WINDOWS VERSION USING OPTION 5 ***
 set CONFIGURED=0
-set TITLE=REGISTRY EDITOR 5.1
+set TITLE=Registry Editor 5.2
 setlocal enabledelayedexpansion
 net session >nul 2>&1
 if %errorLevel% neq 0 (
@@ -37,12 +37,14 @@ echo [L] Last Updates/Changelog
 echo [E] Explorer Utilities
 echo [A] Enable Administrator Account
 echo [C] Change hostname (the name that identifies your computer on a network)
+echo [W] Change workgroup (Network Sector)
 echo.
 echo Lan Internet Software is NOT responsible for ANY damages that arise from the use of any functions of this program. 
 echo If you have any concerns of system instability, you should backup the registry.
 echo If you have any doubts, questions or problems, consult the informations screen first. For example, errors in option 3 may be normal.
 echo.
-choice /c:1234567890MSFILEAC /m "Choose an option : "
+choice /c:1234567890MSFILEACW /m "Choose an option : "
+IF ERRORLEVEL 19 GOTO WORKGR
 IF ERRORLEVEL 18 GOTO SETPC
 IF ERRORLEVEL 17 GOTO ADMIN
 IF ERRORLEVEL 16 GOTO UTILS
@@ -61,6 +63,14 @@ IF ERRORLEVEL 4 GOTO W10
 IF ERRORLEVEL 3 GOTO EDGE
 IF ERRORLEVEL 2 GOTO VBM
 IF ERRORLEVEL 1 GOTO WINSEARCH
+
+:WORKGR
+set /p WORG=Enter your desired workgroup name. If the workgroup in question does not exist, this program will create it for you. Note that special characters like $, * or £ may cause problems: 
+Add-Computer -WorkGroupName "%WORG%"
+echo.
+set RESTARTCOMPUTER=1
+pause
+goto END
 
 :SETPC
 set /p PCNAME=Enter your new computer name. Note that using special characters like $, * or £ may cause problems. Read the informations screen for more information: 
@@ -584,7 +594,7 @@ echo.
 echo In this program, REGCHG, regchg.bat and REGISTRY EDITOR all refer to this program.
 echo.
 pause
-echo.
+cls
 echo ** FUNCTION DESCRIPTIONS **
 echo.
 echo 1: Disable Bing/Internet Start Menu Search Results
@@ -727,6 +737,14 @@ echo  - Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\ComputerNam
 echo  - HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters (Hostname & NV Hostname)
 echo.
 pause
+echo.
+echo W: Change Workgroup
+echo This changes the Windows Workgroup. Several uses for having different workgroups are available here. For example, if you have 2 file servers named A and B and 2 PCs named X and Y, and you want to make it so that X can only access A and Y can only access B, you simply set them as different workgroups, and they will not see each other. You may also change it if the default Windows workgroup is interfering.
+echo Commands used:
+echo  - Add-Computer -WorkGroupName "Workgroup-Name"
+echo.
+pause
+cls
 echo ** USAGE OF REGCHG **
 echo.
 echo For the best experience of REGCHG, simply read everything that is displayed on screen, and in doubt, view the Informations Screen.
