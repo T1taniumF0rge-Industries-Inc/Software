@@ -1,7 +1,7 @@
 # Code Contributing Guidelines 
 ![GitHub commit activity](https://img.shields.io/badge/Repository%20Status-Semi%20Active-yellow) &nbsp;
 > [!IMPORTANT]
-> Any contributions that violate these guidelines will be ignored/not approved for change¹ and you will be given a warning. If you receive 3 warnings within 1 year, you will not be able to contribute anymore and our team will ignore all contributions made by you! Please read this file carefully, thank you.
+> Any contribution that violates these guidelines will be ignored/not approved for change¹ and you will be given a warning. If you receive 3 warnings within 1 year, you will not be able to contribute anymore and our team will ignore all contributions made by you! Please read this file carefully, thank you.
 >
 > ¹: if you forgot one simple thing like marking your changes in the code then our team may remind you there and *you may not receive a warning*. But if you intentionally ignore a rule multiple times or break a rule like rewrite code from scratch without forking you will have warning
 >
