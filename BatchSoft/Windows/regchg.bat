@@ -16,7 +16,7 @@ cls
 title %TITLE% (regchg.bat) - (c) Lan Internet Software
 echo *** %TITLE% (regchg.bat, running w/Admin Permissions) - (c) Lan Internet Software ***
 echo.
-echo This program allows you to change certain Windows features & behaviours. 
+echo This program allows you to change certain Windows features and behaviours. 
 echo In any doubt of anything, or if this is the first time using this program, consult the informations screen by pressing the 'I' key.
 echo.
 echo In the "Everything" options, all users will have their password expiry disabled.
@@ -729,11 +729,11 @@ pause
 echo.
 echo C: Change hostname
 echo This changes the hostname of your system. On a network, devices are identified using IP addresses. However, in modern days, most devices will show the hostname as well, which is a name that identifies a specific device. So for example, instead of seeing 192.168.0.24, you could see LIVING-ROOM-PC and know instantly where that is. 
-echo NOTE: It is highly recommended to avoid special characters, such as !, £ or & as Windows may interpret these characters in an unknown manner (for example MS-DOS or CMD commands or weird driver parameters), as well as avoid having 2 devices of the same hostname on a network as it may cause a conflict between both devices.
+echo NOTE: It is highly recommended to avoid special characters, such as !, £ or ( as Windows may interpret these characters in an unknown manner (for example MS-DOS or CMD commands or weird driver parameters), as well as avoid having 2 devices of the same hostname on a network as it may cause a conflict between both devices.
 echo Registry Keys:
 echo  - Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\ComputerName\ActiveComputerName
 echo  - Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\ComputerName\ComputerName
-echo  - HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters (Hostname & NV Hostname)
+echo  - HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters (Hostname and NV Hostname)
 echo.
 pause
 echo.
