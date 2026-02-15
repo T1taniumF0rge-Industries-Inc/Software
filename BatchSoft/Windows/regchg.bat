@@ -3,7 +3,7 @@
 set RESTARTCOMPUTER=
 set WINVER= *** PLEASE CONFIGURE YOUR WINDOWS VERSION USING OPTION 5 ***
 set CONFIGURED=0
-set TITLE=Registry Editor 5.3
+set TITLE=Registry Editor 5.4
 setlocal enabledelayedexpansion
 net session >nul 2>&1
 if %errorLevel% neq 0 (
@@ -42,11 +42,10 @@ echo.
 echo Lan Internet Software is NOT responsible for ANY damages that arise from the use of any functions of this program. 
 echo.
 choice /c:1234567890MSFIEACW /m "Choose an option : "
-IF ERRORLEVEL 19 GOTO WORKGR
-IF ERRORLEVEL 18 GOTO SETPC
-IF ERRORLEVEL 17 GOTO ADMIN
-IF ERRORLEVEL 16 GOTO UTILS
-IF ERRORLEVEL 15 GOTO CHGLOG
+IF ERRORLEVEL 18 GOTO WORKGR
+IF ERRORLEVEL 17 GOTO SETPC
+IF ERRORLEVEL 16 GOTO ADMIN
+IF ERRORLEVEL 15 GOTO UTILS
 IF ERRORLEVEL 14 GOTO INFO
 IF ERRORLEVEL 13 GOTO FIX
 IF ERRORLEVEL 12 GOTO SHELL
