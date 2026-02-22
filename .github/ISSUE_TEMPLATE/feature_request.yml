@@ -11,6 +11,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this feature request!
+        If your feature request is related to a Modrinth mod made by the Titan1um x Polr Organisation, please stop writing your feature request and select the Modrinth feature request template.
   - type: input
     id: contact
     attributes:
