@@ -1,0 +1,67 @@
+name: Bug Report - Modrinth
+description: File a bug report IF your problem is with Modrinth mods from the Titan1um x Polr Organisation
+title: "[Modrinth Bug]: "
+labels: ["bug", "invalid","help wanted"]
+assignees:
+  - GamerSoft24
+  - GmaerSoft42
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this Modrinth bug report!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: e.g. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "Game crashed!"
+    validations:
+      required: true
+  - type: textarea
+    id: input-reproduction
+    attributes:
+      label: What inputs are required to reproduce this problem?
+      placeholder: Tell us what you entered to produce the problem!
+      value: "I entered something..."
+    validations:
+      required: true
+  - type: textarea
+    id: system-specs
+    attributes:
+      label: What are yoour system specifications?
+      placeholder: Tell us your system configuration to produce the problem!
+      value: "Tip: Open Task Manager Performance tab, or msinfo32, and simply copy and paste a screenshot. Example: i7-9700, GTX 1070, 8GB RAM"
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you assure that this issue is related to a Modrinth mod made by the [Titan1um x Polr](https://modrinth.com/organization/titan1um-x-polr) organisation.
+      options:
+        - label: I assure that this issue is related to a Modrinth mod made by the Titan1um x Polr organisation.
+          required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/GamerSoft24/Software/blob/Main/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
