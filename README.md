@@ -4,7 +4,9 @@
 
 ### !!! INFORMATION UPDATE !!!: The repository will enter *Hibernation* mode on the 1st March 2026. See [CONTRIBUTING.md](/CONTRIBUTING.md) for more information.
 
-### 🎉🎉 We have reached 1990 commits!! -> *Next milestone 2000 commits!* 🎉🎉 
+## 🎉🎉🎉 We have reached 2000 commits!!! -> *Next milestone 2500 commits!* 🎉🎉🎉 
+
+Thank you for supporting the `Software` project.
 
 **REP-SET III**, *`version 4.7.2-epsilon`*
 
@@ -134,6 +136,8 @@ This is **where** this `Software` repository's Visual Studio ***configuration fi
 Please ignore this folder as changes will only be made here ***if*** a commit is staged ***from*** Visual Studio directly!
 
 *For* **direct access**, [click here!](https://github.com/T1taniumF0rge-Industries-Inc/Software/tree/Main/.vs)
+
+<img width="1016" height="467" alt="t1taniumf0rge" src="https://github.com/user-attachments/assets/853d654f-fcd8-4103-bbe6-0924bd5470f3" />
 
 # Must-reads for `Software` Repository!
 
