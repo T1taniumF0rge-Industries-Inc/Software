@@ -50,7 +50,7 @@ body:
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
   - type: checkboxes
-    id: terms
+    id: modrinth_confirm
     attributes:
       label: Code of Conduct
       description: By submitting this issue, you assure that this issue is related to a Modrinth mod made by the [Titan1um x Polr](https://modrinth.com/organization/titan1um-x-polr) organisation.
