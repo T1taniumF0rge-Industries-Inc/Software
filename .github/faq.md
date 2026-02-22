@@ -137,7 +137,7 @@ Whenever there is an old version of a program (360AFChrome for example), there i
 
 ### Why are you hosting "deadly" programs with little to no guardrails?
 
-We made these scripts purely out of fun (so absolutely no malicious intent) and it also gives some useful insight. Not all of these codes are necessarily meant to be run, in this case you can learn a lot, such as VBS Shell sendkeys (which can be a super useful thing, let's say if you had an automated thing that required pasting the same thing about a 1000 times over), or the %1 operator in batch. *Also ngl but if you have a good friend you prank them with this. Of course make sure nothing important is open on their computer and make sure to fix any damage...and maybe accept that your friend may never trust you with their computer :)*
+We made these scripts purely out of fun (so absolutely no malicious intent) and it also gives some useful insight. Not all of these codes are necessarily meant to be run, in this case you can learn a lot, such as VBS Shell sendkeys (which can be a super useful thing, let's say if you had an automated thing that required pasting the same thing about a 1000 times over), or the %1 operator in batch. *With consent, can also be used for pranks :)*
 
 As for the guardrails issue, there are warnings plastered everywhere, such as in the [DestroyPC folder](/BatchSoft/DestroyPC), about 4 in the [README](/README.md) and some of them even in programs. These warnings are virtually impossible to miss and the programs will not execute their payload if ran directly, they will always show a menu or a messagebox or have some sort of buffer between the user executing the program and the payload, preventing accidental execution. 
 
