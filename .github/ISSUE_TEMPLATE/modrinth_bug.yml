@@ -1,7 +1,7 @@
 name: Bug Report - Modrinth
 description: File a bug report IF your problem is with Modrinth mods from the Titan1um x Polr Organisation
 title: "[Modrinth Bug]: "
-labels: ["bug", "invalid","help wanted"]
+labels: ["bug", "invalid","help wanted", "modrinth"]
 assignees:
   - GamerSoft24
   - GmaerSoft42
