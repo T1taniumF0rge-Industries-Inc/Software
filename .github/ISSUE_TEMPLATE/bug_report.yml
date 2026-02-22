@@ -11,6 +11,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
+        If your issue is related to a Modrinth mod made by the Titan1um x Polr Organisation, please stop writing your issue and select the Modrinth bug template. 
   - type: input
     id: contact
     attributes:
