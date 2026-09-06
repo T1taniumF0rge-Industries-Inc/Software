@@ -1,5 +1,5 @@
 # Code Contributing Guidelines 
-![GitHub commit activity](https://img.shields.io/badge/Repository%20Status-Semi%20Active-yellow) &nbsp;
+![GitHub commit activity](https://img.shields.io/badge/Repository%20Status-Offline-red) &nbsp;
 > [!IMPORTANT]
 > Any contribution that violates these guidelines will be ignored/not approved for change¹ and you will be given a warning. If you receive 3 warnings within 1 year, you will not be able to contribute anymore and our team will ignore all contributions made by you! Please read this file carefully, thank you.
 >
