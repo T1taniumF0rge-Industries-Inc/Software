@@ -23,9 +23,7 @@ Repository mode will also be shown on top of the repository's [README](/README.m
 
 ### Planned modes:
 
-1 - 1st March 2026 → 14th March 2026 - Repository will go in **Hibernation** mode due to maintainers leave for personal reasons
-
-2 - 15th May 2026 → 22nd June 2026 - Repository will go in **Hibernation** mode due to maintainers leave for personal reasons
+1 - Repository is in offline mode due to inactivity in repository
 
 Thank you for your understanding, and we apologise for any inconveniences.
 
