@@ -1,7 +1,7 @@
 version: 2
 updates:
   # Maintain dependencies for npm (JavaScript/Node.js)
-  - package-ecosystem: "npm"
+  - package-ecosystem: "npm"l
     directory: "/"
     schedule:
       interval: "weekly"
